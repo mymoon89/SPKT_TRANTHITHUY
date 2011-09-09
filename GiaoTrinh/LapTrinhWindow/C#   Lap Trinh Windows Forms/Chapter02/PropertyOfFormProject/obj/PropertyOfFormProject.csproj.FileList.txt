@@ -1,0 +1,15 @@
+bin\Debug\PropertyOfFormProject.exe
+bin\Debug\PropertyOfFormProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PropertyOfFormProject.Form1.resources
+obj\Debug\PropertyOfFormProject.Properties.Resources.resources
+obj\Debug\PropertyOfFormProject.csproj.GenerateResource.Cache
+obj\Debug\PropertyOfFormProject.exe
+obj\Debug\PropertyOfFormProject.pdb
+obj\Debug\PropertyOfFormProject.frmSplash.resources
+obj\Debug\PropertyOfFormProject.frmOpacity.resources
+obj\Debug\PropertyOfFormProject.frmIcon.resources
+obj\Debug\PropertyOfFormProject.frmBackColor.resources
+obj\Debug\PropertyOfFormProject.frmForeColor.resources
+obj\Debug\PropertyOfFormProject.frmLogin.resources
+obj\Debug\PropertyOfFormProject.Form2.resources

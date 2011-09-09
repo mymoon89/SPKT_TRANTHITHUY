@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about packaging and deployment are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The application package consists of the files required to run the application.]]></Option>
+<Option><![CDATA[The packaging process makes a single package holding only the assembly files.]]></Option>
+<Option><![CDATA[The deployment process involves deploying the application as assemblies.]]></Option>
+<Option><![CDATA[The packaging process uses the Microsoft Windows Installer technology.]]></Option>
+<Option><![CDATA[The side-by-side versioning feature of deployment supports multiple versions of components.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,1,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(False), (C)-(True), (D)-(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

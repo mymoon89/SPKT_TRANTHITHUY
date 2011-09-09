@@ -1,0 +1,29 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you arrange the steps for inheriting the Windows Forms existing controls in correct order?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[From the <b>Project</b> menu, select <b>Add User Control</b>.]]></Option>
+<Option><![CDATA[Double-click <b>Inherited User Control.</b>.]]></Option>
+<Option><![CDATA[Include the required properties and methods.]]></Option>
+<Option><![CDATA[Override the <font face="courier new">OnPaint()</font> method.]]></Option>
+<Option><![CDATA[Modify the name of the base class.]]></Option>
+</Options>
+<Steps>
+<Step><![CDATA[From the <b>Project</b> menu, select <b>Add User Control</b>.]]></Step>
+<Step><![CDATA[Double-click <b>Inherited User Control.</b>]]></Step>
+<Step><![CDATA[Include the required properties and methods.]]></Step>
+<Step><![CDATA[Override the <font face="courier new">OnPaint()</font> method.]]></Step>
+<Step><![CDATA[Modify the name of the base class.]]></Step>
+</Steps>
+<type>drag&drop</type>
+<CorrectAnswer>1,2,5,3,4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct sequence is displayed on the right.]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

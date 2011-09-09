@@ -1,0 +1,21 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display the records of a table in the <font face="courier new">DataGrid</font> control by using the <font face="courier new">BindingSource</font> class. Which one of the following codes will help you to achieve this?]]></QuestionText>
+
+<Options>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconKidsGarden = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=KidsGarden;Integrated Security=SSPI");<br>SqlDataAdapter sqldaKidsGarden = new SqlDataAdapter("SELECT * FROM StudentDetails");<br>DataSet dsetKidsGarden = new DataSet();<br>BindingSource bsrcKidsGarden = new BindingSource();<br>DataGrid dgridKidsGarden = new DataGrid();<br>sqldaKidsGarden.Fill(dsetKidsGarden, "StudentDetails");<br>bbsrcKidsGarden.DataSource["StudentDetails"];<br>dgridKidsGarden.DataSource = bsrcKidsGarden;</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconKidsGarden = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=KidsGarden;Integrated Security=SSPI");<br>SqlDataAdapter sqldaKidsGarden = new SqlDataAdapter("SELECT * FROM StudentDetails", sqlconKidsGarden);<br>DataSet dsetKidsGarden = new DataSet();<br>BindingSource bsrcKidsGarden = new BindingSource();<br>DataGrid dgridKidsGarden = new DataGrid();<br>sqldaKidsGarden.Fill(dsetKidsGarden, "StudentDetails");<br>bsrcKidsGarden.DataSource = dsetKidsGarden.Tables["StudentDetails"];<br>dgridKidsGarden.DataSource = bsrcKidsGarden;</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconKidsGarden = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=KidsGarden;Integrated Security=SSPI");<br>SqlDataAdapter sqldaKidsGarden = new SqlDataAdapter("SELECT * FROM StudentDetails");<br>DataSet dsetKidsGarden = new DataSet();<br>BindingSource bsrcKidsGarden = new BindingSource();<br>DataGrid dgridKidsGarden = new DataGrid();<br>sqldaKidsGarden.Fill[“StudentDetails"];<br>bsrcKidsGarden.DataSource = dsetKidsGarden.Tables["StudentDetails"];<br>dgridKidsGarden.DataSource = bsrcKidsGarden;</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconKidsGarden = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=KidsGarden;Integrated Security=SSPI");<br>SqlDataAdapter sqldaKidsGarden = new SqlDataAdapter("SELECT * FROM StudentDetails");<br>DataSet dsetKidsGarden = new DataSet();<br>BindingSource bsrcKidsGarden = new BindingSource();<br>DataGrid dgridKidsGarden = new DataGrid(StudentDetails);<br>sqldaKidsGarden.Fill(dsetKidsGarden);<br>bsrcKidsGarden.DataSource = dsetKidsGarden.Tables["StudentDetails"];<br>bsrcKidsGarden = dgridKidsGarden.DataSource;</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (B).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a combo box that displays the marks of the table by using the <font face="courier new">BindingSource</font> class. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconHolyAngel = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=HolyAngelSchool;Integrated Security=SSPI");<br>SqlDataAdapter sqldaHolyAngel = new SqlDataAdapter("SELECT * FROM StudentDetails", sqlconHolyAngel);<br>DataSet dsetHolyAngel = new DataSet();<br>sqldaHolyAngel.Fill(dsetHolyAngel, "StudentDetails");<br>ComboBox cboMarks = new ComboBox();<br>BindingSource bsrcHolyAngel = new BindingSource();<br>bsrcHolyAngel.DataSource = dsetHolyAngel.Tables{"StudentDetails"};<br>cboMarks.DataSource = bsrcHolyAngel;<br>cboMarks.DisplayMember = "Marks";</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconHolyAngel = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=HolyAngelSchool;Integrated Security=SSPI");<br>SqlDataAdapter sqldaHolyAngel = new SqlDataAdapter("SELECT * FROM StudentDetails", sqlconHolyAngel);<br>DataSet dsetHolyAngel = new DataSet();<br>sqldaHolyAngel.Fill(dsetHolyAngel, "StudentDetails");<br>ComboBox cboMarks = new ComboBox();<br>BindingSource bsrcHolyAngel = new BindingSource();<br>bsrcHolyAngel.DataSource = dsetHolyAngel.Tables("StudentDetails");<br>cboMarks.DataSource = bsrcHolyAngel;<br>cboMarks.DisplayMember = "Marks";</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconHolyAngel = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=HolyAngelSchool;Integrated Security=SSPI");<br>SqlDataAdapter sqldaHolyAngel = new SqlDataAdapter("SELECT * FROM StudentDetails", sqlconHolyAngel);<br>DataSet dsetHolyAngel = new DataSet();<br>sqldaHolyAngel.Fill(dsetHolyAngel, "StudentDetails");<br>ComboBox cboMarks = new ComboBox();<br>BindingSource bsrcHolyAngel = new BindingSource();<br>bsrcHolyAngel.DataSource = dsetHolyAngel.Tables["StudentDetails"];<br>cboMarks.DataSource = bsrcHolyAngel;<br>cboMarks.DisplayMember = "Marks";</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconHolyAngel = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=HolyAngelSchool;Integrated Security=SSPI");<br>SqlDataAdapter sqldaHolyAngel = new SqlDataAdapter("SELECT * FROM StudentDetails",);<br>DataSet dsetHolyAngel = new DataSet();<br>sqldaHolyAngel.Fill(dsetHolyAngel, "StudentDetails");<br>ComboBox cboMarks = new ComboBox();<br>BindingSource bsrcHolyAngel = new BindingSource();<br>bsrcHolyAngel.DataSource = dsetHolyAngel.Tables("StudentDetails");<br>cboMarks.DataSource = bsrcHolyAngel;<br>cboMarks.DisplayMember = "Marks";</font>]]></Option>
+
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

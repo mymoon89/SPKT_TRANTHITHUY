@@ -1,0 +1,12 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\bin\Debug\StatusBarProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\bin\Debug\StatusBarProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\obj\Debug\StatusBarProject.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\obj\Debug\StatusBarProject.Form2.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\obj\Debug\StatusBarProject.Form3.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\obj\Debug\StatusBarProject.Form4.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\obj\Debug\StatusBarProject.frmMain.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\obj\Debug\StatusBarProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\obj\Debug\StatusBarProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\obj\Debug\StatusBarProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\StatusBarProject\obj\Debug\StatusBarProject.pdb

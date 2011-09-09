@@ -1,0 +1,8 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ToolStripProject\bin\Debug\ToolStripProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ToolStripProject\bin\Debug\ToolStripProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ToolStripProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ToolStripProject\obj\Debug\ToolStripProject.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ToolStripProject\obj\Debug\ToolStripProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ToolStripProject\obj\Debug\ToolStripProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ToolStripProject\obj\Debug\ToolStripProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ToolStripProject\obj\Debug\ToolStripProject.pdb

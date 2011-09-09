@@ -1,0 +1,8 @@
+bin\Debug\PanelProject.exe
+bin\Debug\PanelProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PanelProject.Form1.resources
+obj\Debug\PanelProject.Properties.Resources.resources
+obj\Debug\PanelProject.csproj.GenerateResource.Cache
+obj\Debug\PanelProject.exe
+obj\Debug\PanelProject.pdb

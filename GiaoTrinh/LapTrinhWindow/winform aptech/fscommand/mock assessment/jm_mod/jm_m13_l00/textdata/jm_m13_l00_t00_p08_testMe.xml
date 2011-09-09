@@ -1,0 +1,26 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about the report viewer controls are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">ReportDocument</font> class exists in <font face="courier new">CrystalDecisions.CrystalReports.Engine</font> namespace.]]></Option>
+<Option><![CDATA[The <font face="courier new">CrystalReportViewer</font> control supports the <font face="courier new">Errors</font> event to track exceptions.]]></Option>
+<Option><![CDATA[A crystal report supports the .doc format for exporting the report.]]></Option>
+<Option><![CDATA[The <font face="courier new">CrystalReportViewer</font> class provides the <font face="courier new">Export()</font> method to export a crystal report.]]></Option>
+<Option><![CDATA[The <font face="courier new">ViewCount</font> property of <font face="courier new">CrystalReportViewer</font> class gets the number of views for the viewer control.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,0,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(False), (C)-(False), (D)-(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

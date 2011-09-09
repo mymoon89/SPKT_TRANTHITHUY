@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the terms against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Term</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Specifies or retrieves a connection across the data source.]]></Option>
+<Option><![CDATA[Requires exclusive use of an open <font face="courier new">Connection</font> object.]]></Option>
+<Option><![CDATA[Used for accessing data stores of various types in a uniform manner.]]></Option>
+<Option><![CDATA[Acts as a link between a <font face="courier new">DataSet</font> and a data source.]]></Option>
+<Option><![CDATA[Enables to update or manipulate data.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">DataAdapter</font> object]]></Step>
+<Step><![CDATA[<font face="courier new">DataSet</font> object]]></Step>
+<Step><![CDATA[<font face="courier new">DataReader</font> object]]></Step>
+<Step><![CDATA[<font face="courier new">Connection</font>]]></Step>
+<Step><![CDATA[OLE DB]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,3,5,1,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)–(4), (B)–(3), (C)–(5), (D)–(1), and (E)-(2).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,12 @@
+bin\Debug\ProviderProject.exe
+bin\Debug\ProviderProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ProviderProject.Form1.resources
+obj\Debug\ProviderProject.Properties.Resources.resources
+obj\Debug\ProviderProject.csproj.GenerateResource.Cache
+obj\Debug\ProviderProject.exe
+obj\Debug\ProviderProject.pdb
+obj\Debug\ProviderProject.Form2.resources
+obj\Debug\ProviderProject.frmMain.resources
+obj\Debug\ProviderProject.Form3.resources
+obj\Debug\ProviderProject.Form4.resources

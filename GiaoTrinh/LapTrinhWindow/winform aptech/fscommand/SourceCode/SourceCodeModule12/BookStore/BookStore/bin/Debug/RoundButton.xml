@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RoundButton</name>
+    </assembly>
+    <members>
+        <member name="T:RoundButton.RoundButton">
+            <summary>
+            Class RoundButton is used to create a simple custom control.
+            </summary>
+        </member>
+        <member name="F:RoundButton.RoundButton.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RoundButton.RoundButton.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RoundButton.RoundButton.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:RoundButton.RoundButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Draws a custom control.
+            </summary>
+        </member>
+        <member name="P:RoundButton.RoundButton.BorderColor">
+            <value>Property <c>BorderColor</c> represents the border color.</value>
+        </member>
+        <member name="P:RoundButton.RoundButton.Text">
+            <value>Property <c>Text</c> represents the text.</value>
+        </member>
+    </members>
+</doc>

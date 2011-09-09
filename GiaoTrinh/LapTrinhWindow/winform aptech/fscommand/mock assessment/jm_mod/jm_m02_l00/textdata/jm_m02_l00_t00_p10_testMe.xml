@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a form divided into two panels. The left pane of the form consists of a label. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">SplitContainer spltcntrBookStore = new SplitContainer;<br>spltcntrBookStore.SplitterWidth = 5;<br>Label lblBooks = new Label();<br>lblBooks.Text = "Books";<br>spltcntrBookStore.Panel1.Controls.Add(lblBooks);<br>spltcntrBookStore.Show();<br>Controls.Add(spltcntrBookStore);</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">SplitContainer spltcntrBookStore = new SplitContainer();<br>spltcntrBookStore.SplitterWidth = 5;<br>Label lblBooks = new Label();<br>lblBooks.Text = "Books";<br>spltcntrBookStore.Panel1.Controls.Add(lblBooks);<br>spltcntrBookStore.Show();<br>Controls.Add(spltcntrBookStore);</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">SplitContainer spltcntrBookStore = new SplitContainer();<br>spltcntrBookStore.SplitterWidth = 5;<br>Label lblBooks = new Label();<br>lblBooks.Text = "Books";<br>spltcntrBookStore.Panel1.Controls.Add(lblBooks);<br>spltcntrBookStore.Show();<br>Controls.Add(spltcntrBookStore);</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">SplitContainer spltcntrBookStore = new SplitContainer();<br>spltcntrBookStore.SplitterWidth = 5;<br>Label lblBooks = new Label();<br>lblBooks.Text = "Books";<br>spltcntrBookStore.Panel1.Controls.Add("lblBooks");<br>spltcntrBookStore.Show();<br>Controls.Add(spltcntrBookStore);</font><br>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (B). ]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

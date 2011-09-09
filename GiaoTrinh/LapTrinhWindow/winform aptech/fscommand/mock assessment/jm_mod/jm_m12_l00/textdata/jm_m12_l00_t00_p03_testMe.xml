@@ -1,0 +1,26 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about custom controls and their types are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Custom controls allow you to create reusable controls.]]></Option>
+<Option><![CDATA[User-defined validation allows you to define the type of validation the user can perform.]]></Option>
+<Option><![CDATA[A composite control allows you to create a control by inheriting from any standard control.]]></Option>
+<Option><![CDATA[Customized design allows you to specify the appearance of standard controls on the custom control.]]></Option>
+<Option><![CDATA[An extended control allows you to create a control by inheriting from the <font face = "courier new">Control</font> class.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,1,0,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(True), (C)-(False), (D)-(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

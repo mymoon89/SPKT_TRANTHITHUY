@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the different types of controls against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Control Type</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Controls allow you to use the most commonly used controls.]]></Option>
+<Option><![CDATA[Controls allow you to choose the required options from the given set of options.]]></Option>
+<Option><![CDATA[Controls allow you to select values from a list using the up and down arrows.]]></Option>
+<Option><![CDATA[Controls allow you to organize controls in a group.]]></Option>
+<Option><![CDATA[Controls allow you to create menus.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[Selection List controls]]></Step>
+<Step><![CDATA[Grouping controls]]></Step>
+<Step><![CDATA[Value Setting controls]]></Step>
+<Step><![CDATA[Menu controls]]></Step>
+<Step><![CDATA[Basic controls]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>5,3,1,2,4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response. ]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(5), (B)-(3), (C)-(1), (D)-(2), and (E)-(4).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

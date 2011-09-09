@@ -1,0 +1,10 @@
+bin\Debug\MethodOfFormProject.exe
+bin\Debug\MethodOfFormProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MethodOfFormProject.Form1.resources
+obj\Debug\MethodOfFormProject.Properties.Resources.resources
+obj\Debug\MethodOfFormProject.csproj.GenerateResource.Cache
+obj\Debug\MethodOfFormProject.exe
+obj\Debug\MethodOfFormProject.pdb
+obj\Debug\MethodOfFormProject.frmActivate.resources
+obj\Debug\MethodOfFormProject.frmChildForm2.resources

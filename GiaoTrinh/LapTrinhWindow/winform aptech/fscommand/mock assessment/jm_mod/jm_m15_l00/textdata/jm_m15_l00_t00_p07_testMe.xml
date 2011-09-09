@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the deployment properties against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Property</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Indicates the icon to display in the Add/Remove Programs dialog box.]]></Option>
+<Option><![CDATA[Indicates the location of assemblies and merge modules.]]></Option>
+<Option><![CDATA[Provides details about an application.]]></Option>
+<Option><![CDATA[Checks for new version of the software during installation.]]></Option>
+<Option><![CDATA[Represents the version of installer and cabinet files.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">DetectNewerInstalledVersion</font>]]></Step>
+<Step><![CDATA[<font face="courier new">AddRemoveProgramsIcon</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Version</font>]]></Step>
+<Step><![CDATA[<font face="courier new">SearchPath</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Description</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>2,4,5,1,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(2), (B)-(4), (C)-(5), (D)-(1), and (E)-(3).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of the <font face="courier new">Control</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Method used to specify the next control to be navigated according to the tab order. ]]></Option>
+<Option><![CDATA[Property to determine for any mnemonic characters associated with the control.]]></Option>
+<Option><![CDATA[Event that is invoked when the focus is received by the control.]]></Option>
+<Option><![CDATA[Property to retrieve a value indicating whether the control is focused.]]></Option>
+<Option><![CDATA[Method to place the focus on the control.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[Focused]]></Step>
+<Step><![CDATA[IsMnemonic]]></Step>
+<Step><![CDATA[Focus]]></Step>
+<Step><![CDATA[SetNextControl]]></Step>
+<Step><![CDATA[GotFocus]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,2,5,1,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response. ]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(4), (B)-(2), (C)-(5), (D)-(1), and (E)-(3).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

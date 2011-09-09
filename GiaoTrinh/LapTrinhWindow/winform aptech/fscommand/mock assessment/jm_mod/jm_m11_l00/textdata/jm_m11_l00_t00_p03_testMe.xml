@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about GDI+ and device context are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[GDI+ is used to only draw images and does not allow text insertion.]]></Option>
+<Option><![CDATA[GDI+ is used directly on Web Forms.]]></Option>
+<Option><![CDATA[The device context is used to supply information about different graphic objects.]]></Option>
+<Option><![CDATA[A device context is used to draw graphics by considering the display device.]]></Option>
+<Option><![CDATA[Graphics objects are used to perform clipping operations.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,0,1,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(False), (B)-(False), (C)-(True), (D)-(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

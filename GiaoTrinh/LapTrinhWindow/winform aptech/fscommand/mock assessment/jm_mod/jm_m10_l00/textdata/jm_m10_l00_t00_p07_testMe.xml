@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about the <font face="courier new">BindingSource</font> component are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">BindingSource</font> component allows adding records without first linking the component to the data source. ]]></Option>
+<Option><![CDATA[The <font face="courier new">Current</font> property indicates the current position of an item.]]></Option>
+<Option><![CDATA[The <font face="courier new">DataMember</font> property specifies a list in the data source to which the component is bound.]]></Option>
+<Option><![CDATA[The <font face="courier new">CurrentChanged</font> event invokes the <font face="courier new">BindingComplete</font> event.]]></Option>
+<Option><![CDATA[The <font face="courier new">DataBindings</font> property allows binding the control to a data source.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,1,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(False), (C)-(True), (D)-(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

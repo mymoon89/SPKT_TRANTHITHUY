@@ -1,0 +1,12 @@
+bin\Debug\MdiChildrenProject.exe
+bin\Debug\MdiChildrenProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MdiChildrenProject.frmMain.resources
+obj\Debug\MdiChildrenProject.frmEmployees.resources
+obj\Debug\MdiChildrenProject.frmOvertimes.resources
+obj\Debug\MdiChildrenProject.frmReport.resources
+obj\Debug\MdiChildrenProject.frmSalary.resources
+obj\Debug\MdiChildrenProject.Properties.Resources.resources
+obj\Debug\MdiChildrenProject.csproj.GenerateResource.Cache
+obj\Debug\MdiChildrenProject.exe
+obj\Debug\MdiChildrenProject.pdb

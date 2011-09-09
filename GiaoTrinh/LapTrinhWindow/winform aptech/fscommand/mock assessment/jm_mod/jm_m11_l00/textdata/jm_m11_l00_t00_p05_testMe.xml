@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties and methods of <font face="courier new">Graphics</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This method creates a Graphics object from the specified image.]]></Option>
+<Option><![CDATA[This method draws an arc that represents a portion of an ellipse.]]></Option>
+<Option><![CDATA[This method draws a cardinal spline that is defined by an array of points.]]></Option>
+<Option><![CDATA[This property specifies or retrieves the page coordinates.]]></Option>
+<Option><![CDATA[This property specifies or retrieves a region that limits the drawing surface.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">DrawCurve</font>]]></Step>
+<Step><![CDATA[<font face="courier new">PageUnit</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Clip</font>]]></Step>
+<Step><![CDATA[<font face="courier new">FromImage</font>]]></Step>
+<Step><![CDATA[<font face="courier new">DrawArc</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,5,1,2,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(4), (B)-(5), (C)-(1), (D)-(2), and (E)-(3).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

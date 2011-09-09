@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to fill a rectangle with black color and print it using the <font face="courier new">PrintDocument</font> class. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">PrintDocument printDocument = new PrintDocument();<br>printDocument.DocumentName = "GraphicsObjects";<br>printDocument.PrintPage += new PrintPageEventHandler(printDocument_PrintPage);<br>printDocument.Print();<br>private void printDocument_PrintPage(object sender, PrintPageEventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;e.Graphics.FillRectangle(Brushes.Black, ClientRectangle);<br>}<br></font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">PrintDocument printDocument = new PrintDocument();<br>printDocument.DocumentName = "GraphicsObjects";<br>printDocument.PrintPage = new PrintPageEventHandler(printDocument_PrintPage);<br>printDocument.Print();<br>private void printDocument_PrintPage(object sender, PrintPageEventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;Graphics.FillRectangle(Brushes.Black, ClientRectangle);<br>}<br></font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">PrintDocument printDocument = new PrintDocument();<br>printDocument.DocumentName = "GraphicsObjects";<br>printDocument.PrintPage = new PrintPageEventHandler(printDocument_PrintPage);<br>printDocument.Print();<br>private void printDocument_PrintPage(object sender, PrintPageEventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;Graphics.FillRectangle(Brushes, ClientRectangle);<br>}<br></font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">PrintDocument printDocument = new PrintDocument();<br>printDocument.DocumentName = "GraphicsObjects";<br>printDocument.PrintPage += new PrintPageEventHandler(printDocument);<br>printDocument.Print();<br>private void PrintPage(object sender, PrintPageEventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;e.Graphics.FillRectangle(Brushes.Black, ClientRectangle);<br>}<br></font>]]></Option>
+
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (A).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

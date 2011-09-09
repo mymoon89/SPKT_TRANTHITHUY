@@ -1,0 +1,25 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following snippets about the user-defined dialog box are correct?]]></QuestionText>
+<Options>
+	<Option><![CDATA[Form frmDialog = new Form();]]></Option>
+	<Option><![CDATA[frmDialog.MinimizedBox = false;]]></Option>
+	<Option><![CDATA[frmDialog.Border = Border.FixedDialog;]]></Option>
+	<Option><![CDATA[frmDialog.MaximizedBox = false;]]></Option>
+	<Option><![CDATA[frmDialog.ShowDialog();]]></Option>
+	<Option><![CDATA[frmdDialog.ShowDialogBox();]]></Option>
+	<Option><![CDATA[frmDialog.AcceptButton = btnOK;]]></Option>
+	<Option><![CDATA[frmDialog.CancelButton = btnCancel;]]></Option>
+</Options>
+<Steps>
+	<Step></Step>
+	
+</Steps>
+<type>MCMS</type>
+<CorrectAnswer>1,5,7,8</CorrectAnswer>
+<CorrectFeedback>Yes, that's correct! You get one point for your response.</CorrectFeedback>
+<incorrectFeedback>No, that's incorrect. The correct selections are: (A), (E), (G), and (H).</incorrectFeedback>
+</Assessment>
+
+</Assessments>

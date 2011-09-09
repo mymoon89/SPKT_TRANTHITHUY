@@ -1,0 +1,10 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\GroupBoxProject\obj\Debug\GroupBoxProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\GroupBoxProject\obj\Debug\GroupBoxProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\GroupBoxProject\bin\Debug\GroupBoxProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\GroupBoxProject\bin\Debug\GroupBoxProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\GroupBoxProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\GroupBoxProject\obj\Debug\GroupBoxProject.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\GroupBoxProject\obj\Debug\GroupBoxProject.Form2.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\GroupBoxProject\obj\Debug\GroupBoxProject.frmMain.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\GroupBoxProject\obj\Debug\GroupBoxProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\GroupBoxProject\obj\Debug\GroupBoxProject.csproj.GenerateResource.Cache

@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties and methods of <font face="courier new">PrinterSettings</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Property and Method</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This method provides the printer settings information in string format.]]></Option>
+<Option><![CDATA[This property indicates the last page number to print.]]></Option>
+<Option><![CDATA[This property indicates the names of all printers installed on the machine.]]></Option>
+<Option><![CDATA[This property identifies the printer for printing. ]]></Option>
+<Option><![CDATA[This property identifies the file, while printing to a file.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">InstalledPrinters</font>]]></Step>
+<Step><![CDATA[<font face="courier new">PrinterName</font>]]></Step>
+<Step><![CDATA[<font face="courier new">PrintFileName</font>]]></Step>
+<Step><![CDATA[<font face="courier new">ToPage</font>]]></Step>
+<Step><![CDATA[<font face="courier new">ToString</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>5,4,1,2,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(5), (B)-(4), (C)-(1), (D)-(2), and (E)-(3).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

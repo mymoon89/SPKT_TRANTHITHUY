@@ -1,0 +1,8 @@
+bin\Debug\SplitContainerProject.exe
+bin\Debug\SplitContainerProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SplitContainerProject.Properties.Resources.resources
+obj\Debug\SplitContainerProject.csproj.GenerateResource.Cache
+obj\Debug\SplitContainerProject.exe
+obj\Debug\SplitContainerProject.pdb
+obj\Debug\SplitContainerProject.Form1.resources

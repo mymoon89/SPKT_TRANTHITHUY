@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStore</name>
+    </assembly>
+    <members>
+        <member name="T:BookStore.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BookStore.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BookStore.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:BookStore.frmLogin">
+            <summary>
+            Class frmLogin is used to demonstrate the use of custom control.
+            </summary>
+        </member>
+        <member name="F:BookStore.frmLogin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BookStore.frmLogin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BookStore.frmLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:BookStore.frmLogin.#ctor">
+            <summary>
+            Constructor without parameters to initialize the
+            controls for displaying the frmLogin form. 
+            </summary>
+        </member>
+        <member name="T:BookStore.frmBookDetails">
+            <summary>
+            Class frmBookDetails is used to demonstrate the use of DataSet Control.
+            
+            Class frmBookDetails displays data from the database.
+            </summary>
+        </member>
+        <member name="F:BookStore.frmBookDetails.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BookStore.frmBookDetails.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BookStore.frmBookDetails.InitializeComponent">
+            <summary>
+            Required method for Designer support
+            </summary>
+        </member>
+        <member name="M:BookStore.frmBookDetails.#ctor">
+            <summary>
+            Constructor without parameters to initialize the
+            controls for displaying the frmBookDetails form. 
+            </summary>
+        </member>
+        <member name="M:BookStore.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>

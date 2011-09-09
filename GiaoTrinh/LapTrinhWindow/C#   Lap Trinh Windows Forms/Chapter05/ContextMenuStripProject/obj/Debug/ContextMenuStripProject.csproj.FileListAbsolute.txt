@@ -1,0 +1,8 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ContextMenuStripProject\bin\Debug\ContextMenuStripProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ContextMenuStripProject\bin\Debug\ContextMenuStripProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ContextMenuStripProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ContextMenuStripProject\obj\Debug\ContextMenuStripProject.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ContextMenuStripProject\obj\Debug\ContextMenuStripProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ContextMenuStripProject\obj\Debug\ContextMenuStripProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ContextMenuStripProject\obj\Debug\ContextMenuStripProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter05\ContextMenuStripProject\obj\Debug\ContextMenuStripProject.pdb

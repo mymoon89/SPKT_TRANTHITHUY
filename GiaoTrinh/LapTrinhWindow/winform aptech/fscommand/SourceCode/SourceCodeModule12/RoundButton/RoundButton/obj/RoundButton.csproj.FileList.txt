@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\RoundButton.dll
+bin\Debug\RoundButton.pdb
+obj\Debug\RoundButton.dll
+obj\Debug\RoundButton.pdb
+bin\Debug\RoundButton.XML

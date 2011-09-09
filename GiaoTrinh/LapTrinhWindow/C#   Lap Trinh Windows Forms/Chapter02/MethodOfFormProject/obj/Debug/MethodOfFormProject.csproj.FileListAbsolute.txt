@@ -1,0 +1,10 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MethodOfFormProject\bin\Debug\MethodOfFormProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MethodOfFormProject\bin\Debug\MethodOfFormProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MethodOfFormProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MethodOfFormProject\obj\Debug\MethodOfFormProject.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MethodOfFormProject\obj\Debug\MethodOfFormProject.frmActivate.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MethodOfFormProject\obj\Debug\MethodOfFormProject.frmChildForm2.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MethodOfFormProject\obj\Debug\MethodOfFormProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MethodOfFormProject\obj\Debug\MethodOfFormProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MethodOfFormProject\obj\Debug\MethodOfFormProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MethodOfFormProject\obj\Debug\MethodOfFormProject.pdb

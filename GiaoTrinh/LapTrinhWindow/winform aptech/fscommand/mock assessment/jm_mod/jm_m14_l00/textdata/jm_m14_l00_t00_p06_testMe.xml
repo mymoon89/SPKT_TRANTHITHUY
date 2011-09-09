@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about Help in Windows Forms are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">Help</font> class exists in <font face="courier new">System.Windows.Forms.Help</font> namespace.]]></Option>
+<Option><![CDATA[The Content component of a help file displays the favorite topics in the right pane.]]></Option>
+<Option><![CDATA[The <font face="courier new">ShowHelp()</font> method of <font face="courier new">Help</font> class displays the help file contents.]]></Option>
+<Option><![CDATA[The <font face="courier new">ShowPopup()</font> method of <font face="courier new">Help</font> class invokes the help file in the application.]]></Option>
+<Option><![CDATA[One of the parameters in the <font face="courier new">ShowHelp()</font> method is the element of a help file to be displayed.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,0,1,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(False), (B)-(False), (C)-(True), (D)-(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

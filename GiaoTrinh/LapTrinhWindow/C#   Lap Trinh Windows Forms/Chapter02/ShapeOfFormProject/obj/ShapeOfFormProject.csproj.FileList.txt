@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ShapeOfFormProject.Form1.resources
+obj\Debug\ShapeOfFormProject.frmCircle.resources
+obj\Debug\ShapeOfFormProject.Properties.Resources.resources
+obj\Debug\ShapeOfFormProject.csproj.GenerateResource.Cache
+bin\Debug\ShapeOfFormProject.exe
+bin\Debug\ShapeOfFormProject.pdb
+obj\Debug\ShapeOfFormProject.exe
+obj\Debug\ShapeOfFormProject.pdb
+obj\Debug\ShapeOfFormProject.frmOthers.resources

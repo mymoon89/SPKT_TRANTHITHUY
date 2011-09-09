@@ -1,0 +1,26 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about the <font face="courier new">Panel</font> and <font face="courier new">GroupBox</font> controls are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">VisibleChanged()</font> method of the panel control is invoked when the value of the <font face="courier new">Enabled</font> property changes. ]]></Option>
+<Option><![CDATA[The <font face="courier new">Anchor</font> property of the group box control is used to set the dimensions of the control.]]></Option>
+<Option><![CDATA[A <font face="courier new">Panel</font> control is displayed without a border on a form.]]></Option>
+<Option><![CDATA[The <font face="courier new">Resize</font> event of the group box control is invoked when the size of the control automatically changes. ]]></Option>
+<Option><![CDATA[The <font face="courier new">FlatStyle</font> property of the panel control is used to specify the style using the <font face="courier new">FlatStyle</font> enumeration. ]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,0,1,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(False), (B)-(False), (C)-(True), (D)-(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

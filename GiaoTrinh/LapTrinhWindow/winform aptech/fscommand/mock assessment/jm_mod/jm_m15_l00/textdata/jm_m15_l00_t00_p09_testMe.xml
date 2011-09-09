@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties of Custom Actions Editor against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Property</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Determines whether the <font face="courier new">Installer</font> class in specifying the custom action.]]></Option>
+<Option><![CDATA[Determines the file path of custom action.]]></Option>
+<Option><![CDATA[Determines the custom data for the installer.]]></Option>
+<Option><![CDATA[Determines the Windows Installer condition to be met.]]></Option>
+<Option><![CDATA[Determines the starting point in a .dll file.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">CustomActionData</font>]]></Step>
+<Step><![CDATA[<font face="courier new">InstallerClass</font>]]></Step>
+<Step><![CDATA[<font face="courier new">SourcePath</font>]]></Step>
+<Step><![CDATA[<font face="courier new">EntryPoint</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Condition</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>2,3,1,5,4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(2), (B)-(3), (C)-(1), (D)-(5), and (E)-(4).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

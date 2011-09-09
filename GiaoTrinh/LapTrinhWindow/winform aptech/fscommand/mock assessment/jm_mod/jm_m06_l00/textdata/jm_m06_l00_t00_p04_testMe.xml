@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of the <font face="courier new">Form</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Method used to organize the child forms within the parent form.]]></Option>
+<Option><![CDATA[Property used to retrieve the collection of child forms of the current parent form.]]></Option>
+<Option><![CDATA[Event that occurs when the child form is activated or closed.]]></Option>
+<Option><![CDATA[Property used to retrieve the active child form.]]></Option>
+<Option><![CDATA[Property used to determine whether the form is a child form.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">IsMdiChild</font>]]></Step>
+<Step><![CDATA[<font face="courier new">ActiveMdiChild</font>]]></Step>
+<Step><![CDATA[<font face="courier new">LayoutMdi</font>]]></Step>
+<Step><![CDATA[<font face="courier new">MdiChildActivate</font>]]></Step>
+<Step><![CDATA[<font face="courier new">MdiChildren</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>3,5,4,2,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(3), (B)-(5), (C)-(4), (D)-(2), and (E)-(1).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

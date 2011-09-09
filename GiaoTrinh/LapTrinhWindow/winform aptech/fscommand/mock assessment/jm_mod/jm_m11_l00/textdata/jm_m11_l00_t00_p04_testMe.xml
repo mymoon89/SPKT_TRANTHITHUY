@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about Graphics objects are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The Graphics object is created by obtaining a reference to a graphic object from the <font face="courier new">PaintEventArgs</font> method.]]></Option>
+<Option><![CDATA[The Graphics object is created by invoking the <font face="courier new">CreateGraphics()</font> method.]]></Option>
+<Option><![CDATA[The Graphics object is created by using an instance that inherits from the <font face="courier new">Image</font> class.]]></Option>
+<Option><![CDATA[The <font face="courier new">DrawRectangle(Pen, Point, Point)</font> method is used to draw a rectangle.]]></Option>
+<Option><![CDATA[The <font face="courier new">DrawEllipse(Pen, Rectangle)</font> method is used to draw an ellipse by specifying its boundaries using the argument, <font face="courier new">Rectangle</font>.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,1,1,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(False), (B)-(True), (C)-(True), (D)-(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

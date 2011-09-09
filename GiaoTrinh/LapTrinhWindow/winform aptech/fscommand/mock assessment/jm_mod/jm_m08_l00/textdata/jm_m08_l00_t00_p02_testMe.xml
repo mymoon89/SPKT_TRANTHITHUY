@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to fill a <font face="courier new">DataTable</font> object with the records of <font face="courier new">OrderDetails</font> table in the SQL Server database namely, <font face="courier new">Northwind</font>. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconOrders = new SqlConnection("Data Source=localhost;uid=sa;password=admin280;Database=Northwind");<br>SqlDataAdapter sqldaOrders = new SqlDataAdapter("SELECT * FROM Orders", sqlconOrders);<br>DataTable dtableOrders = new DataTable();<br>dtableOrders.TableName = "Orders";<br>sqldaOrders.Fill(dtableOrders);</font>]]></Option>
+	
+ 	<Option><![CDATA[<font face="courier new">SqlConnection sqlconOrders = new SqlConnection(“uid=sa;password=admin280;Database=Northwind");<br>SqlDataAdapter sqldaOrders = new SqlDataAdapter("SELECT * FROM Orders", sqlconOrders);<br>DataTable dtableOrders = new DataTable();<br>dtableOrders.TableName = "Orders";<br>sqldaOrders.Fill(dtableOrders);</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconOrders = new SqlConnection("Data Source=localhost;uid=sa;password=admin280;Database=Northwind");<br>SqlDataAdapter sqldaOrders = new SqlDataAdapter("SELECT * FROM Orders");<br>DataTable dtableOrders = new DataTable();<br>dtableOrders.TableName = "Orders";<brsqldaOrders.Fill(dtableOrders);</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconOrders = new SqlConnection("uid=sa;password=admin280;Database=Northwind");<br>SqlDataAdapter sqldaOrders = new SqlDataAdapter("SELECT * FROM Orders");<br>DataTable dtableOrders = new DataTable();<br>dtableOrders.TableName = "Orders";<br>dtableOrders.Fill();</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (A).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,30 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the various deployment editors against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Editor</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Helps in adding files to the deployment project.]]></Option>
+<Option><![CDATA[Helps in displaying the custom dialog boxes at different installation phases.]]></Option>
+<Option><![CDATA[Sets actions to be performed at the end of an installation.]]></Option>
+<Option><![CDATA[Provides the <font face="courier new">BodyText</font> property to set the text for the dialog boxes.]]></Option>
+<Option><![CDATA[Provides the <font face="courier new">InstallerClass</font> property to check whether the action is the <font face="courier new">InstallerClass</font> class.]]></Option>
+
+</Options>
+<Steps>
+<Step>User Interface Editor</Step>
+<Step>File System Editor</Step>
+<Step>Custom Actions Editor</Step>
+
+
+</Steps>
+<type>dropdrown</type>
+<CorrectAnswer>2,1,3,1,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(File System Editor), (B)-(User Interface Editor), (C)-(Custom Actions Editor), (D)-(User Interface Editor), and (E)-(Custom Actions Editor).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

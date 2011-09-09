@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a form containing two panels. The left pane of the form consists of a check box with the text "<b><font face="courier new">Company Policy"</font></b>. When the check box is selected, a message "<b><font face="courier new">You selected Company Policy"</font></b> should be displayed in the right pane. Which one of the following codes help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">SplitContainer spltcntrSelect = new SplitContainer();<br>CheckBox chkPolicy = new CheckBox();<br>Label lblSelection = new Label();<br><br>spltcntrSelect.BorderStyle = BorderStyle.FixedSingle;<br>chkPolicy.Text = "Company Policy";<br>spltcntrSelect.Panel1.Controls.Add(chkPolicy);<br>spltcntrSelect.Panel2.Controls.Add(lblSelection);<br><br>private void chkPolicy_CheckedChanged(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp:if (chkPolicy.IsChecked)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;lblSelection.Text = "You selected Company Policy.";<br>&nbsp;&nbsp;}<br>}</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SplitContainer spltcntrSelect = new SplitContainer();<br>CheckBox chkPolicy = new CheckBox();<br>Label lblSelection = new Label();<br><br>spltcntrSelect.BorderStyle = BorderStyle.FixedSingle;<br>chkPolicy.Text = "Company Policy";<br>spltcntrSelect.Panel1.Controls.Add(chkPolicy);<br>spltcntrSelect.Panel2.Controls.AddItem(lblSelection);<br><br>private void chkPolicy_CheckedChanged(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp:if (chkPolicy.Checked)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;lblSelection.Text = "You selected Company Policy.";<br>&nbsp;&nbsp;}<br>}</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">SplitContainer spltcntrSelect = new SplitContainer();<br>CheckBox chkPolicy = new CheckBox();<br>Label lblSelection = new Label();<br><br>spltcntrSelect.BorderStyle = BorderStyle.FixedSingle;<br>chkPolicy.Text = "Company Policy";<br>spltcntrSelect.Panel1.Controls.Add(chkPolicy);<br>spltcntrSelect.Panel2.Controls.Add(lblSelection);<br><br>private void chkPolicy_CheckedChanged(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp:if (chkPolicy.Checked())<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;lblSelection.Text = "You selected Company Policy.";<br>&nbsp;&nbsp;}<br>}</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">SplitContainer spltcntrSelect = new SplitContainer();<br>CheckBox chkPolicy = new CheckBox();<br>Label lblSelection = new Label();<br><br>spltcntrSelect.BorderStyle = BorderStyle.FixedSingle;<br>chkPolicy.Text = "Company Policy";<br>spltcntrSelect.Panel1.Controls.Add(chkPolicy);<br>spltcntrSelect.Panel2.Controls.Add(lblSelection);<br><br>private void chkPolicy_CheckedChanged(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp:if (chkPolicy.Checked)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;lblSelection.Text = "You selected Company Policy.";<br>&nbsp;&nbsp;}<br>}</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (D).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

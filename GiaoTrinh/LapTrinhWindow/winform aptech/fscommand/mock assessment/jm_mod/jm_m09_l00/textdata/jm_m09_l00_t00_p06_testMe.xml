@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the methods of the <font face="courier new">DataGrid</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Method</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Navigates to the table by relation name.]]></Option>
+<Option><![CDATA[Indicates the expanded or collapsed state of the row node.]]></Option>
+<Option><![CDATA[Puts the control in the editable state.]]></Option>
+<Option><![CDATA[Navigates back to the previous table displayed in the control.]]></Option>
+<Option><![CDATA[Collapses child relations for all the rows.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">BeginEdit</font>]]></Step>
+<Step><![CDATA[<font face="courier new">NavigateBack</font>]]></Step>
+<Step><![CDATA[<font face="courier new">IsExpanded</font>]]></Step>
+<Step><![CDATA[<font face="courier new">NavigateTo</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Collapse</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,3,1,2,5</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(4), (B)-(3), (C)-(1), (D)-(2), and (E)-(5).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

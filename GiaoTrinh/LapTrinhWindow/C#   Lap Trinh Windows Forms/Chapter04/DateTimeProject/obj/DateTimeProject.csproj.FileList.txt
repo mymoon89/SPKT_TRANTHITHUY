@@ -1,0 +1,9 @@
+bin\Debug\DateTimeProject.exe
+bin\Debug\DateTimeProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DateTimeProject.Properties.Resources.resources
+obj\Debug\DateTimeProject.csproj.GenerateResource.Cache
+obj\Debug\DateTimeProject.exe
+obj\Debug\DateTimeProject.pdb
+obj\Debug\DateTimeProject.Form1.resources
+obj\Debug\DateTimeProject.Form2.resources

@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the methods, properties, and events of the <font face="courier new">GroupBox</font> control against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Property used to set or get a value indicating if the control can respond to user's action.]]></Option>
+<Option><![CDATA[Property used to specify or retrieve the flat style of the control.]]></Option>
+<Option><![CDATA[Event that occurs when the style of control is modified.]]></Option>
+<Option><![CDATA[Method used to display the control to the user.]]></Option>
+<Option><![CDATA[Event that occurs when the control is resized.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[FlatStyle]]></Step>
+<Step><![CDATA[Show]]></Step>
+<Step><![CDATA[Resize]]></Step>
+<Step><![CDATA[Enabled]]></Step>
+<Step><![CDATA[StyleChanged]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,1,5,2,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)–(4), (B)–(1), (C)–(5), (D)–(2), and (E)-(3). ]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

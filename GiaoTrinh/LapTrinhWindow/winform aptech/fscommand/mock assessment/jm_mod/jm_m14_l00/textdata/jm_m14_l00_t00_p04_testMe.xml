@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about printing classes are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The information needed for <font face="courier new">BeginPrint</font> and <font face="courier new">EndPrint</font> events are provided by <font face="courier new">PrintEventArgs</font> class.]]></Option>
+<Option><![CDATA[The <font face="courier new">IsPreview</font> property of <font face="courier new">PrintController</font> class is used to indicate whether the document can be previewed or not. ]]></Option>
+<Option><![CDATA[The <font face="courier new">PrintAction</font> property of <font face="courier new">PrintEventArgs</font> class is used to print the document.]]></Option>
+<Option><![CDATA[The <font face="courier new">Bounds</font> property of <font face="courier new">PageSettings</font> class is used to get the page coordinates. ]]></Option>
+<Option><![CDATA[The <font face="courier new">Reset()</font> method of <font face="courier new">PrintDialog</font> class is used to select a printer.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,1,0,0,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(True), (C)-(False), (D)-(False), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,8 @@
+bin\Debug\ToolStripProject.exe
+bin\Debug\ToolStripProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ToolStripProject.Form1.resources
+obj\Debug\ToolStripProject.Properties.Resources.resources
+obj\Debug\ToolStripProject.csproj.GenerateResource.Cache
+obj\Debug\ToolStripProject.exe
+obj\Debug\ToolStripProject.pdb

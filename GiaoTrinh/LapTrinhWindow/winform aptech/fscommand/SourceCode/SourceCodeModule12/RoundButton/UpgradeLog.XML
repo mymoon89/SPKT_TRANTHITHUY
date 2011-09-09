@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RoundButton">
+</Property><Property Name="Solution File" Value="F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\RoundButton.sln">
+</Property><Property Name="User Options File" Value="F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\RoundButton.suo">
+</Property><Property Name="Date" Value="03 Tháng Ba 2011">
+</Property><Property Name="Time" Value="14:08 CH">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RoundButton.sln" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\Backup\RoundButton.sln">
+</Event><Event ErrorLevel="0" Project="" Source="RoundButton.suo" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\Backup\RoundButton.suo">
+</Event><Event ErrorLevel="0" Project="RoundButton" Source="RoundButton\RoundButton.csproj" Description="Project file successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\Backup\RoundButton\RoundButton.csproj">
+</Event><Event ErrorLevel="0" Project="RoundButton" Source="RoundButton\Properties\AssemblyInfo.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\Backup\RoundButton\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RoundButton" Source="RoundButton\RoundButton.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\Backup\RoundButton\RoundButton.cs">
+</Event><Event ErrorLevel="0" Project="RoundButton" Source="RoundButton\RoundButton.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\Backup\RoundButton\RoundButton.Designer.cs">
+</Event><Event ErrorLevel="0" Project="RoundButton" Source="RoundButton\RoundButton.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RoundButton" Source="RoundButton\RoundButton.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RoundButton.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RoundButton.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RoundButton" Source="RoundButton\RoundButton.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

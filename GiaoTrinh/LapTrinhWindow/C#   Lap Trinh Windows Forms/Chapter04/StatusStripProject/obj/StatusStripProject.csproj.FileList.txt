@@ -1,0 +1,8 @@
+bin\Debug\StatusStripProject.exe
+bin\Debug\StatusStripProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\StatusStripProject.Form1.resources
+obj\Debug\StatusStripProject.Properties.Resources.resources
+obj\Debug\StatusStripProject.csproj.GenerateResource.Cache
+obj\Debug\StatusStripProject.exe
+obj\Debug\StatusStripProject.pdb

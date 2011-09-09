@@ -1,0 +1,10 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ActivatedFormProject\bin\Debug\ActivatedFormProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ActivatedFormProject\bin\Debug\ActivatedFormProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ActivatedFormProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ActivatedFormProject\obj\Debug\ActivatedFormProject.frmEmployees.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ActivatedFormProject\obj\Debug\ActivatedFormProject.frmMain.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ActivatedFormProject\obj\Debug\ActivatedFormProject.frmOvertimes.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ActivatedFormProject\obj\Debug\ActivatedFormProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ActivatedFormProject\obj\Debug\ActivatedFormProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ActivatedFormProject\obj\Debug\ActivatedFormProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ActivatedFormProject\obj\Debug\ActivatedFormProject.pdb

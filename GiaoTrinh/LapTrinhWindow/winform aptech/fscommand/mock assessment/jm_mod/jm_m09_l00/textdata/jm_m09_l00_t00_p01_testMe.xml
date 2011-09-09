@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to sort the records of the <font face="courier new">Departments</font> table according to the first column in the ascending order. The table exists in the <font face="courier new">Employees</font> database. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconDepartments = new SqlConnection(“uid=sa;password=admin;Database=Employees");<br><br>DataGridView dgvwDepartments = new DataGridView();<br>SqlDataAdapter sqldaDepartments = new SqlDataAdapter("SELECT * FROM Departments", sqlconDepartments);<br>DataSet dsetDepartments = new DataSet("Departments");<br>sqldaDepartments.Fill(dsetDepartments, "Department");<br><br>dgvwDepartments.Dock = DockStyle.Fill;<br>dgvwDepartments.DataSource = dsetDepartments;<br>dgvwDepartments.DataMember = "Departments";<br><br>dgvwDepartments.Sort(dgvwDepartments.Columns[0], ListSort.Descending);</font>]]></Option>
+	
+ 	<Option><![CDATA[<font face="courier new">SqlConnection sqlconDepartments = new SqlConnection("Data Source=localhost;uid=sa;password=admin;Database=Employees");<br><br>DataGridView dgvwDepartments = new DataGridView();<br>SqlDataAdapter sqldaDepartments = new SqlDataAdapter("SELECT * FROM Departments");<br>DataSet dsetDepartments = new DataSet("Departments");<br>sqldaDepartments.Fill(dsetDepartments, "Department");<br><br>dgvwDepartments.Dock = DockStyle.Fill;<br>dgvwDepartments.DataSource = dsetDepartments;<br>dgvwDepartments.DataMember = "Departments";<br><br>dgvwDepartments.Sort(dgvwDepartments.Columns[0], ListSort.Descending);</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconDepartments = new SqlConnection("Data Source=localhost;uid=sa;password=admin;Database=Employees");<br><br>DataGridView dgvwDepartments = new DataGridView();<br>SqlDataAdapter sqldaDepartments = new SqlDataAdapter("SELECT * FROM Departments", sqlconDepartments);<br>DataSet dsetDepartments = new DataSet("Departments");<br>sqldaDepartments.Fill(dsetDepartments, "Department");<br><br>dgvwDepartments.Dock = DockStyle.Fill;<br>dgvwDepartments.DataSource = dsetDepartments;<br>dgvwDepartments.DataMember = "Departments";<br><br>dgvwDepartments.Sort(dgvwDepartments.Columns[0], SortDirection.Descending);</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconDepartments = new SqlConnection("Data Source=localhost;uid=sa;password=admin;Database=Employees");<br><br>DataGridView dgvwDepartments = new DataGridView();<br>SqlDataAdapter sqldaDepartments = new SqlDataAdapter("SELECT * FROM Departments", sqlconDepartments);<br>DataSet dsetDepartments = new DataSet("Departments");<br>sqldaDepartments.Fill(dsetDepartments, "Department");<br><br>dgvwDepartments.Dock = DockStyle.Fill;<br>dgvwDepartments.DataSource = dsetDepartments;<br>dgvwDepartments.DataMember = "Departments";<br><br>dgvwDepartments.Sort(dgvwDepartments.Columns[0], ListSortDirection.Descending);</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct. You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (D).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

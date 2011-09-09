@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to check whether the user has clicked the Yes button of the message box. Which one of the following codes will help you achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">if (MessageBox.ShowDialog("Do you want to close the application ?", "Message Box", MessageBoxButtons.YesNo) ==  DialogResult.Yes)<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Application.Exit();<br>}<br>else<br>{<br>&nbsp;&nbsp;&nbsp;this.Hide();<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">if (MessageBox.Show("Do you want to close the application ?", "Message Box", MessageBoxButtons.YesNo) =  "Yes")<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Application.Exit();<br>}<br>else<br>{<br>&nbsp;&nbsp;&nbsp;this.Hide();<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">if (MessageBox.Show("Do you want to close the application ?", "Message Box", MessageBoxButtons.YesNo) ==  Yes)<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Application.Exit();<br>}<br>else<br>{<br>&nbsp;&nbsp;&nbsp;this.Hide();<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">if (MessageBox.Show("Do you want to close the application ?", "Message Box", MessageBoxButtons.YesNo) ==  DialogResult.Yes)<br>{<br>&nbsp;&nbsp;&nbsp;Application.Exit();<br>}<br>else<br>{<br>&nbsp;&nbsp;&nbsp;this.Hide();<br>}</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (D).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

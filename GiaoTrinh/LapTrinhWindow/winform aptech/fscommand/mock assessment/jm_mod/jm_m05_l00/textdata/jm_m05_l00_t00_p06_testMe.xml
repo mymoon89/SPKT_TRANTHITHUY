@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements regarding the common dialog boxes are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">ShowDialogBox()</font> method is used to display the dialog box to the user.]]></Option>
+<Option><![CDATA[The <font face="courier new">CustomColors</font> property is used to set or get the custom colors of the <font face="courier new">ColorDialog</font> component.]]></Option>
+<Option><![CDATA[The <font face="courier new">Fonts</font> property is used to set or get the selected font style of the <font face="courier new">FontDialog</font> component. ]]></Option>
+<Option><![CDATA[The <font face="courier new">OpenFiles()</font> method is used to open the specified file with the read-only permission.]]></Option>
+<Option><![CDATA[The <font face="courier new">AllowOrientation</font> property is used to set or get a value whether the user can specify the orientation of a page.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,1,0,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that’s correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that’s incorrect. The correct selections are: (A)-(False), (B)-(True), (C)-(False), (D)-(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

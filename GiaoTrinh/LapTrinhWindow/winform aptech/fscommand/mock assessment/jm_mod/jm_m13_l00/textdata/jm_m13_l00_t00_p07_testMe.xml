@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about customizing runtime reports are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Parameter fields help displaying the reports based on a criterion taken from the user.]]></Option>
+<Option><![CDATA[Sorting fields help in sorting the data only in ascending and descending orders.]]></Option>
+<Option><![CDATA[Selection formulas support passing formula to the <font face="courier new">SelectionFormulae</font> property of the <font face="courier new">CrystalReportViewer</font> class.]]></Option>
+<Option><![CDATA[Selection formulas help to filter or group the data displayed in the report.]]></Option>
+<Option><![CDATA[The <font face="courier new">RefreshReport()</font> method of the <font face="courier new">CrystalReportViewer</font> class refreshes the report after it has been changed.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,0,1,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that’s incorrect. The correct selections are: (A)–(True), (B)–(False), (C)–(False), (D)–(True), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

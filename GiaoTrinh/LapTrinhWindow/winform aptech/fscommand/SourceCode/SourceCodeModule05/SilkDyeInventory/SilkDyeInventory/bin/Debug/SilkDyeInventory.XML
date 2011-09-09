@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SilkDyeInventory</name>
+    </assembly>
+    <members>
+        <member name="T:SilkDyeInventory.frmPurchaseOrder">
+            <summary>
+            Class frmPurchaseOrder is used to demonstrate how to create custom dialog box.
+            
+            Class frmPurchaseOrder accepts the customer details and displays a custom dialog box.
+            </summary>
+        </member>
+        <member name="F:SilkDyeInventory.frmPurchaseOrder.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SilkDyeInventory.frmPurchaseOrder.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SilkDyeInventory.frmPurchaseOrder.InitializeComponent">
+            <summary>
+            Required method for Designer support
+            </summary>
+        </member>
+        <member name="M:SilkDyeInventory.frmPurchaseOrder.#ctor">
+            <summary>
+            Constructor without parameters to initialize the
+            controls for displaying the frmPurchaseOrder form. 
+            </summary>
+        </member>
+        <member name="M:SilkDyeInventory.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:SilkDyeInventory.frmProductDetails">
+            <summary>
+            Class frmProductDetails is used to demonstrate how to create custom dialog box.
+            
+            Class frmProductDetails accepts the details of order.
+            </summary>
+        </member>
+        <member name="F:SilkDyeInventory.frmProductDetails.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:SilkDyeInventory.frmProductDetails.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:SilkDyeInventory.frmProductDetails.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:SilkDyeInventory.frmProductDetails.#ctor">
+            <summary>
+            Constructor without parameters to initialize the
+            controls for displaying the frmProductDetails form. 
+            </summary>
+        </member>
+        <member name="T:SilkDyeInventory.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:SilkDyeInventory.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:SilkDyeInventory.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

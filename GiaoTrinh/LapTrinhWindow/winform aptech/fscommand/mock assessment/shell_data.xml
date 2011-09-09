@@ -1,0 +1,706 @@
+﻿<course>
+	<modules>
+		<module name="Knowledge Checks" type="assessments">	
+			<lessons>
+	 <!-- Lesson start here -->
+				<lesson name="Windows Forms and Basic Controls" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "no" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>							
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>						
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>						
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>						
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>					
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p10.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m01_l00/textdata/jm_m01_l00_t00_p11.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>
+					</topics>
+				</lesson>
+				<lesson name="Grouping & Graphic Control" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m02_l00/textdata/jm_m02_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m02_l00/textdata/jm_m02_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m02_l00/textdata/jm_m02_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m02_l00/textdata/jm_m02_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m02_l00/textdata/jm_m02_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m02_l00/textdata/jm_m02_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m02_l00/textdata/jm_m02_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m02_l00/textdata/jm_m02_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m02_l00/textdata/jm_m02_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m02_l00/textdata/jm_m02_l00_t00_p10.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>		
+					</topics>
+				</lesson>
+				<lesson name="Advanced Controls" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m03_l00/textdata/jm_m03_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m03_l00/textdata/jm_m03_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m03_l00/textdata/jm_m03_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m03_l00/textdata/jm_m03_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m03_l00/textdata/jm_m03_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m03_l00/textdata/jm_m03_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m03_l00/textdata/jm_m03_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m03_l00/textdata/jm_m03_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m03_l00/textdata/jm_m03_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m03_l00/textdata/jm_m03_l00_t00_p10.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>		
+					</topics>
+				</lesson>
+				<lesson name="Date Controls and Timer Component" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m04_l00/textdata/jm_m04_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m04_l00/textdata/jm_m04_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m04_l00/textdata/jm_m04_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m04_l00/textdata/jm_m04_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m04_l00/textdata/jm_m04_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m04_l00/textdata/jm_m04_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m04_l00/textdata/jm_m04_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m04_l00/textdata/jm_m04_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>		
+								
+					</topics>
+				</lesson>
+				<lesson name="Dialog Boxes" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m05_l00/textdata/jm_m05_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m05_l00/textdata/jm_m05_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m05_l00/textdata/jm_m05_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m05_l00/textdata/jm_m05_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m05_l00/textdata/jm_m05_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m05_l00/textdata/jm_m05_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m05_l00/textdata/jm_m05_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m05_l00/textdata/jm_m05_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m05_l00/textdata/jm_m05_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>		
+								
+					</topics>
+				</lesson>
+				<lesson name="MDI Applications and Menus" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m06_l00/textdata/jm_m06_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>									
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m06_l00/textdata/jm_m06_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>									
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m06_l00/textdata/jm_m06_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>									
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m06_l00/textdata/jm_m06_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>									
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m06_l00/textdata/jm_m06_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>									
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m06_l00/textdata/jm_m06_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>										
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m06_l00/textdata/jm_m06_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>									
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m06_l00/textdata/jm_m06_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>	
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m06_l00/textdata/jm_m06_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>							
+							</pages>
+						</topic>		
+								
+					</topics>
+				</lesson>
+				<lesson name="Introduction to ADO.NET" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m07_l00/textdata/jm_m07_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m07_l00/textdata/jm_m07_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m07_l00/textdata/jm_m07_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m07_l00/textdata/jm_m07_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m07_l00/textdata/jm_m07_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m07_l00/textdata/jm_m07_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m07_l00/textdata/jm_m07_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m07_l00/textdata/jm_m07_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>		
+						
+					</topics>
+				</lesson>
+				<lesson name="Data Classes" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m08_l00/textdata/jm_m08_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m08_l00/textdata/jm_m08_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m08_l00/textdata/jm_m08_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m08_l00/textdata/jm_m08_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m08_l00/textdata/jm_m08_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m08_l00/textdata/jm_m08_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m08_l00/textdata/jm_m08_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m08_l00/textdata/jm_m08_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m08_l00/textdata/jm_m08_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m08_l00/textdata/jm_m08_l00_t00_p10.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>		
+								
+					</topics>
+				</lesson>
+				<lesson name="&quot;DataView&quot; and &quot;DataGridView&quot; Controls" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m09_l00/textdata/jm_m09_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m09_l00/textdata/jm_m09_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m09_l00/textdata/jm_m09_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m09_l00/textdata/jm_m09_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m09_l00/textdata/jm_m09_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m09_l00/textdata/jm_m09_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m09_l00/textdata/jm_m09_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m09_l00/textdata/jm_m09_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m09_l00/textdata/jm_m09_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>			
+					</topics>
+				</lesson>
+				<lesson name="Data Binding" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m10_l00/textdata/jm_m10_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m10_l00/textdata/jm_m10_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m10_l00/textdata/jm_m10_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m10_l00/textdata/jm_m10_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m10_l00/textdata/jm_m10_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m10_l00/textdata/jm_m10_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m10_l00/textdata/jm_m10_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m10_l00/textdata/jm_m10_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m10_l00/textdata/jm_m10_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>			
+					</topics>
+				</lesson>
+				<lesson name="Working with GDI+" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p10.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m11_l00/textdata/jm_m11_l00_t00_p11.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>			
+					</topics>
+				</lesson>
+				<lesson name="Custom Controls" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m12_l00/textdata/jm_m12_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m12_l00/textdata/jm_m12_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m12_l00/textdata/jm_m12_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m12_l00/textdata/jm_m12_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m12_l00/textdata/jm_m12_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m12_l00/textdata/jm_m12_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m12_l00/textdata/jm_m12_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m12_l00/textdata/jm_m12_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m12_l00/textdata/jm_m12_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>									
+							</pages>
+						</topic>			
+					</topics>
+				</lesson>
+				<lesson name="Crystal Reports" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m13_l00/textdata/jm_m13_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m13_l00/textdata/jm_m13_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m13_l00/textdata/jm_m13_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m13_l00/textdata/jm_m13_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m13_l00/textdata/jm_m13_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m13_l00/textdata/jm_m13_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m13_l00/textdata/jm_m13_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m13_l00/textdata/jm_m13_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m13_l00/textdata/jm_m13_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>									
+							</pages>
+						</topic>			
+					</topics>
+				</lesson>
+				<lesson name="Printing and Adding Help" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m14_l00/textdata/jm_m14_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m14_l00/textdata/jm_m14_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m14_l00/textdata/jm_m14_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m14_l00/textdata/jm_m14_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m14_l00/textdata/jm_m14_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m14_l00/textdata/jm_m14_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m14_l00/textdata/jm_m14_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m14_l00/textdata/jm_m14_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m14_l00/textdata/jm_m14_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m14_l00/textdata/jm_m14_l00_t00_p10.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+							</pages>
+						</topic>			
+					</topics>
+				</lesson>
+				<lesson name="Packaging and Deploying" type ="normal">		
+					<topics>		
+						<topic name="">
+							<pages>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p01.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p02.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p03.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p04.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p05.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p06.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p07.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p08.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p09.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p10.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "yes" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>
+									<page pagename = "fscommand/mock assessment/jm_mod/jm_m15_l00/textdata/jm_m15_l00_t00_p11.xml" pagetitle = "Knowledge Check" pagetype = "static" slider = "yes" audio = "no" back = "yes" next = "no" >
+									<transcripttext><![CDATA[#]]></transcripttext>
+									<words>page1</words>
+									</page>									
+							</pages>
+						</topic>			
+					</topics>
+				</lesson>
+			</lessons>
+		</module>
+	</modules>
+</course>		

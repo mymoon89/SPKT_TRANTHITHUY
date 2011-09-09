@@ -1,0 +1,26 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about composite controls are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Composite controls are used for creating custom graphical interfaces.]]></Option>
+<Option><![CDATA[Composite controls are reused across multiple applications.]]></Option>
+<Option><![CDATA[Composite controls are created only as a part of the Windows Application project.]]></Option>
+<Option><![CDATA[Composite controls contain only one Windows Forms control in a container.]]></Option>
+<Option><![CDATA[Composite controls cannot be inherited from other controls.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,1,0,0,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (A)-(True), (B)-(True), (C)-(False), (D)-(False), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

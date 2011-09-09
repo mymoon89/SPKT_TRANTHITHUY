@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about the <font face="courier new">ProgressBar</font> control are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">Value</font> property gets or sets the minimum and maximum values of the <font face="courier new">ProgressBar</font> control.]]></Option>
+<Option><![CDATA[The <font face="courier new">Increment</font> method sets the current position of the <font face="courier new">ProgressBar</font> control.]]></Option>
+<Option><![CDATA[The <font face="courier new">Step</font> property increments the current position of the <font face="courier new">ProgressBar</font> by the specified value. ]]></Option>
+<Option><![CDATA[The Marquee ProgressBar gives an idea about how long the process will take to complete.]]></Option>
+<Option><![CDATA[The <font face="courier new">ProgressBar</font> control implements visual styles.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,0,0,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that’s correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that’s incorrect. The correct selections are: (A)–(False), (B)–(False), (C)–(False), (D)–(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

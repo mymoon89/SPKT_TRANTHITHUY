@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a custom textbox that accepts only the current year. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">public partial class CurrentYearTextBox : TextBox<br>{<br>&nbsp;&nbsp;protected void OnLostFocus(EventArgs e)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;if (this.Text == "" || this.Text.Length == 4)<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (this.Text != DateTime.Today.Year.ToString())<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show("Please enter the current year.","CurrentYearTextBox");<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;}<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">public partial class CurrentYearTextBox : TextBox<br>{<br>&nbsp;&nbsp;protected override void OnLostFocus<br>(EventArgs e)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;if (this.Text != "" || this.Text.Length == 4)<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (this.Text != DateTime.Today.Year.ToString())<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show("Please enter the current year.","CurrentYearTextBox");<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;}<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">public partial class CurrentYearTextBox : Control<br>{<br>&nbsp;&nbsp;protected override void OnLostFocus<br>(EventArgs e)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;if (this.Text != "" || this.Text.Length == 4)<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (this.Text != DateTime.Today.Year.ToString())<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show("Please enter the current year.","CurrentYearTextBox");<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;}<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">public partial class CurrentYearTextBox : Control<br>{<br>&nbsp;&nbsp;protected void OnLostFocus(EventArgs e)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;if (this.Text == "" || this.Text.Length == 4)<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (this.Text != DateTime.Today.Year.ToString())<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show("Please enter the current year.","CurrentYearTextBox");<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;}<br>}</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that’s correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct answer is: (B).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

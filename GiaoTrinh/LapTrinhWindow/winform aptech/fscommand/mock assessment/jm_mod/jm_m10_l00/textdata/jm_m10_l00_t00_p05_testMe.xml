@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about data binding are true and which are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Data binding helps in retrieving and updating records of a table. ]]></Option>
+<Option><![CDATA[Simple data binding supports binding to multiple records.]]></Option>
+<Option><![CDATA[Complex data binding supports binding to a single element.]]></Option>
+<Option><![CDATA[The <font face="courier new">TextBox</font> control allows only simple data binding.]]></Option>
+<Option><![CDATA[The <font face="courier new">ListBox</font> control supports complex data binding.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,0,1,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(False), (C)-(False), (D)-(True), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

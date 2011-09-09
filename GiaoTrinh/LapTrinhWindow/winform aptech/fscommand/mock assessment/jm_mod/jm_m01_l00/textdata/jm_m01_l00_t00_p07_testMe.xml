@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about controls and <font face="courier new">Control</font> class are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The basic controls are controls that include the <font face="courier new">RadioButton</font> and <font face="courier new">CheckBox</font> controls.]]></Option>
+<Option><![CDATA[The selection list controls are controls that allow you to select a value from the list using the down arrows only. ]]></Option>
+<Option><![CDATA[The <font face="courier new">Control</font> class is the parent class of all graphic controls.]]></Option>
+<Option><![CDATA[The <font face="courier new">Control</font> class is used to create custom controls.]]></Option>
+<Option><![CDATA[The <font face="courier new">Visible</font > property of the <font face="courier new">Control</font> class is used to activate the control.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,0,1,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that’s correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that’s incorrect. The correct selections are: (A)–(False), (B)–(False), (C)–(True), (D)–(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

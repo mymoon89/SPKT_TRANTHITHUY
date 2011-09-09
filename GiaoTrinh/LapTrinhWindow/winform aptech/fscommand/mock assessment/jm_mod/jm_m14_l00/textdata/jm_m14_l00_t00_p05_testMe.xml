@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to print a circle using the <font face="courier new">PrintDocument</font> class. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">Button btnPrint = new Button();<br>PrintDocument printDoc = new PrintDocument();<br><br>private void printDoc_PrintPage(object sender, PrintEventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;e.PageSettings.Color = true;<br>&nbsp;&nbsp;&nbsp;e.Graphics.DrawEllipse(Pens.Green, 30, 30);<br>}<br>private void btnPrint_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;printDoc.DocumentName = "My Document";<br>&nbsp;&nbsp;&nbsp;printDoc.Print();<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">Button btnPrint = new Button();<br>PrintDocument printDoc = new PrintDocument();<br><br>private void printDoc_PrintPage(object sender, PrintEventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;e.PageSettings.Color = true;<br>&nbsp;&nbsp;&nbsp;e.Graphics.DrawEllipse(Pens.Green, 100, 100, 30, 30);<br>}<br>private void btnPrint_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;printDoc.DocumentName = "My Document";<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">Button btnPrint = new Button();<br>PrintDocument printDoc = new PrintDocument();<br><br>private void printDoc_PrintPage(object sender, PrintPageEventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;e.PageSettings.Color = true;<br>&nbsp;&nbsp;&nbsp;e.Graphics.DrawEllipse(Pens.Green, 100, 100, 30, 30);<br>}<br>private void btnPrint_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;printDoc.DocumentName = "My Document";&nbsp;&nbsp;&nbsp;printDoc.Print();<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">Button btnPrint = new Button();<br>PrintDocument printDoc = new PrintDocument();<br><br>private void printDoc_PrintPage(object sender, PrintPageEventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;e.PageSetting.Color = true;<br>&nbsp;&nbsp;&nbsp;e.Graphics.DrawEllipse(Pens.Green, 30);<br>}<br>private void btnPrint_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;printDoc.DocumentName = "My Document";<br>}</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you write the code using the <font face="courier new">DataGridView</font> control that will display the output in the format as shown in the image?]]></QuestionText>
+
+<Options>
+	<Option></Option>
+	<Option></Option>
+	
+</Options>
+
+<Steps>
+	<Step></Step>
+	
+</Steps>
+
+<type>InputActivity</type>
+
+<CorrectAnswer><![CDATA[<font face="courier new">DataGridView dgvwShares = new DataGridView();<br>this.Controls.Add(dgvwShares);<br>dgvwShares.Columns.Add("dcolYear", "Year");<br>dgvwShares.Columns.Add("dcolQuantity","Quantity");<br>dgvwShares.Rows.Add("2004");<br>dgvwShares.Rows[0].Cells[1].Value = "45000";<br>dgvwShares.Rows.Add("2005");<br>dgvwShares.Rows[1].Cells[1].Value = "60000";</font>]]></CorrectAnswer>
+
+<CorrectFeedback><![CDATA[Good! You have attempted this difficult question. You get a bonus point for your attempt. Click on View Answer for the answer.]]></CorrectFeedback>
+
+<incorrectFeedback><![CDATA[Good! You have attempted this difficult question. You get a bonus point for your attempt. Click on View Answer for the answer.]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

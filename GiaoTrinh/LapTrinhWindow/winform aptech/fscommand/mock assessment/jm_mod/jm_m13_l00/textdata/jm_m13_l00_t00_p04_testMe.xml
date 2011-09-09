@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about crystal reports are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">ReportSource</font> property helps in specifying which report the <font face="courier new">CrystalReportViewer</font> control should be bound to.]]></Option>
+<Option><![CDATA[Crystal Reports allows reports to be generated only using ADO.NET datasets.]]></Option>
+<Option><![CDATA[The Crystal Report Creation Wizard provides a step by step guide to generate reports.]]></Option>
+<Option><![CDATA[The <font face="courier new">CrystalReportViewer</font> control binds the report to the application.]]></Option>
+<Option><![CDATA[The report document allows you to choose the layout for reports.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,1,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(False), (C)-(True), (D)-(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

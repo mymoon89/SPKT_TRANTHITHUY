@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to export the report of order details generated from the <font face="courier new">Orders</font> table in PDF format? Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">. . .<br>CrystalReportViewer crvOrdersList = new CrystalReportViewer();<br>SqlDataAdapter sqldaOrders = new SqlDataAdapter("SELECT * FROM Orders", sqlconOrders);<br>ReportDocument rdOrdersReport = new ReportDocument();<br>rdOrdersReport.Load(@"D:\Windows Forms\OrderReport.rpt");<br>DataSet dsetOrders = new DataSet();<br>sqldaOrders.Fill(dsetOrders, "Orders");<br>rdOrdersReport.SetDataSource(dsetOrders);<br>crvOrdersList.ReportSource = rdOrdersReport;<br>crvOrdersList.ExportReport();</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">. . .<br>CrystalReportViewer crvOrdersList = new CrystalReportViewer();<br>SqlDataAdapter sqldaOrders = new SqlDataAdapter("SELECT * FROM Orders");<br>ReportDocument rdOrdersReport = new ReportDocument();<br>rdOrdersReport.Load(@"D:\Windows Forms\OrderReport.rpt");<br>DataSet dsetOrders = new DataSet();<br>sqldaOrders.Fill(dsetOrders, "Orders");<br>rdOrdersReport.SetDataSource(dsetOrders);<br>crvOrdersList.ReportSource = rdOrdersReport;<br>crvOrdersList.Export();</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">. . .<br>SqlDataAdapter sqldaOrders = new SqlDataAdapter("SELECT * FROM Orders");<br>ReportDocument rdOrdersReport = new ReportDocument();<br>rdOrdersReport.Load("D:\Windows Forms\OrderReport.rpt");<br>DataSet dsetOrders = new DataSet();<br>sqldaOrders.Fill(dsetOrders, "Orders");<br>rdOrdersReport.SetDataSource()<br>crvOrdersList.ReportSource = rdOrdersReport;<br>crvOrdersList.ExportReport();</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">. . .<br>CrystalReportViewer crvOrdersList = new CrystalReportViewer();<br>SqlDataAdapter sqldaOrders = new SqlDataAdapter("SELECT * FROM Orders", sqlconOrders);<br>ReportDocument rdOrdersReport = new ReportDocument();<br>rdOrdersReport.Load("D:\Windows Forms\OrderReport.rpt");<br>DataSet dsetOrders = new DataSet();<br>sqldaOrders.Fill(dsetOrders, "Orders");<br>rdOrdersReport.SetDataSource();<br>rdOrdersReport.ReportSource = rdOrdersReport;<br>crvOrdersList.Export();</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (A).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

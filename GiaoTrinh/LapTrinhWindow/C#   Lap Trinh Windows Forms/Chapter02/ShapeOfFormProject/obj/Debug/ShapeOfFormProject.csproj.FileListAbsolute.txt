@@ -1,0 +1,10 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ShapeOfFormProject\bin\Debug\ShapeOfFormProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ShapeOfFormProject\bin\Debug\ShapeOfFormProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ShapeOfFormProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ShapeOfFormProject\obj\Debug\ShapeOfFormProject.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ShapeOfFormProject\obj\Debug\ShapeOfFormProject.frmCircle.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ShapeOfFormProject\obj\Debug\ShapeOfFormProject.frmOthers.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ShapeOfFormProject\obj\Debug\ShapeOfFormProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ShapeOfFormProject\obj\Debug\ShapeOfFormProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ShapeOfFormProject\obj\Debug\ShapeOfFormProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\ShapeOfFormProject\obj\Debug\ShapeOfFormProject.pdb

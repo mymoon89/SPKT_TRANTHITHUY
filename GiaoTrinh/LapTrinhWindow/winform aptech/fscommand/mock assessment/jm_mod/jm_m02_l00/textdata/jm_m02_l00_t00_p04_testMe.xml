@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to create a <font face="courier new">CheckedListBox</font> control, which will display the following three hobbies-reading, playing, and surfing. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<br><font face="courier new">CheckedListBox chlHobbies = new CheckedListBox();<br>chlHobbies.Item.Add("Reading");<br>chlHobbies.Item.Add("Playing");<br>chlHobbies.Item.Add("Surfing");<br>Form.Add(chlHobbies);</font><br>]]></Option>
+	<Option><![CDATA[<br><font face="courier new">CheckedListBox chlHobbies = new CheckedListBox();<br>chlHobbies.Items.Add("Reading");<br>chlHobbies.Items.Add("Playing");<br>chlHobbies.Items.Add("Surfing");<br>Controls.Add(chlHobbies);</font><br>]]></Option>
+	<Option><![CDATA[<br><font face="courier new">CheckedListBox chlHobbies = new CheckedListBox();<br>chlHobbies.items.add("Reading");<br>chlHobbies.items.add("Playing");<br>chlHobbies.items.add("Surfing");<br>Control.Add(chlHobbies);</font><br>]]></Option>
+	<Option><![CDATA[<br><font face="courier new">CheckedListBox chlHobbies = new CheckedListBox();<br>chlHobbies.item.add(Reading);<br>chlHobbies.item.add(Playing);<br>chlHobbies.item.add(Surfing);<br>Form.Add(chlHobbies);</font><br>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (B).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

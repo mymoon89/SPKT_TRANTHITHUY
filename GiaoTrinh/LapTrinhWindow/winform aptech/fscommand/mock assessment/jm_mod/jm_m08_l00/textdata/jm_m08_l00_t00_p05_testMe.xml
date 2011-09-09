@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to connect to a table named <font face = "courier new">StudentDetails</font> in an SQL Server database to retrieve student information. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconStudentDetails = new SqlConnection("Data <BR>Source=MYSERVER\\SQLEXPRESS;Initial Catalog=HolyAngelSchool;Integrated <BR>Security=SSPI");<BR>sqlconStudentDetails.Open();<BR>SqlCommand sqlcomStudentDetails = sqlconStudentDetails.CreateCommand();<BR>sqlcomStudentDetails.Command = "SELECT * FROM StudentDetails";<BR>SqlDataReader sqldreaderStudentDetails = sqlcomStudentDetails.ExecuteReader();<BR>sqldreaderStudentDetails.Read();</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconStudentDetails = new SqlConnection("Data Source<br>= MYSERVER\\SQLEXPRESS;Initial Catalog=HolyAngelSchool;Integrated <br>Security=SSPI");<br>sqlconStudentDetails.Open();<br>SqlCommand sqlcomStudentDetails = sqlconStudentDetails.CreateCommand();<br>sqlcomStudentDetails.CommandText = "SELECT * FROM StudentDetails";<br>SqlDataReader sqldreaderStudentDetails = sqlcomStudentDetails.ExecuteRead();<br>sqldreaderStudentDetails.Read();</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconStudentDetails = new SqlConnection("Data Source<br>= MYSERVER\\SQLEXPRESS;Initial Catalog=HolyAngelSchool;Integrated <br>Security=SSPI");<br>sqlconStudentDetails.Open();<br>SqlCommand sqlcomStudentDetails = sqlconStudentDetails.CreateCommand();<br>sqlcomStudentDetails.CommandText = "SELECT * FROM StudentDetails";<br>SqlDataReader sqldreaderStudentDetails = sqlcomStudentDetails.ExecuteReader();<br>sqldreaderStudentDetails.ReadNext();</font>]]></Option>
+        <Option><![CDATA[<font face="courier new">SqlConnection sqlconStudentDetails = new SqlConnection("Data Source<br>= MYSERVER\\SQLEXPRESS;Initial Catalog=HolyAngelSchool;Integrated <br>Security=SSPI");<br>sqlconStudentDetails.Open();<br>SqlCommand sqlcomStudentDetails = sqlconStudentDetails.CreateCommand();<br>sqlcomStudentDetails.CommandText = "SELECT * FROM StudentDetails";<br>SqlDataReader sqldreaderStudentDetails = sqlcomStudentDetails.ExecuteReader();<br>sqldreaderStudentDetails.Read();</font>]]></Option>
+</Options>
+
+
+<type>CodeMCSS</type>
+<CorrectAnswer>4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (D).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

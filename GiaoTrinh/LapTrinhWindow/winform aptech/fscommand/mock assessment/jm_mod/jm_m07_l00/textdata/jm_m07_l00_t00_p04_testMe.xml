@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about ADO.NET are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Bulk copy operations save time for lengthy operations.]]></Option>
+<Option><![CDATA[The connection to original database is closed once a request is processed in disconnected data access model.]]></Option>
+<Option><![CDATA[.NET Framework allows you to access application data only from local machine.]]></Option>
+<Option><![CDATA[RDO and ADO depends on two-tier client-server architecture.]]></Option>
+<Option><![CDATA[ADO.NET technology provides connection to various database systems.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,1,0,1,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(False), (B)-(True), (C)-(False), (D)-(True), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

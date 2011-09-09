@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about data binding are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Data binding allows you to fetch multiple tables simultaneously.]]></Option>
+<Option><![CDATA[Examples of data providers include arrays and data tables.]]></Option>
+<Option><![CDATA[Data consumers fetch the data from the database.]]></Option>
+<Option><![CDATA[The <font face="courier new">Item</font> property of the <font face="courier new">BindingContext</font> class retrieves the reference to the <font face="courier new">BindingManager</font> class.]]></Option>
+<Option><![CDATA[The <font face="courier new">Count</font> property of the <font face="courier new">CurrencyManager</font> class counts the total number of bounded lists.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,1,0,0,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)–(True), (B)–(True), (C)–(False), (D)–(False), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

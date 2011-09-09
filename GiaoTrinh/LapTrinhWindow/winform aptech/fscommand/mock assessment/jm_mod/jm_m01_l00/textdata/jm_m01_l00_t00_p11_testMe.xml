@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to create a <font face="courier new">ListBox</font> control that allows you to select multiple hobbies using the <b>Ctrl</b> key from the following list: <font face="courier new">Reading</font>, <font face="courier new">Singing</font>, <font face="courier new">Writing Poems</font>, <font face="courier new">Dancing</font>, and <font face="courier new">Swimming</font> Which one of the following codes help you to achieve this? ]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">ListBox lstHobbies = new ListBox();<br><br>private void frmStudent_Load(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Reading ");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Singing");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Writing Poems");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Dancing");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Swimming");<br>&nbsp;&nbsp;&nbsp;lstHobbies.SelectionMode = &nbsp;&nbsp;&nbsp;SelectionMode.MultiSimple;</font><br>}<br>
+]]></Option>
+
+	<Option><![CDATA[<font face="courier new">ListBox lstHobbies = new ListBox();<br><br>private void frmStudent_Load(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;lstHobbies.Name = "lstHobbies";<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Reading ");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Singing");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Writing Poems");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Dancing");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Swimming");<br>&nbsp;&nbsp;&nbsp;lstHobbies.SelectionMode = &nbsp;&nbsp;&nbsp;SelectionMode.MultiLine;</font><br>}<br>
+]]></Option>
+
+	<Option><![CDATA[<font face="courier new">ListBox lstHobbies = new ListBox();<br><br>private void frmStudent_Load(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Reading ");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Singing");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Writing Poems");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Dancing");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Swimming");<br>&nbsp;&nbsp;&nbsp;lstHobbies.SelectionMode = &nbsp;&nbsp;&nbsp;SelectionMode.MultiExtended;<br>&nbsp;&nbsp;&nbsp;<br>}</font><br>
+]]></Option>
+
+	<Option><![CDATA[<font face="courier new">ListBox lstHobbies = new ListBox();<br><br>private void frmStudent_Load(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;lstHobbies.Name = "lstHobbies";<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Reading ");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Singing");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Writing Poems");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Dancing");<br>&nbsp;&nbsp;&nbsp;lstHobbies.Items.Add("Swimming");<br>&nbsp;&nbsp;&nbsp;lstHobbies.SelectionMode = &nbsp;&nbsp;&nbsp;SelectionMode.MultiLine;<br>}</font><br>
+]]></Option>
+
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,8 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\FlowLayoutPanelProject\bin\Debug\FlowLayoutPanelProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\FlowLayoutPanelProject\bin\Debug\FlowLayoutPanelProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\FlowLayoutPanelProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\FlowLayoutPanelProject\obj\Debug\FlowLayoutPanelProject.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\FlowLayoutPanelProject\obj\Debug\FlowLayoutPanelProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\FlowLayoutPanelProject\obj\Debug\FlowLayoutPanelProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\FlowLayoutPanelProject\obj\Debug\FlowLayoutPanelProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter06\FlowLayoutPanelProject\obj\Debug\FlowLayoutPanelProject.pdb

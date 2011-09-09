@@ -1,0 +1,29 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you arrange the steps for creating a report using the Crystal Report Creation Wizard in the correct order?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[From the <b>Available data sources</b> section, select a data source.]]></Option>
+<Option><![CDATA[From the <b>Available Styles</b> section, select a report type and style.]]></Option>
+<Option><![CDATA[Select the <b>Crystal Report</b> option from the <b>Add New Item</b> dialog box and click the <b>Add</b> Button.]]></Option>
+<Option><![CDATA[From the <b>Crystal Reports Gallery</b>, select the report document and report expert.]]></Option>
+<Option><![CDATA[Enter the name of the report file in the <b>Name</b> textbox.]]></Option>
+</Options>
+<Steps>
+<Step><![CDATA[From the <b>Available data sources</b> section, select a data source.]]></Step>
+<Step><![CDATA[From the <b>Available Styles</b> section, select a report type and style.]]></Step>
+<Step><![CDATA[Select the <b>Crystal Report</b> option from the <b>Add New Item</b> dialog box and click the <b>Add</b> Button.]]></Step>
+<Step><![CDATA[From the <b>Crystal Reports Gallery</b>, select the report document and report expert.]]></Step>
+<Step><![CDATA[Enter the name of the report file in the <b>Name</b> textbox.]]></Step>
+</Steps>
+<type>drag&drop</type>
+<CorrectAnswer>3,5,4,1,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct sequence is displayed on the right.]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

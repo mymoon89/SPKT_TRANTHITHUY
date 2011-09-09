@@ -1,0 +1,12 @@
+bin\Debug\MenuStripProject.exe
+bin\Debug\MenuStripProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MenuStripProject.Properties.Resources.resources
+obj\Debug\MenuStripProject.csproj.GenerateResource.Cache
+obj\Debug\MenuStripProject.exe
+obj\Debug\MenuStripProject.pdb
+obj\Debug\MenuStripProject.Form1.resources
+obj\Debug\MenuStripProject.Form2.resources
+obj\Debug\MenuStripProject.Form3.resources
+obj\Debug\MenuStripProject.Form4.resources
+obj\Debug\MenuStripProject.Form5.resources

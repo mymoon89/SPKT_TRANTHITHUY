@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the features of crystal reports against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Features</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Provides options for designing and sorting the database.]]></Option>
+<Option><![CDATA[Facilitates access of the databases by using more than 35 data drivers.]]></Option>
+<Option><![CDATA[Stores all objects used in a report in a centralized library for easy access.]]></Option>
+<Option><![CDATA[Allows the user to preview the report before generating it.]]></Option>
+<Option><![CDATA[Updates itself to all the latest service packs and fixes.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[Reusability]]></Step>
+<Step><![CDATA[Security]]></Step>
+<Step><![CDATA[Data Designing and Formatting]]></Step>
+<Step><![CDATA[Data Access]]></Step>
+<Step><![CDATA[Viewing Reports]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>3,4,1,5,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that’s correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that’s incorrect. The correct combinations are: (A)-(3), (B)-(4), (C)-(1), (D)-(5), and (E)-(2).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

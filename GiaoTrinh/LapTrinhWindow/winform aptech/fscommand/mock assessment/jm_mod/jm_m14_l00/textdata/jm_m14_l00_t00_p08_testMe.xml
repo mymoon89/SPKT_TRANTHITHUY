@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about the help files, <font face="courier new">HelpProvider</font> component, pop-up help, and <font face="courier new">ToolTip</font> component are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[HTML Help workshop allows you to create Table of Contents with .hhc extension.]]></Option>
+<Option><![CDATA[The New Project – Destination page of HTML Help Workshop allows you to specify the path to save the help file.]]></Option>
+<Option><![CDATA[The <font face="courier new">HelpNamespace</font> property of Help class specifies the component of a help file to be displayed.]]></Option>
+<Option><![CDATA[The <font face="courier new">HelpButton</font> property of <font face="courier new">Form</font> class supports the <font face="courier new">MinimizeBox</font> property of the <font face="courier new">Form</font> class.]]></Option>
+<Option><![CDATA[The <font face="courier new">GetToolTip()</font> method of <font face="courier new">ToolTip</font> class fetches the control for which the tool tip is displayed.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,1,0,0,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(True), (C)-(False), (D)-(False), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

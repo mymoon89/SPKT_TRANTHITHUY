@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements of <font face="courier new">DataAdapter</font> classes are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">DataAdapter</font> is used to link the <font face="courier new">DataSet</font> to a data source. ]]></Option>
+<Option><![CDATA[The <font face="courier new">SqlDataAdapter</font> is used to edit data in the SQL Server database and update the <font face="courier new">DataSet</font>.]]></Option>
+<Option><![CDATA[The <font face="courier new">OleDbDataAdapter</font> class is used to connect to multiple databases such as SQL, Oracle, and Microsoft Access.]]></Option>
+<Option><![CDATA[The <font face="courier new">AcceptChangesDuringFill</font> property indicates how the <font face="courier new">DataReader</font> object is used to fill the <font face="courier new">DataSet</font>.]]></Option>
+<Option><![CDATA[The <font face="courier new">Fill()</font> method uses the <font face="courier new">DataSet</font> name to add or refresh rows in the <font face="courier new">DataSet</font> to match with those in the data source.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,1,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(False), (C)-(True), (D)-(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of <font face="courier new">CrystalReportViewer</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This property identifies the formula for filtering records in a report.]]></Option>
+<Option><![CDATA[This method exports the report displayed in the control.]]></Option>
+<Option><![CDATA[This method prints the report displayed in the control.]]></Option>
+<Option><![CDATA[This event occurs when the user navigates through a report.]]></Option>
+<Option><![CDATA[This property specifies the source of the report to be bound.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">ExportReport</font>]]></Step>
+<Step><![CDATA[<font face="courier new">SelectionFormula</font>]]></Step>
+<Step><![CDATA[<font face="courier new">ReportSource</font>]]></Step>
+<Step><![CDATA[<font face="courier new">PrintReport</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Navigate</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>2,1,4,5,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)–(2), (B)–(1), (C)–(4), (D)–(5), and (E)-(3).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

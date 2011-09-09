@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to load an image of a toy in a <font face="courier new">PictureBox</font> control. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">PictureBox picBook = new PictureBox();<br>picBook.Name = "picToyImage";<br>picBook.Text = "TeddyBear";<br>picBook.SetImage = "image01.jpg";<br>picBook.SetBounds(10, 10, 150, 200);<br>picBook.SizeMode = PictureBoxSizeMode.StretchImage;</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">PictureBox picBook = new PictureBox();<br>picBook.Name = "picToyImage";<br>picBook.Text = "TeddyBear";<br>picBook.ImageLocation = "image01.jpg";<br>picBook.SetBounds(10, 10, 150, 200);<br>picBook.SizeMode = PictureBoxSizeMode.StretchImage;</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">PictureBox picBook = new PictureBox();<br>picBook.Name = "picToyImage";<br>picBook.Text = "TeddyBear";<br>picBook.SetImageLocation = "image01.jpg";<br>picBook.SetBounds(10, 10, 150, 200);<br>picBook.SizeMode = PictureBoxSizeMode.StretchImage;</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">PictureBox picBook = new PictureBox();<br>picBook.Name = "picToyImage";<br>picBook.Text = "TeddyBear";<br>picBook.GetImageLocation = "image01.jpg";<br>picBook.SetBounds(10, 10, 150, 200);<br>picBook.SizeMode = PictureBoxSizeMode.StretchImage;</font><br>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (B).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

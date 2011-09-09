@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of the <font face="courier new">DataTable</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This property specifies or retrieves the table name.]]></Option>
+<Option><![CDATA[This property retrieves the <font face="courier new">DataSet</font> belonging to the table.]]></Option>
+<Option><![CDATA[This event occurs on deletion of a row in the table.]]></Option>
+<Option><![CDATA[This event occurs on inserting a row in the table.]]></Option>
+<Option><![CDATA[This method removes all the data from the table.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">RowDeleted</font>]]></Step>
+<Step><![CDATA[<font face="courier new">TableNewRow</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Clear()</font>]]></Step>
+<Step><![CDATA[<font face="courier new">TableName</font>]]></Step>
+<Step><![CDATA[<font face="courier new">DataSet</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,5,1,2,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(4), (B)-(5), (C)-(1), (D)-(2), and (E)-(3).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

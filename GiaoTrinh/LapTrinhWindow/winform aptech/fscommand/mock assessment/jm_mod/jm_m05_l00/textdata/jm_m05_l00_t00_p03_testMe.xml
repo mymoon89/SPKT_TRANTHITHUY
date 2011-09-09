@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements regarding dialog boxes are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[A dialog box is always modal.]]></Option>
+<Option><![CDATA[The <b>Find</b> dialog box of Internet Explorer is a modal dialog box.]]></Option>
+<Option><![CDATA[Modeless dialog boxes allow you to work with the application on which the dialog box is placed.]]></Option>
+<Option><![CDATA[A dialog box is a window that cannot be maximized, minimized, or restored. ]]></Option>
+<Option><![CDATA[The <b>Font</b> dialog box in the Paint program is a modeless dialog box.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,0,1,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that’s correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that’s incorrect. The correct selections are: (A)-(False), (B)-(False), (C)-(True), (D)-(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

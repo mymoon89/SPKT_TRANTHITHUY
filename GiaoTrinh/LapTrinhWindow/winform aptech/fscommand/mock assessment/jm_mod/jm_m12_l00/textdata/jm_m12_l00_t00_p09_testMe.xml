@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a custom button that changes its fore color and font when it receives focus. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">public partial class BoldButton : Button<br>{<br>&nbsp;&nbsp;protected void OnGotFocus(EventArgs e)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;this.Font = new Font(this.Font, FontStyle.Bold | FontStyle.Underline);<br>&nbsp;&nbsp;&nbsp;&nbsp;this.ForeColor = Color.LightSalmon;<br>&nbsp;&nbsp;}<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">public partial class BoldButton : Button<br>{<br>&nbsp;&nbsp;protected override void OnGotFocus(EventArgs e)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;this.Font = new Font(this.Font, FontStyle.Bold | FontStyle.Underline);<br>&nbsp;&nbsp;&nbsp;&nbsp;this.ForeColor = Color.LightSalmon;<br>&nbsp;&nbsp;}<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">public partial class BoldButton : Button<br>{<br>&nbsp;&nbsp;protected override void OnGotFocus(EventArgs e)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;Font = new Font[this.Font, FontStyle.Bold, FontStyle.Underline];<br>&nbsp;&nbsp;&nbsp;&nbsp;this.ForeColor = Color.LightSalmon;<br>&nbsp;&nbsp;}<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">public partial class BoldButton : Button<br>{<br>&nbsp;&nbsp;protected void OnGotFocus(EventArgs e)<br>&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;this.Font = new Font(this.Font, FontStyle.Bold,<br>FontStyle.Underline);<br>&nbsp;&nbsp;&nbsp;&nbsp;this.ForeColor = Color.LightSalmon;<br>&nbsp;v}<br>}</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct. You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct answer is: (B).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

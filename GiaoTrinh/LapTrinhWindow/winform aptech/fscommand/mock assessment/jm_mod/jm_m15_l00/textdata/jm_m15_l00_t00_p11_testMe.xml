@@ -1,0 +1,29 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you arrange the steps to be followed for publishing a Windows-based application to a Web server? ]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Choose the <b>Publish</b> option from the context menu. The Publish Wizard appears.]]></Option>
+<Option><![CDATA[In the <b>Where do you want to publish the application?</b> page, enter a valid URL.]]></Option>
+<Option><![CDATA[Click <b>Next</b> and then <b>Finish</b> for publishing the application.]]></Option>
+<Option><![CDATA[Select the project from <b>Solution Explorer</b> window and right-click the project node.]]></Option>
+<Option><![CDATA[In the <b>Will the application be available offline?</b> page, click a suitable option.]]></Option>
+</Options>
+<Steps>
+<Step><![CDATA[Choose the <b>Publish</b> option from the context menu. The Publish Wizard appears.]]></Step>
+<Step><![CDATA[In the <b>Where do you want to publish the application?</b> page, enter a valid URL.]]></Step>
+<Step><![CDATA[Click <b>Next</b> and then <b>Finish</b> for publishing the application.]]></Step>
+<Step><![CDATA[Select the project from <b>Solution Explorer</b> window and right-click the project node.]]></Step>
+<Step><![CDATA[In the <b>Will the application be available offline?</b> page, click a suitable option.]]></Step>
+</Steps>
+<type>drag&drop</type>
+<CorrectAnswer>4,1,2,5,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct sequence is displayed on the right.]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about displaying, printing, and buffering GDI+ objects are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">DrawImage()</font> method of <font face="courier new">Graphics</font> class is used to draw the image into the buffer.]]></Option>
+<Option><![CDATA[The <font face="courier new">Bitmap</font> class is inherited from the <font face="courier new">Image</font> class.]]></Option>
+<Option><![CDATA[The <font face="courier new">PrintDocuments</font> class is used to print the GDI+ objects.]]></Option>
+<Option><![CDATA[Double buffering is used to render the images faster on the screen.]]></Option>
+<Option><![CDATA[The <font face="courier new">DoubleBuffer</font> property is used to enable double buffering.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,1,0,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)–(False), (B)–(True), (C)–(False), (D)–(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

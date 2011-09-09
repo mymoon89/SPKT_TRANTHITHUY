@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display the <b>Index</b> tab of the help file, <b>Employees.chm</b> using the <font face="courier new">ShowHelp()</font> method of <font face="courier new">Help</font> class when the user clicks a button. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">Button btnHelp = new Button();<br>Controls.Add(btnHelp);<br>private void btnHelp_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;Help.ShowHelp(this, @"c:\Employees.chm", HelpNavigator.Index);<br>}</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">Button btnHelp = new Button();<br>Controls.Add(btnHelp);<br>private void btnHelp_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;Help.ShowHelp(this, @"c:\Employees.chm");<br>}</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">Button btnHelp = new Button();<br>Controls.Add(btnHelp);<br>private void btnHelp_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;Help.ShowHelp(this, @"c:\Employees.chm", HelpNavigators.IndexTab);<br>}</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">Button btnHelp = new Button();<br>Controls.Add(btnHelp);<br>private void btnHelp_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;Help.ShowHelp(@"c:\Employees.chm");<br>}</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (A).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

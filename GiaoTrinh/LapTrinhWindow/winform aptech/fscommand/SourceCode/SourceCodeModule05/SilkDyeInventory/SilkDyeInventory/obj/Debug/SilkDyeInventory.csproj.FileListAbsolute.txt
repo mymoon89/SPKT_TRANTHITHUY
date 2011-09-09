@@ -1,0 +1,10 @@
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory\bin\Debug\SilkDyeInventory.XML
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory\obj\Debug\SilkDyeInventory.exe
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory\obj\Debug\SilkDyeInventory.pdb
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory\bin\Debug\SilkDyeInventory.exe
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory\bin\Debug\SilkDyeInventory.pdb
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory\obj\Debug\ResolveAssemblyReference.cache
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory\obj\Debug\SilkDyeInventory.frmProductDetails.resources
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory\obj\Debug\SilkDyeInventory.frmPurchaseOrder.resources
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory\obj\Debug\SilkDyeInventory.Properties.Resources.resources
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory\obj\Debug\SilkDyeInventory.csproj.GenerateResource.Cache

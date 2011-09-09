@@ -1,0 +1,13 @@
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ListViewProject.exe
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ListViewProject.pdb
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\bin\Debug\ListViewProject.exe
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\bin\Debug\ListViewProject.pdb
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ListViewProject.Form1.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ListViewProject.Form2.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ListViewProject.Form3.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ListViewProject.Form4.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ListViewProject.Properties.Resources.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ListViewProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ListViewProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ListViewProject\obj\Debug\ListViewProject.pdb

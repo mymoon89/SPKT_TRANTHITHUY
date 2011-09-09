@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about ClickOnce deployment are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[ClickOnce deployment reduces the manual effort required in installing an application.]]></Option>
+<Option><![CDATA[ClickOnce deployment requires only administrative users to install an application.]]></Option>
+<Option><![CDATA[ClickOnce applications use an application manifest to determine the software version.]]></Option>
+<Option><![CDATA[ClickOnce applications use a deployment manifest to locate the application manifest.]]></Option>
+<Option><![CDATA[Microsoft Visual Studio 2005 provides the <b>Publishing</b> wizard for publishing applications to a removable media.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,0,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(False), (C)-(False), (D)-(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

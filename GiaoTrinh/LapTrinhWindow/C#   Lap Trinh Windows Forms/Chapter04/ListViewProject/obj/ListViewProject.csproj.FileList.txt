@@ -1,0 +1,11 @@
+bin\Debug\ListViewProject.exe
+bin\Debug\ListViewProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ListViewProject.Properties.Resources.resources
+obj\Debug\ListViewProject.csproj.GenerateResource.Cache
+obj\Debug\ListViewProject.exe
+obj\Debug\ListViewProject.pdb
+obj\Debug\ListViewProject.Form1.resources
+obj\Debug\ListViewProject.Form2.resources
+obj\Debug\ListViewProject.Form3.resources
+obj\Debug\ListViewProject.Form4.resources

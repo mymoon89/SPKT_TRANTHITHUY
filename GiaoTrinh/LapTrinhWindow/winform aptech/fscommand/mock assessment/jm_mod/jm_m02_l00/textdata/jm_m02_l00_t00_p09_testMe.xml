@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about the <font face="courier new">SplitContainer</font> control are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">SplitContainer</font> control is used to separate the form into horizontal or vertical panels.]]></Option>
+<Option><![CDATA[The <font face="courier new">Panel1</font> property is used to retrieve the right or the bottom panel of a <font face="courier new">SplitContainer</font> control.]]></Option>
+<Option><![CDATA[The <font face="courier new">FixedPanel</font> property is used to specify which panel of a <font face="courier new">SplitContainer</font> control is not resized while changing the size of the form.]]></Option>
+<Option><![CDATA[The <font face="courier new">SplitterMoving</font> event is raised when the splitter is moved. ]]></Option>
+<Option><![CDATA[The <font face="courier new">Shown()</font> method is used to display the <font face="courier new">SplitContainer</font> control to the user.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,1,0,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that’s incorrect. The correct selections are: (A)–(True), (B)–(False), (C)–(True), (D)–(False), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

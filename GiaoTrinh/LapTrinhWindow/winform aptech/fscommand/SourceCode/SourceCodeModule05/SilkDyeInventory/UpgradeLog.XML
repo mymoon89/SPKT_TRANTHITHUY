@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SilkDyeInventory">
+</Property><Property Name="Solution File" Value="F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory.sln">
+</Property><Property Name="User Options File" Value="F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\SilkDyeInventory.suo">
+</Property><Property Name="Date" Value="03 Tháng Ba 2011">
+</Property><Property Name="Time" Value="14:06 CH">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SilkDyeInventory.sln" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SilkDyeInventory.suo" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory.suo">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\SilkDyeInventory.csproj" Description="Project file successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\SilkDyeInventory.csproj">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\frmProductDetails.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\frmProductDetails.cs">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\frmProductDetails.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\frmProductDetails.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\frmPurchaseOrder.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\frmPurchaseOrder.cs">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\frmPurchaseOrder.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\frmPurchaseOrder.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\Program.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\Program.cs">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\Properties\AssemblyInfo.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\Properties\Resources.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\Properties\Settings.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\Properties\Settings.settings" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\frmProductDetails.resx" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\frmProductDetails.resx">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\frmPurchaseOrder.resx" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\frmPurchaseOrder.resx">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\Properties\Resources.resx" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\SilkDyeInventory\Backup\SilkDyeInventory\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\SilkDyeInventory.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SilkDyeInventory" Source="SilkDyeInventory\SilkDyeInventory.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SilkDyeInventory.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SilkDyeInventory.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SilkDyeInventory" Source="SilkDyeInventory\SilkDyeInventory.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

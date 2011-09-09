@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the format strings of the <font face="courier new">CustomFormat</font> property against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Format Strings</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Displays time representing 24 hour format.]]></Option>
+<Option><![CDATA[Displays the number indicating the month.]]></Option>
+<Option><![CDATA[Displays the number indicating minutes.]]></Option>
+<Option><![CDATA[Displays the starting letter of A.M. or P.M. ]]></Option>
+<Option><![CDATA[Displays time representing 12 hour format.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">h</font>]]></Step>
+<Step><![CDATA[<font face="courier new">m</font>]]></Step>
+<Step><![CDATA[<font face="courier new">M</font>]]></Step>
+<Step><![CDATA[<font face="courier new">H</font>]]></Step>
+<Step><![CDATA[<font face="courier new">t</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,3,2,5,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that’s correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that’s incorrect. The correct combinations are: (A)–(4), (B)–(3), (C)–(2), (D)–(5), and (E)-(1).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

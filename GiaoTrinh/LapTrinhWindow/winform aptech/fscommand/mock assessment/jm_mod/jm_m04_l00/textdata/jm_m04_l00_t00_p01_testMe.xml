@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a date in dd - MM - yyyy format using the <font face="courier new">DateTimePicker</font> control. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<br><br><font face="courier new">DateTimePicker dtpBirthDate = new DateTimePicker;<br>dtpBirthDate.Format = DateTimePickerFormat.Custom;<br>dtpBirthDate.CustomFormat = "dd - MM - yyyy";</font>]]></Option>
+	<Option><![CDATA[<br><br><font face="courier new">DateTimePicker dtpBirthDate = new DateTimePicker();<br>dtpBirthDate.Format = DateTimePickerFormat.Short;<br>dtpBirthDate.CustomFormat = "dd - MM - yyyy";</font>]]></Option>
+	<Option><![CDATA[<br><br><font face="courier new">DateTimePicker dtpBirthDate = new DateTimePicker();<br>dtpBirthDate.Format = DateTimePickerFormat.Custom;<br>dtpBirthDate.CustomFormat = "dd - MM - yyyy";</font>]]></Option>
+        <Option><![CDATA[<br><br><font face="courier new">DateTimePicker dtpBirthDate = new DateTimePicker();<br>dtpBirthDate.Format = DateTimePickerFormat.Custom();<br>dtpBirthDate.CustomFormat = "dd - MM - yyyy";</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

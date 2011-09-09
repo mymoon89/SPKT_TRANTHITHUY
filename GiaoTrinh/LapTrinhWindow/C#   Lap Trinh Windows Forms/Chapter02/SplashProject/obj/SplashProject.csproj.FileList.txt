@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SplashProject.Form1.resources
+obj\Debug\SplashProject.frmSplash.resources
+obj\Debug\SplashProject.Properties.Resources.resources
+obj\Debug\SplashProject.csproj.GenerateResource.Cache
+bin\Debug\SplashProject.exe
+bin\Debug\SplashProject.pdb
+obj\Debug\SplashProject.exe
+obj\Debug\SplashProject.pdb

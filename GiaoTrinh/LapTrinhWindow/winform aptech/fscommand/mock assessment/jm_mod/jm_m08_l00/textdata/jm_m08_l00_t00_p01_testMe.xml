@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to add all the patient names present in the <font face="courier new">PatientName</font> column of the <font face="courier new">Patients</font> table in a combo box. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">SqlDataAdapter sqldaPatients = new SqlDataAdapter("SELECT * FROM Patients");<br>DataSet dsetPatients = new DataSet();<br>sqldaPatients.Fill(dsetPatients, "Patients");<br>int rowNumber = 0;<br><br>while (rowNumber &lt; dsetPatients.Tables("Patients").Rows.Count)<br>{<br>&nbsp;&nbsp;cboPatients.Items.Add(dsetPatients.Tables["Patients"].Rows<br>&nbsp;&nbsp;&nbsp;[rowNumber]["PatientName"].ToString());<br>&nbsp;&nbsp;&nbsp;rowNumber++;<br>}</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">SqlDataAdapter sqldaPatients = new SqlDataAdapter("SELECT * FROM Patients", sqlconPatients);<br>DataSet dsetPatients = new DataSet();<br>sqldaPatients.Fill(dsetPatients, "Patients");<br>int rowNumber = 0;<br><br>while (rowNumber &lt; dsetPatients.Tables("Patients").Rows.Count())<br>{<br>&nbsp;&nbsp;cboPatients.Items.Add(dsetPatients.Tables["Patients"].Rows<br>&nbsp;&nbsp;&nbsp;[rowNumber]["PatientName"].ToString());<br>&nbsp;&nbsp;&nbsp;rowNumber++;<br>}</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlDataAdapter sqldaPatients = new SqlDataAdapter("SELECT * FROM Patients", sqlconPatients);<br>DataSet dsetPatients = new DataSet();<br>sqldaPatients.Fill(dsetPatients, "Patients");<br>int rowNumber = 0;<br><br>while (rowNumber &lt; dsetPatients.Tables["Patients"].Rows.Count)<br>{<br>&nbsp;&nbsp;cboPatients.Items.Add(dsetPatients.Tables["Patients"].Rows<br>&nbsp;&nbsp;&nbsp;[rowNumber]["PatientName"].ToString());<br>&nbsp;&nbsp;&nbsp;rowNumber++;<br>}</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlDataAdapter sqldaPatients = new SqlDataAdapter("SELECT * FROM Patients");<br>DataSet dsetPatients = new DataSet();<br>sqldaPatients.Fill(dsetPatients, "Patients");<br>int rowNumber = 0;<br><br>while (rowNumber &lt; dsetPatients.Tables["Patients"].Rows.Count())<br>{<br>&nbsp;&nbsp;cboPatients.Items.Add(dsetPatients.Tables["Patients"].Rows[<br>&nbsp;&nbsp;&nbsp;[rowNumber]["PatientName"].ToString());<br>&nbsp;&nbsp;&nbsp;rowNumber++;<br>}</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

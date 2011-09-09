@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to draw an arc in blue color using a pen. In addition, you want to position the pen towards the left. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">Graphics graphics = this.CreateGraphics();<br>Pen penLine = new Pen(Color.Blue);<br>penLine.Alignment = System.Drawing.Drawing2D.PenAlignment.Left;<br>graphics.DrawArc(penLine, new Rectangle(10, 10, 100, 100), 10, 200);<br></font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">Graphics graphics = CreateGraphics();<br>Pen penLine = new Pen(Color.Blue);<br>penLine.Alignment = System.Drawing.PenAlignment.Left;<br>graphics.DrawArc(penLine, new Rectangle(10, 10, 100, 100), 10, 200);<br></font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">Graphics graphics = this.CreateGraphics();<br>Pen penLine = (Color.Blue);<br>Alignment = System.Drawing.PenAlignment.Left;<br>graphics.DrawArc(penLine, new Rectangle(10, 10, 100, 100), 10, 200);<br></font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">Graphics graphics = CreateGraphics();<br>Pen penLine = new Pen(Color.Blue);<br>Alignment = System.Drawing.Drawing2D.PenAlignment.Left;<br>graphics.DrawArc(penLine, new Rectangle(10, 10, 100, 100), 10, 200);<br></font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (A).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

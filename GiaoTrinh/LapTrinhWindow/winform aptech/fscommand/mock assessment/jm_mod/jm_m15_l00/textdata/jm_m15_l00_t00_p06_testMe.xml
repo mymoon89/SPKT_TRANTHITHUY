@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about deploying applications are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[A setup program installs the necessary files in the <b>Program Files</b> directory by default.]]></Option>
+<Option><![CDATA[The <b>Merge Module Project</b> allows creating a single package for shared components.]]></Option>
+<Option><![CDATA[The <b>Deployment Property Page</b> option allows you to specify configuration-dependent properties.]]></Option>
+<Option><![CDATA[The first step in deploying the software includes setting deployment properties.]]></Option>
+<Option><![CDATA[The File System Editor allows selecting items to be added to the deployment project.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,1,0,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(True), (C)-(False), (D)-(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

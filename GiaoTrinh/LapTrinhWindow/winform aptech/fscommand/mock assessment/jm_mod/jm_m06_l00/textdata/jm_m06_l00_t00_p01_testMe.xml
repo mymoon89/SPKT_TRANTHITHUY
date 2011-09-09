@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display the number of controls present on the form using the <font face="courier new">StatusStrip</font> control. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">StatusStrip ststrpControls = new StatusStrip;<br>ststrpControls.BackColor = Color.Chocolate;<br>ststrpControls.Dock = DockStyle.Bottom;<br>ststrpControls.LayoutStyle = ToolStripLayoutStyle.Table;<br>ststrpControls.Items.Add("Number of controls on the form: " + Controls.Count.ToString());</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">StatusStrip ststrpControls = new StatusStrip();<br>ststrpControls.BackColor = Chocolate;<br>ststrpControls.Dock = DockStyle.Bottom;<br>ststrpControls.LayoutStyle = ToolStripLayoutStyle.Table;<br>ststrpControls.Items.Add("Number of controls on the form: " + Controls.Count.ToString());</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">StatusStrip ststrpControls = new StatusStrip();<br>ststrpControls.BackColor = Color.Chocolate;<br>ststrpControls.Dock = DockStyle.Bottom;<br>ststrpControls.LayoutStyle = ToolStripLayoutStyle.Table;<br>ststrpControls.Items.Add("Number of controls on the form: " + Controls.Count.ToString());</font>]]></Option>
+        <Option><![CDATA[<font face="courier new">Statusstrip ststrpControls = new Statusstrip();<br>ststrpControls.BackColor = Color.Chocolate;<br>ststrpControls.Dock = DockStyle.Bottom;<br>ststrpControls.LayoutStyle = ToolStripLayoutStyle.Table;<br>ststrpControls.Items.Add("Number of controls on the form: " + Controls.Count.ToString());</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

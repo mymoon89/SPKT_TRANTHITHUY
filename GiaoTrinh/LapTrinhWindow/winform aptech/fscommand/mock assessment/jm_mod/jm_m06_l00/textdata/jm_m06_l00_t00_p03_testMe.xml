@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about MDI are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[An MDI application supports maximum two parent forms.]]></Option>
+<Option><![CDATA[A child form remains open even when the parent form is closed.]]></Option>
+<Option><![CDATA[A parent form remains open even if all the child forms are closed. ]]></Option>
+<Option><![CDATA[An MDI application increases the risk of data inconsistency while working with multiple child forms.]]></Option>
+<Option><![CDATA[The <font face="courier new">IsMdiFormContainer</font> property is used to create a parent form.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,0,1,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(False), (B)-(False), (C)-(True), (D)-(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the features of ADO.NET with their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Feature</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Copies large files in SQL Server databases.]]></Option>
+<Option><![CDATA[Sends requests for multiple commands to the server simultaneously.]]></Option>
+<Option><![CDATA[Identifies and fixes problems in code execution.]]></Option>
+<Option><![CDATA[Runs time consuming commands in the background.]]></Option>
+<Option><![CDATA[Executes multiple batches on a single connection.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[Asynchronous Processing]]></Step>
+<Step><![CDATA[Multiple Active Result Sets]]></Step>
+<Step><![CDATA[Bulk Copy Operations]]></Step>
+<Step><![CDATA[Batch Processing]]></Step>
+<Step><![CDATA[Tracing]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>3,4,5,1,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(3), (B)-(4), (C)-(5), (D)-(1), and (E)-(2).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

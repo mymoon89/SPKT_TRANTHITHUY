@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a message box stating that "<font face="courier new">Five seconds are over</font>" at every five second interval using a timer. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">Timer tmrCounter = new Timer();<br>tmrCounter.Interval = 5000;<br>tmrCounter.Start();<br><br>private void tmrCounter_Ticks(Object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;MessageBox.Show("Five seconds are over");<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">Timer tmrCounter = new Timer();<br>tmrCounter.Interval = 500;<br>tmrCounter.Start();<br><br>private void tmrCounter_Tick(Object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;MessageBox.Show("Five seconds are over");<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">Timer tmrCounter = new Timer();<br>tmrCounter.Interval = 500;<br>tmrCounter.Start();<br><br>private void tmrCounter_Ticks(Object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;MessageBox.Show("Five seconds are over");<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">Timer tmrCounter = new Timer();<br>tmrCounter.Interval = 5000;<br>tmrCounter.Start();<br><br>private void tmrCounter_Tick(Object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;MessageBox.Show("Five seconds are over");<br>}</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (D).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

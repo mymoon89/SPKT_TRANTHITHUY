@@ -1,0 +1,30 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties and methods of the <font face="courier new">DataSet</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This property specifies or retrieves the locale information used to compare strings in a table.]]></Option>
+<Option><![CDATA[This property specifies or retrieves the <font face="Courier New">DataSet</font> name.]]></Option>
+<Option><![CDATA[This method removes rows in all the tables.]]></Option>
+<Option><![CDATA[This method retrieves the type of the current instance.]]></Option>
+<Option><![CDATA[This method retrieves XML schema and data into the <font face="Courier New">DataSet</font>.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[ReadXml]]></Step>
+<Step><![CDATA[Clear]]></Step>
+<Step><![CDATA[GetType]]></Step>
+<Step><![CDATA[Locale]]></Step>
+<Step><![CDATA[DataSetName]]></Step>
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,5,2,3,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(4), (B)-(5), (C)-(2), (D)-(3), and (E)-(1).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

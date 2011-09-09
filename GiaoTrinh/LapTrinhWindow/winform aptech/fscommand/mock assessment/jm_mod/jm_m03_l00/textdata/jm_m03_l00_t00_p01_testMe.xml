@@ -1,0 +1,25 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following snippets about <font face="courier new">TreeView</font> control are correct and which are incorrect?]]></QuestionText>
+<Options>
+	<Option>TreeView tvwSubject = new TreeView();</Option>
+	<Option>tvwSubject.Nodes.Add("Subjects");</Option>
+	<Option>tvwSubject.Nodes[0].Nodes.Add("Maths");</Option>
+	<Option>tvwSubject.Nodes[0].Child.Add("Algebra");</Option>
+	<Option>tvwSubject.Nodes[0].AddNew("Geometry");</Option>
+	<Option>tvwSubject.Refresh();</Option>
+	<Option>tvwSubject.Nodes[0].AddChild("Grammar");</Option>
+	<Option>Controls.Add(tvwSubject);</Option>
+</Options>
+<Steps>
+	<Step></Step>
+	
+</Steps>
+<type>MCMS</type>
+<CorrectAnswer>1,2,3,6,8</CorrectAnswer>
+<CorrectFeedback>Yes, that's correct! You get one point for your response.</CorrectFeedback>
+<incorrectFeedback>No, that's incorrect. The correct selections are: (A), (B), (C), (F), and (H).</incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display the age of patients who have Tuberculosis disease in the descending order. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconMomAngelCare = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=MomAngelCare;Integrated Security=SSPI");<br>SqlDataAdapter sqldaMomAngelCare = new SqlDataAdapter("SELECT * FROM Patient");<br>DataSet dsetMomAngelCare = new DataSet();<br>sqldaMomAngelCare.Fill(dsetMomAngelCare);<br>DataGrid dgridPatient = new DataGrid();<br>BindingSource bsrcMomAngelCare = new BindingSource();<br>bsrcMomAngelCare.DataSource = dsetMomAngelCare.Tables("Patient");<br>bsrcMomAngelCare.Sort = "Age DESC";<br>bsrcMomAngelCare.Filter = "Disease = 'Tuberculosis'";<br>dgridPatient.DataSource = bsrcMomAngelCare;</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconMomAngelCare = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=MomAngelCare;Integrated Security=SSPI");<br>SqlDataAdapter sqldaMomAngelCare = new SqlDataAdapter("SELECT * FROM Patient");<br>DataSet dsetMomAngelCare = new DataSet();<br>sqldaMomAngelCare.Fill(dsetMomAngelCare, "Patient");<br>DataGrid dgridPatient = new DataGrid();<br>BindingSource bsrcMomAngelCare = new BindingSource()<br>bsrcMomAngelCare.DataSource = dsetMomAngelCare.Tables["Patient"];<br>bsrcMomAngelCare.Sort = "Age DESC";<br>bsrcMomAngelCare.Filter = "Disease('Tuberculosis')";<br>bsrcMomAngelCare = dgridPatient.DataSource;</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconMomAngelCare = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=MomAngelCare;Integrated Security=SSPI");<br>SqlDataAdapter sqldaMomAngelCare = new SqlDataAdapter("SELECT * FROM Patient", sqlconMomAngelCare);<br>DataSet dsetMomAngelCare = new DataSet();<br>sqldaMomAngelCare.Fill(dsetMomAngelCare, "Patient");<br>DataGrid dgridPatient = new DataGrid();<br>BindingSource bsrcMomAngelCare = new BindingSource();<br>bsrcMomAngelCare.DataSource = dsetMomAngelCare.Tables["Patient"];<br>bsrcMomAngelCare.Sort = "Age DESC";<br>bsrcMomAngelCare.Filter = "Disease = 'Tuberculosis'";<br>dgridPatient.DataSource = bsrcMomAngelCare;</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconMomAngelCare = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=MomAngelCare;Integrated Security=SSPI");<br>SqlDataAdapter sqldaMomAngelCare = new SqlDataAdapter("SELECT * FROM Patient");<br>DataSet dsetMomAngelCare = new DataSet();<br>sqldaMomAngelCare.Fill(dsetMomAngelCare, "Patient");<br>DataGrid dgridPatient = new DataGrid();<br>BindingSource bsrcMomAngelCare = new BindingSource();<br>bsrcMomAngelCare.DataSource = dsetMomAngelCare.Tables["Patient"];<br>bsrcMomAngelCare.Sort = "Age DESC";<br>bsrcMomAngelCare.Filter = "Disease = 'Tuberculosis'";<br>dgridPatient.DataSource = bsrcMomAngelCare;</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selction is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

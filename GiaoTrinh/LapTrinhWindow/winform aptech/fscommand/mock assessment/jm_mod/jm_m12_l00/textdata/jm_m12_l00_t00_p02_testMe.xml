@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you write the code for specifying a Toolbox bitmap, logo.bmp, to the custom <font face="courier new">control CustomLabel</font>?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<br><font face="courier new">[ToolboxBitmapAttribute(@"logo.bmp")]<br>public partial class CustomLabel : Label<br>{<br>&nbsp;&nbsp;. . .<br>}</font>]]></Option>
+
+	<Option><![CDATA[<br><font face="courier new">[ToolboxBitmapAttribute(@"logo.bmp")]<br>public partial class CustomLabel : Label<br>{<br>&nbsp;&nbsp;. . .<br>}</font>]]></Option>
+	
+	<Option><![CDATA[<br><font face="courier new">ToolboxBitmapAttribute("@logo.bmp")<br>public partial class CustomLabel : Label<br>{<br>&nbsp;&nbsp;. . .<br>}</font>]]></Option>
+	
+	<Option><![CDATA[<br><font face="courier new">[ToolboxBitmapAttribute["logo.bmp"]]<br>public partial class CustomLabel : Label<br>{<br>&nbsp;&nbsp;. . .<br>}</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct answer is: (A).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

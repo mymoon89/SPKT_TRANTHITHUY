@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the methods, properties, and events of the <font face="courier new">RadioButton</font> and <font face="courier new">CheckBox</font> controls against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The property determines whether the control is checked, unchecked, or indeterminate.]]></Option>
+<Option><![CDATA[The event occurs when the value of the <font face="courier new">Checked</font> property is changed.]]></Option>
+<Option><![CDATA[The property determines whether the control is checked.]]></Option>
+<Option><![CDATA[The method activates the control.]]></Option>
+<Option><![CDATA[The event occurs when the value of the <font face="courier new">CheckState</font> property is changed.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">Checked</font>]]></Step>
+<Step><![CDATA[<font face="courier new">CheckStateChanged</font> ]]></Step>
+<Step><![CDATA[<font face="courier new">Select</font>]]></Step>
+<Step><![CDATA[<font face="courier new">CheckState</font>]]></Step>
+<Step><![CDATA[<font face="courier new">CheckedChanged</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,5,1,3,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that’s correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)–(4), (B)–(5), (C)–(1), (D)–(3), and (E)-(2)]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

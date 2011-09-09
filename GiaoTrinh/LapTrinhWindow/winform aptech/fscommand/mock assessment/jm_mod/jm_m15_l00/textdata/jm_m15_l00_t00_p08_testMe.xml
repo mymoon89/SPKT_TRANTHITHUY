@@ -1,0 +1,26 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about the deployment editors are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The Launch Conditions Editor contains four folders to perform actions during Install, Commit, Rollback, and Reinstall deployment phases.]]></Option>
+<Option><![CDATA[The Registry Editor allows you to set binary values to the keys.]]></Option>
+<Option><![CDATA[The File System Editor provides the Windows folder to save files in the Windows folder of the user's machine. ]]></Option>
+<Option><![CDATA[The <font face = "courier new">Extensions</font> property of Registry Editor associates a file extension to a file type.]]></Option>
+<Option><![CDATA[The User Interface Editor allows you to create custom dialog boxes, which will be displayed at the time of installation.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,1,0,1,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(False), (B)-(True), (C)-(False), (D)-(True), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

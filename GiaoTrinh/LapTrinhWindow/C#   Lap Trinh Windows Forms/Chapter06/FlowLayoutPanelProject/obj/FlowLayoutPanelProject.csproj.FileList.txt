@@ -1,0 +1,8 @@
+bin\Debug\FlowLayoutPanelProject.exe
+bin\Debug\FlowLayoutPanelProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FlowLayoutPanelProject.Properties.Resources.resources
+obj\Debug\FlowLayoutPanelProject.csproj.GenerateResource.Cache
+obj\Debug\FlowLayoutPanelProject.exe
+obj\Debug\FlowLayoutPanelProject.pdb
+obj\Debug\FlowLayoutPanelProject.Form1.resources

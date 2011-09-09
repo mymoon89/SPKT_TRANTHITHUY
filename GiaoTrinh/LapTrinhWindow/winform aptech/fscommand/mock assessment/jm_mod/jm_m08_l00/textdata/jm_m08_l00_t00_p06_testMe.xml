@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to connect to a table named <font face="courier new">Products</font> in an OLE DB supported database to retrieve the number of fields. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">OleDbCommand oledbcomProducts = new OleDbCommand("SELECT * FROM <br>Products");<br>OleDbDataReader oledbdreaderProducts =<br>oledbcomProducts.ExecuteReader();<br>int numberOfFields = oledbdreaderProducts.FieldCount;<br>MessageBox.Show("Number of Fields: " + numberOfFields);</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">OleDbCommand oledbcomProducts = new OleDbCommand("SELECT * FROM <br>Products");<br>OleDbDataReader oledbdreaderProducts = <br>oledbcomProducts.ExecuteReader();<br>int numberOfFields = oledbdreaderProducts.FieldCount();<br>MessageBox.Show("Number of Fields: " + numberOfFields);</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">OleDbCommand oledbcomProducts = new OleDbCommand("SELECT * FROM <br>Products", oledbconProducts);<br>OleDbDataReader oledbdreaderProducts =<br>oledbcomProducts.ExecuteReader();<br>int numberOfFields = oledbdreaderProducts.FieldCount;<br>MessageBox.Show("Number of Fields: " + numberOfFields);</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">OleDbCommand oledbcomProducts = new OleDbCommand("SELECT * FROM <br>Products", oledbconProducts);<br>OleDbDataReader oledbdreaderProducts =<br>oledbcomProducts.ExecuteReader();<br>int numberOfFields = oledbdreaderProducts.FieldCount();<br>MessageBox.Show("Number of Fields: " + numberOfFields);</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

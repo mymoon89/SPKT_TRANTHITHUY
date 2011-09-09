@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to bind the label to the Designation column of the <font face="courier new">EmployeeDetails</font> table. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">Label lblDesignation = new Label();<br>SqlConnection sqlconFastCarrier = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=FastCarrier;Integrated Security=SSPI");<br>SqlDataAdapter sqldaFastCarrier = new SqlDataAdapter("SELECT * FROM EmployeeDetails", sqlconFastCarrier);<br>DataSet dsetFastCarrier = new DataSet();<br>sqldaFastCarrier.Fill(dsetFastCarrier, "EmployeeDetails");<br>lblDesignation.DataBindings.Add("Text", dsetFastCarrier, "EmployeeDetails.Designation");</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">Label lblDesignation = new Label();<br>SqlConnection sqlconFastCarrier = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=FastCarrier;Integrated Security=SSPI");<br>SqlDataAdapter sqldaFastCarrier = new SqlDataAdapter("SELECT * FROM EmployeeDetails", sqlconFastCarrier);<br>DataSet dsetFastCarrier = new DataSet(EmployeeDetails);<br>sqldaFastCarrier.Fill(dsetFastCarrier);<br>lblDesignation.DataBindings.Add("Text", dsetFastCarrier, "EmployeeDetails.Designation");</font><br>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">Label lblDesignation = new Label();<br>SqlConnection sqlconFastCarrier = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=FastCarrier;Integrated Security=SSPI");<br>SqlDataAdapter sqldaFastCarrier = new SqlDataAdapter("SELECT * FROM EmployeeDetails");<br>DataSet dsetFastCarrier = new DataSet();<br>sqldaFastCarrier.Fill(dsetFastCarrier, "EmployeeDetails");<br>lblDesignation.DataBindings.Add("Text", dsetFastCarrier, "EmployeeDetails.Designation");</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">Label lblDesignation = new Label();<br>SqlConnection sqlconFastCarrier = new SqlConnection("Data Source=OLIVE\\SQLEXPRESS;Initial Catalog=FastCarrier;Integrated Security=SSPI");<br>SqlDataAdapter sqldaFastCarrier = new SqlDataAdapter("SELECT * FROM EmployeeDetails", sqlconFastCarrier);<br>DataSet dsetFastCarrier = new DataSet();<br>sqldaFastCarrier.Fill(dsetFastCarrier, "EmployeeDetails");<br>lblDesignation.DataBindings.Add(dsetFastCarrier, "EmployeeDetails.Designation");</font>]]></Option>
+
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (A).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

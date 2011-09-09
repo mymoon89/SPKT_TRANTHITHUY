@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to apply the font as <font face="courier new">Verdana</font>, size as <font face="courier new">12</font>, and style as <font face="courier new">Underline</font> to the text "Sample Text". Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">Label lblText = new Label();<br>lblText(Text) = "Sample Text";<br>lblText(AutoSize) = true;<br>Font font = "Verdana", 12, FontStyle.Underline;<br>lblText.Font = font;<br>Controls.Add(lblText);</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">Label lblText = new Label();<br>lblText.Text = "Sample Text";<br>lblText.AutoSize = true;<br>Font font = new Font("Verdana", 12, FontStyle.Underline);<br>lblText.Font = font;<br>Controls.Add(lblText);</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">Label lblText = new Label();<br>lblText(Text) = "Sample Text";<br>lblText(AutoSize) = true;<br>Font font = new Font("Verdana", 12, FontStyle.Underline);<br>lblText.Font = font;<br>Controls.Add = lblText;</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">Label lblText = new Label();<br>lblText.Text = "Sample Text";<br>lblText.AutoSize = true;<br>Font font = "Verdana", 12, FontStyle.Underline;<br>lblText.Font = font;<br>Controls.Add = lblText;</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct answer is: (B).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

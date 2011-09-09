@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolStripContainerProject", "ToolStripContainerProject\ToolStripContainerProject.csproj", "{B175FE69-AF2D-4CD4-B06C-C8F0D6D2A0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBoxProject", "GroupBoxProject\GroupBoxProject.csproj", "{5232197A-E1E8-42A7-ADA9-D6F2F6C9AAC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabControlProject", "TabControlProject\TabControlProject.csproj", "{D028F331-2EE2-487D-B4B6-1610F2F92008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanelProject", "PanelProject\PanelProject.csproj", "{E07C5715-75E8-4D79-8085-5DD1B0F26D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowLayoutPanelProject", "FlowLayoutPanelProject\FlowLayoutPanelProject.csproj", "{5C94BD1A-FC3A-482A-9B46-E3CD88BC12C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableLayoutPanel", "TableLayoutPanel\TableLayoutPanel.csproj", "{B9F443DC-96A2-4D4C-9A99-4BC7EE6491AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitContainerProject", "SplitContainerProject\SplitContainerProject.csproj", "{FD2165DD-A870-4AED-94BA-AC8D6DC4D4C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B175FE69-AF2D-4CD4-B06C-C8F0D6D2A0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B175FE69-AF2D-4CD4-B06C-C8F0D6D2A0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B175FE69-AF2D-4CD4-B06C-C8F0D6D2A0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B175FE69-AF2D-4CD4-B06C-C8F0D6D2A0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5232197A-E1E8-42A7-ADA9-D6F2F6C9AAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5232197A-E1E8-42A7-ADA9-D6F2F6C9AAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5232197A-E1E8-42A7-ADA9-D6F2F6C9AAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5232197A-E1E8-42A7-ADA9-D6F2F6C9AAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D028F331-2EE2-487D-B4B6-1610F2F92008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D028F331-2EE2-487D-B4B6-1610F2F92008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D028F331-2EE2-487D-B4B6-1610F2F92008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D028F331-2EE2-487D-B4B6-1610F2F92008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07C5715-75E8-4D79-8085-5DD1B0F26D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07C5715-75E8-4D79-8085-5DD1B0F26D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07C5715-75E8-4D79-8085-5DD1B0F26D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07C5715-75E8-4D79-8085-5DD1B0F26D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C94BD1A-FC3A-482A-9B46-E3CD88BC12C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C94BD1A-FC3A-482A-9B46-E3CD88BC12C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C94BD1A-FC3A-482A-9B46-E3CD88BC12C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C94BD1A-FC3A-482A-9B46-E3CD88BC12C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F443DC-96A2-4D4C-9A99-4BC7EE6491AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F443DC-96A2-4D4C-9A99-4BC7EE6491AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F443DC-96A2-4D4C-9A99-4BC7EE6491AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F443DC-96A2-4D4C-9A99-4BC7EE6491AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2165DD-A870-4AED-94BA-AC8D6DC4D4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2165DD-A870-4AED-94BA-AC8D6DC4D4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2165DD-A870-4AED-94BA-AC8D6DC4D4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2165DD-A870-4AED-94BA-AC8D6DC4D4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

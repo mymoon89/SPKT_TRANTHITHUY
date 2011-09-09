@@ -1,0 +1,119 @@
+.vclick_tbl_common 
+{
+	border:0px;
+	padding:0px;
+	margin:0px;
+	width:auto;
+}
+.vclick_td_common
+{
+	margin:0px;
+	padding:0px;
+}
+.vclick_td_top_left_c
+{
+	background-image:url('http://static.vclick.vn/vclick/www/delivery/images/top-left-c.gif');
+	background-repeat:no-repeat;
+	width:7px;
+	margin:0px;
+	padding:0px;
+}
+.vclick_td_logo
+{
+	background:url('http://static.vclick.vn/vclick/www/delivery/images/logo.gif');
+	background-repeat:no-repeat;
+	width:61px;
+	margin:0px;
+	padding:0px;
+}
+.vclick_td_top_middle
+{
+	background:url('http://static.vclick.vn/vclick/www/delivery/images/top-middle.gif');
+	background-repeat:repeat-x;
+	vertical-align:middle;
+	margin:0px;
+	padding:0px;
+}
+.vclick_td_top_right_c
+{
+	background-image:url('http://static.vclick.vn/vclick/www/delivery/images/top-right-c.gif');
+	background-repeat:no-repeat;
+	width:7px;
+	margin:0px;
+	padding:0px;
+}
+.vclick_td_left_border
+{
+	background-image:url('http://static.vclick.vn/vclick/www/delivery/images/left-border.gif');
+	background-repeat:repeat-y;
+	margin:0px;
+	padding:0px;
+}
+.vclick_td_center
+{
+	z-index:1000;
+	padding:4px 0px 0px 0px;
+	background: #ededed;
+}
+.vclick_td_right_border
+{
+	background-image:url('http://static.vclick.vn/vclick/www/delivery/images/right-border.gif');
+	background-repeat:repeat-y;
+	margin:0px;
+	padding:0px;
+}
+.vclick_td_bottom_right_c
+{
+	background-image:url('http://static.vclick.vn/vclick/www/delivery/images/bottom-right-c.gif');
+	background-repeat:no-repeat;
+	width:7px;
+	height:7px;
+	margin:0px;
+	padding:0px;
+}
+.vclick_td_bottom_middle
+{
+	background-image:url('http://static.vclick.vn/vclick/www/delivery/images/bottom-middle.gif');
+	background-repeat:repeat-x;
+	margin:0px;
+	padding:0px;
+}
+.vclick_td_bottom_left_c
+{
+	background-image:url('http://static.vclick.vn/vclick/www/delivery/images/bottom-left-c.gif');
+	background-repeat:no-repeat;
+	width:7px;
+	height:7px;
+	margin:0px;
+	padding:0px;
+}
+.vclick_table_action_button
+{
+	border:0px;
+	padding:0px;
+	margin:0px;
+	text-align:right;
+	width:auto;
+	float:right;	
+}
+.vclick_image_seperate
+{
+	border:none;
+	display:inline;
+	width:2px;
+	height:11px;
+}
+.vclick_image_question
+{
+	border:none;
+	display:inline;
+	width:11px;
+	height:11px;
+}
+.vclick_image_close
+{
+	border:none;
+	display:inline;
+	width:11px;
+	height:11px;
+}

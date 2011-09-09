@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which one of the following codes will display the <font face="courier new">Account Number</font> and <font face="courier new">Name</font> from <font face="courier new">Bank</font> database using <font face="courier new">SqlConnection</font>, <font face="courier new">SqlCommand</font>, and <font face="courier new">SqlDataReader</font> classes?]]></QuestionText><Options>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconBank = new SqlConnection("Data Source=localhost;Initial Catalog=Bank;Integrated Security=SSPI;");<br>SqlCommand sqlcomBank = new SqlCommand("SELECT AccNo,FirstName FROM Customer", sqlconBank);<br>SqlDataReader sqldreaderBankInfo = sqlcomBank.ExecuteReader();<br>String accnumber = "";<br>String name = "";<br>while (sqldreaderBankInfo.Read())<br>{<br>&nbsp;&nbsp;accnumber = sqldreaderBankInfo["AccNo"].ToString();<br>&nbsp;&nbsp;name = sqldreaderBankInfo["FirstName"].ToString();<br>&nbsp;&nbsp;MessageBox.Show("Account Number & Name: " + accnumber + "," + name);<br>}<br>sqldreaderBankInfo.Close();</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconBank = new SqlConnection("Data Source=localhost;Initial Catalog=Bank;Integrated Security=SSPI;");<br>SqlCommand sqlcomBank = new SqlCommand("SELECT AccNo,FirstName FROM Customer", sqlconBank);<br>sqlconBank.Open();<br>SqlDataReader sqldreaderBankInfo = sqlcomBank.ExecuteReader();<br>String accnumber = "";<br>String name = "";<br>while (sqldreaderBankInfo.Read)<br>{<br>&nbsp;&nbsp;accnumber = sqldreaderBankInfo["AccNo"].ToString();<br>&nbsp;&nbsp;name = sqldreaderBankInfo["FirstName"].ToString();<br>&nbsp;&nbsp;MessageBox.Show("Account Number & Name: " + accnumber + "," + name);<br>}<br>sqldreaderBankInfo.Close();</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconBank = new SqlConnection("Data Source=localhost;uid=sa;password=admin;Database=Bank;");<br>SqlCommand sqlcomBank = new SqlCommand("SELECT AccNo,FirstName FROM Customer", sqlconBank);<br>sqlconBank.Open();<br>SqlDataReader sqldreaderBankInfo = sqlcomBank.ExecuteReader();<br>String accnumber = "";<br>String name = "";<br>while (sqldreaderBankInfo.Read())<br>{<br>&nbsp;&nbsp;accnumber = sqldreaderBankInfo["AccNo"].ToString();<br>&nbsp;&nbsp;name = sqldreaderBankInfo["FirstName"].ToString();<br>&nbsp;&nbsp;MessageBox.Show("Account Number & Name: " + accnumber + "," + name);<br>}<br>sqldreaderBankInfo.Close();</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconBank = new SqlConnection("Data Source=localhost;Initial Catalog=Bank;Integrated Security=SSPI;");<br>SqlCommand sqlcomBank = new SqlCommand("SELECT AccNo,FirstName FROM Customer", sqlconBank);<br>sqlconBank.Open();<br>SqlDataReader sqldreaderBankInfo = sqlcomBank.ExecuteReader();<br>String accnumber = "";<br>String name = "";<br>while (sqldreaderBankInfo.Read())<br>{<br>&nbsp;&nbsp;accnumber = sqldreaderBankInfo['AccNo'].ToString();<br>&nbsp;&nbsp;name = sqldreaderBankInfo['FirstName'].ToString();<br>&nbsp;&nbsp;MessageBox.Show("Account Number & Name: " + accnumber + "," + name);<br>}<br>sqldreaderBankInfo.Close();</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

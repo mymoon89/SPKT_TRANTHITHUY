@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of the <font face="courier new">RichTextBox</font> control against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This event occurs when the value of <font face="courier new">Text</font> property is modified.]]></Option>
+<Option><![CDATA[This method selects all text in the control.]]></Option>
+<Option><![CDATA[This method adds text after the current text to the control.]]></Option>
+<Option><![CDATA[This property specifies or retrieves the selected text within the control.]]></Option>
+<Option><![CDATA[This property specifies or retrieves the text in the control.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[SelectAll]]></Step>
+<Step><![CDATA[TextChanged]]></Step>
+<Step><![CDATA[Text]]></Step>
+<Step><![CDATA[AppendText]]></Step>
+<Step><![CDATA[SelectedText]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>2,1,4,5,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)–(2), (B)–(1), (C)–(4), (D)–(5), and (E)-(3).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

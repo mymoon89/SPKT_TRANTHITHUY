@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a tool tip as <font face="courier new">"Click the button to save the information in the database"</font> for a button using the <font face="courier new">ToolTip</font> class. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<br><font face="courier new">Button btnClick = new Button();<br>ToolTip tipTextHelp = new ToolTip();<br>tipTextHelp.ToolTip(btnClick, "Click the button to save the information in the database.");</font>]]></Option>
+	<Option><![CDATA[<br><font face="courier new">Button btnClick = new Button();<br>ToolTip tipTextHelp = new ToolTip();<br>tipTextHelp.SetToolTip(btnClick, "Click the button to save the information in the database.");</font>]]></Option>
+	<Option><![CDATA[<br><font face="courier new">Button btnClick = new Button();<br>ToolTip tipTextHelp = new ToolTip();<br>tipTextHelp.SetTip(btnClick, "Click the button to save the information in the database.");</font>]]></Option>
+	<Option><![CDATA[<br><font face="courier new">Button btnClick = new Button();<br>Tooltip tipTextHelp = new Tooltip();<br>tipTextHelp.SetTip(btnClick, "Click the button to save the information in the database.");</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (B).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

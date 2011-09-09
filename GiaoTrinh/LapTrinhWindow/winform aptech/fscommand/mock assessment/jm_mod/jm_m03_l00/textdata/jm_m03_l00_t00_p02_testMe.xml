@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you type the code to display different departments, using the <font face="courier new">TreeView</font> control, in the left pane, and the <font face="courier new">ListView</font> control in the right pane?]]></QuestionText>
+
+<Options>
+	<Option></Option>
+	<Option></Option>
+	
+</Options>
+
+<Steps>
+	<Step></Step>
+	
+</Steps>
+
+<type>InputActivity</type>
+
+<CorrectAnswer><![CDATA[<font face="courier new">TreeView tvwEmployees = new TreeView();<br>ListView lvwEmployeeDetails = new ListView();<br><br>tvwEmployees.Nodes.Add("Departments");<br>tvwEmployees.Nodes[0].Nodes.Add("HR");<br>tvwEmployees.Nodes[0].Nodes.Add("Marketing");<br><br>lvwEmployeeDetails.Location = new Point(150,0);<br>lvwEmployeeDetails.Size = new Size(250,100);<br>lvwEmployeeDetails.View = View.Details;<br>lvwEmployeeDetails.Columns.Add("Name");<br>lvwEmployeeDetails.Columns.Add("Designation");<br>lvwEmployeeDetails.Columns.Add("Qualification");<br>lvwEmployeeDetails.Columns.Add("Experience");</font>]]></CorrectAnswer>
+
+<CorrectFeedback><![CDATA[Good! You have attempted this difficult question. You get a bonus point for your attempt. Click on View Answer for the answer.]]></CorrectFeedback>
+
+<incorrectFeedback><![CDATA[Good! You have attempted this difficult question. You get a bonus point for your attempt. Click on View Answer for the answer.]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

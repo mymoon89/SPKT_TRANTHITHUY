@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements regarding datasets are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The typed <font face="courier new">DataSet</font> is inherited from the <font face="courier new">DataSet</font> class.]]></Option>
+<Option><![CDATA[The <font face="courier new">ReadXml()</font> method is used to update the XML file.]]></Option>
+<Option><![CDATA[The <font face="courier new">MoveNext()</font> method of the <font face="courier new">BindingSource</font> class is used to navigate to a record in the <font face="courier new">DataSet</font>.]]></Option>
+<Option><![CDATA[The untyped dataset is used on data that does not have static or predictable structure.]]></Option>
+<Option><![CDATA[The typed <font face="courier new">DataSet</font> is used to catch any wrong values fetched from a table. ]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,1,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(False), (C)-(True), (D)-(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

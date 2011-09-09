@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of the <font face="courier new">MonthCalendar</font> control against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Event that is raised when a date is selected using the mouse.]]></Option>
+<Option><![CDATA[Property used to set the background color of the title region.]]></Option>
+<Option><![CDATA[Property used to identify the date with a circle.]]></Option>
+<Option><![CDATA[Method used to redraw the dates in bold to view the list of bolded dates.]]></Option>
+<Option><![CDATA[Method used to display a date in bold on an annual basis.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">UpdateBoldedDates</font>]]></Step>
+<Step><![CDATA[<font face="courier new">DateSelected</font>]]></Step>
+<Step><![CDATA[<font face="courier new">TitleBackColor</font>]]></Step>
+<Step><![CDATA[<font face="courier new">AddAnuallyBoldedDate</font>]]></Step>
+<Step><![CDATA[<font face="courier new">ShowTodayCircle</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>2,3,5,1,4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(2), (B)-(3), (C)–(5), (D)–(1), and (E)-(4).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

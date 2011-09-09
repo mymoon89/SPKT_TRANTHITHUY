@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties of various print classes against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Property</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This property of <font face="courier new">PrintPageEventArgs</font> class indicates the settings of the current page.]]></Option>
+<Option><![CDATA[This property of <font face="courier new">PrintPageEventArgs</font> class indicates additional page to be printed.]]></Option>
+<Option><![CDATA[This property of <font face="courier new">PrintPreviewControl</font> class indicates the upper-left page.]]></Option>
+<Option><![CDATA[This property of <font face="courier new">PrintPreviewControl</font> class indicates the pages displayed horizontally.]]></Option>
+<Option><![CDATA[This property of <font face="courier new">PrintDocument</font> class identifies the printer to print the document.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">StartPage</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Columns</font>]]></Step>
+<Step><![CDATA[<font face="courier new">PageSettings</font>]]></Step>
+<Step><![CDATA[<font face="courier new">PrinterSettings</font>]]></Step>
+<Step><![CDATA[<font face="courier new">HasMorePages</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>3,5,1,2,4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(3), (B)-(5), (C)-(1), (D)-(2), and (E)-(4).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

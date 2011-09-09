@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about .NET data providers are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Data provider helps in connecting to a database, performing operations and also retrieving results.]]></Option>
+<Option><![CDATA[.NET Framework data provider for ODBC uses Oracle client connectivity software to enable data access.]]></Option>
+<Option><![CDATA[ODBC Driver Manager allows you to specify the ODBC driver for your application.]]></Option>
+<Option><![CDATA[.NET Framework data provider for SQL Server allows access to Microsoft SQL Server. ]]></Option>
+<Option><![CDATA[.NET Framework data provider for OLE DB enables data access from relational databases by using the connectivity software.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,1,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(False), (C)-(True), (D)-(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods and events of the <font face="courier new">MainMenu</font>, <font face="courier new">ContextMenu</font> and <font face="courier new">MenuItem</font> classes against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This method retrieves the <font face="courier new">MenuItem</font> that contains the value specified.]]></Option>
+<Option><![CDATA[This event occurs before the shortcut menu is displayed.]]></Option>
+<Option><![CDATA[This property indicates whether the text is displayed from right to left.]]></Option>
+<Option><![CDATA[This method generates a <font face="courier new">Click</font> event for the <font face="courier new">MenuItem</font>.]]></Option>
+<Option><![CDATA[This method retrieves the form that contains this control.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">Popup</font>]]></Step>
+<Step><![CDATA[<font face="courier new">GetForm</font>]]></Step>
+<Step><![CDATA[<font face="courier new">PerformClick</font>]]></Step>
+<Step><![CDATA[<font face="courier new">RightToLeft</font>]]></Step>
+<Step><![CDATA[<font face="courier new">FindMenuItem</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>5,1,4,3,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(5), (B)-(1), (C)-(4), (D)-(3), (E)-(2).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

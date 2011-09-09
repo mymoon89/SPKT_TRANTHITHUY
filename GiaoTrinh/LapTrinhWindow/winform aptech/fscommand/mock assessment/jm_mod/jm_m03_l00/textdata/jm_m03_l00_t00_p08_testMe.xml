@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a rich text box on a form that allows users to enter their suggestion text. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">RichTextBox rtbSuggestion = new RichTextBox();<br>rtbSuggestion.Text = "Need to improve the attendance process";<br>rtbSuggestion.Width = 500;<br>rtbSuggestion.MaxLength = 100;<br>rtbSuggestion.WordWrap(true);<br>rtbSuggestion.Clear();<br>Controls.Add(rtbSuggestion);</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">RichTextBox rtbSuggestion = new RichTextBox();<br>rtbSuggestion.Text = "Need to improve the attendance process";<br>rtbSuggestion.Width = 500;<br>rtbSuggestion.MaxLength = 100;<br>rtbSuggestion.WordWrap = true;<br>rtbSuggestion.Clear();<br>Controls.Add(rtbSuggestion);</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">RichTextBox rtbSuggestion = new RichTextBox();<br>rtbSuggestion.Text = "Need to improve the attendance process";<br>rtbSuggestion.Width = 500;<br>rtbSuggestion.MaxLength = 100;<br>rtbSuggestion.WordWrap(true);<br>rtbSuggestion.Clear;<br>Controls.Add(rtbSuggestion);</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">RichTextBox rtbSuggestion = new RichTextBox();<br>rtbSuggestion.Text = "Need to improve the attendance process";<br>rtbSuggestion.Width = 500;<br>rtbSuggestion.MaxLength = 100;<br>rtbSuggestion.WordWrap = true;<br>rtbSuggestion.Clear = true;<br>Controls.Add(rtbSuggestion);</font><br>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (B).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

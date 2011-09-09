@@ -1,0 +1,31 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties of the various controls against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Property</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Property of <font face="courier new">TextBox</font> control used to allow the user to enter text on multiple lines. ]]></Option>
+<Option><![CDATA[Property of <font face="courier new">MaskedTextBox</font> control used to denote missed input. ]]></Option>
+<Option><![CDATA[Property of <font face="courier new">ComboBox</font> control used to indicate the number of items in the list.]]></Option>
+<Option><![CDATA[Property of the <font face="courier new">ListBox</font> control used to get or set the selected item.]]></Option>
+<Option><![CDATA[Property of the <font face="courier new">Button</font> control used to specify the image.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[PromptChar]]></Step>
+<Step><![CDATA[Image]]></Step>
+<Step><![CDATA[Multiline]]></Step>
+<Step><![CDATA[MaxDropDownItems]]></Step>
+<Step><![CDATA[SelectedItem]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>3,1,4,5,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response. ]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(3), (B)-(1), (C)-(4), (D)-(5), and (E)-(2).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

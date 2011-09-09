@@ -1,0 +1,15 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\bin\Debug\PropertyOfFormProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\bin\Debug\PropertyOfFormProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.Form2.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.frmBackColor.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.frmForeColor.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.frmIcon.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.frmLogin.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.frmOpacity.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.frmSplash.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\PropertyOfFormProject\obj\Debug\PropertyOfFormProject.pdb

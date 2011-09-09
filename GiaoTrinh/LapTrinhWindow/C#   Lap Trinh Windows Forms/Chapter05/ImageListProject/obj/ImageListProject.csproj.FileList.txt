@@ -1,0 +1,9 @@
+bin\Debug\ImageListProject.exe
+bin\Debug\ImageListProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ImageListProject.Form1.resources
+obj\Debug\ImageListProject.Properties.Resources.resources
+obj\Debug\ImageListProject.csproj.GenerateResource.Cache
+obj\Debug\ImageListProject.exe
+obj\Debug\ImageListProject.pdb
+obj\Debug\ImageListProject.Form2.resources

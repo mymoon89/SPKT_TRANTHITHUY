@@ -1,0 +1,12 @@
+bin\Debug\StatusBarProject.exe
+bin\Debug\StatusBarProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\StatusBarProject.Form1.resources
+obj\Debug\StatusBarProject.Properties.Resources.resources
+obj\Debug\StatusBarProject.csproj.GenerateResource.Cache
+obj\Debug\StatusBarProject.exe
+obj\Debug\StatusBarProject.pdb
+obj\Debug\StatusBarProject.frmMain.resources
+obj\Debug\StatusBarProject.Form2.resources
+obj\Debug\StatusBarProject.Form3.resources
+obj\Debug\StatusBarProject.Form4.resources

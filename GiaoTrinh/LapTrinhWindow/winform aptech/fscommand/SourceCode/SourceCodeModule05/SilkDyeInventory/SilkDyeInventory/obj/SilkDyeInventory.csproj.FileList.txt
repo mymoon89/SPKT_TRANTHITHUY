@@ -1,0 +1,10 @@
+bin\Debug\SilkDyeInventory.exe
+bin\Debug\SilkDyeInventory.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SilkDyeInventory.frmProductDetails.resources
+obj\Debug\SilkDyeInventory.Properties.Resources.resources
+obj\Debug\SilkDyeInventory.csproj.GenerateResource.Cache
+obj\Debug\SilkDyeInventory.exe
+obj\Debug\SilkDyeInventory.pdb
+bin\Debug\SilkDyeInventory.XML
+obj\Debug\SilkDyeInventory.frmPurchaseOrder.resources

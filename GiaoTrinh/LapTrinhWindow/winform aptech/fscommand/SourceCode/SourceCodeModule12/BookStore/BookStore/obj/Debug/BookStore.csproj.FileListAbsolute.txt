@@ -1,0 +1,13 @@
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\bin\Debug\BookStore.XML
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\obj\Debug\BookStore.exe
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\obj\Debug\BookStore.pdb
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\bin\Debug\BookStore.exe
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\bin\Debug\BookStore.pdb
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\bin\Debug\RoundButton.dll
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\bin\Debug\RoundButton.pdb
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\bin\Debug\RoundButton.xml
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\obj\Debug\ResolveAssemblyReference.cache
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\obj\Debug\BookStore.frmBookDetails.resources
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\obj\Debug\BookStore.frmLogin.resources
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\obj\Debug\BookStore.Properties.Resources.resources
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore\obj\Debug\BookStore.csproj.GenerateResource.Cache

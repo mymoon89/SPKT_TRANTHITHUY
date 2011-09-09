@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties and methods of the <font face="courier new">Control</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This property retrieves a collection of controls in the specified control.]]></Option>
+<Option><![CDATA[This property specifies or retrieves the parent container associated with control.]]></Option>
+<Option><![CDATA[This property checks whether the control responds to user interaction.]]></Option>
+<Option><![CDATA[This method sends a paint message to the control.]]></Option>
+<Option><![CDATA[This method triggers the <font face="courier new">Paint</font> event.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">Enabled</font>]]></Step>
+<Step><![CDATA[<font face="courier new">OnPaint</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Invalidate</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Parent</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Controls</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>5,4,1,3,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(5), (B)-(4), (C)-(1), (D)-(3), and (E)-(2).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

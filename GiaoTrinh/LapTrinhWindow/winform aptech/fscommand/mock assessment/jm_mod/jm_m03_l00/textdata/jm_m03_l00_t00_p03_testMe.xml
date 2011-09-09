@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to store strings representing months in the <font face="courier new">DomainUpDown</font> control. Which one of the following codes help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">DomainUpDown dudReport = new DomainUpDown();<br>dudReport.Name() = "dudReport";<br>dudReport.Items.Add("August");<br>dudReport.Items.Add("October");<br>dudReport.Items.Add("December");<br>dudReport.Items.Add("March");<br>Controls.Add(dudReport);</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">DomainUpDown dudReport = new DomainUpDown();<br>dudReport.Name = "dudReport";<br>dudReport.Items.AddItem("August");<br>dudReport.Items.AddItem("October");<br>dudReport.Items.AddItem("December");<br>dudReport.Items.AddItem("March");<br>Controls.Add(dudReport);</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">DomainUpDown dudReport = new DomainUpDown();<br>dudReport.Name = "dudReport";<br>dudReport.Items.Add("August");<br>dudReport.Items.Add("October");<br>dudReport.Items.Add("December");<br>dudReport.Items.Add("March");<br>Controls.Add(dudReport);</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">DomainUpDown dudReport = new DomainUpDown();<br>dudReport.Name("dudReport");<br>dudReport.Items.Add("August");<br>dudReport.Items.Add("October");<br>dudReport.Items.Add("December");<br>dudReport.Items.Add("March");<br>Controls.Add(dudReport);</font><br>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

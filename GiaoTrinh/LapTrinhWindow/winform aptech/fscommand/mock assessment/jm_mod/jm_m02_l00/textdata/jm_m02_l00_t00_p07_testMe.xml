@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the methods, properties, and events of the <font face="courier new">PictureBox</font> control against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Property used to set or get the image to be displayed in the control.]]></Option>
+<Option><![CDATA[Event that occurs when the control is <br>re-drawn on the form.]]></Option>
+<Option><![CDATA[Event that occurs when the asynchronous loading of a graphic is cancelled. ]]></Option>
+<Option><![CDATA[Method used to load a graphic asynchronously.]]></Option>
+<Option><![CDATA[Property used to specify how the image will be displayed in the control.  ]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[SizeMode]]></Step>
+<Step><![CDATA[LoadCompleted ]]></Step>
+<Step><![CDATA[Image]]></Step>
+<Step><![CDATA[Paint]]></Step>
+<Step><![CDATA[LoadAsysnc]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>3,4,2,5,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that’s correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)–(3), (B)–(4), (C)–(2), (D)–(5), and (E)-(1).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

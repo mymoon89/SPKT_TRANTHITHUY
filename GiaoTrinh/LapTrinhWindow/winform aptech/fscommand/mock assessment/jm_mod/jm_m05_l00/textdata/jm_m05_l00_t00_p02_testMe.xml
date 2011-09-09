@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you write the code to display a color dialog box with the format shown in the image?]]></QuestionText>
+
+<Options>
+	<Option></Option>
+	<Option></Option>
+	
+</Options>
+
+<Steps>
+	<Step></Step>
+	
+</Steps>
+
+<type>InputActivity</type>
+
+<CorrectAnswer><![CDATA[<font face="courier new">ColorDialog cdlgColor = new ColorDialog();<br>cdlgColor.AllowFullOpen = true;<br>cdlgColor.FullOpen = true;<br>cdlgColor.Color = Color.Black;<br>cdlgColor.ShowHelp = false;<br>cdlgColor.ShowDialog();</font>]]></CorrectAnswer>
+
+<CorrectFeedback><![CDATA[Good! You have attempted this difficult question. You get a bonus point for your attempt. Click on View Answer for the answer.]]></CorrectFeedback>
+
+<incorrectFeedback><![CDATA[Good! You have attempted this difficult question. You get a bonus point for your attempt. Click on View Answer for the answer.]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

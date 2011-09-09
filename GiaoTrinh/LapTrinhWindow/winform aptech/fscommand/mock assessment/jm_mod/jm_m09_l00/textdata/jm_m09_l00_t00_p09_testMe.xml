@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about the <font face="courier new">DataGrid</font> and <font face="courier new">DataGridView</font> controls are true and which are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">DataGridView</font> control allows you to specify custom column types.]]></Option>
+<Option><![CDATA[The <font face="courier new">DataGrid</font> control displays data only from an external data source.]]></Option>
+<Option><![CDATA[The <font face="courier new">DataGridView</font> control allows you to set the same appearance for the cells having similar kind of data.]]></Option>
+<Option><![CDATA[The <font face="courier new">DataGrid</font> control allows you to set shortcut menus for cells.]]></Option>
+<Option><![CDATA[The <font face="courier new">DataGridView</font> control allows you to display hierarchical information of two tables.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,1,1,0,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that’s incorrect. The correct selections are: (A)-(False), (B)-(True), (C)-(True), (D)-(False), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,31 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties of the <font face="courier new">DataGrid</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Property</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Represents the index of the focused row.]]></Option>
+<Option><![CDATA[Represents the data source for the control.]]></Option>
+<Option><![CDATA[Indicates the list in the data source, which is to be displayed in the control.]]></Option>
+<Option><![CDATA[Represents the currently focused cell.]]></Option>
+<Option><![CDATA[Indicates a particular cell value.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">DataMember</font>]]></Step>
+<Step><![CDATA[<font face="courier new">CurrentRowIndex</font>]]></Step>
+<Step><![CDATA[<font face="courier new">DataSource</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Item</font>]]></Step>
+<Step><![CDATA[<font face="courier new">CurrentCell</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>2,3,1,5,4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(2), (B)-(3), (C)-(1), (D)-(5), and (E)-(4).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

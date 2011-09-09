@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of the <font face="courier new">NumericUpDown</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Event that occurs when the value of the <font face="courier new">Value</font> property is changed.]]></Option>
+<Option><![CDATA[Method used to increase the value of the <font face="courier new">NumericUpDown</font> control.]]></Option>
+<Option><![CDATA[Property used to retrieve or specify the increment or decrement number.]]></Option>
+<Option><![CDATA[Property used to specify the maximum value for the control.]]></Option>
+<Option><![CDATA[Method used to specify or retrieve the value assigned to the control.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[Increment]]></Step>
+<Step><![CDATA[Maximum]]></Step>
+<Step><![CDATA[UpButton]]></Step>
+<Step><![CDATA[Value]]></Step>
+<Step><![CDATA[ValueChanged]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>5,3,1,2,4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that’s correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that’s incorrect. The correct combinations are: (A)–(5), (B)–(3), (C)–(1), (D)–(2), and (E)-(4).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

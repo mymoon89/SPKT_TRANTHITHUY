@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the features of ADO.NET against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Feature</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Requires no data-type conversion.]]></Option>
+<Option><![CDATA[Supports the XML format.]]></Option>
+<Option><![CDATA[Serves large number of users.]]></Option>
+<Option><![CDATA[Unaffected by architectural changes.]]></Option>
+<Option><![CDATA[Uses data commands and data classes.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[Interoperability]]></Step>
+<Step><![CDATA[Maintainability]]></Step>
+<Step><![CDATA[Programmability]]></Step>
+<Step><![CDATA[Performance]]></Step>
+<Step><![CDATA[Scalability]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,1,5,2,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(4), (B)-(1), (C)-(5), (D)-(2), and (E)-(3).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

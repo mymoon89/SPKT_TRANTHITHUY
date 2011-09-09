@@ -1,0 +1,11 @@
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\bin\Debug\TreeViewProject.exe
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\bin\Debug\TreeViewProject.pdb
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\obj\Debug\TreeViewProject.Form1.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\obj\Debug\TreeViewProject.Form2.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\obj\Debug\TreeViewProject.Properties.Resources.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\obj\Debug\TreeViewProject.csproj.GenerateResource.Cache
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\obj\Debug\TreeViewProject.exe
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\obj\Debug\TreeViewProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\obj\Debug\TreeViewProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\TreeViewProject\obj\Debug\TreeViewProject.pdb

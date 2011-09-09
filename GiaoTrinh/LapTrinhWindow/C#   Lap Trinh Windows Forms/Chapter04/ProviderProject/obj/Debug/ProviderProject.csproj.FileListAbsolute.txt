@@ -1,0 +1,14 @@
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.exe
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.pdb
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\bin\Debug\ProviderProject.exe
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\bin\Debug\ProviderProject.pdb
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.Form1.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.Form2.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.Form3.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.Form4.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.frmMain.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.Properties.Resources.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ProviderProject\obj\Debug\ProviderProject.pdb

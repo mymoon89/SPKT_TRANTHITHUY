@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about <font face="courier new">ToolStrip</font> control are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[A <font face="courier new">ToolStrip</font> control can host menu items, which are similar to the menu bar. ]]></Option>
+<Option><![CDATA[You cannot drag items from one <font face="courier new">ToolStrip</font> to another.]]></Option>
+<Option><![CDATA[A <font face="courier new">ToolStrip</font> control can reorder items at runtime.]]></Option>
+<Option><![CDATA[<font face="courier new">ToolStrip</font> is the base class for <font face="courier new">MenuStrip</font>, <font face="courier new">StatusStrip</font>, and <font face="courier new">ContextMenuStrip</font> classes. ]]></Option>
+<Option><![CDATA[A <font face="courier new">ToolStrip</font> control can create toolbars that provides a common look and feel across the forms.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,0,1,1,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(False), (B)-(False), (C)-(True), (D)-(True), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

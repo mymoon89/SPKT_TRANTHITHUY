@@ -1,0 +1,26 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the types of dialog boxes against their descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Type</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Allows you to switch between the application window and the dialog box.]]></Option>
+<Option><![CDATA[Is used when some critical information needs to be displayed to the user.]]></Option>
+<Option><![CDATA[Allows you to work with the application on which the dialog box is placed.]]></Option>
+<Option><![CDATA[Is used when some information from the user is required to complete the particular task.]]></Option>
+<Option><![CDATA[Is used for performing frequent tasks as required by the user. ]]></Option>
+</Options>
+<Steps>
+<Step><![CDATA[Modal]]></Step>
+<Step><![CDATA[Modeless]]></Step>
+</Steps>
+<type>dropdrown</type>
+<CorrectAnswer>2,1,2,1,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(Modeless), (B)-(Modal), (C)-(Modeless),       (D)-(Modal), and (E)-(Modeless).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

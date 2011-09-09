@@ -1,0 +1,13 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\TypeOfFormProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\TypeOfFormProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\bin\Debug\TypeOfFormProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\bin\Debug\TypeOfFormProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\TypeOfFormProject.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\TypeOfFormProject.Form2.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\TypeOfFormProject.Form4.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\TypeOfFormProject.Form5.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\TypeOfFormProject.Form6.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\TypeOfFormProject.frmInherit.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\TypeOfFormProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\TypeOfFormProject\obj\Debug\TypeOfFormProject.csproj.GenerateResource.Cache

@@ -1,0 +1,12 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\obj\Debug\FirstApplication.Form2.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\obj\Debug\WindowsApplication1.frmLogin.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\obj\Debug\WindowsApplication1.HKTemplate.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\obj\Debug\WindowsApplication1.HKTemplateForm1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\obj\Debug\WindowsApplication1.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter01\WindowsApplication1\obj\Debug\WindowsApplication1.csproj.GenerateResource.Cache

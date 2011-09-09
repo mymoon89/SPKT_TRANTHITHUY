@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display the records of employees from London whose salary is greater than 5000 dollars? Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">SqlDataAdapter sqldaEmployees = new SqlDataAdapter("SELECT * FROM <br>Employees");<br>ReportDocument rdEmployeesReport = new ReportDocument();<br>rdEmployeesReport.Load(@"D:\WindowsForms\EmployeesReport.rpt");<br>DataSet dsetEmployees = new DataSet();<br>sqldaEmployees.Fill(dsetEmployees, "Employees");<br>rdEmployeesReport.SetDataSource(dsetEmployees);<br>CrystalReportViewer crvEmployeeList = new CrystalReportViewer();<br>crvEmployeeList.ReportSource = rdEmployeesReport;<br>crvEmployeeList.SelectionFormula = {Employees.Salary} >= 5000 AND {Employees.City} = London;</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">SqlDataAdapter sqldaEmployees = new SqlDataAdapter("SELECT * FROM <br>Employees", sqlconEmployees);<br>ReportDocument rdEmployeesReport = new ReportDocument();<br>rdEmployeesReport.Load(@"D:\WindowsForms\EmployeesReport.rpt");<br>DataSet dsetEmployees = new DataSet();<br>sqldaEmployees.Fill(dsetEmployees, "Employees");<br>rdEmployeesReport.SetDataSource(dsetEmployees);<br>CrystalReportViewer crvEmployeeList = new CrystalReportViewer();<br>crvEmployeeList.ReportSource = rdEmployeesReport;<br>crvEmployeeList.SelectionFormula = "{Employees.Salary} >= 5000 AND {Employees.City} = \"London\"";</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">SqlDataAdapter sqldaEmployees = new SqlDataAdapter("SELECT * FROM <br>Employees");<br>ReportDocument rdEmployeesReport = new ReportDocument();<br>rdEmployeesReport.Load(@"D:\WindowsForms\EmployeesReport.rpt");<br>DataSet dsetEmployees = new DataSet();<br>sqldaEmployees.Fill(dsetEmployees, "Employees");<br>rdEmployeesReport.SetDataSource(dsetEmployees);<br>CrystalReportViewer crvEmployeeList = new CrystalReportViewer();<br>crvEmployeeList.ReportSource(rdEmployeesReport);<br>crvEmployeeList.SelectionFormula = "{Employees.Salary} >= 5000 AND {Employees.City} = \"London\"";</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">SqlDataAdapter sqldaEmployees = new SqlDataAdapter("SELECT * FROM <br>Employees", sqlconEmployees);<br>ReportDocument rdEmployeesReport = new ReportDocument();<br>rdEmployeesReport.Load(@"D:\WindowsForms\EmployeesReport.rpt ");<br>DataSet dsetEmployees = new DataSet();<br>sqldaEmployees.Fill(dsetEmployees, "Employees");<br>rdEmployeesReport.SetDataSource = dsetEmployees;<br>CrystalReportViewer crvEmployeeList = new CrystalReportViewer();<br>crvEmployeeList.ReportSource(sqldaEmployees);<br>crvEmployeeList.SelectionFormula = "{Employees.Salary} >= 5000 AND {Employees.City} = \"London\"";</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (B).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

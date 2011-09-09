@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of the <font face="courier new">DataGridView</font> class against its corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This property notifies the control about the cell, which has uncommitted changes.]]></Option>
+<Option><![CDATA[This event occurs after the value of a cell changes.]]></Option>
+<Option><![CDATA[This property indicates whether columns can be generated automatically.]]></Option>
+<Option><![CDATA[This event occurs when the user clicks the cell.]]></Option>
+<Option><![CDATA[This method makes the changes in the current cell to the data cache.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">AutoGenerateColumns</font>]]></Step>
+<Step><![CDATA[<font face="courier new">CellClick</font>]]></Step>
+<Step><![CDATA[<font face="courier new">NotifyCurrentCellDirty</font>]]></Step>
+<Step><![CDATA[<font face="courier new">CommitEdit</font>]]></Step>
+<Step><![CDATA[<font face="courier new">CellValueChanged</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>3,5,1,2,4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(3), (B)-(5), (C)-(1), (D)-(2), and (E)-(4).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

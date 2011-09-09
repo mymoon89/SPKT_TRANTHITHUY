@@ -1,0 +1,9 @@
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad\bin\Debug\EasyPad.XML
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad\obj\Debug\EasyPad.exe
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad\obj\Debug\EasyPad.pdb
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad\bin\Debug\EasyPad.exe
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad\bin\Debug\EasyPad.pdb
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad\obj\Debug\ResolveAssemblyReference.cache
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad\obj\Debug\EasyPad.frmEasyPad.resources
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad\obj\Debug\EasyPad.Properties.Resources.resources
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad\obj\Debug\EasyPad.csproj.GenerateResource.Cache

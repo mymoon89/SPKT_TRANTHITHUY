@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about <font face="courier new">ListView</font> and <font face="courier new">TreeView</font> controls are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">Detail</font> property of <font face="courier new">ListView</font> control displays items with medium icons.]]></Option>
+<Option><![CDATA[The <font face="courier new">TreeView</font> control displays data in hierarchical manner.]]></Option>
+<Option><![CDATA[The <font face="courier new">ListView</font> controls supports sorting of items.]]></Option>
+<Option><![CDATA[The child node of the <font face="courier new">TreeView</font> control consists of one or more child nodes and a parent node.]]></Option>
+<Option><![CDATA[The <font face="courier new">ListView</font> control does not allow displaying extra information about an item.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,1,1,0,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)–(False), (B)–(True), (C)–(True), (D)–(False), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

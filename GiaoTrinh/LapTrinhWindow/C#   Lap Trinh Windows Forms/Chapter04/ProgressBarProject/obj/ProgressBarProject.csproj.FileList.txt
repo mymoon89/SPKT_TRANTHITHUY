@@ -1,0 +1,8 @@
+bin\Debug\ProgressBarProject.exe
+bin\Debug\ProgressBarProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ProgressBarProject.Properties.Resources.resources
+obj\Debug\ProgressBarProject.csproj.GenerateResource.Cache
+obj\Debug\ProgressBarProject.exe
+obj\Debug\ProgressBarProject.pdb
+obj\Debug\ProgressBarProject.Form1.resources

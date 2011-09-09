@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to apply the font, <font face="courier new">Arial-15</font> with style as <font face="courier new">StrikeOut</font> to the text "This is richtextbox" inside the <font face="courier new">RichTextBox</font> control. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">RichTextBox rtbExp = new RichTextBox();<br>FontFamily family = new FontFamily();<br>Font font = new Font(family, Strikeout);<br>rtbExp.Text = "This is richtextbox";<br>rtbExp.Font = font;<br></font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">RichTextBox rtbExp = new RichTextBox();<br>FontFamily family = new FontFamily();<br>Font font = new Font(family, 15,Strikeout);<br>rtbExp.Text = "This is richtextbox";<br>font = rtbExp.Font;<br></font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">RichTextBox rtbExp = new RichTextBox();<br>FontFamily family = new FontFamily("Arial");<br>Font font = new Font(family, 15, FontStyle.Strikeout);<br>rtbExp.Text = "This is richtextbox";<br>rtbExp.Font = font;<br></font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">RichTextBox rtbExp = new RichTextBox();<br>FontFamily family = new FontFamily("Arial");<br>Font font = new Font(family, 15, FontStyle.Strikeout);<br>Text = "This is richtextbox";<br>Font = font;<br></font>]]></Option>
+
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

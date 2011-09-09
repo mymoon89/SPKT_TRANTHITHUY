@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a progress bar on a particular form. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">ProgressBar pbrProgress = new ProgressBar();<br>pbrProgress.Maximum = 0;<br>pbrProgress.Minimum = 30;<br>pbrProgress.Step = 10;<br>pbrProgress.PerformStep = 2;<br>pbrProgress.Increment();</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">ProgressBar pbrProgress = new ProgressBar();<br>pbrProgress.Maximum = 30;<br>pbrProgress.Minimum = 0;<br>pbrProgress.Step = 50;<br>pbrProgress.PerformLayout = 2;<br>pbrProgress.Increment();</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">ProgressBar pbrProgress = new ProgressBar();<br>pbrProgress.Maximum = 30;<br>pbrProgress.Minimum = 0;<br>pbrProgress.Step = 10;<br>pbrProgress.PerformStep();<br>pbrProgress.Increment(2);</font><br>]]></Option>
+	<Option><![CDATA[<font face="courier new">ProgressBar pbrProgress = new ProgressBar();<br>pbrProgress.Maximum = 30;<br>pbrProgress.Minimum = 0;<br>pbrProgress.Step = 10;<br>pbrProgress.PerformLayout();<br>pbrProgress.Increment();</font><br>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

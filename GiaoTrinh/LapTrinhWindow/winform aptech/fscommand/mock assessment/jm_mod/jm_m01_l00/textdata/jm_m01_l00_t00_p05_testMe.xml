@@ -1,0 +1,29 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you arrange the sequence of events in the lifecycle of a form?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Activated]]></Option>
+<Option><![CDATA[FormClosing]]></Option>
+<Option><![CDATA[Construction]]></Option>
+<Option><![CDATA[FormClosed]]></Option>
+<Option><![CDATA[Load]]></Option>
+</Options>
+<Steps>
+<Step>Activated</Step>
+<Step>FormClosing</Step>
+<Step>Construction</Step>
+<Step>FormClosed</Step>
+<Step>Load</Step>
+</Steps>
+<type>drag&drop</type>
+<CorrectAnswer>3,5,1,2,4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct sequence is shown on the right.]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

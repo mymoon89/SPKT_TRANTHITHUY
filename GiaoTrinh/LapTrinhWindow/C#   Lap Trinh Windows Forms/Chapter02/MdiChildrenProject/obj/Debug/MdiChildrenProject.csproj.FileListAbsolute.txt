@@ -1,0 +1,12 @@
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\bin\Debug\MdiChildrenProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\bin\Debug\MdiChildrenProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\obj\Debug\MdiChildrenProject.frmMain.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\obj\Debug\MdiChildrenProject.frmEmployees.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\obj\Debug\MdiChildrenProject.frmOvertimes.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\obj\Debug\MdiChildrenProject.frmReport.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\obj\Debug\MdiChildrenProject.frmSalary.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\obj\Debug\MdiChildrenProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\obj\Debug\MdiChildrenProject.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\obj\Debug\MdiChildrenProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter02\MdiChildrenProject\obj\Debug\MdiChildrenProject.pdb

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="EasyPad">
+</Property><Property Name="Solution File" Value="F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad.sln">
+</Property><Property Name="User Options File" Value="F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\EasyPad.suo">
+</Property><Property Name="Date" Value="03 Tháng Ba 2011">
+</Property><Property Name="Time" Value="14:04 CH">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="EasyPad.sln" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad.sln">
+</Event><Event ErrorLevel="0" Project="" Source="EasyPad.suo" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad.suo">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\EasyPad.csproj" Description="Project file successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad\EasyPad.csproj">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\frmEasyPad.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad\frmEasyPad.cs">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\frmEasyPad.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad\frmEasyPad.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\Program.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad\Program.cs">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\Properties\AssemblyInfo.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\Properties\Resources.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\Properties\Settings.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\Properties\Settings.settings" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\frmEasyPad.resx" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad\frmEasyPad.resx">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\Properties\Resources.resx" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule05\EasyPad\Backup\EasyPad\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\EasyPad.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EasyPad" Source="EasyPad\EasyPad.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="EasyPad.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="EasyPad.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EasyPad" Source="EasyPad\EasyPad.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

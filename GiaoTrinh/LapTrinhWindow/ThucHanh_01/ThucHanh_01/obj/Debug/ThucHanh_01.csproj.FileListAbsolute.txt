@@ -1,0 +1,19 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\ThucHanh_01\ThucHanh_01\bin\Debug\ThucHanh_01.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\ThucHanh_01\ThucHanh_01\bin\Debug\ThucHanh_01.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\ThucHanh_01\ThucHanh_01\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.Form1.resources
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.Properties.Resources.resources
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.csproj.GenerateResource.Cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.NhapThongTin.resources
+E:\LI DEN\HocTap\Nam3Ky2\LapTrinhWindow\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.exe
+E:\LI DEN\HocTap\Nam3Ky2\LapTrinhWindow\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.pdb
+E:\LI DEN\HocTap\Nam3Ky2\LapTrinhWindow\ThucHanh_01\ThucHanh_01\obj\Debug\ResolveAssemblyReference.cache
+E:\LI DEN\HocTap\Nam3Ky2\LapTrinhWindow\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.NhapThongTin.resources
+E:\LI DEN\HocTap\Nam3Ky2\LapTrinhWindow\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.Properties.Resources.resources
+E:\LI DEN\HocTap\Nam3Ky2\LapTrinhWindow\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.csproj.GenerateResource.Cache
+E:\LI DEN\HocTap\Nam3Ky2\LapTrinhWindow\ThucHanh_01\ThucHanh_01\bin\Debug\ThucHanh_01.exe
+E:\LI DEN\HocTap\Nam3Ky2\LapTrinhWindow\ThucHanh_01\ThucHanh_01\bin\Debug\ThucHanh_01.pdb
+E:\LI DEN\HocTap\Nam3Ky2\LapTrinhWindow\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.ShowPictrer.resources
+E:\LI DEN\HocTap\Nam3Ky2\LapTrinhWindow\ThucHanh_01\ThucHanh_01\obj\Debug\ThucHanh_01.ShowPicter.resources

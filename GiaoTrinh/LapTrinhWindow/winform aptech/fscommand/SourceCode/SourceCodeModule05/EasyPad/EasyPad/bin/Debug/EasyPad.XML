@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EasyPad</name>
+    </assembly>
+    <members>
+        <member name="T:EasyPad.frmEasyPad">
+            <summary>
+            Class frmEasyPad is used to demonstrate the use of dialog boxes.
+            </summary>
+        </member>
+        <member name="F:EasyPad.frmEasyPad.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:EasyPad.frmEasyPad.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:EasyPad.frmEasyPad.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:EasyPad.frmEasyPad.#ctor">
+            <summary>
+            Constructor without parameters to initialize the
+            controls for displaying the frmEasyPad form. 
+            </summary>
+        </member>
+        <member name="M:EasyPad.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:EasyPad.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:EasyPad.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:EasyPad.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

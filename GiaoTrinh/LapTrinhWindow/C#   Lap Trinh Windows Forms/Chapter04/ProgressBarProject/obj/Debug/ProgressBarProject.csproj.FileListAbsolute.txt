@@ -1,0 +1,16 @@
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\bin\Debug\ProgressBarProject.exe
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\bin\Debug\ProgressBarProject.pdb
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ProgressBarProject.Form1.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ProgressBarProject.Properties.Resources.resources
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ProgressBarProject.csproj.GenerateResource.Cache
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ProgressBarProject.exe
+D:\SPKT\WINFORMS\BaiGiangTViet\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ProgressBarProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ProgressBarProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ProgressBarProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\bin\Debug\ProgressBarProject.exe
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\bin\Debug\ProgressBarProject.pdb
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ProgressBarProject.Form1.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ProgressBarProject.Properties.Resources.resources
+E:\LI\HocTap\Nam3Ky2\LapTrinhWindow\C#   Lap Trinh Windows Forms\Chapter04\ProgressBarProject\obj\Debug\ProgressBarProject.csproj.GenerateResource.Cache

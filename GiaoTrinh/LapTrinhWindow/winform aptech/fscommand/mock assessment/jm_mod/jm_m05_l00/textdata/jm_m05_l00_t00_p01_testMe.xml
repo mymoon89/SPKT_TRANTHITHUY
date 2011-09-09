@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display a <font face="courier new">PageSetupDialog</font> component as the output. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<br><font face="courier new">PageSetupDialog psdlgSetup = new PageSetupDialog();<br>psdlgSetup.PageSetting = new<br>System.Drawing.Printing.PageSetting();<br>psdlgSetup.ShowDialog();</font>]]></Option>
+	<Option><![CDATA[<br><font face="courier new">PageSetupDialog psdlgSetup = new PageSetupDialog();<br>psdlgSetup.PageSettings = new System.Printing.PageSettings();<br>psdlgSetup.ShowDialog();</font>]]></Option>
+	<Option><![CDATA[<br><font face="courier new">PageSetupDialog psdlgSetup = new PageSetupDialog();<br>psdlgSetup.PageSettings = new<br>System.Drawing.Printing.PageSettings();<br>psdlgSetup.ShowDialog();</font>]]></Option>
+        <Option><![CDATA[<br><font face="courier new">PageSetupDialog psdlgSetup = new PageSetupDialog();<br>psdlgSetup.PageSettings = new<br>System.Drawing.Printing.PageSettings();<br>psdlgSetup.ShowDialogBox();</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,13 @@
+bin\Debug\TypeOfFormProject.exe
+bin\Debug\TypeOfFormProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TypeOfFormProject.Form1.resources
+obj\Debug\TypeOfFormProject.Form4.resources
+obj\Debug\TypeOfFormProject.Properties.Resources.resources
+obj\Debug\TypeOfFormProject.csproj.GenerateResource.Cache
+obj\Debug\TypeOfFormProject.exe
+obj\Debug\TypeOfFormProject.pdb
+obj\Debug\TypeOfFormProject.Form2.resources
+obj\Debug\TypeOfFormProject.Form5.resources
+obj\Debug\TypeOfFormProject.frmInherit.resources
+obj\Debug\TypeOfFormProject.Form6.resources

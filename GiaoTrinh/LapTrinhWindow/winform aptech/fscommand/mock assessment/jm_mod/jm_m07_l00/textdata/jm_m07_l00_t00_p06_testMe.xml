@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the namespaces against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Namespace</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Contains the ODBC .NET data provider types.]]></Option>
+<Option><![CDATA[Contains classes representing the ADO.NET architecture.]]></Option>
+<Option><![CDATA[Contains the OLE DB .NET data provider types.]]></Option>
+<Option><![CDATA[Contains the SQL Server .NET data provider types.]]></Option>
+<Option><![CDATA[Contains the Oracle .NET data provider.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">System.Data.OleDb</font>]]></Step>
+<Step><![CDATA[<font face="courier new">System.Data.SqlClient</font>]]></Step>
+<Step><![CDATA[<font face="courier new">System.Data.OracleClient</font>]]></Step>
+<Step><![CDATA[<font face="courier new">System.Data</font>]]></Step>
+<Step><![CDATA[<font face="courier new">System.Data.Odbc</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>5,4,1,2,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(5), (B)-(4), (C)-(1), (D)-(2), and (E)-(3).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

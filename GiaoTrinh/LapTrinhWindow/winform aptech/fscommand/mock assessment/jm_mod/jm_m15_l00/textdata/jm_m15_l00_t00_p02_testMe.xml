@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the different types of deployment projects against their corresponding description?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Type of Deployment Project</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Reduces the download time by reducing the file size. ]]></Option>
+<Option><![CDATA[Creates setup programs for Windows Form applications.]]></Option>
+<Option><![CDATA[Creates setup programs for deploying softwares on a Web server.]]></Option>
+<Option><![CDATA[Creates a setup project as per the user requirements.]]></Option>
+<Option><![CDATA[Integrates shared components used by various applications.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">Web Setup Project</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Cab Project</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Setup Project</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Merge Module Project</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Setup Wizard</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>2,3,1,5,4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(2), (B)-(3), (C)-(1), (D)-(5), and (E)-(4).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

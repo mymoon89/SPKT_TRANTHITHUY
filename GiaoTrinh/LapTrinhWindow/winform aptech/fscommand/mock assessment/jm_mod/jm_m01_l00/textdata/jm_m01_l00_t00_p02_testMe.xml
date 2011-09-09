@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you write the code to create a text box control and masked text box control with names <font face="courier new">txtStudentName</font> and <font face="courier new">msktxtDate</font>, and the masked text box should accept date in mm/dd/yyyy format?]]></QuestionText>
+
+<Options>
+	<Option></Option>
+	<Option></Option>
+	
+</Options>
+
+<Steps>
+	<Step></Step>
+	
+</Steps>
+
+<type>InputActivity</type>
+
+<CorrectAnswer><![CDATA[<font face="courier new">TextBox txtStudentName = new TextBox();<br>MaskedTextBox msktxtDate = new MaskedTextBox();<br>msktxtDate.Mask = "00/00/0000";<br>this.Controls.Add(txtStudentName);<br>this.Controls.Add(msktxtDate);</font>]]></CorrectAnswer>
+
+<CorrectFeedback><![CDATA[Good! You have attempted this difficult question. You get a bonus point for your attempt. Click on View Answer for the answer.]]></CorrectFeedback>
+
+<incorrectFeedback><![CDATA[Good! You have attempted this difficult question. You get a bonus point for your attempt. Click on View Answer for the answer.]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

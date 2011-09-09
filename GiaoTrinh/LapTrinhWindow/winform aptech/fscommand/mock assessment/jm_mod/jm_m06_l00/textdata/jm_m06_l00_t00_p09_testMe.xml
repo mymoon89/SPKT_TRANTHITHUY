@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display the <font face="courier new">StatusStrip</font> control with the <font face="courier new">Table</font> layout and also add "Page number" text as an item. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">StatusStrip ststrpPage = new StatusStrip();<br>ststrpPage.Items.Add("Page number");<br>ststrpPage.LayoutStyle = ToolStripLayoutStyles.Table;</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">StatusStrip ststrpPage = new StatusStrip();<br>ststrpPage.Item.Add("Page number");<br>ststrpPage.LayoutStyle = ToolStripLayoutStyle.Table;</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">StatusStrip ststrpPage = new StatusStrip();<br>ststrpPage.Items.Add("Page number");<br>ststrpPage.LayoutStyle = ToolStripLayoutStyle.Table;</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">StatusStrip ststrpPage = new StatusStrip();<br>ststrpPage.Items.Add("Page number");<br>ststrpPage.LayoutStyle() = ToolStripLayoutStyle.Table;</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

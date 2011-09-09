@@ -1,0 +1,10 @@
+bin\Debug\GroupBoxProject.exe
+bin\Debug\GroupBoxProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GroupBoxProject.Form1.resources
+obj\Debug\GroupBoxProject.Properties.Resources.resources
+obj\Debug\GroupBoxProject.csproj.GenerateResource.Cache
+obj\Debug\GroupBoxProject.exe
+obj\Debug\GroupBoxProject.pdb
+obj\Debug\GroupBoxProject.Form2.resources
+obj\Debug\GroupBoxProject.frmMain.resources

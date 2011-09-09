@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to generate a report for displaying customer records of <font face="courier new">Customer</font> table using ADO.NET dataset. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">. . .<br>SqlDataAdapter sqldaCustomer = new SqlDataAdapter("SELECT * FROM Customer", sqlconCustomer);<br>ReportDocument rdReport = new ReportDocument();<br>rdReport.Load(@"D:\Windows Forms\CustomerReport.rpt");<br>DataSet dsetCustomer = new DataSet[];<br>sqldaCustomer.Fill(dsetCustomer, "Customer");<br>rdReport.SetDataSource(dsetCustomer);<br>crvEmployeeList.ReportSource = dsetCustomer;</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">. . .<br>SqlDataAdapter sqldaCustomer = new SqlDataAdapter("SELECT * FROM Customer", sqlconCustomer);<br>ReportDocument rdEmployeesReport = new ReportDocument();<br>rdReport.Load(@"D:\Windows Forms\CustomerReport.rpt");<br>DataSet dsetCustomer = new DataSet()<br>sqldaCustomer.Fill(dsetCustomer, "Customer");<br>rdReport.SetDataSource(dsetCustomer);<br>crvEmployeeList.ReportSource = dsetCustomer;</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">. . .<br>SqlDataAdapter sqldaCustomer = new SqlDataAdapter("SELECT * FROM Customer", sqlconCustomer);<br>ReportDocument rdReport = new ReportDocument();<br>rdReport.Load(@"D:\Windows Forms\CustomerReport.rpt");<br>DataSet dsetCustomer = new DataSet();<br>sqldaCustomer.Fill(dsetCustomer, "Customer");<br>rdReport.SetDataSource(dsetCustomer);<br>crvEmployeeList.ReportSource = rdReport;</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">. . .<br>SqlDataAdapter sqldaCustomer = new SqlDataAdapter("SELECT * FROM Customer");<br>ReportDocument rdEmployeesReport = new ReportDocument();<br>rdReport.Load(@"D:\Windows Forms\CustomerReport.rpt");<br>DataSet dsetCustomer = new DataSet();<br>sqldaCustomer.Fill(dsetCustomer, "Customer");<br>rdReport.SetDataSource(dsetCustomer);<br>crvEmployeeList.ReportSource = rdReport;</font>]]></Option>                                                                                                                                                                                           
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

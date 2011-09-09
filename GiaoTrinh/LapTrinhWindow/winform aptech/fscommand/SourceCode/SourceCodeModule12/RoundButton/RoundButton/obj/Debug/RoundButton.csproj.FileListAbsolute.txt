@@ -1,0 +1,6 @@
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\RoundButton\bin\Debug\RoundButton.XML
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\RoundButton\bin\Debug\RoundButton.dll
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\RoundButton\bin\Debug\RoundButton.pdb
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\RoundButton\obj\Debug\ResolveAssemblyReference.cache
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\RoundButton\obj\Debug\RoundButton.dll
+F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\RoundButton\RoundButton\obj\Debug\RoundButton.pdb

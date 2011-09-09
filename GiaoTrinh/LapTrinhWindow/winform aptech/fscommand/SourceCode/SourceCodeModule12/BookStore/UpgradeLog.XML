@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BookStore">
+</Property><Property Name="Solution File" Value="F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore.sln">
+</Property><Property Name="User Options File" Value="F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\BookStore.suo">
+</Property><Property Name="Date" Value="03 Tháng Ba 2011">
+</Property><Property Name="Time" Value="14:09 CH">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="BookStore.sln" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore.sln">
+</Event><Event ErrorLevel="0" Project="" Source="BookStore.suo" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore.suo">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\BookStore.csproj" Description="Project file successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\BookStore.csproj">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\frmBookDetails.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\frmBookDetails.cs">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\frmBookDetails.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\frmBookDetails.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\frmLogin.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\frmLogin.cs">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\frmLogin.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\frmLogin.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\Program.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\Program.cs">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\Properties\AssemblyInfo.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\Properties\Resources.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\Properties\Settings.Designer.cs" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\Properties\Settings.settings" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\frmBookDetails.resx" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\frmBookDetails.resx">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\frmLogin.resx" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\frmLogin.resx">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\Properties\Resources.resx" Description="File successfully backed up as F:\thuy\HKII\winform aptech\fscommand\SourceCode\SourceCodeModule12\BookStore\Backup\BookStore\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\BookStore.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BookStore" Source="BookStore\BookStore.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BookStore.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="BookStore.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BookStore" Source="BookStore\BookStore.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

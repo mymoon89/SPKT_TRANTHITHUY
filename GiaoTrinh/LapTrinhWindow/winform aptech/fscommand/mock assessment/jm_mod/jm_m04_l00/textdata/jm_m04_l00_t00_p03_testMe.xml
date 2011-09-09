@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about <font face="courier new">Date</font> controls are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">DateTimePicker</font> control is used to select a date and time from a specified range of dates and times.]]></Option>
+<Option><![CDATA[The <font face="courier new">DateTimePickerFormat</font> is used to specify a date format for the <font face="courier new">DateTimePicker</font> control.]]></Option>
+<Option><![CDATA[The <font face="courier new">CustomFormat</font> property is used to display only date in various formats.]]></Option>
+<Option><![CDATA[The <font face="courier new">Format</font> property of the <font face="courier new">DateTimePicker</font> control is used to display standard and custom date formats. ]]></Option>
+<Option><![CDATA[The <font face="courier new">Short</font>value of the <font face="courier new">Format</font> property is used to display date in dd-mm-yyyy format. ]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,1,0,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)–(False), (B)–(True), (C)–(False), (D)–(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

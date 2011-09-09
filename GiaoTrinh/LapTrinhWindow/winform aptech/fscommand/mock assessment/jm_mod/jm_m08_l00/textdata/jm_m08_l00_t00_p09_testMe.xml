@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements of the <font face="courier new">DataTable</font>, <font face="courier new">DataRelation</font>, <font face="courier new">DataColumn</font>, <font face="courier new">DataRow</font>, and <font face="courier new">DataTableReader</font> classes are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">DataTable</font> object is used as a case-sensitive object if the casing of two tables with same name differs.]]></Option>
+<Option><![CDATA[The <font face="courier new">DataRow</font> and <font face="courier new">DataColumn</font> classes are used as the primary components of the <font face="courier new">DataTable</font> class.]]></Option>
+<Option><![CDATA[The <font face="courier new">DataRelation</font> objects are used to enter duplicate values in a column of a table.]]></Option>
+<Option><![CDATA[The <font face="courier new">DataRelation</font> objects are used to enforce referential integrity.]]></Option>
+<Option><![CDATA[The <font face="courier new">DataTableReader</font> object is used to return the records of a table in editable mode.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,1,0,1,0</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(True), (C)-(False), (D)-(True), and (E)-(False).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

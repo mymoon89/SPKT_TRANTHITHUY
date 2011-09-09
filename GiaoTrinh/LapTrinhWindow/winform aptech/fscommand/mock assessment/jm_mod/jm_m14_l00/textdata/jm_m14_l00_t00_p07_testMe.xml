@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display the TableOfContents of the Students help file using the <font face="courier new">Help</font> class. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">Button btnShowIndex = new Button();<br>private void btnShowIndex_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;Help.ShowHelp(this, @"c:\Students.chm",<br>&nbsp;&nbsp;&nbsp;HelpNavigator.TableOfContents);<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">Button btnShowIndex = new Button();<br>private void btnShowIndex_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;Help.ShowHelp(this, @"c:\Students.chm",<br>&nbsp;&nbsp;&nbsp;HelpNavigators.TableOfContents);<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">Button btnShowIndex = new Button();<br>private void btnShowIndex_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;Help.ShowHelp(this, "c:\Students.chm",<br>&nbsp;&nbsp;&nbsp;HelpNavigator.TableOfContent);<br>}</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">Button btnShowIndex = new Button();<br>private void btnShowIndex_Click(object sender, EventArgs e)<br>{<br>&nbsp;&nbsp;&nbsp;Help.ShowHelp(this, "c:\Students.chm",<br>&nbsp;&nbsp;&nbsp;HelpNavigators.TableOfContent);<br>}</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (A).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

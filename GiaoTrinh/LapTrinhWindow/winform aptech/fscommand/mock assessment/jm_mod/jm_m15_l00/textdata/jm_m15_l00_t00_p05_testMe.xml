@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of the following statements about installer files, cabinet files, and merge modules are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The packaging modes include packaging an application as a merge module.]]></Option>
+<Option><![CDATA[Installer files support the undo operation for the installation procedure.]]></Option>
+<Option><![CDATA[Cabinet files include shared components to be downloaded using a Web browser.]]></Option>
+<Option><![CDATA[Merge modules contain a database, which contains of a list of applications and components to be installed.]]></Option>
+<Option><![CDATA[Merge modules provide a standard method for handling components. ]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,1,0,0,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(False), (B)-(True), (C)-(False), (D)-(False), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

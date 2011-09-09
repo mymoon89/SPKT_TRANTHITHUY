@@ -1,0 +1,10 @@
+bin\Debug\ActivatedFormProject.exe
+bin\Debug\ActivatedFormProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ActivatedFormProject.Properties.Resources.resources
+obj\Debug\ActivatedFormProject.csproj.GenerateResource.Cache
+obj\Debug\ActivatedFormProject.exe
+obj\Debug\ActivatedFormProject.pdb
+obj\Debug\ActivatedFormProject.frmEmployees.resources
+obj\Debug\ActivatedFormProject.frmMain.resources
+obj\Debug\ActivatedFormProject.frmOvertimes.resources

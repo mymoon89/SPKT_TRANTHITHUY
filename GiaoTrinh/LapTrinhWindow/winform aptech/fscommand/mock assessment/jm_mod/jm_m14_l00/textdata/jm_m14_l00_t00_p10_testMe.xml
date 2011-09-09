@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of the <font face="courier new">ToolTip</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Property, Method, and Event</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This event occurs before the <font face="courier new">ToolTip</font> is displayed initially.]]></Option>
+<Option><![CDATA[This method retrieves the <font face="courier new">ToolTip</font> text of a particular control.]]></Option>
+<Option><![CDATA[This property indicates whether a <font face="courier new">ToolTip</font> window is to be always displayed.]]></Option>
+<Option><![CDATA[This property indicates whether the <font face="courier new">ToolTip</font> is active currently.]]></Option>
+<Option><![CDATA[This method associates the <font face="courier new">ToolTip</font> text with a particular control.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">SetToolTip</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Active</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Popup</font>]]></Step>
+<Step><![CDATA[<font face="courier new">ShowAlways</font>]]></Step>
+<Step><![CDATA[<font face="courier new">GetToolTip</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>3,5,4,2,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(3), (B)-(5), (C)-(4), (D)-(2), and (E)-(1).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

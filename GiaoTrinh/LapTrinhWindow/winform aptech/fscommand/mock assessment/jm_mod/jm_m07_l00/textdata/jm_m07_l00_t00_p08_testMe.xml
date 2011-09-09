@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which one of the following codes will help you to create an SQL Server connection and execute SQL commands?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconBank = new SqlConnection("Data<br>Source=localhost;Initial Catalog=Bank;Integrated Security=SSPI;");<br>SqlCommand sqlcomBank = new SqlCommand;<br>sqlconBank.Open();<br>sqlcomBank.Connection = sqlconBank;<br>sqlcomBank.CommandText = "DELETE FROM Customer WHERE AccNo=1";<br>sqlcomBank.ExecuteNonQuery();</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconBank = new SqlConnection("Data<br>Source=localhost;Initial Catalog=Bank;Integrated Security=SSPI;");<br>SqlCommand sqlcomBank = new SqlCommand();<br>sqlconBank.Open();<br>sqlcomBank.Connection = sqlconBank;<br>sqlcomBank.Commandtext = "DELETE FROM Customer WHERE AccNo=1";<br>sqlcomBank.ExecuteNonQuery();</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconBank = new SqlConnection("Data<br>Source=localhost;Initial Catalog=Bank;Integrated Security=SSPI;");<br>SqlCommand sqlcomBank = new SqlCommand();<br>sqlconBank.Open();<br>sqlcomBank.Connection = sqlconBank;<br>sqlcomBank.CommandText = "DELETE FROM Customer WHERE AccNo = 1";<br>sqlcomBank.ExecuteNonQuery();</font>]]></Option>
+	<Option><![CDATA[<font face="courier new">SqlConnection sqlconBank = new SqlConnection("Data<br>Source=localhost;Initial Catalog=Bank;Integrated Security=SSPI;");<br>SqlCommand sqlcomBank = new SqlCommand();<br>sqlcomBank.Connection = sqlconBank;<br>sqlcomBank.CommandText = "DELETE FROM Customer WHERE AccNo=1";<br>sqlcomBank.ExecuteNonQuery();</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (C).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about <font face="courier new">Color</font> structure, <font face="courier new">Pen</font> class, and <font face="courier new">Brush</font> class are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[The <font face="courier new">Color</font> structure supports creation of transparent colors using the alpha value.  ]]></Option>
+<Option><![CDATA[The <font face="courier new">Color</font> structure exists in <font face="courier new">System.Drawing.Color</font> namespace. ]]></Option>
+<Option><![CDATA[The <font face="courier new">Argb</font> property creates a <font face="courier new">Color</font> structure from the particular name of a predefined color.]]></Option>
+<Option><![CDATA[The <font face="courier new">Transform</font> property of the <font face="courier new">Pen</font> class identifies the geometric transformation for the pen.]]></Option>
+<Option><![CDATA[The <font face="courier new">SetNativeBrush()</font> method of the <font face="courier new">Brush</font> class gets the reference of the GDI+ brush.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>1,0,0,1,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(True), (B)-(False), (C)-(False), (D)-(True), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

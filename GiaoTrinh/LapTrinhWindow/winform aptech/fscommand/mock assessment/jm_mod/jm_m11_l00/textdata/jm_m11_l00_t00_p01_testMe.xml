@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to use a pen to draw a rectangle using four lines in blue color. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">Graphics g = this.CreateGraphics();<br>Pen pen = new Pen(Color=Blue);<br>g.DrawLine(pen,150,20,250,20);<br>sg.DrawLine(pen,250,20,250,120);<br>g.DrawLine(pen,250,120,150,120);<br>g.DrawLine(pen,150,120,150,20);</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">Graphic g = this.CreateGraphic();<br>Pen pen = new Pen(Color.Blue);<br>g.DrawLine(pen,150,20,250,20);<br>g.DrawLine(pen,250,20,250,120);<br>g.DrawLine(pen,250,120,150,120);<br>g.DrawLine(pen,150,120,150,20);</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">Graphics g = this.CreateGraphics();<br>Pen pen = new Pen(Colors.Blue);<br>g.DrawLine(pen,150,20,250,20);<br>g.DrawLine(pen,250,20,250,120);<br>g.DrawLine(pen,250,120,150,120);<br>g.DrawLine(pen,150,120,150,20);</font>]]></Option>
+	
+	<Option><![CDATA[<font face="courier new">Graphics g = this.CreateGraphics();<br>Pen pen = new Pen(Color.Blue);<br>g.DrawLine(pen,150,20,250,20);<br>g.DrawLine(pen,250,20,250,120);<br>g.DrawLine(pen,250,120,150,120);<br>g.DrawLine(pen,150,120,150,20);</font>]]></Option>
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (D).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

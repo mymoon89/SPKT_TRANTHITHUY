@@ -1,0 +1,26 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you write the code to set two pictures of toys in the <font face="courier new">GroupBox</font> control of the ToysCollecion application to display the output as shown in the image?]]></QuestionText>
+
+<Options>
+	<Option></Option>
+	<Option></Option>
+	
+</Options>
+
+<Steps>
+	<Step></Step>
+	
+</Steps>
+
+<type>InputActivity</type>
+
+<CorrectAnswer><![CDATA[<font face="courier new">GroupBox grpToysCollection = new GroupBox();<br>grpToysCollection.Text = "Toys";<br><br>PictureBox picToy1 = new PictureBox();<br>picToy1.Image = Image.FromFile("toy1.gif");<br>picToy1.Location = new Point(10,20);<br><br>PictureBox picToy2 = new PictureBox();<br>picToy2.Image = Image.FromFile("toy2.gif");<br>picToy2.Location = new Point(90,20);<br><br>grpToysCollection.Controls.Add(picToy1);<br>grpToysCollection.Controls.Add(picToy2);</font>]]></CorrectAnswer>
+
+<CorrectFeedback><![CDATA[Good! You have attempted this difficult question. You get a bonus point for your attempt. Click on View Answer for the answer.]]></CorrectFeedback>
+
+<incorrectFeedback><![CDATA[Good! You have attempted this difficult question. You get a bonus point for your attempt. Click on View Answer for the answer.]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of the <font face="courier new">ToolStrip</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Event that occurs when an item is clicked.]]></Option>
+<Option><![CDATA[Property that is used to identify the displayed image.]]></Option>
+<Option><![CDATA[Method that displays the control to the user.]]></Option>
+<Option><![CDATA[Property that retrieves all the items of the control.]]></Option>
+<Option><![CDATA[Property that identifies the layout style of the items. ]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[<font face="courier new">Items</font>]]></Step>
+<Step><![CDATA[<font face="courier new">LayoutStyle</font>]]></Step>
+<Step><![CDATA[<font face="courier new">ImageList</font>]]></Step>
+<Step><![CDATA[<font face="courier new">ItemClicked</font>]]></Step>
+<Step><![CDATA[<font face="courier new">Show</font>]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>4,3,5,1,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(4), (B)-(3), (C)-(5), (D)-(1), and (E)-(2).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

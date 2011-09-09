@@ -1,0 +1,26 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the types of <font face="courier new">DataAdapter</font> classes against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Class</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Links a <font face="courier new">DataSet</font> to the Microsoft Access database for retrieving and saving data.]]></Option>
+<Option><![CDATA[Links a <font face="courier new">DataSet</font> to the SQL database for retrieving and saving data.]]></Option>
+<Option><![CDATA[Store the SQL query results in <font face="courier new">DataTable</font> objects.]]></Option>
+<Option><![CDATA[Connects to multiple databases such as Sybase and Oracle.]]></Option>
+<Option><![CDATA[Exists in <font face="courier new">System.Data.OleDb</font> namespace.]]></Option>
+</Options>
+<Steps>
+<Step><![CDATA[SqlDataAdapter]]></Step>
+<Step><![CDATA[OleDbDataAdapter]]></Step>
+</Steps>
+<type>dropdrown</type>
+<CorrectAnswer>2,1,1,2,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(OleDbDataAdapter), (B)-(SqlDataAdapter), (C)-(SqlDataAdapter), (D)-(OleDbDataAdapter), and (E)-(OleDbDataAdapter).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

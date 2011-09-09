@@ -1,0 +1,31 @@
+﻿<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the properties, methods, and events of the <font face="courier new">CurrencyManager</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Element</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[This method resumes data binding.]]></Option>
+<Option><![CDATA[This property identifies the current position in the list.]]></Option>
+<Option><![CDATA[This event occurs when the current item in the list is changed.]]></Option>
+<Option><![CDATA[This property identifies the bounded list.]]></Option>
+<Option><![CDATA[This property identifies the current item.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[ItemChanged]]></Step>
+<Step><![CDATA[List]]></Step>
+<Step><![CDATA[Current]]></Step>
+<Step><![CDATA[Position]]></Step>
+<Step><![CDATA[ResumeBinding]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>5,4,1,2,3</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct combinations are: (A)-(5), (B)-(4), (C)-(1), (D)-(2), and (E)-(3).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

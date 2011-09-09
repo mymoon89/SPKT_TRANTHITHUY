@@ -1,0 +1,26 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Which of these statements about Windows Forms are true and which statements are false?]]></QuestionText>
+<Heading>
+<Leftside></Leftside>
+<Rightside></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Windows Forms execute on a remote machine. ]]></Option>
+<Option><![CDATA[Windows Forms does not support GDI+.]]></Option>
+<Option><![CDATA[The application settings feature allows storing only user-defined settings.]]></Option>
+<Option><![CDATA[The <font face="courier new">ToolStripContainer</font> control is a new control introduced in Windows Forms.]]></Option>
+<Option><![CDATA[Windows Forms can access a database, which exists on another machine.]]></Option>
+
+</Options>
+<Steps>
+<Step></Step>
+</Steps>
+<type>True&False</type>
+<CorrectAnswer>0,0,0,1,1</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(False), (B)-(False), (C)-(False), (D)-(True), and (E)-(True).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

@@ -1,0 +1,8 @@
+bin\Debug\ContextMenuStripProject.exe
+bin\Debug\ContextMenuStripProject.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ContextMenuStripProject.Form1.resources
+obj\Debug\ContextMenuStripProject.Properties.Resources.resources
+obj\Debug\ContextMenuStripProject.csproj.GenerateResource.Cache
+obj\Debug\ContextMenuStripProject.exe
+obj\Debug\ContextMenuStripProject.pdb

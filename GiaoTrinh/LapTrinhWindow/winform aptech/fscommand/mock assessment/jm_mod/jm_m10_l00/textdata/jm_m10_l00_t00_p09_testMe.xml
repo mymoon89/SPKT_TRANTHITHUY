@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[You want to display the models of cars in ascending order that have the price greater than 450000. Which one of the following codes will help you to achieve this?]]></QuestionText>
+<Options>
+	<Option><![CDATA[<font face="courier new">DataGridView dgvwModel = new DataGridView();<br>BindingSource bsrcUnitedMotors = new BindingSource();<br>bsrcUnitedMotors.DataSource = dsetUnitedMotors.Tables("CarModel");<br>bsrcUnitedMotors.Sort = "Model ASC";<br>bsrcUnitedMotors.Filter = "Price > 45000";<br>dgvwModel = bsrcUnitedMotors;</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">DataGridView dgvwModel = new DataGridView();<br>BindingSource bsrcUnitedMotors = new BindingSource();<br>bsrcUnitedMotors.DataSource = dsetUnitedMotors.Tables("CarModel");<br>bsrcUnitedMotors.Sort(Model ASC);<br>bsrcUnitedMotors.Filter(Price > 45000);<br>bsrcUnitedMotors = dgvwModel.DataSource;</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">DataGridView dgvwModel = new DataGridView();<br>BindingSource bsrcUnitedMotors = new BindingSource();<br>bsrcUnitedMotors.DataSource = dsetUnitedMotors.Tables("CarModel");<br>bsrcUnitedMotors.Sort[Model ASC];<br>bsrcUnitedMotors.Filter[Price > 45000];<br>dgvwModel.DataSource = bsrcUnitedMotors;</font>]]></Option>
+
+	<Option><![CDATA[<font face="courier new">DataGridView dgvwModel = new DataGridView();<br>BindingSource bsrcUnitedMotors = new BindingSource();<br>bsrcUnitedMotors.DataSource = dsetUnitedMotors.Tables["CarModel"];<br>bsrcUnitedMotors.Sort = "Model ASC";<br>bsrcUnitedMotors.Filter = "Price > 45000";<br>dgvwModel.DataSource = bsrcUnitedMotors;</font>]]></Option>
+
+</Options>
+<type>CodeMCSS</type>
+<CorrectAnswer>4</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selection is: (D).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>

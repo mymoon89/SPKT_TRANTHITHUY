@@ -1,0 +1,31 @@
+<Assessments>
+
+<Assessment>
+<QuestionText><![CDATA[Can you match the methods, properties, and events of the <font face="courier new">Form</font> class against their corresponding descriptions?]]></QuestionText>
+<Heading>
+<Leftside><![CDATA[<b>Description</b>]]></Leftside>
+<Rightside><![CDATA[<b>Property, Method, and Event</b>]]></Rightside>
+</Heading>
+<Options>
+<Option><![CDATA[Indicates whether a form can be displayed as modal.]]></Option>
+<Option><![CDATA[Displays the form after the form is constructed.]]></Option>
+<Option><![CDATA[Indicates that the user has focused back to the form.]]></Option>
+<Option><![CDATA[Displays the form as an active window.]]></Option>
+<Option><![CDATA[Indicates whether the form is minimized or maximized.]]></Option>
+
+</Options>
+<Steps>
+<Step><![CDATA[Load]]></Step>
+<Step><![CDATA[WindowState]]></Step>
+<Step><![CDATA[Modal]]></Step>
+<Step><![CDATA[Activated]]></Step>
+<Step><![CDATA[Activate]]></Step>
+
+</Steps>
+<type>Click&Match</type>
+<CorrectAnswer>3,1,4,5,2</CorrectAnswer>
+<CorrectFeedback><![CDATA[Yes, that's correct! You get one point for your response.]]></CorrectFeedback>
+<incorrectFeedback><![CDATA[No, that's incorrect. The correct selections are: (A)-(3), (B)-(1), (C)-(4), (D)-(5), and (E)-(2).]]></incorrectFeedback>
+</Assessment>
+
+</Assessments>
