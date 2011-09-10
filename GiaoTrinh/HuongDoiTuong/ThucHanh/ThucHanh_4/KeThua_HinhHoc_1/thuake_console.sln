@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thuake_console", "thuake_console\thuake_console.csproj", "{34DF370E-5AD4-44E5-BE1B-D82730D824F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "form", "form\form.csproj", "{6E3C1BDC-5278-499E-9A83-F36B04A61AC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34DF370E-5AD4-44E5-BE1B-D82730D824F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DF370E-5AD4-44E5-BE1B-D82730D824F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DF370E-5AD4-44E5-BE1B-D82730D824F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DF370E-5AD4-44E5-BE1B-D82730D824F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3C1BDC-5278-499E-9A83-F36B04A61AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3C1BDC-5278-499E-9A83-F36B04A61AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3C1BDC-5278-499E-9A83-F36B04A61AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3C1BDC-5278-499E-9A83-F36B04A61AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

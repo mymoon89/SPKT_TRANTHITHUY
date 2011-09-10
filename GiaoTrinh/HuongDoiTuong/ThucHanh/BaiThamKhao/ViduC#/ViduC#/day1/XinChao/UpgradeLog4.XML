@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="XinChao">
+</Property><Property Name="Solution File" Value="D:\SPKT\OOPC#\day1\XinChao\XinChao.sln">
+</Property><Property Name="Date" Value="09 Tháng Chín 2010">
+</Property><Property Name="Time" Value="21:37:46 CH">
+</Property><Property Name="Log Number" Value="4">
+</Property></Properties><Event ErrorLevel="0" Project="EnumTest" Source="..\EnumTest\EnumTest\EnumTest.csproj" Description="Project file successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup3\EnumTest.csproj">
+</Event><Event ErrorLevel="0" Project="EnumTest" Source="..\EnumTest\EnumTest\EnumTest.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup3\EnumTest.cs">
+</Event><Event ErrorLevel="0" Project="EnumTest" Source="..\EnumTest\EnumTest\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup3\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="EnumTest" Source="..\EnumTest\EnumTest\EnumTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EnumTest" Source="..\EnumTest\EnumTest\EnumTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EnumTest" Source="..\EnumTest\EnumTest\EnumTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

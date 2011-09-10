@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace XinChao
+{
+    class XinChao
+    {
+        enum LuongNhanVien:int
+        {
+            NV1=100,
+            NV2=150,
+            NV3=200
+        }
+    /*    static short x = 32767;
+        static short y = 32767;
+        public static int myFunc() {
+            int z=0;
+            try
+            {
+                z = checked((short)(x + y));
+            }
+            catch (System.OverflowException e) {
+                Console.WriteLine(e.ToString());
+            }
+            return z;
+        }*/
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello C#\n");
+        //    Console.WriteLine(" gia tri in ra la : {0}",myFunc());
+            Console.WriteLine(" luong nhan vien 1 la :{0}\n luong nhan vien 2 la :{1}", LuongNhanVien.NV1, LuongNhanVien.NV3);
+            Console.ReadLine();
+        }
+    }
+}

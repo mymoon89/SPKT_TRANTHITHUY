@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Flyweight.RealWorld.exe
+bin\Debug\DoFactory.GangOfFour.Flyweight.RealWorld.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Flyweight.RealWorld.exe
+obj\Debug\DoFactory.GangOfFour.Flyweight.RealWorld.pdb

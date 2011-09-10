@@ -1,0 +1,9 @@
+title {display: block; font-size: 36pt; font-weight: bold;text-align: center;background-color:lightgreen}
+author{display: block; font-size: 16pt; text-align: center}
+paragraph {display: block; margin-top: 10;color:red}
+image {background-image: url(love.bmp);  height: 67px; width: 67px; position:absolute; left:250; top:180}
+superscript {position:relative; top:-5}
+subscript {position:relative; top:5}
+
+
+

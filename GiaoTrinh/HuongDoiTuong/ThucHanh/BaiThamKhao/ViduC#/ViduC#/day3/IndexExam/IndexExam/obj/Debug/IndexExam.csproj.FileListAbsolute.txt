@@ -1,0 +1,10 @@
+D:\E-SPKT\OOPC#\day3\IndexExam\IndexExam\bin\Debug\IndexExam.exe
+D:\E-SPKT\OOPC#\day3\IndexExam\IndexExam\bin\Debug\IndexExam.pdb
+D:\E-SPKT\OOPC#\day3\IndexExam\IndexExam\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day3\IndexExam\IndexExam\obj\Debug\IndexExam.exe
+D:\E-SPKT\OOPC#\day3\IndexExam\IndexExam\obj\Debug\IndexExam.pdb
+D:\SPKT\OOPC#\day3\IndexExam\IndexExam\obj\Debug\IndexExam.exe
+D:\SPKT\OOPC#\day3\IndexExam\IndexExam\obj\Debug\IndexExam.pdb
+D:\SPKT\OOPC#\day3\IndexExam\IndexExam\bin\Debug\IndexExam.exe
+D:\SPKT\OOPC#\day3\IndexExam\IndexExam\bin\Debug\IndexExam.pdb
+D:\SPKT\OOPC#\day3\IndexExam\IndexExam\obj\Debug\ResolveAssemblyReference.cache

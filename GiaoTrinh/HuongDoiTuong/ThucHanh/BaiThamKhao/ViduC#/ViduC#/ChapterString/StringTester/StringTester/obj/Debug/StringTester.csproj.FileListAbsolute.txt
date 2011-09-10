@@ -1,0 +1,10 @@
+D:\SPKT\OOPC#\ChapterString\StringTester\StringTester\bin\Debug\StringTester.exe
+D:\SPKT\OOPC#\ChapterString\StringTester\StringTester\bin\Debug\StringTester.pdb
+D:\SPKT\OOPC#\ChapterString\StringTester\StringTester\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\ChapterString\StringTester\StringTester\obj\Debug\StringTester.exe
+D:\SPKT\OOPC#\ChapterString\StringTester\StringTester\obj\Debug\StringTester.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\StringTester\obj\Debug\StringTester.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\StringTester\obj\Debug\StringTester.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\StringTester\bin\Debug\StringTester.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\StringTester\bin\Debug\StringTester.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\StringTester\obj\Debug\ResolveAssemblyReference.cache

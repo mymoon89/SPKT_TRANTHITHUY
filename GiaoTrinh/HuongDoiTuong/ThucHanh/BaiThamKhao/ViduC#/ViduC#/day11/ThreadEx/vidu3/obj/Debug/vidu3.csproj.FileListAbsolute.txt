@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day11\ThreadEx\vidu3\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day11\ThreadEx\vidu3\bin\Debug\vidu3.exe
+D:\E-SPKT\OOPC#\day11\ThreadEx\vidu3\bin\Debug\vidu3.pdb
+D:\E-SPKT\OOPC#\day11\ThreadEx\vidu3\obj\Debug\vidu3.exe
+D:\E-SPKT\OOPC#\day11\ThreadEx\vidu3\obj\Debug\vidu3.pdb

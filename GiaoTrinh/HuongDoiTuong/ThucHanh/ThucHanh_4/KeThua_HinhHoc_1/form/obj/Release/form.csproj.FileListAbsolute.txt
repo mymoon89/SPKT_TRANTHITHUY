@@ -1,0 +1,10 @@
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\form\bin\Release\form.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\form\bin\Release\form.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\form\bin\Release\thuake_console.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\form\bin\Release\thuake_console.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\form\obj\Release\ResolveAssemblyReference.cache
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\form\obj\Release\form.Form1.resources
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\form\obj\Release\form.Properties.Resources.resources
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\form\obj\Release\form.csproj.GenerateResource.Cache
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\form\obj\Release\form.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\form\obj\Release\form.pdb

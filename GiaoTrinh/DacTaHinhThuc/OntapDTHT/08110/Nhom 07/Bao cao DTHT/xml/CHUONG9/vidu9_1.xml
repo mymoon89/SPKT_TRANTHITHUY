@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MEETINGS>
+  <MEETING TYPE="information">
+    <MEETING_TITLE> XML trong thế giới thực</MEETING_TITLE>
+    <MEETING_NUMBER>2097</MEETING_NUMBER>
+    <SUBJECT>XML</SUBJECT>
+    <DATE>12/12/2008</DATE>
+    <PEOPLE>
+      <PERSON ATTENDENCE="present">
+      <FIRST_NAME> Edward</FIRST_NAME>
+      <LAST_NAME> Samson</LAST_NAME>
+      </PERSON>
+      <PERSON ATTENDENCE="present">
+        <FIRST_NAME> Betty</FIRST_NAME>
+        <LAST_NAME> Ssgdcvhn</LAST_NAME>
+      </PERSON>
+    </PEOPLE>
+  </MEETING>
+</MEETINGS>

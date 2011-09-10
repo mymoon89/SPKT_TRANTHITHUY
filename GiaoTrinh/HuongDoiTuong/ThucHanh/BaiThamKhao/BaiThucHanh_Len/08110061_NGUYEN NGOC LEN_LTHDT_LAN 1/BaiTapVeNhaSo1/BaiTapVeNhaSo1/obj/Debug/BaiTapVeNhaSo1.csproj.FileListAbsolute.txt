@@ -1,0 +1,10 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapVeNhaSo1\BaiTapVeNhaSo1\bin\Debug\BaiTapVeNhaSo1.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapVeNhaSo1\BaiTapVeNhaSo1\bin\Debug\BaiTapVeNhaSo1.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Debug\BaiTapVeNhaSo1.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Debug\BaiTapVeNhaSo1.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Debug\BaiTapVeNhaSo1.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Debug\BaiTapVeNhaSo1.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapVeNhaSo1\BaiTapVeNhaSo1\bin\Debug\BaiTapVeNhaSo1.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapVeNhaSo1\BaiTapVeNhaSo1\bin\Debug\BaiTapVeNhaSo1.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Debug\ResolveAssemblyReference.cache

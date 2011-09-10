@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayRec\bin\Debug\ArrayRec.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayRec\bin\Debug\ArrayRec.pdb
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayRec\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayRec\obj\Debug\ArrayRec.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayRec\obj\Debug\ArrayRec.pdb

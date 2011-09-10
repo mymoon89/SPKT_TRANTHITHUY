@@ -1,0 +1,9 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiThucHanhSo2\BaiThucHanhSo2\bin\Debug\BaiThucHanhSo2.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiThucHanhSo2\BaiThucHanhSo2\bin\Debug\BaiThucHanhSo2.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiThucHanhSo2\BaiThucHanhSo2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiThucHanhSo2\BaiThucHanhSo2\obj\Debug\BaiThucHanhSo2.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiThucHanhSo2\BaiThucHanhSo2\obj\Debug\BaiThucHanhSo2.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiThucHanhSo2\BaiThucHanhSo2\bin\Debug\ToanHoc.dll
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiThucHanhSo2\BaiThucHanhSo2\bin\Debug\ToanHoc.pdb
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiThucHanhSo2\BaiThucHanhSo2\obj\Debug\BaiThucHanhSo2.exe
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiThucHanhSo2\BaiThucHanhSo2\obj\Debug\BaiThucHanhSo2.pdb

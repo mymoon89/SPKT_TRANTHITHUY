@@ -1,0 +1,176 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0046)http://www.vovisoft.com/XML/drhong/DOMTree.htm -->
+<HTML><HEAD><TITLE>Using DOM and Treeview (I)</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=vi>
+<META 
+content="Visual Basic, VB Programming in Vietnamese, &#13;&#10;Vovisoft, VB6, VB Tutorials, Learn Visual Basic, Internet, Unicode, &#13;&#10;Vietnamese VB tutorials, Database, Asp, Java, Javascript, VBscript, &#13;&#10;FrontPage 2000, XML, Ms Office 2000" 
+name=keywords>
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId><LINK 
+href="Using DOM and Treeview (I)_files/topbottom.css" type=text/css 
+rel=stylesheet></HEAD>
+<BODY leftMargin=0 topMargin=65 marginheight="0" marginwidth="0">
+<BLOCKQUOTE>
+  <BLOCKQUOTE><A href="http://www.vovisoft.com/"><IMG height=77 
+    alt="Logo of Vovisoft" 
+    src="Using DOM and Treeview (I)_files/vs-logo4_10.gif" width=102 border=0> 
+    </A></BLOCKQUOTE></BLOCKQUOTE>
+<CENTER>
+<H2><FONT face=Tahoma color=#800000>Dùng DOM để display XML trong 
+TreeView</FONT></H2></CENTER>
+<BLOCKQUOTE>
+  <BLOCKQUOTE><FONT face=Tahoma><FONT color=green size=6>I</FONT> nternet 
+    Explorer 5.0 cho ta <B>Document Object Model (DOM)</B> ActiveX gọi là 
+    <B>MSXML.DLL</B> mà ta có thể dùng trong VB6. Ðầu tiên là <B>Microsoft XML, 
+    version 2.0</B>, tiếp theo đó là <B>Microsoft XML, v2.6</B> và mới nhất là 
+    <B>Microsoft XML, v3.0</B>. Cả ba DLL nầy đều có trong danh sách các 
+    References mà ta có thể include khi dùng IDE Menu command <B>Project | 
+    References</B>.<BR>Khi ta <B>Load</B> một XML file vào DOM, nó tự động 
+    <B>parse</B> XML data để build một Tree gồm nhiều nodes với thứ bậc cha, con 
+    bên trong. Dựa theo đó ta có thể display cái DOM Tree ấy trong một TreeView 
+    để có thể hình dung được cấu trúc của XML data.<BR><BR>Trong thí dụ dưới 
+    đây, ta Load một XML file tên <B>people.xml</B> vào DOM. XML file nầy còn có 
+    một Data Type Definition file tên <B>people.dtd</B>. Khi DOM load XML file, 
+    ta có thể dặn nó kiểm (validate) xem XML data có theo đúng tiêu chuẩn đòi 
+    hỏi trong dtd file.<BR>Content của <B>people.xml</B> như sau, lưu ý hàng thứ 
+    hai nhắc đến <B>people.dtd</B> mà DOM sẽ dùng để validate data trong XML 
+    file:<BR><BR>
+    <TABLE bgColor=#eeeeee>
+      <TBODY>
+      <TR>
+        <TD><PRE>&lt;?xml version="1.0"?&gt;
+&lt;!DOCTYPE PEOPLE SYSTEM "people.dtd"&gt;
+&lt;PEOPLE&gt;
+	&lt;PERSON PERSONID="p1"&gt;
+		&lt;NAME&gt;Peter Greenway&lt;/NAME&gt;
+		&lt;ADDRESS&gt;234 King St, Newtown, NSW, Australia&lt;/ADDRESS&gt;
+		&lt;TEL&gt;(612) 97463534&lt;/TEL&gt;
+		&lt;FAX&gt;(612) 97463535&lt;/FAX&gt;
+		&lt;EMAIL&gt;pgreenway@ozemail.com.au&lt;/EMAIL&gt;
+	&lt;/PERSON&gt;
+	&lt;PERSON PERSONID="p2"&gt;
+		&lt;NAME&gt;Sue Williams&lt;/NAME&gt;
+		&lt;ADDRESS&gt;72/324 John St, Cabramatta, NSW, Australia&lt;/ADDRESS&gt;
+		&lt;TEL&gt;(612) 9745 2263&lt;/TEL&gt;
+		&lt;FAX&gt;(612) 9745 2264&lt;/FAX&gt;
+		&lt;EMAIL&gt;swilliams@bigpond.com.au&lt;/EMAIL&gt;
+	&lt;/PERSON&gt;
+	&lt;PERSON PERSONID="p3"&gt;
+		&lt;NAME&gt;Helen Clark&lt;/NAME&gt;
+		&lt;ADDRESS&gt;74 GreenHill Rd, Wayville, SA, Australia&lt;/ADDRESS&gt;
+		&lt;TEL&gt;(618) 9756 3635&lt;/TEL&gt;
+		&lt;FAX&gt;(618) 9756 3636&lt;/FAX&gt;
+		&lt;EMAIL&gt;hclark@tgp.com.au&lt;/EMAIL&gt;
+	&lt;/PERSON&gt;
+	&lt;PERSON PERSONID="p4"&gt;
+		&lt;NAME&gt;Martin Howard&lt;/NAME&gt;
+		&lt;ADDRESS&gt;652 Broadbeach Drive, St Kilda, Melbourne, Australia&lt;/ADDRESS&gt;
+		&lt;TEL&gt;(613) 9756 2312&lt;/TEL&gt;
+		&lt;FAX&gt;(613) 9756 2313&lt;/FAX&gt;
+		&lt;EMAIL&gt;mhoward@island.net.au&lt;/EMAIL&gt;
+	&lt;/PERSON&gt;
+	&lt;PERSON PERSONID="p5"&gt;
+		&lt;NAME&gt;Pam Rose&lt;/NAME&gt;
+		&lt;ADDRESS&gt;24/274 Stancey St, Bankstown, NSW, Australia&lt;/ADDRESS&gt;
+		&lt;TEL&gt;(612) 9867 9821&lt;/TEL&gt;
+		&lt;FAX&gt;(612) 9867 9822&lt;/FAX&gt;
+		&lt;EMAIL&gt;prose@globalfreeway.com.au&lt;/EMAIL&gt;
+	&lt;/PERSON&gt;
+	&lt;PERSON PERSONID="p6"&gt;
+		&lt;NAME&gt;Le Duc Hong&lt;/NAME&gt;
+		&lt;ADDRESS&gt;3 Rawson St, Epping, NSW,Australia&lt;/ADDRESS&gt;
+		&lt;TEL&gt;(612) 9783 1442&lt;/TEL&gt;
+		&lt;FAX&gt;(612) 9783 1445&lt;/FAX&gt;
+		&lt;EMAIL&gt;ldhong@dingoblue.com.au&lt;/EMAIL&gt;
+              &lt;/PERSON&gt;
+	&lt;PERSON PERSONID="p7"&gt;
+		&lt;NAME&gt;Âu Địch Xương&lt;/NAME&gt;
+		&lt;ADDRESS&gt;435 Trần Hưng Đạo, Vỉnh Long , Việt Nam&lt;/ADDRESS&gt;
+		&lt;TEL&gt;847 74847&lt;/TEL&gt;
+		&lt;FAX&gt;847 9682&lt;/FAX&gt;
+		&lt;EMAIL&gt;dixonau@vovisoft.com&lt;/EMAIL&gt;
+	&lt;/PERSON&gt;
+	&lt;PERSON PERSONID="p8"&gt;
+		&lt;NAME&gt;Lý Phúc Hiếu&lt;/NAME&gt;
+		&lt;ADDRESS&gt;234 Lý Công Uẩn, Saigon, Việt Nam &lt;/ADDRESS&gt;
+		&lt;TEL&gt;827 3746&lt;/TEL&gt;
+		&lt;FAX&gt;827 4645&lt;/FAX&gt;
+		&lt;EMAIL&gt;lyhieu@vnn.vn&lt;/EMAIL&gt;
+	&lt;/PERSON&gt;
+&lt;/PEOPLE&gt;
+</PRE></TD></TR></TBODY></TABLE><BR>Content của <B>people.dtd</B> như 
+    sau:<BR><BR>
+    <BLOCKQUOTE>
+      <TABLE bgColor=#eeeeee>
+        <TBODY>
+        <TR>
+          <TD><PRE>&lt;!ELEMENT PEOPLE ( PERSON+ ) &gt;
+&lt;!ELEMENT PERSON ( NAME, ADDRESS, TEL, FAX, EMAIL ) &gt;
+&lt;!ATTLIST PERSON PERSONID ID #REQUIRED&gt;
+&lt;!ELEMENT NAME (#PCDATA)&gt;
+&lt;!ELEMENT ADDRESS ( #PCDATA ) &gt;
+&lt;!ELEMENT TEL ( #PCDATA ) &gt;
+&lt;!ELEMENT FAX ( #PCDATA ) &gt;
+&lt;!ELEMENT EMAIL ( #PCDATA ) &gt;
+</PRE></TD></TR></TBODY></TABLE></BLOCKQUOTE><BR>Trong file 
+    <B>people.dtd</B> phía trên ta có:<BR><BR>
+    <OL>
+      <LI>Hàng thứ nhất nói rằng cái <B>root Node</B> (Node gốc) tên là 
+      <B>PEOPLE</B>. Nó có một hay nhiều Nodes con tên <B>PERSON</B>. 
+      <LI>Hàng thứ nhì nói mỗi Node <B>PERSON</B> có những Nodes con tên 
+      <B>NAME, ADDRESS, TEL, FAX</B> và <B>EMAIL</B>. 
+      <LI>Các hàng còn lại cho biết mỗi Node <B>NAME, ADDRESS, TEL, FAX, 
+      EMAIL</B> đều chứa text string. </LI></OL>Việc đầu tiên khi chạy program là 
+    bạn click nút <B>Load XML into DOM and Display Tree</B>. Ðợi một chút xíu, 
+    Tree của XML sẽ hiện ra trong TreeView. Ðồng thời XML data cũng được 
+    displayed trong WebBrowser phía bên phải.<BR>Sau đó, mỗi lần bạn click lên 
+    dấu<B>+</B> hay <B>-</B> bên trái tên của một người trong TreeView, chi tiết 
+    của người đó sẽ được display trong các TextBox phía trên.<BR>Sau khi 
+    selected một Person, bạn có thể Delete tên đó bằng cách click nút 
+    <B>Delete</B>. Ngoài ra bạn cũng có thể thêm tên một người bằng cách click 
+    nút <B>Clear to Add</B>, điền các chi tiết của Person vào các TextBoxes rồi 
+    click <B>Save new record</B>. Mỗi lần bạn Delete một Person hay Add một New 
+    Person, program tự động Save kết quả xuống XML file.<BR><BR>Hai TextBoxes 
+    txtName và txtAddress không phải là TextBoxes thông thường nhưng là 
+    TextBoxes của ActiveX Form2. Các Controls của Form2 có thể display chữ Việt 
+    bằng Unicode. Do đó nếu bạn Click lên tên <B>Lý Phúc Hiếu</B> chẳng hạn, bạn 
+    sẽ thấy tên và địa chỉ được display trong Font Tahoma có dấu đầy đủ của chữ 
+    Việt. Muốn có các Controls của Form2 để display chữ Việt bạn dùng menu 
+    command <B>Project | Components</B> để popup Components Dialog, kế đó click 
+    <B>Microsoft Forms 2.0 Object Library</B> như trong hình dưới đây:<BR>
+    <BLOCKQUOTE><IMG height=404 
+      src="Using DOM and Treeview (I)_files/Form2.gif" width=455 
+    border=0></BLOCKQUOTE><BR><BR>Bạn có thể thử viết thêm code để Edit các chi 
+    tiết của một Person có sẵn.<BR><BR><IMG height=693 
+    src="Using DOM and Treeview (I)_files/DOMTree.gif" width=873 
+    border=0><BR><BR>Bạn có thể <A 
+    href="http://www.vovisoft.com/XML/drhong/DOMTree.zip">download chương trình 
+    mẫu <B>DOMTree.zip</B></A> để chạy thử. <BR><BR>Ðể biết thêm các Properties 
+    và Methods của các Classes trong MSXML, từ trong VB6 IDE bạn press <B>F2</B> 
+    để display <B>Object Browser</B>. Khi Object Browser Dialog hiện ra, chọn 
+    <B>MSXML2</B> từ ComboBox phía trên đang display <B>&lt;All 
+    Libraries&gt;</B>, kế đó chọn một class, thí dụ như <B>IXMLDOMElement</B> từ 
+    ListBox bên trái, chi tiết của selected Class sẽ được displayed trong 
+    ListBox bên phải như trong hình dưới đây: <BR><BR>
+    <BLOCKQUOTE><IMG height=413 
+      src="Using DOM and Treeview (I)_files/ObjectBrowser.gif" width=643 
+      border=0></BLOCKQUOTE><BR><BR></BLOCKQUOTE><A 
+  href="http://www.vovisoft.com/"><IMG height=40 
+  src="Using DOM and Treeview (I)_files/homejump.gif" width=40>&nbsp;&nbsp;<A 
+  href="http://www.vovisoft.com/xml">Kỹ thuật XML</A></BLOCKQUOTE>&nbsp; 
+<TABLE class=clsNavLinks id=tblFooterLinks cellSpacing=0 cellPadding=0 
+width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=clsRaised width=785 bgColor=#6699cc colSpan=5>
+      <P align=center><FONT face=Tahoma color=#ffffff size=1>Vovisoft © 2000. 
+      All rights reserved.</FONT></P></TD></TR>
+  <TR>
+    <TD width=256>
+      <P align=center><FONT face=Tahoma size=1>&nbsp;&nbsp; Last Updated: 6 July 
+      2001 </FONT></P></TD>
+    <TD width=181><FONT face=Tahoma size=1>&nbsp;</FONT></TD>
+    <TD width=258>
+      <P align=center><A href="mailto:dixon@vovisoft.com"><FONT face=Tahoma 
+      size=1>Webmaster</FONT></A></P></TD></TR></TBODY></TABLE></FONT></BODY></HTML>

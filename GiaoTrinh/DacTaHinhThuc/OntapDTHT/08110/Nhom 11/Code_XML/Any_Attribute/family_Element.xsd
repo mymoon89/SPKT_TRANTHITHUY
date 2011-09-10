@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3schools.com" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="Detail_person"> 
+	 	<xs:complexType>
+	 	<xs:sequence >
+				<xs:element name="person">
+					<xs:complexType >
+						<xs:sequence >
+							<xs:element name="lastname" type="xs:string"/>
+							<xs:element name="firstname" type="xs:string"/>							 	
+						</xs:sequence>
+						<xs:anyAttribute />
+					</xs:complexType>
+		
+	</xs:element>
+	</xs:sequence>
+	</xs:complexType>
+	</xs:element >
+</xs:schema>

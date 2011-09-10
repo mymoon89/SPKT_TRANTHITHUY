@@ -1,0 +1,5 @@
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\ToanHoc\bin\Debug\ToanHoc.dll
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\ToanHoc\bin\Debug\ToanHoc.pdb
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\ToanHoc\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\ToanHoc\obj\Debug\ToanHoc.dll
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\ToanHoc\obj\Debug\ToanHoc.pdb

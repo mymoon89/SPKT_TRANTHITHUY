@@ -1,0 +1,4 @@
+D:\SPKT\OOPC#\day3\Day3-2010\IndexerBox\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day3\Day3-2010\IndexerBox\obj\Debug\IndexerBox.IndexerTest.resources
+D:\SPKT\OOPC#\day3\Day3-2010\IndexerBox\obj\Debug\IndexerBox.Properties.Resources.resources
+D:\SPKT\OOPC#\day3\Day3-2010\IndexerBox\obj\Debug\IndexerBox.csproj.GenerateResource.Cache

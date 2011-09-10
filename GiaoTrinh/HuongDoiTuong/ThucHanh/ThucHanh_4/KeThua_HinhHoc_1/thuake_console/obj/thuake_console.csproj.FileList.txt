@@ -1,0 +1,5 @@
+obj\Release\thuake_console.exe
+obj\Release\thuake_console.pdb
+bin\Release\thuake_console.exe
+bin\Release\thuake_console.pdb
+obj\Release\ResolveAssemblyReference.cache

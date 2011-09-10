@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE DOCUMENT SYSTEM "ORDERS.dtd">
+<DOCUMENT>
+<CUSTOMER>
+	<NAME>
+		<LAST_NAME>Jacky</LAST_NAME>
+		<FIRST_NAME>Chan</FIRST_NAME>
+	</NAME>
+	<DATE>12/11/2020</DATE>
+	<ORDERS>
+		<ITEM>
+			<PRODUCT>Books</PRODUCT>
+			<NUMBER>2</NUMBER>
+			<PRICE>$2</PRICE>
+		</ITEM>
+	</ORDERS>
+</CUSTOMER>
+</DOCUMENT>

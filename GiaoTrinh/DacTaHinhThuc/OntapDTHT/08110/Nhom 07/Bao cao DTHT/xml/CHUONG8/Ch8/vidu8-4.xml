@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vidu8-3.xsl"?>
+<equipments>
+	<equipment>
+	<name>P4 2.8G</name>
+	<name>Pentium4 2.8G</name>
+	<manufacture>INTEL</manufacture>
+	<price>210</price>
+	</equipment>
+
+	<equipment>
+	<name>DVD-RW ASUS</name>
+	<name>DVD-RW 16x8 ASUS</name>
+	<manufacture>ASUS</manufacture>
+	<price>120</price>
+	</equipment>
+
+	<equipment>
+	<name>SS Monitor 17"</name>
+	<name>Samsung Monitor 17"</name>
+	<manufacture>SAM SUNG</manufacture>
+	<price>99</price>
+	</equipment>
+</equipments>

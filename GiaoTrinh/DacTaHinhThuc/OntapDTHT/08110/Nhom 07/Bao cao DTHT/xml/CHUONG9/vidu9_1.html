@@ -1,0 +1,33 @@
+﻿<HTML>
+<HEAD>
+<TITLE>
+Doc gia tri cac phan tử XML
+</TITLE>
+<SCRIP LANGUAGE="JavaScript">
+function readXMLDocument(){
+var xmlDoc,meetingsNode,meetingNode,peopleNode,personNode,first_nameNode,last_nameNode
+var outputText
+xmldoc=new ActiveXObject("Microsoft.XMLDOM")
+xmldoc.load("meetings.xml")
+meetingsNode=xmldoc.documentElement
+meetingNode=meetingsNode.firstChild
+peopleNode=meetingNode.lastChild
+personNode=peopleNode.lastChild
+first_nameNode=personNode.firstChild
+last_nameNode=personNode.nextSibling
+outputText="Ten thu ba: "+first_nameNode.firstChild.nodeValue+last_nameNode.firstChild.nodeValue
+messageDIV.innerHTML=outputText
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<CENTER>
+<H1>
+Doc gia tri phan tu XML
+</H1>
+<INPUT TYPE="BUTTON" VALUE="Ten cua nguoi thu ba" ONCLICK="readXMLDocument()">
+<P>
+<DIV ID="MessageDIV"> </DIV>
+</CENTER>
+</BODY>
+</HTML>

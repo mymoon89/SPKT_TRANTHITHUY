@@ -1,0 +1,22 @@
+
+         		    SENTENCE ANALYZER
+                            *****************
+
+ SEN_AN can analyze a simple English sentence and draw a tree diagram
+ based on sentence structure.
+
+ The sentences which can be recognized must conform to the following
+ syntax shown in BNF notation: 
+
+   <SENTENCE>	::= <NOUN PHRASE> <VERB PHRASE>
+
+where:
+
+   <NOUN PHRASE>        ::= <DETERMINER> <noun> <RELATIONAL CLAUSE>
+   <DETERMINER>         ::= <> | <determiner>
+   <RELATIONAL CLAUSE>  ::= <> | <relative> <VERB PHRASE>
+   <VERB PHRASE>        ::= <verb> | <NOUN PHRASE>
+
+  Try analyzing the sentence: every man that lives loves a woman
+  For more information on SEN_AN please refer to Appendix G in the
+  Reference Guide.

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HinhHoc">
+</Property><Property Name="Solution File" Value="D:\121HinhHoc\HinhHoc.sln">
+</Property><Property Name="User Options File" Value="D:\121HinhHoc\HinhHoc.suo">
+</Property><Property Name="Date" Value="Tuesday, January 01, 2002">
+</Property><Property Name="Time" Value="1:31 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="HinhHoc.sln" Description="File successfully backed up as D:\121HinhHoc\Backup\HinhHoc.sln">
+</Event><Event ErrorLevel="0" Project="" Source="HinhHoc.suo" Description="File successfully backed up as D:\121HinhHoc\Backup\HinhHoc.suo">
+</Event><Event ErrorLevel="0" Project="HinhHoc" Source="HinhHoc\HinhHoc.csproj" Description="Project file successfully backed up as D:\121HinhHoc\Backup\HinhHoc\HinhHoc.csproj">
+</Event><Event ErrorLevel="0" Project="HinhHoc" Source="HinhHoc\DoanThang.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\HinhHoc\DoanThang.cs">
+</Event><Event ErrorLevel="0" Project="HinhHoc" Source="HinhHoc\ClassHinhHoc.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\HinhHoc\ClassHinhHoc.cs">
+</Event><Event ErrorLevel="0" Project="HinhHoc" Source="HinhHoc\HinhTron.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\HinhHoc\HinhTron.cs">
+</Event><Event ErrorLevel="0" Project="HinhHoc" Source="HinhHoc\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\HinhHoc\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="HinhHoc" Source="HinhHoc\TamGiac.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\HinhHoc\TamGiac.cs">
+</Event><Event ErrorLevel="0" Project="HinhHoc" Source="HinhHoc\HinhHoc.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="HinhHoc" Source="HinhHoc\HinhHoc.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Console" Source="ThuaKe_Console\ThuaKe_Console.csproj" Description="Project file successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Console\ThuaKe_Console.csproj">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Console" Source="ThuaKe_Console\Program.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Console\Program.cs">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Console" Source="ThuaKe_Console\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Console\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Console" Source="ThuaKe_Console\ThuaKe_Console.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ThuaKe_Console" Source="ThuaKe_Console\ThuaKe_Console.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\ThuaKe_Form.csproj" Description="Project file successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Form\ThuaKe_Form.csproj">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\Form1.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Form\Form1.cs">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\Form1.Designer.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Form\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\Program.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Form\Program.cs">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Form\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Form\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Form\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\Properties\Settings.settings" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Form\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\Form1.resx" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Form\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\Properties\Resources.resx" Description="File successfully backed up as D:\121HinhHoc\Backup\ThuaKe_Form\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\ThuaKe_Form.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ThuaKe_Form" Source="ThuaKe_Form\ThuaKe_Form.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HinhHoc.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="HinhHoc.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HinhHoc" Source="HinhHoc\HinhHoc.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Console" Source="ThuaKe_Console\ThuaKe_Console.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ThuaKe_Form" Source="ThuaKe_Form\ThuaKe_Form.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

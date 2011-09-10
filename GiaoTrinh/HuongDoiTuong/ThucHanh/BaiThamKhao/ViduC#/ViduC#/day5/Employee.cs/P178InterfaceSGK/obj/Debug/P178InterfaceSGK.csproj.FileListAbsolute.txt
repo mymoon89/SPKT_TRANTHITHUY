@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day5\Employee.cs\P178InterfaceSGK\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day5\Employee.cs\P178InterfaceSGK\bin\Debug\P178InterfaceSGK.exe
+D:\SPKT\OOPC#\day5\Employee.cs\P178InterfaceSGK\bin\Debug\P178InterfaceSGK.pdb
+D:\SPKT\OOPC#\day5\Employee.cs\P178InterfaceSGK\obj\Debug\P178InterfaceSGK.exe
+D:\SPKT\OOPC#\day5\Employee.cs\P178InterfaceSGK\obj\Debug\P178InterfaceSGK.pdb

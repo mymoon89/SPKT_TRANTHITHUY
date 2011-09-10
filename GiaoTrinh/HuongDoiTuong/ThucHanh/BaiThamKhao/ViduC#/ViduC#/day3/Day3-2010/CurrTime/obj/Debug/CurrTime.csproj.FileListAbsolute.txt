@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day3\Day3-2010\CurrTime\bin\Debug\CurrTime.exe
+D:\SPKT\OOPC#\day3\Day3-2010\CurrTime\bin\Debug\CurrTime.pdb
+D:\SPKT\OOPC#\day3\Day3-2010\CurrTime\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day3\Day3-2010\CurrTime\obj\Debug\CurrTime.exe
+D:\SPKT\OOPC#\day3\Day3-2010\CurrTime\obj\Debug\CurrTime.pdb

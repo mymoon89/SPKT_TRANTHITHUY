@@ -1,0 +1,5 @@
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Iterator.NETOptimized\bin\Debug\DoFactory.GangOfFour.Iterator.NETOptimized.exe
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Iterator.NETOptimized\bin\Debug\DoFactory.GangOfFour.Iterator.NETOptimized.pdb
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Iterator.NETOptimized\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Iterator.NETOptimized\obj\Debug\DoFactory.GangOfFour.Iterator.NETOptimized.exe
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Iterator.NETOptimized\obj\Debug\DoFactory.GangOfFour.Iterator.NETOptimized.pdb

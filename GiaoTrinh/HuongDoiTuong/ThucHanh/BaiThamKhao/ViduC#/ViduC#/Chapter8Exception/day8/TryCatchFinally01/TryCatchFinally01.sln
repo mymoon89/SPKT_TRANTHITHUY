@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchFinally01", "TryCatchFinally01\TryCatchFinally01.csproj", "{CE502241-1D4E-45B7-959F-96D2CB901BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectException", "ObjectException\ObjectException.csproj", "{C9921D57-0593-4EAC-9903-F94995A4E9DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomException", "CustomException\CustomException.csproj", "{13083F99-F613-49E7-A061-25DA54F936ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverflowException1", "OverflowException\OverflowException1.csproj", "{21551FDA-2263-496C-9DF1-463A223D7F20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE502241-1D4E-45B7-959F-96D2CB901BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE502241-1D4E-45B7-959F-96D2CB901BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE502241-1D4E-45B7-959F-96D2CB901BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE502241-1D4E-45B7-959F-96D2CB901BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9921D57-0593-4EAC-9903-F94995A4E9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9921D57-0593-4EAC-9903-F94995A4E9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9921D57-0593-4EAC-9903-F94995A4E9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9921D57-0593-4EAC-9903-F94995A4E9DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13083F99-F613-49E7-A061-25DA54F936ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13083F99-F613-49E7-A061-25DA54F936ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13083F99-F613-49E7-A061-25DA54F936ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13083F99-F613-49E7-A061-25DA54F936ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21551FDA-2263-496C-9DF1-463A223D7F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21551FDA-2263-496C-9DF1-463A223D7F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21551FDA-2263-496C-9DF1-463A223D7F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21551FDA-2263-496C-9DF1-463A223D7F20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

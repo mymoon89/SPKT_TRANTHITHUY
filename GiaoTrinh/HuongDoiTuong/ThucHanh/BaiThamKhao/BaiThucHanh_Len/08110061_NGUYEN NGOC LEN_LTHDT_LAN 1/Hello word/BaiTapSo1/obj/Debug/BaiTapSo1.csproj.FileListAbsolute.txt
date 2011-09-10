@@ -1,0 +1,7 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo1\BaiTapSo1\bin\Debug\BaiTapSo1.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo1\BaiTapSo1\bin\Debug\BaiTapSo1.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo1\BaiTapSo1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo1\BaiTapSo1\obj\Debug\BaiTapSo1.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo1\BaiTapSo1\obj\Debug\BaiTapSo1.pdb
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT\BaiTapSo1\BaiTapSo1\obj\Debug\BaiTapSo1.exe
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT\BaiTapSo1\BaiTapSo1\obj\Debug\BaiTapSo1.pdb

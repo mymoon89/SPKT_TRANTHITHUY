@@ -1,0 +1,7 @@
+D:\E-SPKT\OOPC#\day3\IndexEx2\IndexEx2\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day3\IndexEx2\IndexEx2\bin\Debug\IndexEx2.exe
+D:\E-SPKT\OOPC#\day3\IndexEx2\IndexEx2\bin\Debug\IndexEx2.pdb
+D:\E-SPKT\OOPC#\day3\IndexEx2\IndexEx2\obj\Debug\IndexEx2.exe
+D:\E-SPKT\OOPC#\day3\IndexEx2\IndexEx2\obj\Debug\IndexEx2.pdb
+D:\SPKT\OOPC#\day3\IndexEx2\IndexEx2\obj\Debug\IndexEx2.exe
+D:\SPKT\OOPC#\day3\IndexEx2\IndexEx2\obj\Debug\IndexEx2.pdb

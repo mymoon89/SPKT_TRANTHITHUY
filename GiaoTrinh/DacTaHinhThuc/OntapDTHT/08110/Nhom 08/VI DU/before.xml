@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="before.css"?>
+<!DOCTYPE body[
+<!ELEMENT body ANY>
+<!ELEMENT h1   ANY>
+]>
+<body>
+<h1>This is a heading</h1>
+<h1>This is a heading</h1>
+</body>

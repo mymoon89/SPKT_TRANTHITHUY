@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Detail_person xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3schools.com family_Element.xsd http://www.w3schools.com children_Element.xsd">
+	<person>
+		<lastname/>
+		<firstname/>
+		
+	</person>
+</Detail_person>

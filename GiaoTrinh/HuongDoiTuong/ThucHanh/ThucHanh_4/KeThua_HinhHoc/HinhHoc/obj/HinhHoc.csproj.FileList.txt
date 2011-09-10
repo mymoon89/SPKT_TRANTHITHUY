@@ -1,0 +1,10 @@
+bin\Debug\HinhHoc.dll
+bin\Debug\HinhHoc.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\HinhHoc.dll
+obj\Debug\HinhHoc.pdb
+bin\Release\HinhHoc.dll
+bin\Release\HinhHoc.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\HinhHoc.dll
+obj\Release\HinhHoc.pdb

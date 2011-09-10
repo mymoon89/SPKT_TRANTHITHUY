@@ -1,0 +1,4 @@
+D:\thuake_console\thuake_console\obj\Release\thuake_console.exe
+D:\thuake_console\thuake_console\obj\Release\thuake_console.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\thuake_console\obj\Release\thuake_console.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\HDT\thuake_console\thuake_console\obj\Release\thuake_console.pdb

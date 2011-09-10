@@ -1,0 +1,7 @@
+D:\E-SPKT\OOPC#\day9\vidu\NullOperator\bin\Debug\NullOperator.exe
+D:\E-SPKT\OOPC#\day9\vidu\NullOperator\bin\Debug\NullOperator.pdb
+D:\E-SPKT\OOPC#\day9\vidu\NullOperator\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day9\vidu\NullOperator\obj\Debug\NullOperator.exe
+D:\E-SPKT\OOPC#\day9\vidu\NullOperator\obj\Debug\NullOperator.pdb
+D:\SPKT\OOPC#\day9\vidu\NullOperator\obj\Debug\NullOperator.exe
+D:\SPKT\OOPC#\day9\vidu\NullOperator\obj\Debug\NullOperator.pdb

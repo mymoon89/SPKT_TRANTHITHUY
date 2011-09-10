@@ -1,0 +1,8 @@
+D:\SPKT\OOPC#\day2\Vidu1\ViduForm\bin\Debug\ViduForm.exe
+D:\SPKT\OOPC#\day2\Vidu1\ViduForm\bin\Debug\ViduForm.pdb
+D:\SPKT\OOPC#\day2\Vidu1\ViduForm\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day2\Vidu1\ViduForm\obj\Debug\ViduForm.Form1.resources
+D:\SPKT\OOPC#\day2\Vidu1\ViduForm\obj\Debug\ViduForm.Properties.Resources.resources
+D:\SPKT\OOPC#\day2\Vidu1\ViduForm\obj\Debug\ViduForm.csproj.GenerateResource.Cache
+D:\SPKT\OOPC#\day2\Vidu1\ViduForm\obj\Debug\ViduForm.exe
+D:\SPKT\OOPC#\day2\Vidu1\ViduForm\obj\Debug\ViduForm.pdb

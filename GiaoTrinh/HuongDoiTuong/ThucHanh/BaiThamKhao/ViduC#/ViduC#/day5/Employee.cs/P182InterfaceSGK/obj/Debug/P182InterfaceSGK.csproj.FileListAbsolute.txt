@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day5\Employee.cs\P182InterfaceSGK\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day5\Employee.cs\P182InterfaceSGK\bin\Debug\P182InterfaceSGK.exe
+D:\SPKT\OOPC#\day5\Employee.cs\P182InterfaceSGK\bin\Debug\P182InterfaceSGK.pdb
+D:\SPKT\OOPC#\day5\Employee.cs\P182InterfaceSGK\obj\Debug\P182InterfaceSGK.exe
+D:\SPKT\OOPC#\day5\Employee.cs\P182InterfaceSGK\obj\Debug\P182InterfaceSGK.pdb

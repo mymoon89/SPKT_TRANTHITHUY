@@ -1,0 +1,402 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<TITLE>developerlife.com (tm) - Introduction to XML, Java, databases and the Web
+</TITLE>
+<body text="#000000" bgcolor="#666699" link="#000080" vlink="#000080" alink="#CCCCFF">
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<DIV>
+<a NAME="top"></a>
+<font face="Verdana">
+</DIV>
+
+<!-- navigation tool bar !-->
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 COLS=4 WIDTH="100%" BGCOLOR="#FFFFFF" >
+<tr>
+<td>
+<center>
+<a href="file.pdf">
+<img SRC="pdf.gif" ALT="PDF version of document" NOSAVE BORDER=0 height=73 width=73><br><font size=-1>pdf</a></font></center>
+</td>
+
+<td>
+<center>
+<a href="http://beanfactory.com/servlet/com.beanfactory.discussion.servlets.DiscussionServlet?group=Introduction+to+XML,+Java,+databases,+and+the+Web" target="_blank">
+<img SRC="discussion.gif" ALT="Discuss this document" NOSAVE BORDER=0 height=73 width=73><br><font size=-1>discuss</a></font></center>
+</td>
+
+<td>
+<center><img SRC="download.gif" ALT="Download archive for this document" BORDER=0 height=73 width=73>
+<br><font size=-1><strike>download</strike></font></center>
+</td>
+
+<td>
+<center>
+<a href="../default.htm">
+<img SRC="home.gif" ALT="Go back to homepage" NOSAVE BORDER=0 height=73 width=73><br><font size=-1>home</a></font></center>
+</td>
+
+</tr>
+</table>
+<!-- navigation tool bar !-->
+
+<A NAME="pgfId-998311"></A><A NAME="pgfId-1026898"></A><A NAME="pgfId-1070689"></A><DIV>
+<h1><font color="#FFFFFF"><A NAME="36278"></A>XML, Java, databases and the Web</font></h1>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=8 WIDTH="100%" BGCOLOR="#CACAFF" >
+</DIV>
+<A NAME="pgfId-1070694"></A><DIV>
+<tr><td><A NAME="29172"></A>Author Name	: Nazmul Idris
+</DIV>
+<A NAME="pgfId-1070696"></A><DIV>
+Created On	: June 20, 1999
+</DIV>
+<A NAME="pgfId-1047637"></A><DIV>
+Modified On	: June 24, 1999 8:30 pm</td></tr></table>
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=8  WIDTH="100%" BGCOLOR="#FFFFFF"><tr><td>
+</DIV>
+<A NAME="pgfId-1047641"></A><DIV>
+<font color="#666699">
+<h2><A NAME="97097"></A>Table of contents<hr></h2>
+</font>
+</DIV>
+<A NAME="pgfId-1047638"></A><P CLASS="Body">
+<A NAME="pgfId-1161747"></A><A HREF="#97097" CLASS="XRef">Table of contents</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162503"></A><A HREF="#67435" CLASS="XRef">Overview</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162508"></A><A HREF="#42395" CLASS="XRef">Defining all the pieces of the puzzle</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162528"></A><A HREF="#43036" CLASS="XRef">What is a persistence layer?</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162533"></A><A HREF="#82705" CLASS="XRef">What is a firewall?</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162538"></A><A HREF="#46145" CLASS="XRef">What is a parser?</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162513"></A><A HREF="#61515" CLASS="XRef">Overview of the design</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162572"></A><A HREF="#36097" CLASS="XRef">What is a source?</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162576"></A><A HREF="#61042" CLASS="XRef">What is an object model?</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162580"></A><A HREF="#50315" CLASS="XRef">What is a presentation layer?</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162587"></A><A HREF="#90258" CLASS="XRef">Swing based layer</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162592"></A><A HREF="#48171" CLASS="XRef">Servlet based layer</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162567"></A><A HREF="#50136" CLASS="XRef">Where does distributed computing come in?</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162518"></A><A HREF="#57103" CLASS="XRef">Benefits of Java XML based systems</A></P>
+<P CLASS="Body">
+<A NAME="pgfId-1162523"></A><A HREF="#84066" CLASS="XRef">Conclusion</A></P>
+<DIV>
+<font color="#666699">
+<h2><A NAME="67435"></A>Overview<hr></h2>
+</font>
+</DIV>
+<A NAME="pgfId-1161748"></A><P CLASS="Body">
+<A NAME="pgfId-1161754"></A>XML and Java can certainly be used to create some very interesting applications from app servers to better searchable websites. However, it is sometimes very difficult to understand where everything really fits. There are web servers, Servlet engines, relational databases, and object databases. Chances are that an XML solution that you have to create will use of one of these prebuilt software pieces. XML development also involves using certain APIs, such as SAX, DOM, Servlets, Swing, RMI, JDBC, and the core Java API.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1161760"></A>Using APIs and integrating your solution with prebuilt (3rd party vendor supplied) software solutions are two different problems. This article will talk about issues that are relevant to people who are trying not only to create software solutions using these APIs but also integrating them with prebuilt (native) software components. For example, relational databases and file systems are a fact of life that no one can ignore. It would be wise to create Java and XML software solutions that scaled across a variety of implementations and technologies.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1161767"></A>So there are 2 elements that you have to deal with in creating a real-world (client and server side) Java XML software solution: APIs and pre existing software solutions. The APIs that you must tackle include (the following is by no means an exhaustive list):</P>
+<UL>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1161768"></A>W3C DOM and SAX</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1161769"></A>Servlet API</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1161770"></A>Swing API</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1161771"></A>JDBC API</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1161782"></A>RMI API</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1161772"></A>Java core API.</LI>
+</UL>
+<P CLASS="Body">
+<A NAME="pgfId-1161775"></A>Now the prebuilt (and sometimes native) software components that you have to deal with are:</P>
+<UL>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1161783"></A>Relational Databases</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1161784"></A>Object Databases</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1161785"></A>File systems</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1161790"></A>Webservers.</LI>
+</UL>
+<P CLASS="Body">
+<A NAME="pgfId-1161808"></A>In this article I will talk about certain strategies that make it easier to design systems where you have to use these APIs and integrate your solution with pre existing software solutions. I will show you how I &quot;think&quot; about all the pieces of our rather large puzzle and also how some of these pieces &quot;fit&quot; to create the big picture view of how all this stuff might one day work.</P>
+<DIV>
+<font color="#666699">
+<h2><A NAME="42395"></A>Defining all the pieces of the puzzle<hr></h2>
+</font>
+</DIV>
+<A NAME="pgfId-1161761"></A><P CLASS="Body">
+<A NAME="pgfId-1161817"></A>The following table consists of definitions of most of the pieces of a Java XML client server software solution:</P>
+<P CLASS="Body">
+<A NAME="pgfId-1161818"></A>&nbsp;</P>
+<TABLE BORDER="1">
+<CAPTION>
+<H6 CLASS="TableTitle">
+<A NAME="pgfId-1161821"></A>Description of all the pieces of our solution</H6>
+</CAPTION>
+<TR>
+<TH ROWSPAN="1" COLSPAN="1">
+<P CLASS="CellHeading">
+<A NAME="pgfId-1161825"></A>&nbsp;</P>
+</TH>
+<TH ROWSPAN="1" COLSPAN="1">
+<P CLASS="CellHeading">
+<A NAME="pgfId-1161827"></A>&nbsp;</P>
+</TH>
+</TR>
+<TR>
+<TD ROWSPAN="1" COLSPAN="1">
+<P CLASS="CellBody">
+<A NAME="pgfId-1161829"></A>Java virtual machine</P>
+</TD>
+<TD ROWSPAN="1" COLSPAN="1">
+<P CLASS="CellBody">
+<A NAME="pgfId-1161831"></A>This is a very important piece of the puzzle. I recommend using the Java2 VM, as its more stable than JDK1.1.x. Almost everything I do on this site works with JDK1.1.x (for those of you who can't switch to Java2 for whatever reason).</P>
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN="1" COLSPAN="1">
+<P CLASS="CellBody">
+<A NAME="pgfId-1161833"></A>Web server and Servlet Engine</P>
+</TD>
+<TD ROWSPAN="1" COLSPAN="1">
+<P CLASS="CellBody">
+<A NAME="pgfId-1161835"></A>All solutions that I create need to be deployed over the web in some manner. Even if web based apps are not created (that use HTML for a front end), servlets are critical for tunnelling through firewalls, to get your distributed services through to people behind corporate firewalls.</P>
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN="1" COLSPAN="1">
+<P CLASS="CellBody">
+<A NAME="pgfId-1161837"></A>Persistence layer</P>
+</TD>
+<TD ROWSPAN="1" COLSPAN="1">
+<P CLASS="CellBody">
+<A NAME="pgfId-1161839"></A>You probably will have to use some sort of database (object or relational) or even a simple filesystem to store your information to. Making your software so that it deals with multiple persistence engines is a very interesting topic of discussion and it is very important that your software not rely just on one persistence engine (as that design would just not be very extensible).</P>
+</TD>
+</TR>
+<TR>
+<TD ROWSPAN="1" COLSPAN="1">
+<P CLASS="CellBody">
+<A NAME="pgfId-1161841"></A>XML Parsers</P>
+</TD>
+<TD ROWSPAN="1" COLSPAN="1">
+<P CLASS="CellBody">
+<A NAME="pgfId-1161843"></A>XML parsers are a very important (but small) piece of the big picture. You should design systems in such a way that you can swap out Java XML parsers at runtime. You might also consider not relying entirely on just either SAX or DOM, and even if you do, design your system in such a way that this can be changed quite easily.</P>
+</TD>
+</TR>
+</TABLE>
+<P CLASS="Body">
+<A NAME="pgfId-1161750"></A>As you can see, there are many things to keep in mind when building real-world Java and XML systems. Have heart and keep the faith though, it's a little complicated but by no means is it impossible. Also, Java and XML systems have great advantages that are inherent in such systems, if you take the time to design these things properly. These advantages will be outlined in a later section.</P>
+<DIV>
+<font color="#666699">
+<h3><A NAME="43036"></A>What is a persistence layer?<hr></h3>
+</font>
+</DIV>
+<A NAME="pgfId-1161957"></A><P CLASS="Body">
+<A NAME="pgfId-1162000"></A>In designing your Java and XML server software system, you must deal with persistence engines. These things are responsible for storing you data so that nothing is lost. Examples of persistence engines include relational databases, object databases and even file systems (where you save XML information in files). In the design of your Java and XML software system you should take into account the possibility of using multiple persistence layers (you might start with a simple file system implementation of your system and then later move to a relational database implementation). Depending on the needs of your clients, and the deployment scenario, you have to deal with different persistence layers from different vendors (running on different platforms). For relational databases, JDBC and SQL solve a lot of deployment issues, because you can rely on a set of vendor independent Java interfaces (JDBC) and SQL for actually formulating queries and updates to your relational database. Now the software that you write must somehow deal with multiple persistence layers, you have to define interfaces for storing your data in such a way that these interfaces can be implemented on file systems as well as databases (by simply reimplementing the required interfaces without having to change the rest of your system). Also by using the factory pattern for instantiating classes, you can avoid making direct references in your code to the actual implementation classes altogether, making it possible for you to update the behavior of your system without recompiling your source code. I will have examples of what these interfaces might look like later in this document.</P>
+<DIV>
+<font color="#666699">
+<h3><A NAME="82705"></A>What is a firewall?<hr></h3>
+</font>
+</DIV>
+<A NAME="pgfId-1162001"></A><P CLASS="Body">
+<A NAME="pgfId-1162002"></A>Every enterprise ready Java and XML server side software solution has to deal with firewalls. Firewalls are designed to protect your corporate Intranet against the outside world. Firewalls make sure that machines inside your LAN can access information on the Internet, but machines on the Internet can't access the machines behind your firewall. The firewall does this by making sure that no one can touch any ports on the machine that is directly connected to the Internet. All the machines on your LAN use a proxy server installed on the firewall machine in order to access the web (on the Internet, not your internal web). </P>
+<P CLASS="Body">
+<A NAME="pgfId-1162007"></A>This means that when you are writing server software that has Java clients, you can't always use RMI to make the client and server talk. If the Java client is behind a firewall, it might be able to talk to the remote server, but the remote server will not be able to get to the client (because the firewall will get in the way). Web browsers (HTTP clients) behind firewalls are allowed to talk to webservers (HTTP servers) outside firewalls. This is because firewalls usually keep port 80 open for clients to communicate with outside servers. This is why it is desirable to tunnel transmissions between client and server through a web server, by piggy backing all the transmissions on HTTP.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1161988"></A>In fact, Java's java.net.URLConnection class and Virtual Machine support firewall tunnelling (using HTTP) already. If you are behind a firewall, and need to connect to a webserver (or servlet) that is on the Internet, you simply have to tell the Java VM where your proxy server is. Then when you use the URLConnection class and connect to the webserver (on the Internet), you can get an InputStream from and OutputStream to the webserver. You can read and write information from and to this webserver by using the InputStream and OutputStream.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1161993"></A>In your design of a Java and XML server software you might have to support HTTP tunnelling. Servlets already allow you to provide services that others can access through firewalls, since servlets extend the webserver and most firewalls allow transmissions to occur through the HTTP and HTTPS ports (usually 80).</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162018"></A>So if your Java client is behind a firewall, and it use the URLConnection class, it can connect to a Java Servlet that is outside the firewall (on the Internet), and send and receive information from this Servlet. I will talk about this more in other articles and tutorials. It is important to keep firewalls in mind when thinking of web-enabling your server software.</P>
+<DIV>
+<font color="#666699">
+<h3><A NAME="46145"></A>What is a parser?<hr></h3>
+</font>
+</DIV>
+<A NAME="pgfId-1161985"></A><P CLASS="Body">
+<A NAME="pgfId-1162019"></A>The parser is a very important piece of the Java and XML puzzle. It is also a very small part of the whole picture. For a programmer, you must access information in XML documents (that are stored in some kind of persistence engine) through the services of a Java XML parser. There are 2 kinds of parsers, SAX and DOM parsers. The SAX and DOM API both allow you programmatic access to information stored in XML documents (which come from some kind of persistence engine or some website or URL).</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162022"></A>The SAX and DOM APIs are both very different. SAX is very well suited for allowing programs to read in information that is data generated by software. DOM on the other hand is better suited for reading in information in that is stored in documents. So if your XML document contains computer generated data, it might be easier to read it in with SAX. On the other hand, if your XML document contains a document, it might be easier to read it in with DOM. These are just general guidelines and you don't have to use SAX and DOM in this way.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162030"></A>So the parser enables you to access your data (that comes from XML documents) in your Java programs. Once this data has been &quot;read in&quot;, it should be stored in some kind of &quot;object model&quot; that allows you to access and modify this information. This object model is the in-memory representation of the data that came from your XML document. Once you have made changes to your object model, you will have to deal with saving it back to the persistence layer as XML. </P>
+<P CLASS="Body">
+<A NAME="pgfId-1162035"></A>Now, SAX does not provide a default object model for your data. When using SAX, you possibly have to create your own Java object model to represent this data using Java objects. On the other hand, DOM provides a default object model. This object model turns the data in your XML documents into a tree of Java object nodes. Object models are described in detail in a later section in this document.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162139"></A>So a lot of work in your code is figuring out how to use DOM or SAX to build your own object model, or just learn how to use DOM. Another thing you have to do is write code to turn your object models into XML. It is a good thing to store XML data in its pure form into your persistence layer, rather than saving it as objects (using serialization or object databases). By keeping your information in pure XML format, you gain the most flexibility in your system design and implementation choices, by relying on the lowest common denominator service available to any part of your system, the ability to read and write XML data using Java (or even other languages).</P>
+<DIV>
+<font color="#666699">
+<h2><A NAME="61515"></A>Overview of the design<hr></h2>
+</font>
+</DIV>
+<A NAME="pgfId-1162171"></A><P CLASS="Body">
+<A NAME="pgfId-1162214"></A>Figure 1 illustrates how all the pieces of the puzzle fit to make the big picture. The big picture might look different for your Java and XML application, but parts of this picture can apply to most real-world projects. Also, certain parts of this picture are important in understanding some very basic concepts and ways of using this technology that is essential to build systems that naturally use this technology as it was intended.</P>
+<DIV>
+<IMG SRC="file-1.jpg">
+</DIV>
+<DIV>
+<font color="#666699">
+<h3><A NAME="36097"></A>What is a source?<hr></h3>
+</font>
+</DIV>
+<A NAME="pgfId-1162216"></A><P CLASS="Body">
+<A NAME="pgfId-1162180"></A>A source is a set of Java interfaces (and implementation classes) that you can write to virtualize where the XML documents that you use actually come from. You could write implementation classes for your XML source interfaces for relational databases, object databases, file systems and even web servers (that serve up XML). By having the rest of your classes rely on these source interfaces, you can have any number of implementation classes fit on top of different persistence engines, without changing any code in the rest of your system. Interfaces, and XML data sources that fit on top of persistence engines and have implementation classes to make it all work is a good idea.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162202"></A>Generally speaking methods must be available in your source interface to point to a source (using a URI of some sort) and then get the XML document from the source (as a String). Methods might also be available to take an XML document and save it back to the source (and make it persistent, by saving it to the persistence layer). The implementation classes will have to deal with actually dealing with specific implementation layers to make this happen.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162184"></A>So a source buys you the ability to deal with multiple &quot;sources&quot; of XML data, that could include different persistence layers, or even the web. By having implementation classes for these source interfaces for different types of sources, you can build very extensible systems with Java and XML.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162185"></A>You have to determine what interface classes you need for the projects you have to work. In the design phase you will have to think about what different sources you might have from which XML documents have to be read. These interfaces then have to have to be general enough to work with all the different implementation layers effectively. This is a very tricky task and I will have more information on how to do this in a separate tutorial or document.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162190"></A>Another important thing to remember is to identify different sources using some sort or URI. This URI is just a String and it enables your interfaces to deal with locations for different sources of XML information by parsing the URI. This simple thinking process will actually save you a lot of time and lead to extensible code in your projects.</P>
+<DIV>
+<font color="#666699">
+<h3><A NAME="61042"></A>What is an object model?<hr></h3>
+</font>
+</DIV>
+<A NAME="pgfId-1162191"></A><P CLASS="Body">
+<A NAME="pgfId-1162186"></A>Once you have identified your possible persistence layers and create interfaces for your source (and the implementation classes for the different persistence layers), you have to create an object model to represent the information stored in the XML document that you get from your source. Depending on the complexity of your information this might take some time. The XML document (containing your information) comes from the source; this document must then be run through a DOM or SAX parser and converted into some sort of object model. If you use a DOM parser, then a default object model is provided for you, but you might still want to use a custom object model (because it might be more natural to use that a Document object). </P>
+<P CLASS="Body">
+<A NAME="pgfId-1162194"></A>An object model is basically a set of classes (and interfaces) that you have to define in order to represent the information in your XML documents. If you use SAX, you have to write a DocumentHandler implementation class that is used by the SAX parser to create your own object model. If you use a DOM parser, then a default object model is provided for you, but you might choose to convert this default &quot;document object model&quot; into your custom object model.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162199"></A>For XML documents that contain machine generated data, SAX usually works better. For XML documents that contain human readable documents, it is usually convenient just to use DOM. These are just general guidelines and your project might need something different.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162200"></A>Once your object model has been built, you have to create other classes (that create the user interface) to allow users to interact with this information. Many presentation layers can be put on top of your object model, you can create Swing based or Servlet based (HTML or web based) user interface layers. You also have to deal with converting your object model into XML and then saving it back to the source, and eventually into the persistence layer.</P>
+<DIV>
+<font color="#666699">
+<h3><A NAME="50315"></A>What is a presentation layer?<hr></h3>
+</font>
+</DIV>
+<A NAME="pgfId-1162246"></A><P CLASS="Body">
+<A NAME="pgfId-1162247"></A>The parser and your object model allow you to get your data (from XML documents that come from a source connected to a persistence layer) into your Java program. Until now, the data has been kept pure. Unless your application is a server side system without any user interface requirements (like an XML news feed server) you need to provide a presentation (or user interface) layer so that your users will be able to see their data and edit it.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162250"></A>There are many different types of presentation layers, web based and Java based. Web based presentation layers are very deployable, since everyone has a web browser. Java based presentation layers are richer and more powerful, but they are more difficult to deploy over the Internet (they are better suited for Intranets). These are just general guidelines, your specific application might have different requirements.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162260"></A>The Servlet API is perfectly suited for creating web based user interfaces, in addition with a Servlet enabled webserver. The Swing API is very good for creating Java based client apps. They have many powerful components and also use MVC, which makes these components a dream to use.</P>
+<DIV>
+<font color="#666699">
+<h4><A NAME="90258"></A>Swing based layer<hr></h4>
+</font>
+</DIV>
+<A NAME="pgfId-1162261"></A><P CLASS="Body">
+<A NAME="pgfId-1162270"></A>The Swing based presentation layer &quot;sits&quot; on top of your object model. You might have to create adapter classes in order to implement the Swing data model interfaces (like TreeModel, TableModel and ListModel). By using Swing's model interfaces, you can easily integrate your object models with Swing based views for your data. Swing is bigger than AWT, but it has features that reduce development time drastically. </P>
+<P CLASS="Body">
+<A NAME="pgfId-1162274"></A>Also, once you create the Swing models, you can also create HTML views of these models. This is an interesting task that you may want to undertake. Instead of implementing HTML based views of the Swing models, you can simply create custom classes that generate HTML from your object models (if you don't even use the Swing presentation layer).</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162286"></A>So if you choose to use Swing, the first step is usually implementing the Swing data models on top of your object model. You will also have to write a slew of listeners in order to deal with user input events. You might have to write custom cell editors and renderers (which are plug ins for the default Swing views). It is quite unlikely that you would have to write a Swing component view from scratch, or even have to override a prebuilt view. The Swing API is very extensible and elegant.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162287"></A>If your Java client is written in Swing, then you still have to deal with distributed computing issues in access your object model (on the server) over the network. You might use RMI, IIOP (CORBA) or HTTP tunnelling (using Servlets).</P>
+<DIV>
+<font color="#666699">
+<h4><A NAME="48171"></A>Servlet based layer<hr></h4>
+</font>
+</DIV>
+<A NAME="pgfId-1162288"></A><P CLASS="Body">
+<A NAME="pgfId-1162283"></A>A Servlet based presentation layer is responsible for rendering your object model into HTML. In order to deal with input events from the user you have to generate HTML forms. You don't have to actually generate the required HTML in your Servlet classes themselves, the Servlets are good for sending HTML and dealing with POST requests from the web browser. You might consider creating a set of classes (which are not Servlets) that create HTML based on your object model. Your servlets can then use these classes to generate the HTML and send them to the web browser.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162279"></A>You might even have a set of classes that are remote (using RMI), and are used (and shared) by your Servlets, to dynamically generate an entire view of all of your information. These complicated design frameworks are necessary when you have a complicated object model.</P>
+<DIV>
+<font color="#666699">
+<h3><A NAME="50136"></A>Where does distributed computing come in?<hr></h3>
+</font>
+</DIV>
+<A NAME="pgfId-1162228"></A><P CLASS="Body">
+<A NAME="pgfId-1162305"></A>Distributed computing issues become prevalent in your design when you:</P>
+<UL>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1162309"></A>try to detach presentation layers from the object model in creating remote Java client apps</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1162326"></A>try to create your source interface implementations for remote persistence layers (e.g., a database that is hosted on a remote machine)</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1162343"></A>try to create CORBA or RMI based clients that need to access the services of your Java and XML server over the network.</LI>
+</UL>
+<P CLASS="Body">
+<A NAME="pgfId-1162344"></A>In making things distributed you have to be concerned with the presence of firewalls, the cost of certain software components (like CORBA ORBs or specialized app servers), the prevalence of the protocols used (e.g. HTTP vs. IIOP), before making design decisions as to which technology you will use and how you will deploy it. There are many issues related to deployment of server side systems that I don't cover in this introductory document.</P>
+<DIV>
+<font color="#666699">
+<h2><A NAME="57103"></A>Benefits of Java XML based systems<hr></h2>
+</font>
+</DIV>
+<A NAME="pgfId-1162340"></A><P CLASS="Body">
+<A NAME="pgfId-1162354"></A>By using source interfaces (that have swappable persistence layer interfaces), and support for distributed computing, while using XML as the blood of your system, you gain many advantages that include:</P>
+<UL>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1162380"></A>The ability to replace entire subsystems with better code when it becomes necessary. For example, if you start using a new persistence layer, or change networking protocols, you might just have to create new classes that implement a set of your interfaces, but still rely on XML data. For large systems that are going to be around for a while, XML and Java allow (if these systems are designed properly) large parts of the system to be replaced with newer code without affecting the rest of the system.</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1162409"></A>The ability to integrate your solution with preexisting software systems over networks. If you have an investment in some software system that you would like to reuse in building a new system, by using Java, XML and open networking protocols you can leverage your investment for a long time to come. Even if this preexisting software piece is not network enabled (or web enabled), you can write a layer on top of it that takes care of networking and transmitting and receiving XML information.</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1162410"></A>The ability of any of your software to be web-enabled. Since XML is web enabled, and your systems might rely on XML formatted input (and generate XML output), you can easily make these services available on the web by using Servlets. This is a very important feature because XML and Java give you the ability to easily, quickly, and cheaply web-enable your systems, which is not the case if you use other technologies like CORBA.</LI>
+</UL>
+<P CLASS="Body">
+<A NAME="pgfId-1162419"></A>Some of the disadvantages are:</P>
+<UL>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1162420"></A>You have to design these systems properly. A poorly designed system will not be extensible. It might have good performance, or maybe even scalability, but not extensibility. You want your designs to achieve maximum extensibility, reliability, scalability and performance (in that order of importance, extensibility being the most important goal).</LI>
+<LI CLASS="Bulleted">
+<A NAME="pgfId-1162415"></A>These are all new technologies and there are very few experts who know what this technology can do, and even fewer who can build real-world systems based on these technologies.</LI>
+</UL>
+<DIV>
+<font color="#666699">
+<h2><A NAME="84066"></A>Conclusion<hr></h2>
+</font>
+</DIV>
+<A NAME="pgfId-1162445"></A><P CLASS="Body">
+<A NAME="pgfId-1162453"></A>I have covered a lot of ground in this introductory document: firewalls, frameworks, object models, source interfaces, source implementations, persistence layers, protocols, distributed computing and presentation layers. If you are confused, don't worry, that is a good state to be in :). This document is supposed to give you a taste of what is possible with these wonderful new technologies. On this site, I will explore every one of the aspects outlined here in detail, in the form of tutorials and articles, and others in the form of training programs (that we will offer soon). I hope to create a set of real-world (rigorous and realistic) advanced training programs for developers and system architects and also offer certification programs. So please support me in these endeavours, I will create good training programs, and if you take them (and pay for them :), it will enable me to keep releasing wonderful and useful material on this site. Thanks in advance for your support.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162429"></A>This document is a high level overview of what some of the most important issues are in creating real-world server side Java and XML software solutions. I will have many more tutorials on these topics, where I provide more that an over simplified overview. I will also offer training and certification programs for Java and XML on this site so that you can have a source of learning wonderful new skills to build systems such as the ones I have described here. These courses will not be for everybody, but if you want to know how to do all the stuff outlined here (and more) you will have to sign up for the training courses.</P>
+<P CLASS="Body">
+<A NAME="pgfId-1162436"></A>I have more tutorials in the database section after this introduction, that are more pragmatic (and less broad in their scope). I hope you enjoyed this overview and also the other articles in the database section.</P>
+</td></tr></table>
+
+<!-- navigation tool bar !-->
+<table BORDER=0 CELLSPACING=0 CELLPADDING=4 COLS=4 WIDTH="100%" BGCOLOR="#FFFFFF" >
+<tr>
+<td>
+<center>
+<a href="file.pdf">
+<img SRC="pdf.gif" ALT="PDF version of document" NOSAVE BORDER=0 height=73 width=73><br><font size=-1>pdf</a></font></center>
+</td>
+
+<td>
+<center>
+<a href="http://beanfactory.com/servlet/com.beanfactory.discussion.servlets.DiscussionServlet?group=Introduction+to+XML,+Java,+databases,+and+the+Web" target="_blank">
+<img SRC="discussion.gif" ALT="Discuss this document" NOSAVE BORDER=0 height=73 width=73><br><font size=-1>discuss</a></font></center>
+</td>
+
+<td>
+<center><img SRC="download.gif" ALT="Download archive for this document" BORDER=0 height=73 width=73>
+<br><font size=-1><strike>download</strike></font></center>
+</td>
+
+<td>
+<center>
+<a href="../default.htm">
+<img SRC="home.gif" ALT="Go back to homepage" NOSAVE BORDER=0 height=73 width=73><br><font size=-1>home</a></font></center>
+</td>
+
+</tr>
+</table>
+<!-- navigation tool bar !-->
+
+<table BORDER=0 CELLSPACING=0 CELLPADDING=8  WIDTH="100%" BGCOLOR="#CCCCCC"><tr>
+
+<td align="right"><font size=-1>
+Copyright The Bean Factory, LLC. 1998-1999. All Rights Reserved</font>
+</td>
+
+</tr></table>
+
+</font>
+</BODY>
+</HTML>

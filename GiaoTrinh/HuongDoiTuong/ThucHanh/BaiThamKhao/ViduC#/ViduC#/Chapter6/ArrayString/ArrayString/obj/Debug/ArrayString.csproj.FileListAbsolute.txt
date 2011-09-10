@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayString\bin\Debug\ArrayString.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayString\bin\Debug\ArrayString.pdb
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayString\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayString\obj\Debug\ArrayString.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayString\obj\Debug\ArrayString.pdb

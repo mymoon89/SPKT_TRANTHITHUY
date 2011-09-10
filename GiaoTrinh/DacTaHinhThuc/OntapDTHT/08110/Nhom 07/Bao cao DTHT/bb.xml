@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="biblio.css"?>
+<BIBLIOGRAPHY>
+<CITATION CLASS="HOFSTADTER" ID="C1">
+<AUTHOR>Hofstadter, Douglas</AUTHOR>.
+"<TITLE>How Might Analogy, the Core of Human Thinking,
+Be Understood By Computers?</TITLE>"
+<JOURNAL>Scientific American</JOURNAL>,
+<MONTH>September</MONTH>
+<YEAR>1981</YEAR>
+<PAGES>18-30</PAGES>
+</CITATION>
+<CITATION CLASS="TURING" ID="C2">
+<AUTHOR>Turing, Alan M.</AUTHOR>
+"<TITLE>On Computable Numbers,
+With an Application to the Entscheidungs-problem</TITLE>"
+<JOURNAL>
+Proceedings of the London Mathematical Society</JOURNAL>,
+<SERIES>Series 2</SERIES>,
+<VOLUME>42</VOLUME>
+(<YEAR>1936</YEAR>):
+<PAGES>230-65</PAGES>.
+</CITATION>
+<CITATION CLASS="TURING" ID="C3">
+<AUTHOR>Turing, Alan M.</AUTHOR>
+"<TITLE>Computing Machinery &amp; Intelligence</TITLE>"
+<JOURNAL>Mind</JOURNAL>
+<VOLUME>59</VOLUME>
+(<MONTH>October</MONTH>
+<YEAR>1950</YEAR>):
+<PAGES>433-60</PAGES>
+</CITATION>
+</BIBLIOGRAPHY>

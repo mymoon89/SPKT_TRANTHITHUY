@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day4\ViduSGK\ViduSGK\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day4\ViduSGK\ViduSGK\bin\Debug\ViduSGK.exe
+D:\SPKT\OOPC#\day4\ViduSGK\ViduSGK\bin\Debug\ViduSGK.pdb
+D:\SPKT\OOPC#\day4\ViduSGK\ViduSGK\obj\Debug\ViduSGK.exe
+D:\SPKT\OOPC#\day4\ViduSGK\ViduSGK\obj\Debug\ViduSGK.pdb

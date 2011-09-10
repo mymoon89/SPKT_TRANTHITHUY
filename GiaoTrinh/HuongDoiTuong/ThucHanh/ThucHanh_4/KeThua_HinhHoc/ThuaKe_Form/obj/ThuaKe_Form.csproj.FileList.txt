@@ -1,0 +1,10 @@
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ThuaKe_Form.Form1.resources
+obj\Release\ThuaKe_Form.Properties.Resources.resources
+obj\Release\ThuaKe_Form.csproj.GenerateResource.Cache
+bin\Release\ThuaKe_Form.exe
+bin\Release\ThuaKe_Form.pdb
+bin\Release\HinhHoc.dll
+bin\Release\HinhHoc.pdb
+obj\Release\ThuaKe_Form.exe
+obj\Release\ThuaKe_Form.pdb

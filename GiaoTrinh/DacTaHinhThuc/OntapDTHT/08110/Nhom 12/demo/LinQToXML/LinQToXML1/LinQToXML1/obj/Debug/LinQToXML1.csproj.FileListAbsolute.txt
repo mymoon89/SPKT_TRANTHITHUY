@@ -1,0 +1,10 @@
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML1\LinQToXML1\bin\Debug\LinQToXML1.exe
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML1\LinQToXML1\bin\Debug\LinQToXML1.pdb
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML1\LinQToXML1\obj\Debug\ResolveAssemblyReference.cache
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML1\LinQToXML1\obj\Debug\LinQToXML1.Form1.resources
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML1\LinQToXML1\obj\Debug\LinQToXML1.Properties.Resources.resources
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML1\LinQToXML1\obj\Debug\LinQToXML1.csproj.GenerateResource.Cache
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML1\LinQToXML1\obj\Debug\LinQToXML1.exe
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML1\LinQToXML1\obj\Debug\LinQToXML1.pdb
+I:\bao cao\demo\LinQToXML\LinQToXML1\LinQToXML1\obj\Debug\LinQToXML1.exe
+I:\bao cao\demo\LinQToXML\LinQToXML1\LinQToXML1\obj\Debug\LinQToXML1.pdb

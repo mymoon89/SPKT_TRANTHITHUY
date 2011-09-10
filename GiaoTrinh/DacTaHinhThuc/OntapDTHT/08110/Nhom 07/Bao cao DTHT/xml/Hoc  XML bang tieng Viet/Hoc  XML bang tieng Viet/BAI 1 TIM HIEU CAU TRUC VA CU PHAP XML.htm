@@ -1,0 +1,569 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.vovisoft.com/XML/XML01/XML01.htm -->
+<HTML><HEAD><TITLE>XML Lesson 1</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=vi>
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+<META 
+content="Visual Basic, VB Programming in Vietnamese, Vovisoft, VB6, VB Tutorials, Learn Visual Basic, Internet, Unicode, Vietnamese VB tutorials, Database, Asp, Java, Javascript, VBscript, FrontPage 2000, XML, XSL, XPath, Ms Office 2000" 
+name=keywords></HEAD>
+<BODY leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<CENTER><A href="http://www.vovisoft.com/"><IMG height=77 alt="Logo of Vovisoft" 
+src="BAI 1 TIM HIEU CAU TRUC VA CU PHAP XML_files/vs-logo4_10.gif" width=102 
+border=0> </A><FONT face=Tahoma>
+<H2><FONT face=Tahoma color=#800000>Bài 1</FONT></H2>
+<H2><FONT face=Tahoma color=#800000>Tìm hiểu cấu trúc và cú pháp của 
+XML</FONT></H2></CENTER>
+<BLOCKQUOTE>
+  <BLOCKQUOTE><FONT color=green size=6>Đ</FONT>ể thấy ảnh hưởng rộng lớn của 
+    <B>XML</B> trong ngành Công Nghệ Thông Tin cận đại bạn chỉ cần để ý rằng XML 
+    là lý do của sự hiện hữu (raison d'être) của <A 
+    href="http://www.vovisoft.com/webdev/gioithieuNet.asp">Microsoft .Net</A>. 
+    Từ WindowsXP trở đi, bên trong đầy dẫy XML. Microsoft đã đầu tư hơn 3 tỷ đô 
+    la Mỹ vào kỹ thuật nầy, và trong tương lai gần đây tất cả phần mềm của 
+    Microsoft nếu không dọn nhà (được ported) qua .NET thì ít nhất cũng được 
+    .NET Enabled (dùng cho .NET được). Đi song song với .NET là <B>SQLServer 
+    2000</B>, một cơ sở dữ liệu hổ trợ XML hoàn toàn.<BR><BR>Có lẽ bạn đã nghe 
+    qua <B>Web Services</B>. Đó là những dịch vụ trên Web ta có thể dùng 
+    on-demand , tức là khi nào cần cho chương trình của mình, bằng cách gọi nó 
+    theo phương pháp giống giống như gọi một Hàm (Function). Web Services được 
+    triển khai dựa vào XML và Http, chuẩn dùng để gởi các trang Web.<BR><BR>Điểm 
+    quan trọng của kỹ thuật XML là nó không thuộc riêng về một công ty nào, 
+    nhưng là một tiêu chuẩn được mọi người công nhận vì được soạn ra bởi <A 
+    href="http://www.w3.org/XML">World Wide Web Consortium - W3C</A> (một ban 
+    soạn thão với sự hiện diện của tất cả các dân có máu mặt trên giang hồ Tin 
+    học) và những ai muốn đóng góp bằng cách trao đổi qua Email. Bản thân của 
+    XML tuy không có gì khó hiểu, nhưng các công cụ chuẩn được định ra để làm 
+    việc với XML như <B>Document Object Model - DOM, XPath, XSL</B>, v.v.. thì 
+    rất hữu hiệu, và chính các chuẩn nầy được phát triển không 
+    ngừng.<BR><BR>Microsoft committed (nhất quyết dấn thân) vào XML ngay từ đầu. 
+    Chẳng những có đại diện để làm việc thường trực trong W3C mà còn tích cực 
+    đóng góp bằng cách gởi những đề nghị. Vị trí của Microsoft về XML là khi 
+    tiêu chuẩn chưa được hoàn thành thì các sản phẩm của Microsoft tuân thủ 
+    (comply) những gì có vẽ được đa số công nhận và khi tiêu chuẩn hoàn thành 
+    thì tuân thủ hoàn toàn.<BR><BR>Cái công cụ XML sáng giá nhất của Microsoft 
+    là ActiveX <B>MSXML</B>. Nó được dùng trong Visual Basic 6, ASP (Active 
+    Server Pages) của IIS và Internet Explorer từ version 5.5. Hiện nay MSXML đã 
+    có version 4.0. MSXML parse (đọc và phân tích) và validate (kiểm tra sự hợp 
+    lệ) XML file để cho ta DOM, một tree của các Nodes đại diện các thành phần 
+    bên trong XML. MSXML cũng giúp ta dựa vào một XSL file để transform (biến 
+    thể) một XML file thành một trang Web (HTML) hay một XML khác.<BR><BR>
+    <H3><FONT color=green>XML là gì?</FONT></H3>
+    <H3><FONT color=blue>Một chút lịch sử</FONT></H3>Như tất cả chúng ta đều 
+    biết, <B>XML</B> là viết tắt cho chữ <B>eXtensible Markup Language</B> - 
+    nhưng Markup Language (ngôn ngữ đánh dấu) là gì?<BR><BR>Trong ngành ấn loát, 
+    để chỉ thị cho thợ sắp chữ về cách in một bài vỡ, tác giả hay chủ bút thường 
+    vẽ các vòng tròn trong bản thão và chú thích bằng một ngôn ngữ đánh dấu 
+    tương tự như tốc ký. Ngôn ngữ ấy được gọi là <B>Markup 
+    Language</B>.<BR><BR>XML là một ngôn ngữ đánh dấu tương đối mới vì nó là một 
+    subset (một phần nhỏ hơn) của và đến từ (derived from) một ngôn ngữ đánh dấu 
+    già dặn tên là <B>Standard Generalized Markup Language (SGML)</B>. Ngôn ngữ 
+    HTML cũng dựa vào SGML, thật ra nó là một áp dụng của SGML. <BR><BR>SGML 
+    được phát minh bởi Ed Mosher, Ray Lorie và Charles F. Goldfarb của nhóm IBM 
+    research vào năm 1969, khi con người đặt chân lên mặt trăng. Lúc đầu nó có 
+    tên là <B>Generalized Markup Language (GML)</B>, và được thiết kế để dùng 
+    làm <B>meta-language</B>, một ngôn ngữ được dùng để diễn tả các ngôn ngữ 
+    khác - văn phạm, ngữ vựng của chúng ,.v.v.. Năm 1986, SGML được cơ quan 
+    <B>ISO (International Standard Organisation)</B> thu nhận (adopted) làm tiêu 
+    chuẩn để lưu trữ và trao đổi dữ liệu. Khi Tim Berners-Lee triển khai 
+    <B>HyperText Markup Language - HTML</B> để dùng cho các trang Web hồi đầu 
+    thập niên 1990, ông ta cứ nhắc nhở rằng HTML là một áp dụng của 
+    SGML.<BR><BR>Vì SGML rất rắc rối, và HTML có nhiều giới hạn nên năm 1996 tổ 
+    chức W3C thiết kế XML. XML version 1.0 được định nghĩa trong hồ sơ 
+    <B>February 1998 W3C Recommendation</B>, giống như một <B>Internet Request 
+    for Comments (RFC)</B>, là một <B>"tiêu chuẩn"</B>. 
+    <H3><FONT color=blue>Từ HTML đến XML</FONT></H3>Trong một trang Web, ngôn 
+    ngữ đánh dấu HTML dùng các cặp <B>Tags</B> để đánh dấu vị trí đầu và cuối 
+    của các mảnh dữ liệu để giúp chương trình trình duyệt (browser) parse (ngắt 
+    khúc để phân tích) trang Web và hiển thị các phần theo ý người thiết kế 
+    trang Web. Thí dụ như một câu HTML dưới đây: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>P</FONT><FONT color=green> align<FONT color=blue>=</FONT>"center"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Chào mừng bạn đến thăm </FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>STRONG</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Vovisoft</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>STRONG</FONT><FONT color=red>&gt;</FONT><FONT color=black>Web site</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>P</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Câu code HTML trên có 
+    chứa hai markup Tags, <B>&lt;P&gt;</B> và <B>&lt;STRONG&gt;</B>. Mỗi cặp 
+    Tags gói dữ liệu nó đánh dấu giữa <B>opening Tag</B> và <B>closing Tag</B>. 
+    Hai closing Tags ở đây là <B>&lt;/P&gt;</B> và <B>&lt;/STRONG&gt;</B>. Tất 
+    cả những gì nằm bên trong một cặp Tags được gọi là <B>Element</B>. Để nói 
+    thêm đặc tính của một Element, ta có thể nhét <B>Attribute</B> như 
+    <B>align</B> trong opening Tag của Element ấy dưới dạng 
+    <B>AttributeName="value"</B>, thí dụ như <B>align="center"</B>. <BR><BR>Vì 
+    Tags trong HTML được dùng để format (trình bày) tài liệu nên browser cần 
+    biết ý nghĩa của mỗi Tag. Một browser hay HTML parser sẽ thu thập các chỉ 
+    thị sau từ câu HTML trên: 
+    <OL>
+      <LI>Bắt đầu một Paragraph mới và đặt Text ở giữa trang (<FONT 
+      color=red>&lt;</FONT><FONT color=blue>P</FONT><FONT color=green> 
+      align<FONT color=blue>=</FONT>"center"</FONT><FONT color=red>&gt;</FONT>). 
+
+      <LI>Hiển thị câu <B>Chào mừng bạn đến thăm</B> 
+      <LI>Hiển thị chữ <B>Vovisoft</B> cách mạnh mẽ (<FONT 
+      color=red>&lt;</FONT><FONT color=blue>STRONG</FONT><FONT 
+      color=green></FONT><FONT color=red>&gt;</FONT><FONT 
+      color=black>Vovisoft</FONT><FONT color=red>&lt;/</FONT><FONT 
+      color=blue>STRONG</FONT><FONT color=red>&gt;</FONT>). 
+      <LI>Hiển thị câu <B>Web site</B> 
+      <LI>Gặp điểm cuối của Paragraph (<FONT color=red>&lt;/</FONT><FONT 
+      color=blue>P</FONT><FONT color=red>&gt;</FONT>) </LI></OL>Để xử lý đoạn code 
+    HTML trên, chẳng những browser cần phải xác định vị trí các Tags mà còn phải 
+    hiểu ý nghĩa của mỗi Tag. Vì mỗi Tag có ý ngĩa riêng của nó, thí dụ <B>P</B> 
+    cho Paragraph, <B>STRONG</B> để nhấn mạnh, thí dụ như dùng <B>chữ đậm 
+    (Bold)</B>.<BR><BR>Giống như HTML, XML đến từ SGML. Nó cũng dùng Tags để 
+    encode data. Điểm khác biệt chánh giữa HTML và XML là trong khi các Tags của 
+    HTML chứa ý nghĩa về <B>formatting (cách trình bày)</B> các dữ liệu, thì các 
+    Tags của XML chứa ý nghĩa về <B>cấu trúc</B> của các dữ liệu. Thí dụ như một 
+    tài liệu đặt hàng (order) XML dưới đây: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Order</FONT><FONT color=green> OrderNo<FONT color=blue>=</FONT>"1023"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2002-3-27</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Peter Collingwood</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>ProductID</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ProductID</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>5</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>ProductID</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>4</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ProductID</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>3</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Order</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Tài liệu nầy chỉ chứa dữ 
+    liệu, không nhắc nhở gì đến cách trình bày. Điều nầy có nghĩa là một <B>XML 
+    parser</B> (chương trình ngắt khúc và phân tích) không cần phải hiểu ý nghĩa 
+    cũa các Tags. Nó chỉ cần tìm các Tags và xác định rằng đây là một tài liệu 
+    XML hợp lệ. Vì browser không cần phải hiểu ý nghĩa của các Tags, nên ta có 
+    thể dùng Tag nào cũng được. Đó là lý do người ta dùng chữ <B>eXtensible</B> 
+    (mở rộng thêm được), nhưng khi dùng chữ để viết tắt thì lại chọn <B>X</B> 
+    thay vì <B>e</B>, có lẽ vì X nghe có vẽ kỳ bí, hấp dẫn hơn.<BR><BR>Chúng ta 
+    hãy quan sát kỹ hơn cấu trúc của một XML. Trước hết, Element <B>Order</B> có 
+    Attribute <B>OrderNo</B> với value <B>1023</B>. Bên trong Element Order có: 
+    <UL>
+      <LI>Một Child (con) Element <B>OrderDate</B> với value 2002-3-27 
+      <LI>Một Child Element <B>Customer</B> với value Peter Collingwood. 
+      <LI>Hai Child Elements <B>Item</B>, mỗi Element Item lại chứa một Child 
+      Element <B>ProductID</B> và một Child Element <B>Quantity</B>. </LI></UL>Đôi 
+    khi ta để một Element với tên đàng hoàng, nhưng không chứa một value, lý do 
+    là ta muốn dùng nó như một Element Nhiệm ý (Optional), có cũng được, không 
+    có cũng không sao. Cách tự nhiên nhất là gắn cái closing Tag ngay sau 
+    opening Tag. Thí dụ như <B>Empty (trống rỗng) Element</B> MiddleInitial 
+    trong Element customer dưới đây: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>FirstName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Stephen</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>FirstName</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>MiddleInitial</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>MiddleInitial</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>LastName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>King</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>LastName</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Có một cách khác để biểu 
+    diễn Empty Element là bỏ closing Tag và thêm một dấu "/" (slash) ở cuối 
+    openning Tag. Ta có thể viết lại thí dụ customer như sau: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>FirstName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Stephen</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>FirstName</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>MiddleInitial</FONT><FONT color=green></FONT><FONT color=red>/&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>LastName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>King</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>LastName</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Dĩ nhiên Empty Element 
+    cũng có thể có Attribute như Element <B>PhoneNumber</B> thứ nhì dưới đây: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>FirstName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Stephen</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>FirstName</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>MiddleInitial</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>MiddleInitial</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>LastName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>King</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>LastName</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>PhoneNumber</FONT><FONT color=green> Location<FONT color=blue>=</FONT>"Home"</FONT><FONT color=red>&gt;</FONT><FONT color=black>9847 2635</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>PhoneNumber</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>PhoneNumber</FONT><FONT color=green> Location<FONT color=blue>=</FONT>"Work"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>PhoneNumber</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>
+    <H3><FONT color=blue>Biểu diễn Data trong XML</FONT></H3>Một tài liệu XML 
+    phải <B>well-formed</B> và <B>valid</B>. Mặc dầu hai từ nầy nghe tờ tợ, 
+    nhưng chúng có ý nghĩa khác nhau. Một XML well-formed là một XML thích hợp 
+    cho parser chế biến. Tức là XML tuân thủ các luật lệ về Tag, Element, 
+    Attribute , value .v.v.. chứa bên trong để parser có thể nhận diện và phân 
+    biệt mọi thứ.<BR><BR>Để ý là một XML well-formed chưa chắc chứa đựng những 
+    dữ liệu hữu dụng trong công việc làm ăn. Là well-formed chỉ có nghĩa là XML 
+    có cấu trúc đúng. Để hữu dụng cho công việc làm ăn, XML chẳng những 
+    well-formed mà còn cần phải valid. Một tài liệu XML valid khi nó chứa những 
+    data cần có trong loại tài liệu loại hay class ấy. Thí dụ một XML đặt hàng 
+    có thể bị đòi hỏi phải có một Attribute OrderNo và một Child Element 
+    Orderdate. Parser validate một XML bằng cách kiểm tra data trong XML xem có 
+    đúng như định nghĩa trong một Specification về loại tài liệu XML ấy. 
+    Specification nầy có thể là một <B>Document Type Definition (DTD)</B> hay 
+    một <B>Schema</B>.<BR><BR>Chốc nữa ta sẽ nói đến valid, bây giờ hãy bàn về 
+    well-formed. 
+    <H4><FONT color=blue>Tạo một tài liệu XML well-formed</FONT></H4>Để 
+    well-formed, một tài liệu XML phải theo đúng các luật sau đây: 
+    <OL>
+      <LI>Phải có một root (gốc) Element duy nhất, gọi là <B>Document 
+      Element</B>, nó chứa tất cả các Elements khác trong tài liệu. 
+      <LI>Mỗi opening Tag phải có một closing Tag giống như nó. 
+      <LI>Tags trong XML thì <B>case sensitive</B>, tức là opening Tag và 
+      closing Tag phải được đánh vần y như nhau, chữ hoa hay chữ thường. 
+      <LI>Mỗi Child Element phải nằm trọn bên trong Element cha của nó. 
+      <LI>Attribute value trong XML phải được gói giữa một cặp ngoặc kép hay một 
+      cặp apostrophe. </LI></OL>Luật thứ nhất đòi hỏi một root Element duy nhất, 
+    nên tài liệu dưới đây không well-formed vì nó không có một top level 
+    Element: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>"1"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Chair</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>"2"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Desk</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Một tài liệu XML không 
+    có root Element được gọi là một <B>XML fragment (mảnh)</B>. Để làm cho nó 
+    well-formed ta cần phải thêm một root Element như dưới đây: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Catalog</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>"1"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Chair</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>"2"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Desk</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Catalog</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Luật thứ hai nói rằng 
+    mỗi opening Tag phải có một closing Tag giống như nó. Tức là mỗi Tag mở ra 
+    phải được đóng lại. Empty Element viết cách gọn như <FONT 
+    color=red>&lt;</FONT><FONT color=blue>MiddleInitial</FONT><FONT 
+    color=green></FONT><FONT color=red>/&gt;</FONT> được gọi là có Tag tự đóng 
+    lại. Các Tags khác phải có closing Tag. Cái XML dưới đây không well-formed 
+    vì nó có chứa một một Tag &lt;Item&gt; thiếu closing Tag &lt;/Item&gt;: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Order</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2002-6-14</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Helen Mooney</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>ProductID</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ProductID</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>ProductID</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>4</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ProductID</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>3</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Order</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Để làm cho nó 
+    well-formed ta phải thêm cái closing tag cho Element Item thứ nhất: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Order</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2002-6-14</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Helen Mooney</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>ProductID</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ProductID</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>ProductID</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>4</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ProductID</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>3</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Order</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Luật thứ ba nói là tên 
+    Tag thì case sensitive, tức là closing Tag phải đánh vần y hệt như opening 
+    Tag, phân biệt chữ hoa, chữ thường. Như thế <B>&lt;order&gt;</B> khác với 
+    <B>&lt;Order&gt;</B>, ta không thể dùng Tag <B>&lt;/Order&gt;</B> để đóng 
+    Tag <B>&lt;order&gt;</B>. Cái XML dưới đây không well-formed vì opening Tag 
+    và closing Tags của Element <B>OrderDate</B> không đánh vần giống nhau: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Order</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2001-01-01</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Orderdate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Graeme Malcolm</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Order</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Muốn làm cho nó well 
+    formed, ta phải sửa chữ <B>d</B> thành chữ hoa (uppercase) <B>D</B> như sau: 
+
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Order</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2001-01-01</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Graeme Malcolm</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Order</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Luật thứ tư nói mỗi 
+    Child Element phải nằm trọn bên trong Element cha của nó, tức là không thể 
+    bắt đầu một Element mới khi Element nầy chưa chấm dứt. Thí dụ như tài liệu 
+    XML dưới đây không well-formed vì closing Tag của <B>Category</B> hiện ra 
+    trước closing Tag của <B>Product</B>. 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Catalog</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Category</FONT><FONT color=green> CategoryName<FONT color=blue>=</FONT>"Beverages"</FONT><FONT color=red>&gt;</FONT>
+       <FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>"1"</FONT><FONT color=red>&gt;</FONT>
+          <FONT color=black>Coca-Cola </FONT>
+       <FONT color=red>&lt;/</FONT><FONT color=blue>Category</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Catalog</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Muốn sửa cho nó 
+    well-formed ta cần phải đóng Tag Product trước như dưới đây: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Catalog</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Category</FONT><FONT color=green> CategoryName<FONT color=blue>=</FONT>"Beverages"</FONT><FONT color=red>&gt;</FONT>
+       <FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>"1"</FONT><FONT color=red>&gt;</FONT>
+          <FONT color=black>Coca-Cola </FONT>
+       <FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Category</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Catalog</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Luật cuối cùng về tài 
+    liệu XML well-formed đòi hỏi value của Attribute phải được gói trong một cặp 
+    apostrophe hay ngoặc kép. Tài liệu dưới đây không well-form vì các Attribute 
+    values không được ngoặc đàng hoàng, số <B>1</B> không có dấu ngoặc, số 
+    <B>2</B> có một cái apostrophe, một cái ngoặc kép: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>Catalog</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>1</FONT><FONT color=red>&gt;</FONT><FONT color=black>Chair</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>'2"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Desk</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Catalog</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>
+    <H4><FONT color=blue>Processing Instructions và Comments</FONT></H4>Ngoài 
+    các dữ liệu cần thiết cho công việc làm ăn, một tài liệu XML cũng có chứa 
+    các <B>Processing Instructions (chỉ thị về cách chế biến)</B> cho parser và 
+    <B>Comments (ghi chú)</B> cho người đọc.<BR><BR>Processing Instruction nằm 
+    trong cặp Tags <B>&lt;?</B> và <B>?&gt;</B>. Thông thường nó cho biết 
+    <B>version</B> của XML Specification mà parser cần làm theo. Có khi nó cũng 
+    cho biết data trong XML dùng <B>encoding</B> nào, thí dụ như uft-8. Còn một 
+    Attribute nữa là <B>standalone</B>. standalone cho parser biết là tài liệu 
+    XML có thể được validated một mình, không cần đến một DTD hay 
+    Schema.<BR><BR>Mặc dầu một tài liệu XML well-formed không cần có một 
+    Processing Instruction, nhưng thông thường ta để một Processing Instruction 
+    ở đàng đầu tài liệu, phần ấy được gọi là <B>prologue (giáo đầu)</B>. Dưới 
+    đây là một thí dụ có Processing Instruction trong prologue của một tài liệu 
+    XML: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version<FONT color=blue>=</FONT>"1.0" encoding<FONT color=blue>=</FONT>"utf-8"  standalone<FONT color=blue>=</FONT>"yes"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>Order</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2002-6-14</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Helen Mooney</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>ProductID</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ProductID</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>ProductID</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>4</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ProductID</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Order</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Có một loại Processing 
+    Instruction khác cũng rất thông dụng là cho biết tên của stylesheet của XML 
+    nầy, thí dụ như: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml-stylesheet</FONT><FONT color=green> type<FONT color=blue>=</FONT>"text/xsl" href<FONT color=blue>=</FONT>"order.xsl"</FONT><FONT color=red>?&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Ở đây ta cho XML 
+    stylesheet parser biết rằng stylesheet thuộc loại <B>text/xsl</B> và nó được 
+    chứa trong file tên <B>order.xsl</B>. Bạn cũng có thể cho thêm 
+    <B>Comment</B> bằng cách dùng cặp Tags <B>&lt;!--</B> và <B>--&gt;</B> như 
+    sau: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version<FONT color=blue>=</FONT>"1.0" encoding<FONT color=blue>=</FONT>"utf-8"  standalone<FONT color=blue>=</FONT>"yes"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=black>&lt;!-- Below are details of a purchase order.  --&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>Order</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2002-6-14</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Helen Mooney</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>ProductID</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ProductID</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>ProductID</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>4</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ProductID</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Order</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>
+    <H4><FONT color=blue>Namespaces</FONT></H4>Có một ý niệm rất quan trọng 
+    trong XML là <B>Namespace</B>. Nó cho ta cách cùng một tên của Element để 
+    nói đến hai thứ dữ liệu khác nhau trong cùng một tài liệu XML. Giống như có 
+    hai học sinh trùng tên <B>Tuấn</B> trong lớp học, ta phải dùng thêm họ của 
+    chúng để phân biệt, ta gọi Tuấn Trần hay Tuấn Lê. Thí dụ như có một order 
+    được người ta đặt trong tiệm sách như sau: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version<FONT color=blue>=</FONT>"1.0"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>BookOrder</FONT><FONT color=green> OrderNo<FONT color=blue>=</FONT>"1234"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2001-01-01</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Mr.</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>FirstName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Graeme</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>FirstName</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>LastName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Malcolm</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>LastName</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Book</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Treasure Island</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Robert Louis Stevenson</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Author</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Book</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>BookOrder</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Khi quan sát kỹ, ta thấy 
+    có thể có sự nhầm lẫn về cách dùng Element <B>Title</B>. Trong tài liệu có 
+    hai loại Title, một cái dùng cho khách hàng <B>Customer</B> nói đến danh 
+    hiệu <B>Mr., Mrs., Dr.</B>, còn cái kia để nói đến đề tựa của một quyển sách 
+    <B>Book</B>.<BR><BR>Để tránh sự lầm lẫn, bạn có thể dùng Namespace để nói rõ 
+    tên Element ấy thuộc về giòng họ nào. Giòng họ ấy là một <B>Universal 
+    Resource Identifier (URI)</B>. Một URI có thể là một URL hay một chỗ nào 
+    định nghĩa tính cách độc đáo của nó. Một namespace cũng không cần phải nói 
+    đến một địa chỉ Internet, nó chỉ cần phải là có một, không hai. <BR><BR>Bạn 
+    có thể khai báo namespaces trong một Element bằng cách dùng <B>Attribute 
+    xmlns</B> (<FONT color=blue><B>ns</B></FONT> trong chữ xmlns là viết tắt cho 
+    namespace) bạn cũng có thể khai báo một <B>default namespace</B> để áp dụng 
+    cho những gì nằm bên trong một Element, nơi bạn khai báo namespace. Thí dụ 
+    cái tài liệu đặt hàng có thể được viết lại như sau: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version<FONT color=blue>=</FONT>"1.0"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>BookOrder</FONT><FONT color=green> OrderNo<FONT color=blue>=</FONT>"1234"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2001-01-01</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green> xmlns<FONT color=blue>=</FONT>"http://www.northwindtraders.com/customer"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Mr.</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>FirstName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Graeme</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>FirstName</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>LastName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Malcolm</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>LastName</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Book</FONT><FONT color=green> xmlns<FONT color=blue>=</FONT>"http://www.northwindtraders.com/book"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Treasure Island</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Robert Louis Stevenson</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Author</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Book</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>BookOrder</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Ta đã tránh được sự nhầm 
+    lẫn vì bên trong Customer thì dùng namespace 
+    <B>http://www.northwindtraders.com/customer</B> và bên trong Book thì dùng 
+    namespace <B>http://www.northwindtraders.com/book</B>.<BR><BR>Tuy nhiên, ta 
+    sẽ giải quyết làm sao nếu trong order có nhiều customer và nhiều book. Nếu 
+    cứ thay đổi namespace hoài trong tài liệu thì chóng mặt chết. Một cách giải 
+    quyết là khai báo chữ viết tắt cho các namespaces ngay ở đầu tài liệu, trong 
+    root Element (tức là Document Element). Sau đó bên trong tài liệu ta sẽ 
+    prefix các Element cần xác nhận namespace bằng chữ viết tắt của namespace 
+    nó. Thí dụ như sau: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version<FONT color=blue>=</FONT>"1.0"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>BookOrder</FONT><FONT color=green>  xmlns<FONT color=blue>=</FONT>"http://www.northwindtraders.com/order" 
+       xmlns:cust<FONT color=blue>=</FONT>"http://www.northwindtraders.com/customer" 
+       xmlns:book<FONT color=blue>=</FONT>"http://www.northwindtraders.com/book" OrderNo<FONT color=blue>=</FONT>"1234"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2001-01-01</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>cust:Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>cust:Title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Mr.</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>cust:Title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>cust:FirstName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Graeme</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>cust:FirstName</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>cust:LastName</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Malcolm</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>cust:LastName</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>cust:Customer</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>book:Book</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>book:Title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Treasure Island</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>book:Title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>book:Author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Robert Louis Stevenson</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>book:Author</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>book:Book</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>BookOrder</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Trong tài liệu XML trên 
+    ta dùng 3 namespaces: một <B>default namespace</B> tên 
+    <B>http://www.northwindtraders.com/order</B>, namespace 
+    <B>http://www.northwindtraders.com/customer</B> (viết tắt là <B>cust</B>) và 
+    namespace <B>http://www.northwindtraders.com/book</B> (viết tắt là 
+    <B>book</B>). Các Elements và Attributes không có prefix (tức là không có 
+    chữ tắt đứng trước) như BookOrder, OrderNo, và OrderDate, được coi như thuộc 
+    về default namespace. Để đánh dấu một Element hay Attribute không thuộc về 
+    default namespace, một chữ tắt, đại diện namespace sẽ được gắn làm prefix 
+    cho tên Element hay Attribute. Thí dụ như <B>cust:LastName</B>, 
+    <B>book:Title</B>. 
+    <H4><FONT color=blue>CDATA</FONT></H4>CDATA là khúc dữ liệu trong tài liệu 
+    XML nằm giữa <B>&lt;![CDATA[</B> và <B>]]&gt;</B>. Data nằm bên trong những 
+    CDATA được cho thông qua parser y nguyên, không bị sửa đổi. Điểm nầy rất 
+    quan trọng khi bạn muốn cho vào những dữ liệu có chứa những text được xem 
+    như markup. Bạn có thể đặt những thí dụ cho XML trong những CDATA và chúng 
+    sẽ được parser bỏ qua. Khi dùng XSL stylesheets để transform một XML file 
+    thành HTML, có bất cứ scripting nào bạn cũng phải đặt trong những CDATA. 
+    Dưới đây là các thí dụ dùng CDATA: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3>&lt;![CDATA[...place your data 
+            here...]]&gt;<BR><BR>&lt;SCRIPT&gt;<BR>&nbsp;&nbsp;&lt;![CDATA[<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function 
+            warning()<BR>&nbsp;&nbsp;&nbsp;&nbsp;{<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alert("Watch 
+            out!");<BR>&nbsp;&nbsp;&nbsp;&nbsp;}<BR>&nbsp;&nbsp; 
+            ]]&gt;<BR>&lt;/SCRIPT&gt; </FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>
+    <H4><FONT color=blue>Entity References</FONT></H4>Entity nói đến cách viết 
+    một số dấu đặc biệt đã được định nghĩa trước trong XML. Có 5 entities dưới 
+    đây: 
+    <BLOCKQUOTE>
+      <TABLE cellPadding=10 width=328 border=1>
+        <TBODY>
+        <TR>
+          <TD width=103 bgColor=#c0c0c0>
+            <P align=center><B>Entity</B></P></TD>
+          <TD width=173 bgColor=#c0c0c0>
+            <P align=center><B>Description</B></P></TD></TR>
+        <TR>
+          <TD width=103 bgColor=#ffffcc>&amp;apos;</TD>
+          <TD width=173 bgColor=#ffffcc>dấu apostrophe</TD></TR>
+        <TR>
+          <TD width=103 bgColor=#ffffcc>&amp;amp;</TD>
+          <TD width=173 bgColor=#ffffcc>dấu ampersand</TD></TR>
+        <TR>
+          <TD width=103 bgColor=#ffffcc>&amp;gt;</TD>
+          <TD width=173 bgColor=#ffffcc>dấu lớn hơn</TD></TR>
+        <TR>
+          <TD width=103 bgColor=#ffffcc>&amp;lt;</TD>
+          <TD width=173 bgColor=#ffffcc>dấu nhỏ hơn</TD></TR>
+        <TR>
+          <TD width=103 bgColor=#ffffcc>&amp;quot;</TD>
+          <TD width=173 bgColor=#ffffcc>dấu ngoặc 
+    kép</TD></TR></TBODY></TABLE></BLOCKQUOTE>Trong bài tới ta sẽ học về cách 
+    process (chế biến) một tài liệu XML. <BR><BR><A 
+    href="http://www.vovisoft.com/"><IMG height=40 
+    src="BAI 1 TIM HIEU CAU TRUC VA CU PHAP XML_files/homejump.gif" 
+    width=40><A>&nbsp;&nbsp;<A 
+    href="http://www.vovisoft.com/XML/default.htm">Học 
+  XML</A><BR><BR></BLOCKQUOTE></FONT><!-- Start of bottom bar for copyright notice etc -->
+  <TABLE class=clsNavLinks id=tblFooterLinks cellSpacing=0 cellPadding=0 
+  width="100%" border=0>
+    <TBODY>
+    <TR>
+      <TD class=clsRaised width=785 bgColor=#6699cc colSpan=5>
+        <P align=center><FONT face=Tahoma color=#ffffff size=1>Vovisoft © 2000. 
+        All rights reserved.</FONT></P></TD></TR>
+    <TR>
+      <TD width=256>
+        <P align=center><FONT face=Tahoma size=1>&nbsp;&nbsp; Last Updated: <!--webbot 
+      bot="Timestamp" S-Type="REGENERATED" S-Format="%d %b %Y" startspan -->23 
+        Dec 2003<!--webbot 
+      bot="Timestamp" endspan i-checksum="14404" --> </FONT></P></TD>
+      <TD width=181><FONT face=Tahoma size=1>&nbsp;</FONT></TD>
+      <TD width=258>
+        <P align=center><FONT face=Tahoma size=1><A 
+        href="mailto:dixon@vovisoft.com">Webmaster</A></FONT></P></TD></TR></TBODY></TABLE><BR></BLOCKQUOTE></BODY></HTML>

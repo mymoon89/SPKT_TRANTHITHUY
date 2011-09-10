@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="x-schema:vidu6-2.xsd" documentDate="2005-03-02">
+    <comment>Loi nhuan tu rui ro</comment>
+    <mortgagee phone="83551234">
+        <name>Nguyen Thanh Chau</name>
+        <location>11 Nguyen Hue</location>
+        <district>NY</district>
+        <city>Ho Chi Minh</city>
+    </mortgagee>
+    <mortgages>
+        <mortgage loanNumber="1">
+            <property>Spacy125</property>
+            <date>2005-03-01</date>
+            <loanAmount>4000</loanAmount>
+            <term>20</term>
+        </mortgage>
+        <mortgage loanNumber="2">
+            <property>Dylan</property>
+            <date>2005-03-01</date>
+            <loanAmount>7000</loanAmount>
+            <term>30</term>
+        </mortgage>
+    </mortgages>
+    <bank phone="9558432">
+        <name>XML Bank</name>
+        <location>12 Bach Dang</location>
+        <district>NY</district>
+        <city>Ho Chi Minh</city>
+    </bank>
+</document>

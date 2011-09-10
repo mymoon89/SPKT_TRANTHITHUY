@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day1\XinChao\XinChao\bin\Debug\XinChao.exe
+D:\E-SPKT\OOPC#\day1\XinChao\XinChao\bin\Debug\XinChao.pdb
+D:\E-SPKT\OOPC#\day1\XinChao\XinChao\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day1\XinChao\XinChao\obj\Debug\XinChao.exe
+D:\E-SPKT\OOPC#\day1\XinChao\XinChao\obj\Debug\XinChao.pdb

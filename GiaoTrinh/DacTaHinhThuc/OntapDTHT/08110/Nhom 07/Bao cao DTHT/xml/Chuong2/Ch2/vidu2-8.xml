@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<OperatorList xmlns="http://tempuri.org/OperatorList.xsd">
+<Operator OperatorID="1" UserName="Vuong" Password=""></Operator>
+<Operator OperatorID="2" UserName="Nam" Password=""></Operator>
+<Operator OperatorID="3" UserName="Nguyen" Password="h"></Operator>
+</OperatorList>
+ 

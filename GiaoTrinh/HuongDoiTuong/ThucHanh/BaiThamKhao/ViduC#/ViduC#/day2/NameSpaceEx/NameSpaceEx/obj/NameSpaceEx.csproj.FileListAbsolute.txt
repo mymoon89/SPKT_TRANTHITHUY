@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day2\NameSpaceEx\NameSpaceEx\bin\Debug\NameSpaceEx.exe
+D:\E-SPKT\OOPC#\day2\NameSpaceEx\NameSpaceEx\bin\Debug\NameSpaceEx.pdb
+D:\E-SPKT\OOPC#\day2\NameSpaceEx\NameSpaceEx\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day2\NameSpaceEx\NameSpaceEx\obj\Debug\NameSpaceEx.exe
+D:\E-SPKT\OOPC#\day2\NameSpaceEx\NameSpaceEx\obj\Debug\NameSpaceEx.pdb

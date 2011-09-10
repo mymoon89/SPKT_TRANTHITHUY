@@ -1,0 +1,14 @@
+D:\121HinhHoc\HinhHoc\bin\Release\HinhHoc.dll
+D:\121HinhHoc\HinhHoc\bin\Release\HinhHoc.pdb
+D:\121HinhHoc\HinhHoc\obj\Release\ResolveAssemblyReference.cache
+D:\121HinhHoc\HinhHoc\obj\Release\HinhHoc.dll
+D:\121HinhHoc\HinhHoc\obj\Release\HinhHoc.pdb
+D:\121HinhHoc\HinhHoc\obj\Release\HinhHoc.FormNhapTamGiac.resources
+D:\121HinhHoc\HinhHoc\obj\Release\HinhHoc.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\HinhHoc\bin\Release\HinhHoc.dll
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\HinhHoc\bin\Release\HinhHoc.pdb
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\HinhHoc\obj\Release\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\HinhHoc\obj\Release\HinhHoc.FormNhapTamGiac.resources
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\HinhHoc\obj\Release\HinhHoc.csproj.GenerateResource.Cache
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\HinhHoc\obj\Release\HinhHoc.dll
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\HinhHoc\obj\Release\HinhHoc.pdb

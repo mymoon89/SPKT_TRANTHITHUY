@@ -1,0 +1,20 @@
+<?xml version ="1.0" standalone="no"?>
+<!DOCTYPE DOCUMENT SYSTEM "order.dtd" [
+	<!ELEMENT PRODUCT (#PCDATA)>
+]>
+<DOCUMENT>
+	<CUSTOMER>
+		<NAME>
+			<LAST_NAME>Smith</LAST_NAME>
+			<FIRST_NAME>Sam</FIRST_NAME>
+		</NAME>
+		<DATE>October 15, 2001</DATE>
+		<ORDERS>
+			<ITEM>
+				<PRODUCT>Tomatoes</PRODUCT>
+				<NUMBER>8</NUMBER>
+				<PRICE>$1.25</PRICE>
+			</ITEM>
+		</ORDERS>
+	</CUSTOMER>
+</DOCUMENT>

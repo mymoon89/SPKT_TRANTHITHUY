@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day7\ConsoleApplication1\Employ\bin\Debug\Employ.exe
+D:\E-SPKT\OOPC#\day7\ConsoleApplication1\Employ\bin\Debug\Employ.pdb
+D:\E-SPKT\OOPC#\day7\ConsoleApplication1\Employ\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day7\ConsoleApplication1\Employ\obj\Debug\Employ.exe
+D:\E-SPKT\OOPC#\day7\ConsoleApplication1\Employ\obj\Debug\Employ.pdb

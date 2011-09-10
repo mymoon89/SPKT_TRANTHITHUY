@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE media [
+<!ELEMENT media (#PCDATA)>
+<!NOTATION mpeg SYSTEM "mpegplay.exe"> 
+<!NOTATION jpeg SYSTEM "netscape.exe"> 
+<!ATTLIST media player NOTATION (mpeg | jpeg) #REQUIRED>
+]>
+
+<media player="mpeg"/>

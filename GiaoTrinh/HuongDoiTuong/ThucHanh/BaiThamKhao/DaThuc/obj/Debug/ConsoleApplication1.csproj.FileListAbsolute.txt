@@ -1,0 +1,12 @@
+C:\Documents and Settings\phamtiendat\My Documents\Visual Studio 2008\Projects\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\phamtiendat\My Documents\Visual Studio 2008\Projects\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\phamtiendat\My Documents\Visual Studio 2008\Projects\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Documents and Settings\phamtiendat\My Documents\Visual Studio 2008\Projects\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\phamtiendat\My Documents\Visual Studio 2008\Projects\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Documents and Settings\phamtiendat\Desktop\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\phamtiendat\Desktop\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Documents and Settings\phamtiendat\Desktop\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\phamtiendat\Desktop\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Documents and Settings\phamtiendat\Desktop\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\LI DEN\tlieu\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\LI DEN\tlieu\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day3\Day3-2010\test2Class\bin\Debug\test2Class.exe
+D:\SPKT\OOPC#\day3\Day3-2010\test2Class\bin\Debug\test2Class.pdb
+D:\SPKT\OOPC#\day3\Day3-2010\test2Class\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day3\Day3-2010\test2Class\obj\Debug\test2Class.exe
+D:\SPKT\OOPC#\day3\Day3-2010\test2Class\obj\Debug\test2Class.pdb

@@ -1,0 +1,5 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo5\BaiTapSo5\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo5\BaiTapSo5\bin\Debug\BaiTapSo5.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo5\BaiTapSo5\bin\Debug\BaiTapSo5.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo5\BaiTapSo5\obj\Debug\BaiTapSo5.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo5\BaiTapSo5\obj\Debug\BaiTapSo5.pdb

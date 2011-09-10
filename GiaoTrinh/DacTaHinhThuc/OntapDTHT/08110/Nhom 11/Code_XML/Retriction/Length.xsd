@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Lenght_retriction">
+		 <xs:complexType >
+			 <xs:sequence >
+				 <xs:element name="Pass_Length">
+					 <xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:length value="8"/>
+							</xs:restriction>
+						</xs:simpleType>
+				 </xs:element>
+				 <xs:element name="Min_Max_Pass">
+					 <xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="2"/>
+								<xs:maxLength value="6"/>
+							</xs:restriction>
+						</xs:simpleType>
+				 </xs:element>
+			 </xs:sequence>
+		 </xs:complexType>
+	</xs:element>
+</xs:schema>

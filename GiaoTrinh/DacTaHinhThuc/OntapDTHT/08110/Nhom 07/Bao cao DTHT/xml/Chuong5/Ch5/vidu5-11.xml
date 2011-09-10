@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE document SYSTEM "vidu5-11.dtd">
+<document>
+<employee supervisor="no">
+<copy>&copyright;</copy>
+        <name>
+               <firstname>Nguyen</firstname>
+	<lastname>Son Nam</lastname>
+        </name>
+<hiredate>July 15, 2005</hiredate>
+        <projects>
+            <project>
+                <product>Printer</product>
+                <id>HP2300</id>
+                <price>$111.00</price>
+            </project>
+            <project>
+                <product>Laptop</product>
+                <id>DELL1100</id>
+                <price>$989.00</price>
+            </project>
+        </projects>
+    </employee>
+<employee supervisor="no">
+<copy>&copyright;</copy>
+        <name>
+	<firstname>Le Thi</firstname>
+	<lastname>Kieu Oanh</lastname>
+        </name>
+        <hiredate>October 20, 2005</hiredate>
+        <projects>
+            <project>
+                <product>Desktop</product>
+                <id>LV333</id>
+                <price>$595.00</price>
+            </project>
+            <project>
+                <product>Scanner</product>
+                <id>CANON444</id>
+                <price>$200.00</price>
+            </project>
+        </projects>
+    </employee>
+</document>

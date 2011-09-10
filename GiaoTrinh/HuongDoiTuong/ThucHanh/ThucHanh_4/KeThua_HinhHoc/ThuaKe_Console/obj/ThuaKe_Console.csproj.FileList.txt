@@ -1,0 +1,14 @@
+bin\Release\ThuaKe_Console.exe
+bin\Release\ThuaKe_Console.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\ThuaKe_Console.exe
+obj\Release\ThuaKe_Console.pdb
+bin\Debug\ThuaKe_Console.exe
+bin\Debug\ThuaKe_Console.pdb
+bin\Debug\HinhHoc.dll
+bin\Debug\HinhHoc.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ThuaKe_Console.exe
+obj\Debug\ThuaKe_Console.pdb
+bin\Release\HinhHoc.dll
+bin\Release\HinhHoc.pdb

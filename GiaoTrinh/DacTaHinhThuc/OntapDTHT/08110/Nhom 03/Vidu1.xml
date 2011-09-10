@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE GREETING [
+<!ELEMENT GREETING (#PCDATA)>
+]>
+<GREETING>
+Hello XML!
+</GREETING>

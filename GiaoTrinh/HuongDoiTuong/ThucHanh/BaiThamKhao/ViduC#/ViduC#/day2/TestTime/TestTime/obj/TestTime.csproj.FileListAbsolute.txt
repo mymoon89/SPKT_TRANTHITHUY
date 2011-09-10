@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day2\TestTime\TestTime\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day2\TestTime\TestTime\bin\Debug\TestTime.exe
+D:\E-SPKT\OOPC#\day2\TestTime\TestTime\bin\Debug\TestTime.pdb
+D:\E-SPKT\OOPC#\day2\TestTime\TestTime\obj\Debug\TestTime.exe
+D:\E-SPKT\OOPC#\day2\TestTime\TestTime\obj\Debug\TestTime.pdb

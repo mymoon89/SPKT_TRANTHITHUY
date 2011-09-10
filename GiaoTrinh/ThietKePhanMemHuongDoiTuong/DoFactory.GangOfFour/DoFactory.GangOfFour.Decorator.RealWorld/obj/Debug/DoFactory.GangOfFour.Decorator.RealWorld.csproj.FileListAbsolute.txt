@@ -1,0 +1,5 @@
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Decorator.RealWorld\bin\Debug\DoFactory.GangOfFour.Decorator.RealWorld.exe
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Decorator.RealWorld\bin\Debug\DoFactory.GangOfFour.Decorator.RealWorld.pdb
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Decorator.RealWorld\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Decorator.RealWorld\obj\Debug\DoFactory.GangOfFour.Decorator.RealWorld.exe
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Decorator.RealWorld\obj\Debug\DoFactory.GangOfFour.Decorator.RealWorld.pdb

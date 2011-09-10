@@ -1,0 +1,62 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+namespace RefererenceTest{
+
+    public class Date 
+   {
+       private int month;  // 1-12
+      private int day;    // 1-31 based on month
+      private int year;   // any year
+   
+      // constructor confirms proper value for month;
+      // call method Check Day to confirm proper
+      // value for day
+      public Date( int theMonth, int theDay, int theYear )
+      {
+         // validate month
+         if ( theMonth > 0 && theMonth <= 12 )  
+            month = theMonth;
+   
+         else 
+         {
+            month = 1;
+            Console.WriteLine( 
+               "Month {0} invalid. Set to month 1.", theMonth );
+         }
+   
+    
+         year = theYear;                 // could validate year
+         day =  Check( theDay );       // validate day
+      }
+
+
+    private int Check( Date test  )
+      {
+         int[] daysPerMonth = 
+            { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+   
+         // check if day in range for month
+         if ( test  > 0 && test <= daysPerMonth[ month ] )
+            return test ;
+   
+         // check for leap year
+         if ( month == 2 && ToString(test)  == 29 &&
+              ( year % 400 == 0 || 
+               ( year % 4 == 0 && year % 100 != 0 ) ) )
+            return test ;
+   
+         Console.WriteLine( 
+            "Day {0} invalid. Set to day 1.", test );
+   
+         return 1;  // leave object in consistent state
+      }
+   
+      // return date string as month/day/year
+      public string ToDateString()
+      { 
+         return month + "/" + day + "/" + year; 
+      }
+   
+   }  // end class Date
+}

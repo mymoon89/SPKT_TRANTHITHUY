@@ -1,0 +1,177 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0045)http://www.vovisoft.com/XML/drhong/ADOXML.htm -->
+<HTML><HEAD><TITLE>Convert ADO to XML</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=vi>
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+<META 
+content="Visual Basic, VB Programming in Vietnamese, Vovisoft, VB6, VB Tutorials, Learn Visual Basic, Internet, Unicode, Vietnamese VB tutorials, Database, Asp, Java, Javascript, VBscript, FrontPage 2000, XML, Ms Office 2000" 
+name=keywords>
+<STYLE>.H1 {
+	FILTER: Shadow(color='steelblue', Direction='45'); FONT: bold 14pt Verdana; WIDTH: 100%; COLOR: #9999ff
+}
+</STYLE>
+<LINK href="Convert ADO to XML_files/topbottom.css" type=text/css 
+rel=stylesheet>
+<SCRIPT language=JavaScript src=""></SCRIPT>
+</HEAD>
+<BODY leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<SCRIPT language=JavaScript src="Convert ADO to XML_files/menu.js"></SCRIPT>
+
+<SCRIPT language=JavaScript src="Convert ADO to XML_files/context.js"></SCRIPT>
+
+<P align=center><A href="http://www.vovisoft.com/"><IMG height=77 
+alt="Logo of Vovisoft" src="Convert ADO to XML_files/vs-logo4_10.gif" width=102 
+border=0> </A></P><!-- End of Top Menu -->
+<CENTER>
+<H2><FONT face=Tahoma color=#800000>Hoán chuyển ADO qua XML</FONT></H2></CENTER>
+<BLOCKQUOTE>
+  <BLOCKQUOTE><FONT face=Tahoma><FONT color=green size=6>K</FONT>ể từ ActiveX 
+    Data Objects version 2.1 (<B>ADO 2.1</B>) trở đi, Microsoft ADO engine có 
+    thể cho ta XML file dưới dạng <B>Microsoft XML - Data Schema format</B>, còn 
+    đuợc gọi là <B>XML Reduced Data Schema</B>, hay đơn giản hơn là <B>Reduced 
+    Data</B>. XML Reduced Data Schema nói rõ datatypes và những tính chất tương 
+    tợ của schema (tức là default values, tin tức về primary key, .v.v..) từ 
+    database và để tin tức nầy trong phần đầu của XML file. Phần sau của XML 
+    chứa data trong dạng những <B>rows</B>.<BR>Một khi đã có ADO recordset rồi, 
+    bạn có thể lưu trử (save) data vào một XML file bằng cách dùng Function 
+    <B>Save</B> của recordset. ADO 2.1 chỉ cho ta save data vào một XML file. 
+    Nhưng ADO 2.5 cho ta convert recordset thành <B>stream</B> format. Nếu 
+    argument thứ nhất của Function Save là một URL thì Save cho ra data dưới 
+    dạng <B>intrinsic binary format</B>. Tuy nhiên, nếu ta cho thêm argument thứ 
+    nhì là <B>adPersistXML</B> flag thì stream được đổi thành một XML 
+    stream.<BR>Nếu bạn chưa hề nghe qua danh từ <B>stream</B> trước đây, hãy thử 
+    tưởng tượng chuyện nầy. Có hai cách để lái buôn dưa hấu giao hàng. Cách thứ 
+    nhất họ khiêng dưa hấu từ dưới ghe lên bờ, chất thành một núi nhỏ trên sàn 
+    để một chốc sau bạn hàng cho người đến chuyên chở đi. Cách thứ hai, bạn hàng 
+    lái xe đến cặp sát bờ sông, một lái buôn đứng dưới ghe ném từng trái dưa hấu 
+    lên cho một bạn hàng đứng trên xe chụp rồi chuyển qua cho người khác sắp lên 
+    xe nầy hay thảy qua xe khác nếu muốn phân loại dưa hấu lớn nhỏ.<BR>Cách giao 
+    hàng thứ nhất giống như save data vào một file. Trong cách giao hàng thứ 
+    hai, những trái dưa hấu được ném liên tục bay lên bờ giống như một dòng nước 
+    bắn đi, nghĩa đen của chữ stream là dòng nước.<BR>Khi data được chuyển đi 
+    dưới dạng một stream, ở đầu nhận có thể xử lý data lập tức, và nhiều khi 
+    không cần chứa data nữa. Trong thí dụ nầy, vừa chụp đuợc trái dưa người bạn 
+    hàng phải quyết định ngay, nếu dưa hấu lớn thì để lên xe nầy, nếu dưa hấu 
+    nhỏ hay nhẹ quá thì thảy qua xe kia.<BR>Trong ADO 2.1, bạn bị bắt buộc phải 
+    output stream ra một file, điều nầy có khi phí thì giờ. Cái stream phải đuợc 
+    đổi ra Unicode formated text string, spool ra hard disk qua file interface. 
+    Rồi nếu bạn cần XML, file ấy phải được loaded và parsed trở lại ra XML 
+    stream. ADO 2.5 cho phép bạn viết thẳng kết quả vào một XML <B>DOM (Document 
+    Object Model) </B>document, khỏi phải save ra file rồi đọc và parse trở lại. 
+
+    <H3><FONT face=Tahoma color=green>Chương trình mẫu </FONT></H3><FONT 
+    face=Tahoma>Bạn có thể <A 
+    href="http://www.vovisoft.com/XML/drhong/ADOXML.zip">download chương trình 
+    mẫu <B>ADOXML.zip</B></A> để xem cách save data từ ADO ra XML. Bonus là phần 
+    load data từ XML và save ngược lại vào Access Database. Ðể chạy chương trình 
+    ADOXML bạn cần Project | References hai libraries: Microsoft ActiveX Data 
+    Objects 2.5 Library và Microsoft Data Binding Collection.<BR>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE><IMG height=359 
+        src="Convert ADO to XML_files/Publishers.jpg" width=458 
+      border=0></BLOCKQUOTE></BLOCKQUOTE><BR>ADO recordset dùng ở đây để biểu diễn 
+    data từ table Publishers của BIBLIO.MDB database. Kết quả là một XML file 
+    gồm có ba phần:<BR>
+    <H4>Phần thứ nhất: data giới thiệu dưới dạng attributes của XML</H4><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>xml</FONT><FONT color=green> xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema"</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE><BR>
+    <H4>Phần thứ hai: Schema, cắt nghĩa về chính datatype và data 
+    structure</H4><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>s:Schema</FONT><FONT color=green> id="RowsetSchema"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>s:ElementType</FONT><FONT color=green> name="row" content="eltOnly" rs:updatable="true"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=green> name="PubID" rs:number="1" rs:maydefer="true" rs:basetable="Publishers" rs:basecolumn="PubID" rs:keycolumn="true"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>s:datatype</FONT><FONT color=green> dt:type="int" dt:maxLength="4" rs:precision="10" rs:fixedlength="true"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:datatype</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=green> name="Name" rs:number="2" rs:nullable="true" rs:maydefer="true" rs:write="true" rs:basetable="Publishers" rs:basecolumn="Name"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>s:datatype</FONT><FONT color=green> dt:type="string" rs:dbtype="str" dt:maxLength="50"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:datatype</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=green> name="c2" rs:name="Company Name" rs:number="3" rs:nullable="true" rs:maydefer="true" rs:write="true" rs:basetable="Publishers" rs:basecolumn="Company Name"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>s:datatype</FONT><FONT color=green> dt:type="string" rs:dbtype="str" dt:maxLength="255"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:datatype</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=green> name="Address" rs:number="4" rs:nullable="true" rs:maydefer="true" rs:write="true" rs:basetable="Publishers" rs:basecolumn="Address"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>s:datatype</FONT><FONT color=green> dt:type="string" rs:dbtype="str" dt:maxLength="50"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:datatype</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=green> name="City" rs:number="5" rs:nullable="true" rs:maydefer="true" rs:write="true" rs:basetable="Publishers" rs:basecolumn="City"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>s:datatype</FONT><FONT color=green> dt:type="string" rs:dbtype="str" dt:maxLength="20"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:datatype</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=green> name="Fax" rs:number="6" rs:nullable="true" rs:maydefer="true" rs:write="true" rs:basetable="Publishers" rs:basecolumn="Fax"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>s:datatype</FONT><FONT color=green> dt:type="string" rs:dbtype="str" dt:maxLength="15"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:datatype</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=green> name="State" rs:number="7" rs:nullable="true" rs:maydefer="true" rs:write="true" rs:basetable="Publishers" rs:basecolumn="State"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>s:datatype</FONT><FONT color=green> dt:type="string" rs:dbtype="str" dt:maxLength="10"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:datatype</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=green> name="Telephone" rs:number="8" rs:nullable="true" rs:maydefer="true" rs:write="true" rs:basetable="Publishers" rs:basecolumn="Telephone"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>s:datatype</FONT><FONT color=green> dt:type="string" rs:dbtype="str" dt:maxLength="15"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:datatype</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=green> name="Zip" rs:number="9" rs:nullable="true" rs:maydefer="true" rs:write="true" rs:basetable="Publishers" rs:basecolumn="Zip"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>s:datatype</FONT><FONT color=green> dt:type="string" rs:dbtype="str" dt:maxLength="15"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:datatype</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=green> name="Comments" rs:number="10" rs:nullable="true" rs:maydefer="true" rs:write="true" rs:basetable="Publishers" rs:basecolumn="Comments"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>s:datatype</FONT><FONT color=green> dt:type="string" rs:dbtype="str" dt:maxLength="1073741824" rs:long="true"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:datatype</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>s:AttributeType</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>s:extends</FONT><FONT color=green> type="rs:rowbase"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>s:extends</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>s:ElementType</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>s:Schema</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE><BR>
+    <H4>Phần thứ ba: data, mỗi datafield value là một attribute value của 
+    row</H4><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>rs:data</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="1" Name="SAMS" c2="SAMS" Address="11711 N. College Ave., Ste 140" City="Carmel" Fax=" " State="IN" Telephone=" " Zip="46032" Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="2" Name="PRENTICE HALL" c2="PRENTICE HALL" Address="15 Columbus Cir." City="New York" Fax=" " State="NY" Telephone="800-922-0579" Zip="10023" Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="3" Name="M &amp; T" c2="M &amp; T BOOKS" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="4" Name="MIT" c2="MIT PR" Address="Long Island" City=" " Fax=" " State="N.Y." Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="5" Name="MACMILLAN COMPUTER" c2="MACMILLAN COMPUTER PUB" Address="11 W. 42nd St., 3rd flr." City="New York" Fax=" " State="NY" Telephone="212-869-7440" Zip="10036" Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="6" Name="HIGHTEXT PUBNS" c2="HIGHTEXT PUBNS" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="7" Name="SPRINGER VERLAG" c2="SPRINGER VERLAG" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="8" Name="O" REILLY=" c2=" O'REILLY=" Address=" 90="
+		 City=" Cambridge'=" " State="MA" Telephone=" " Zip="02140" Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="9" Name="ADDISON-WESLEY" c2="ADDISON-WESLEY PUB CO" Address="Rte 128" City="Reading" Fax="617-964-9460" State="MA" Telephone="617-944-3700" Zip="01867" Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="10" Name="JOHN WILEY &amp; SONS" c2="JOHN WILEY &amp; SONS" Address="605 Third Ave" City="New York" Fax="212-850-6088 " State="NY" Telephone="212-850-6000" Zip="10158" Comments="DATABASES MICROCOMPUTER SOFTWARE PAPERBACK BOOKS - TRADE TEXTBOOKS - COLLEGE DICTIONARIES, ENCYCLOPEDIAS PERIODICALS 
+PROFESSIONAL BOOKS 
+SCIENCE (GENERAL) 
+BUSINESS 
+SOCIAL SCIENCES AND SOCIOLOGY 
+COMPUTER SCIENCE, DATA PROCESSING 
+ENGINEERING (GENERAL)"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="11" Name="SINGULAR" c2="SINGULAR PUB GROUP" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="12" Name="Duke Press" c2="Duke Press" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="13" Name="Oxford University" c2="Oxford University Press" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="14" Name="Mit Press" c2="Mit Press" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="15" Name="CAMBRIDGE UNIV" c2="CAMBRIDGE UNIV PR" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="16" Name="Q E D" c2="Q E D PUB CO" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="17" Name="Cambridge University" c2="Cambridge University Press" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="18" Name="WORLD SCIENTIFIC" c2="WORLD SCIENTIFIC PUB CO" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="19" Name="IDG" c2="IDG BOOKS WORLDWIDE" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>z:row</FONT><FONT color=green> PubID="20" Name="GOWER PUB" c2="GOWER PUB CO" Address=" " City=" " Fax=" " State=" " Telephone=" " Zip=" " Comments=" "</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>z:row</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>rs:data</FONT><FONT color=red>&gt;</FONT>
+&lt;/xml&gt;
+</PRE></FONT></TD></TR></TBODY></TABLE><BR></BLOCKQUOTE><BR><A 
+  href="http://www.vovisoft.com/"><IMG height=40 
+  src="Convert ADO to XML_files/homejump.gif" width=40>&nbsp;&nbsp;<A 
+  href="http://www.vovisoft.com/xml">Kỹ thuật XML</A> </BLOCKQUOTE>&nbsp; 
+<TABLE class=clsNavLinks id=tblFooterLinks cellSpacing=0 cellPadding=0 
+width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=clsRaised width=785 bgColor=#6699cc colSpan=5>
+      <P align=center><FONT face=Tahoma color=#ffffff size=1>Vovisoft © 2000. 
+      All rights reserved.</FONT></P></TD></TR>
+  <TR>
+    <TD width=256>
+      <P align=center><FONT face=Tahoma size=1>&nbsp;&nbsp; Last Updated: 20 
+      June 2001 </FONT></P></TD>
+    <TD width=181><FONT face=Tahoma size=1>&nbsp;</FONT></TD>
+    <TD width=258>
+      <P align=center><A href="mailto:dixon@vovisoft.com"><FONT face=Tahoma 
+      size=1>Webmaster</FONT></A></P></TD></TR></TBODY></TABLE></FONT></FONT></BODY></HTML>

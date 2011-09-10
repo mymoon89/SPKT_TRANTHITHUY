@@ -1,0 +1,10 @@
+C:\Documents and Settings\d304\Desktop\kethua\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\d304\Desktop\kethua\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Documents and Settings\d304\Desktop\kethua\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\kethua\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\d304\Desktop\kethua\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\LI DEN\hướng đối tượng\thuy\kethua\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\LI DEN\hướng đối tượng\thuy\kethua\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\LI DEN\hướng đối tượng\thuy\kethua\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+E:\LI DEN\hướng đối tượng\thuy\kethua\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\LI DEN\hướng đối tượng\thuy\kethua\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

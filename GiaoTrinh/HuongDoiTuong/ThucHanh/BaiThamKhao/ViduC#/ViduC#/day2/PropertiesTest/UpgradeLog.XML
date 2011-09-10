@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PropertiesTest">
+</Property><Property Name="Solution File" Value="D:\SPKT\OOPC#\day2\PropertiesTest\PropertiesTest.sln">
+</Property><Property Name="User Options File" Value="D:\SPKT\OOPC#\day2\PropertiesTest\PropertiesTest.suo">
+</Property><Property Name="Date" Value="27 Tháng Mười Một 2010">
+</Property><Property Name="Time" Value="10:27 SA">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PropertiesTest.sln" Description="File successfully backed up as D:\SPKT\OOPC#\day2\PropertiesTest\Backup\PropertiesTest.sln">
+</Event><Event ErrorLevel="0" Project="" Source="PropertiesTest.suo" Description="File successfully backed up as D:\SPKT\OOPC#\day2\PropertiesTest\Backup\PropertiesTest.suo">
+</Event><Event ErrorLevel="0" Project="PropertiesTest" Source="PropertiesTest\PropertiesTest.csproj" Description="Project file successfully backed up as D:\SPKT\OOPC#\day2\PropertiesTest\Backup\PropertiesTest\PropertiesTest.csproj">
+</Event><Event ErrorLevel="0" Project="PropertiesTest" Source="PropertiesTest\Program.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day2\PropertiesTest\Backup\PropertiesTest\Program.cs">
+</Event><Event ErrorLevel="0" Project="PropertiesTest" Source="PropertiesTest\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day2\PropertiesTest\Backup\PropertiesTest\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PropertiesTest" Source="PropertiesTest\PropertiesTest.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="PropertiesTest" Source="PropertiesTest\PropertiesTest.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="PropertiesTest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PropertiesTest.sln" Description="Converted">
+</Event></UpgradeLog>

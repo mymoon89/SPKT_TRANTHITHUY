@@ -1,0 +1,9 @@
+C:\Documents and Settings\NGOCLEN.SPKIT\Desktop\08110061_NGUYENNGOCLEN_LTHDT\BaiTapThucHanhSo1\BaiTapThucHanhSo1\bin\Release\BaiTapThucHanhSo1.exe
+C:\Documents and Settings\NGOCLEN.SPKIT\Desktop\08110061_NGUYENNGOCLEN_LTHDT\BaiTapThucHanhSo1\BaiTapThucHanhSo1\bin\Release\BaiTapThucHanhSo1.pdb
+C:\Documents and Settings\NGOCLEN.SPKIT\Desktop\08110061_NGUYENNGOCLEN_LTHDT\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\NGOCLEN.SPKIT\Desktop\08110061_NGUYENNGOCLEN_LTHDT\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Release\BaiTapThucHanhSo1.exe
+C:\Documents and Settings\NGOCLEN.SPKIT\Desktop\08110061_NGUYENNGOCLEN_LTHDT\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Release\BaiTapThucHanhSo1.pdb
+H:\PHIM\USB 6\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Release\BaiTapThucHanhSo1.exe
+H:\PHIM\USB 6\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Release\BaiTapThucHanhSo1.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Release\BaiTapThucHanhSo1.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Release\BaiTapThucHanhSo1.pdb

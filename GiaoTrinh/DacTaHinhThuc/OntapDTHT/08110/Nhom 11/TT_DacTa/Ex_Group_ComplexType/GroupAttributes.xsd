@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="personinfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="person">
+					<xs:complexType>
+						<xs:attributeGroup ref="person"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>	
+	</xs:element>
+	<xs:attributeGroup name="person">
+		<xs:attribute name="firstname" type="xs:string"/>
+		<xs:attribute name="lastname" type="xs:string"/>
+	</xs:attributeGroup>
+</xs:schema>

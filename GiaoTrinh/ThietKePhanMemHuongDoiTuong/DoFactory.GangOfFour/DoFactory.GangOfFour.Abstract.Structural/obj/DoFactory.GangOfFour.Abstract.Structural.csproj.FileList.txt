@@ -1,0 +1,5 @@
+obj\Debug\DoFactory.GangOfFour.Abstract.Structural.pdb
+bin\Debug\DoFactory.GangOfFour.Abstract.Structural.exe
+bin\Debug\DoFactory.GangOfFour.Abstract.Structural.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Abstract.Structural.exe

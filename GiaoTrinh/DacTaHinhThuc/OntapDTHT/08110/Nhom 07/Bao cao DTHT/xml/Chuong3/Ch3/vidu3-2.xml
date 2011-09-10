@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<document>
+xmlns:hr="http://www.hr.com/human_resources">
+    <employee>
+        <name>
+            <firstname>Nguyen</firstname>
+				<lastname>Son Nam</lastname>
+        </name>
+        <hiredate>July 15, 2005</hiredate>
+        <projects>
+            <project>
+                <product>Printer</product>
+                <id>HP2300</id>
+                <price>$111.00</price>
+            </project>
+            <project>
+                <product>Laptop</product>
+                <id>DELL1100</id>
+                <price>$989.00</price>
+            </project>
+        </projects>
+    </employee>
+</document>

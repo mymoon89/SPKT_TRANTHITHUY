@@ -1,0 +1,16 @@
+D:\E-SPKT\OOPC#\day5\Confuse\Confuse\bin\Debug\Confuse.exe
+D:\E-SPKT\OOPC#\day5\Confuse\Confuse\bin\Debug\Confuse.pdb
+D:\E-SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\Confuse.Form1.resources
+D:\E-SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\Confuse.Properties.Resources.resources
+D:\E-SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\Confuse.csproj.GenerateResource.Cache
+D:\E-SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\Confuse.exe
+D:\E-SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\Confuse.pdb
+D:\SPKT\OOPC#\day5\Confuse\Confuse\bin\Debug\Confuse.exe
+D:\SPKT\OOPC#\day5\Confuse\Confuse\bin\Debug\Confuse.pdb
+D:\SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\Confuse.Form1.resources
+D:\SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\Confuse.Properties.Resources.resources
+D:\SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\Confuse.csproj.GenerateResource.Cache
+D:\SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\Confuse.exe
+D:\SPKT\OOPC#\day5\Confuse\Confuse\obj\Debug\Confuse.pdb

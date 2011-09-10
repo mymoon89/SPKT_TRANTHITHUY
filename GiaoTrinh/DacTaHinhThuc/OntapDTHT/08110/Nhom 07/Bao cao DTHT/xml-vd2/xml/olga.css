@@ -1,0 +1,15 @@
+THO { display: block; color: violet; text-indent: 30px; text-align: center;
+ border: thin solid red;
+ width:900px; 
+margin: 50px 100px;} 
+
+DE{ display: block; font-size: 30pt; font-weight: bold; color: red; text-transform: capitalize;
+/*word-spacing:30px; letter-spacing:40px;*/}
+
+TACGIA{ display: block; font-size: 15pt; margin-bottom: 10px; color: green;}
+
+DOAN{ display: block; font-size: 20pt; margin-bottom: 10px; font-weight: bold; line-height: double-spacing}
+
+CAU{display: block; /*letter-spacing: 0px */ /* text-decoration: underline  blink}
+
+AA{ vertical-align:super;font-size: 50%}

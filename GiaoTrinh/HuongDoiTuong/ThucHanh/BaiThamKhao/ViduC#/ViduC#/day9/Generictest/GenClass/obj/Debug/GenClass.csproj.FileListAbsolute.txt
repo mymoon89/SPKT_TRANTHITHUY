@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day9\Generictest\GenClass\bin\Debug\GenClass.exe
+D:\SPKT\OOPC#\day9\Generictest\GenClass\bin\Debug\GenClass.pdb
+D:\SPKT\OOPC#\day9\Generictest\GenClass\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day9\Generictest\GenClass\obj\Debug\GenClass.exe
+D:\SPKT\OOPC#\day9\Generictest\GenClass\obj\Debug\GenClass.pdb

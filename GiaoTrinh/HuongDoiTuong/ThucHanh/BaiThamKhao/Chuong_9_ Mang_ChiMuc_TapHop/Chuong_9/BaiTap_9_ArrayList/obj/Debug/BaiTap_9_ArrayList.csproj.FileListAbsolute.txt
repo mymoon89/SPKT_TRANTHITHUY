@@ -1,0 +1,5 @@
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_9_ArrayList\bin\Debug\BaiTap_9_ArrayList.exe
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_9_ArrayList\bin\Debug\BaiTap_9_ArrayList.pdb
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_9_ArrayList\obj\Debug\ResolveAssemblyReference.cache
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_9_ArrayList\obj\Debug\BaiTap_9_ArrayList.exe
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_9_ArrayList\obj\Debug\BaiTap_9_ArrayList.pdb

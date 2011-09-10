@@ -1,0 +1,12 @@
+C:\Documents and Settings\d304\Desktop\Array121\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\Array121\bin\Debug\Array121.exe
+C:\Documents and Settings\d304\Desktop\Array121\bin\Debug\Array121.pdb
+C:\Documents and Settings\d304\Desktop\Array121\obj\Debug\Array121.exe
+C:\Documents and Settings\d304\Desktop\Array121\obj\Debug\Array121.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang_1\obj\Debug\Array121.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang_1\obj\Debug\Array121.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang_1\bin\Debug\Array121.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang_1\bin\Debug\Array121.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang_1\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang_1\obj\Debug\Array121.exe
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang_1\obj\Debug\Array121.pdb

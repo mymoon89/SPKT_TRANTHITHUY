@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="class.css"?>
+<!DOCTYPE body [
+	<!ELEMENT body ANY>
+	<!ELEMENT p ANY>
+	
+]>
+<body>
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+</body>

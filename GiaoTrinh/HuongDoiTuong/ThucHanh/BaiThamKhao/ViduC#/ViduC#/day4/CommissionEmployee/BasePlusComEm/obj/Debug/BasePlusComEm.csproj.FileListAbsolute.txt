@@ -1,0 +1,10 @@
+D:\E-SPKT\OOPC#\day4\CommissionEmployee\BasePlusComEm\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day4\CommissionEmployee\BasePlusComEm\bin\Debug\BasePlusComEm.exe
+D:\E-SPKT\OOPC#\day4\CommissionEmployee\BasePlusComEm\bin\Debug\BasePlusComEm.pdb
+D:\E-SPKT\OOPC#\day4\CommissionEmployee\BasePlusComEm\obj\Debug\BasePlusComEm.exe
+D:\E-SPKT\OOPC#\day4\CommissionEmployee\BasePlusComEm\obj\Debug\BasePlusComEm.pdb
+D:\SPKT\OOPC#\day4\CommissionEmployee\BasePlusComEm\obj\Debug\BasePlusComEm.exe
+D:\SPKT\OOPC#\day4\CommissionEmployee\BasePlusComEm\obj\Debug\BasePlusComEm.pdb
+D:\SPKT\OOPC#\day4\CommissionEmployee\BasePlusComEm\bin\Debug\BasePlusComEm.exe
+D:\SPKT\OOPC#\day4\CommissionEmployee\BasePlusComEm\bin\Debug\BasePlusComEm.pdb
+D:\SPKT\OOPC#\day4\CommissionEmployee\BasePlusComEm\obj\Debug\ResolveAssemblyReference.cache

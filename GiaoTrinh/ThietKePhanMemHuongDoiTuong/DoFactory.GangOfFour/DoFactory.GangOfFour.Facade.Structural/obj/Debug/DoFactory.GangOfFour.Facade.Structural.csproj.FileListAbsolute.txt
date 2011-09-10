@@ -1,0 +1,5 @@
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Facade.Structural\bin\Debug\DoFactory.GangOfFour.Facade.Structural.exe
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Facade.Structural\bin\Debug\DoFactory.GangOfFour.Facade.Structural.pdb
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Facade.Structural\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Facade.Structural\obj\Debug\DoFactory.GangOfFour.Facade.Structural.exe
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Facade.Structural\obj\Debug\DoFactory.GangOfFour.Facade.Structural.pdb

@@ -1,0 +1,5 @@
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Flyweight.RealWorld\bin\Debug\DoFactory.GangOfFour.Flyweight.RealWorld.exe
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Flyweight.RealWorld\bin\Debug\DoFactory.GangOfFour.Flyweight.RealWorld.pdb
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Flyweight.RealWorld\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Flyweight.RealWorld\obj\Debug\DoFactory.GangOfFour.Flyweight.RealWorld.exe
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Flyweight.RealWorld\obj\Debug\DoFactory.GangOfFour.Flyweight.RealWorld.pdb

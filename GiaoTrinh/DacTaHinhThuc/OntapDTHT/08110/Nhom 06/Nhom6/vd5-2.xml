@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="vd5.xsl"?>
+<!DOCTYPE PERSON [
+<!ENTITY % PERSON_DTD SYSTEM "person.dtd">
+%PERSON_DTD;
+<!ENTITY PERSON2 SYSTEM "2.jpg" NDATA JPEG>
+]>
+<PERSON>
+<NAME>Jim Rogers</NAME>
+<EMPLOYEE_ID>4534</EMPLOYEE_ID>
+<PHONE>X396</PHONE>
+<OFFICE>RH 415A</OFFICE>
+<PHOTO SOURCE="PERSON2"/>
+</PERSON>
+

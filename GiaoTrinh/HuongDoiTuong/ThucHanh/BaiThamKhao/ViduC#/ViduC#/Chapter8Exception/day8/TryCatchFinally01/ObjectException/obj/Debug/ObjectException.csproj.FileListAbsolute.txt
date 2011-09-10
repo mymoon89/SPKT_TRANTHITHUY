@@ -1,0 +1,15 @@
+D:\E-SPKT\OOPC#\day8\TryCatchFinally01\ObjectException\bin\Debug\ObjectException.exe
+D:\E-SPKT\OOPC#\day8\TryCatchFinally01\ObjectException\bin\Debug\ObjectException.pdb
+D:\E-SPKT\OOPC#\day8\TryCatchFinally01\ObjectException\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day8\TryCatchFinally01\ObjectException\obj\Debug\ObjectException.exe
+D:\E-SPKT\OOPC#\day8\TryCatchFinally01\ObjectException\obj\Debug\ObjectException.pdb
+D:\SPKT\OOPC#\day8\TryCatchFinally01\ObjectException\obj\Debug\ObjectException.exe
+D:\SPKT\OOPC#\day8\TryCatchFinally01\ObjectException\obj\Debug\ObjectException.pdb
+D:\SPKT\OOPC#\day8\TryCatchFinally01\ObjectException\bin\Debug\ObjectException.exe
+D:\SPKT\OOPC#\day8\TryCatchFinally01\ObjectException\bin\Debug\ObjectException.pdb
+D:\SPKT\OOPC#\day8\TryCatchFinally01\ObjectException\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter8Exception\day8\TryCatchFinally01\ObjectException\obj\Debug\ObjectException.exe
+D:\SPKT\OOPC#\Chapter8Exception\day8\TryCatchFinally01\ObjectException\obj\Debug\ObjectException.pdb
+D:\SPKT\OOPC#\Chapter8Exception\day8\TryCatchFinally01\ObjectException\bin\Debug\ObjectException.exe
+D:\SPKT\OOPC#\Chapter8Exception\day8\TryCatchFinally01\ObjectException\bin\Debug\ObjectException.pdb
+D:\SPKT\OOPC#\Chapter8Exception\day8\TryCatchFinally01\ObjectException\obj\Debug\ResolveAssemblyReference.cache

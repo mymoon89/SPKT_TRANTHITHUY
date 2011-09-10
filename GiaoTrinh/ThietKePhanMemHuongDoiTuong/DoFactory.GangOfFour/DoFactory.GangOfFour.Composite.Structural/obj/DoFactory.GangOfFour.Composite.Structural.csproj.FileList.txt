@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Composite.Structural.exe
+bin\Debug\DoFactory.GangOfFour.Composite.Structural.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Composite.Structural.exe
+obj\Debug\DoFactory.GangOfFour.Composite.Structural.pdb

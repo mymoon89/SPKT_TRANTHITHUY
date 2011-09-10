@@ -1,0 +1,14 @@
+C:\Documents and Settings\NGOCLEN.SPKIT\Local Settings\Application Data\Temporary Projects\BaiTapVeNhaSo1\bin\Release\BaiTapVeNhaSo1.exe
+C:\Documents and Settings\NGOCLEN.SPKIT\Local Settings\Application Data\Temporary Projects\BaiTapVeNhaSo1\bin\Release\BaiTapVeNhaSo1.pdb
+C:\Documents and Settings\NGOCLEN.SPKIT\Local Settings\Application Data\Temporary Projects\BaiTapVeNhaSo1\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\NGOCLEN.SPKIT\Local Settings\Application Data\Temporary Projects\BaiTapVeNhaSo1\obj\Release\BaiTapVeNhaSo1.exe
+C:\Documents and Settings\NGOCLEN.SPKIT\Local Settings\Application Data\Temporary Projects\BaiTapVeNhaSo1\obj\Release\BaiTapVeNhaSo1.pdb
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Release\BaiTapVeNhaSo1.exe
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Release\BaiTapVeNhaSo1.pdb
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapVeNhaSo1\BaiTapVeNhaSo1\bin\Release\BaiTapVeNhaSo1.exe
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapVeNhaSo1\BaiTapVeNhaSo1\bin\Release\BaiTapVeNhaSo1.pdb
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Release\ResolveAssemblyReference.cache
+H:\PHIM\USB 6\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Release\BaiTapVeNhaSo1.exe
+H:\PHIM\USB 6\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Release\BaiTapVeNhaSo1.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Release\BaiTapVeNhaSo1.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapVeNhaSo1\BaiTapVeNhaSo1\obj\Release\BaiTapVeNhaSo1.pdb

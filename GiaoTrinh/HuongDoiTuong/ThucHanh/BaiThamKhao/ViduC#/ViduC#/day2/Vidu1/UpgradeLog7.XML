@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Day2">
+</Property><Property Name="Solution File" Value="D:\SPKT\OOPC#\day2\Vidu1\Day2.sln">
+</Property><Property Name="Date" Value="10 Tháng Chín 2010">
+</Property><Property Name="Time" Value="15:58:07 CH">
+</Property><Property Name="Log Number" Value="7">
+</Property></Properties><Event ErrorLevel="0" Project="TestUse" Source="..\TestUse\TestUse\TestUse.csproj" Description="Project file successfully backed up as D:\SPKT\OOPC#\day2\Vidu1\Backup6\TestUse.csproj">
+</Event><Event ErrorLevel="0" Project="TestUse" Source="..\TestUse\TestUse\TestUse.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day2\Vidu1\Backup6\TestUse.cs">
+</Event><Event ErrorLevel="0" Project="TestUse" Source="..\TestUse\TestUse\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day2\Vidu1\Backup6\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TestUse" Source="..\TestUse\TestUse\TestUse.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TestUse" Source="..\TestUse\TestUse\TestUse.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestUse" Source="..\TestUse\TestUse\TestUse.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

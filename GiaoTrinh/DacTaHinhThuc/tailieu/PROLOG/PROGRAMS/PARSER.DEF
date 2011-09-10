@@ -1,0 +1,112 @@
+/**********************************************************************
+
+     Turbo Prolog Toolbox
+     (C) Copyright 1987 Borland International.
+
+			Parser generator
+
+			Invariants
+			==========
+
+About names
+  Production names are always in upper case.
+  Functors are in lowercase
+
+**********************************************************************/
+
+include "tdoms.pro"
+
+DOMAINS
+  FILE		= outfile
+  SUFFIX	= STRING
+  PRIORITY	= INTEGER
+  TOKKL		= TOKK*
+  TERML		= TERM*
+  CURSOR	= INTEGER
+
+  FIRST		= first(INTEGER,PRODNAMES,SINGPROD,SUFFIX)
+  FIRSTLIST	= FIRST*
+
+  CUT		= setcut; nill
+
+  PRODNAME        = STRING
+  PRODNAMES       = PRODNAME*
+
+  PARSER          = SECTION*
+
+  SECTION         = userprods_(PRODNAMES);
+		    userdoms_(PRODNAMES);
+		    productions_(PRODUCTIONS)
+
+  PRODUCTIONS     = PRODUCTION*
+
+  PRODUCTION      = p(PRODNAME,CURSOR,PRODBODY)
+
+  PRODBODY        = list(PRODNAME,CURSOR,STAR_PLUS,SEPARATOR);
+ 		    groups(PRODGROUPS)
+
+  STAR_PLUS       = star;
+		    plus
+
+  SEPARATOR      = sep(STRING);
+		    none
+
+  PRODGROUPS      = PRIORGROUP*
+
+  PRIORGROUP      = SINGPROD*
+
+  SINGPROD        = prod(ASSOC,GRAMTOKL,CURSOR,TERM)
+
+  ASSOC           = right(CURSOR);
+		    left()
+
+  GRAMTOKL        = GRAMTOK*
+
+  GRAMTOK         = prodname(PRODNAME,CURSOR);
+		    tok(TOKK,CURSORDEMAND)
+
+  CURSORDEMAND    = curdemand(PRODNAME);
+		    none()
+
+  TOKK            = name(STRING,CURSOR);
+	 	    cmp(STRING,CURSOR,PRODNAMES)
+
+  TERM            = name(STRING,CURSOR);
+		    term(STRING,CURSOR,PRODNAMES);
+		    dom(PRODNAME,CURSOR);
+		    list(PRODNAME)
+
+
+DATABASE
+  p(PRODNAME,PRODBODY)
+  prodname(PRODNAME)
+  pred_second(INTEGER,PRODNAMES,PRIORGROUP,PRODNAME,SUFFIX,PRIORITY)
+  pred_first(PRODNAME,SUFFIX,PRIORITY,FIRSTLIST)
+  suffix(INTEGER)
+  difflist(INTEGER)
+  clausevar(PRODNAME,INTEGER)
+  outptermvar(PRODNAME,INTEGER)
+  decl(STRINGLIST,PRODNAMES)
+  decltok(STRING,TOKK)
+  exist_prior(PRODNAME,PRIORITY)
+  catchallflag
+  constinhead
+  userprod(PRODNAME)
+  userdom(PRODNAME)
+
+  /* USER INTERFACE */
+  error(STRING,CURSOR)
+  source(STRING)
+  filename(STRING)
+  pdwstate(ROW,COL,SYMBOL,ROW,COL)
+  insmode
+  lineinpstate(STRING,COL)
+  lineinpflag
+
+
+GLOBAL PREDICATES
+  determ gendomaindef
+  determ genparser
+  determ getdoml(GRAMTOKL,INTEGER,PRODNAMES)-(i,i,o)
+  nondeterm terms(PRODNAME,TERM)-(i,o)
+

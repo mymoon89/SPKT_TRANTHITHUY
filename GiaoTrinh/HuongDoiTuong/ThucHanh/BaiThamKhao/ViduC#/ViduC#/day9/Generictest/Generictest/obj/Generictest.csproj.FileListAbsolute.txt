@@ -1,0 +1,10 @@
+D:\E-SPKT\OOPC#\day1\Generictest\Generictest\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day1\Generictest\Generictest\bin\Debug\Generictest.exe
+D:\E-SPKT\OOPC#\day1\Generictest\Generictest\bin\Debug\Generictest.pdb
+D:\E-SPKT\OOPC#\day1\Generictest\Generictest\obj\Debug\Generictest.exe
+D:\E-SPKT\OOPC#\day1\Generictest\Generictest\obj\Debug\Generictest.pdb
+D:\E-SPKT\OOPC#\day9\Generictest\Generictest\obj\Debug\Generictest.exe
+D:\E-SPKT\OOPC#\day9\Generictest\Generictest\obj\Debug\Generictest.pdb
+D:\E-SPKT\OOPC#\day9\Generictest\Generictest\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day9\Generictest\Generictest\bin\Debug\Generictest.exe
+D:\E-SPKT\OOPC#\day9\Generictest\Generictest\bin\Debug\Generictest.pdb

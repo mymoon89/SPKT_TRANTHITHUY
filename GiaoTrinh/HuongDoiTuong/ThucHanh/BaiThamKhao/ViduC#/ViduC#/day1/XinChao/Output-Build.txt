@@ -1,0 +1,7 @@
+------ Build started: Project: XinChao, Configuration: Debug Any CPU ------
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Csc.exe /noconfig /nowarn:1701,1702 /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug+ /debug:full /optimize- /out:obj\Debug\XinChao.exe /target:exe XinChao.cs Properties\AssemblyInfo.cs
+
+Compile complete -- 0 errors, 0 warnings
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\Microsoft.Common.targets(2324,9): error MSB3021: Unable to copy file "obj\Debug\XinChao.exe" to "bin\Debug\XinChao.exe". The process cannot access the file 'bin\Debug\XinChao.exe' because it is being used by another process.
+Done building project "XinChao.csproj" -- FAILED.
+========== Build: 0 succeeded or up-to-date, 1 failed, 0 skipped ==========

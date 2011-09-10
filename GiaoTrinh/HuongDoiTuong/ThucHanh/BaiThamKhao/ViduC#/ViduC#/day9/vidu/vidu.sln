@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vidu", "vidu\vidu.csproj", "{0D093C37-F17C-44A7-9D93-588D4EA5A51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "swap", "swap\swap.csproj", "{1B2A4304-34EB-4164-B31A-1A602A88D148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullOperator", "NullOperator\NullOperator.csproj", "{9D928758-FD6A-4EE6-8AAC-4EF721CD7556}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D093C37-F17C-44A7-9D93-588D4EA5A51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D093C37-F17C-44A7-9D93-588D4EA5A51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D093C37-F17C-44A7-9D93-588D4EA5A51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D093C37-F17C-44A7-9D93-588D4EA5A51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2A4304-34EB-4164-B31A-1A602A88D148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2A4304-34EB-4164-B31A-1A602A88D148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2A4304-34EB-4164-B31A-1A602A88D148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2A4304-34EB-4164-B31A-1A602A88D148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D928758-FD6A-4EE6-8AAC-4EF721CD7556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D928758-FD6A-4EE6-8AAC-4EF721CD7556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D928758-FD6A-4EE6-8AAC-4EF721CD7556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D928758-FD6A-4EE6-8AAC-4EF721CD7556}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

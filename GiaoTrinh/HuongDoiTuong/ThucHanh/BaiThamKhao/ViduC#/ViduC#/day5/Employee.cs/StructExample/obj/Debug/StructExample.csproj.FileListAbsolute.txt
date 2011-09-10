@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day5\Employee.cs\StructExample\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day5\Employee.cs\StructExample\bin\Debug\StructExample.exe
+D:\SPKT\OOPC#\day5\Employee.cs\StructExample\bin\Debug\StructExample.pdb
+D:\SPKT\OOPC#\day5\Employee.cs\StructExample\obj\Debug\StructExample.exe
+D:\SPKT\OOPC#\day5\Employee.cs\StructExample\obj\Debug\StructExample.pdb

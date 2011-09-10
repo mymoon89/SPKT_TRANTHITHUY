@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Generictest">
+</Property><Property Name="Solution File" Value="D:\SPKT\OOPC#\day9\Generictest\Generictest.sln">
+</Property><Property Name="User Options File" Value="D:\SPKT\OOPC#\day9\Generictest\Generictest.suo">
+</Property><Property Name="Date" Value="10 Tháng Mười Một 2010">
+</Property><Property Name="Time" Value="17:32 CH">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Generictest.sln" Description="File successfully backed up as D:\SPKT\OOPC#\day9\Generictest\Backup\Generictest.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Generictest.suo" Description="File successfully backed up as D:\SPKT\OOPC#\day9\Generictest\Backup\Generictest.suo">
+</Event><Event ErrorLevel="0" Project="Generictest" Source="Generictest\Generictest.csproj" Description="Project file successfully backed up as D:\SPKT\OOPC#\day9\Generictest\Backup\Generictest\Generictest.csproj">
+</Event><Event ErrorLevel="0" Project="Generictest" Source="Generictest\Program.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day9\Generictest\Backup\Generictest\Program.cs">
+</Event><Event ErrorLevel="0" Project="Generictest" Source="Generictest\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day9\Generictest\Backup\Generictest\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Generictest" Source="Generictest\Generictest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Generictest" Source="Generictest\Generictest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Generictest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Generictest.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Generictest" Source="Generictest\Generictest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

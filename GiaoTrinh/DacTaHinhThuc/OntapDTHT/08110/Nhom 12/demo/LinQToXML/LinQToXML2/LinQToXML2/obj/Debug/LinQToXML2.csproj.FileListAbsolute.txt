@@ -1,0 +1,18 @@
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML2\LinQToXML2\bin\Debug\LinQToXML2.exe
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML2\LinQToXML2\bin\Debug\LinQToXML2.pdb
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML2\LinQToXML2\obj\Debug\ResolveAssemblyReference.cache
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.Form1.resources
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.Properties.Resources.resources
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.csproj.GenerateResource.Cache
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.exe
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.pdb
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\Copy of LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.exe
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\Copy of LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.pdb
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\Copy of LinQToXML2\LinQToXML2\bin\Debug\LinQToXML2.exe
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\Copy of LinQToXML2\LinQToXML2\bin\Debug\LinQToXML2.pdb
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\Copy of LinQToXML2\LinQToXML2\obj\Debug\ResolveAssemblyReference.cache
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\Copy of LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.Form1.resources
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\Copy of LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.Properties.Resources.resources
+F:\AAA_Thai\TieuLuanChuyenNganh\My Source\Copy of LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.csproj.GenerateResource.Cache
+I:\bao cao\demo\LinQToXML\LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.exe
+I:\bao cao\demo\LinQToXML\LinQToXML2\LinQToXML2\obj\Debug\LinQToXML2.pdb

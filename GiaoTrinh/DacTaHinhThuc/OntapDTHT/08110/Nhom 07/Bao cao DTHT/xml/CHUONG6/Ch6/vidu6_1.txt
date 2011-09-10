@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<xs:schema 
+xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="document" type="documentType"/>
+    <xs:complexType name="documentType">
+      <xs:sequence>
+        <xs:element ref="comment" minOccurs="1"/>
+	<xs:element name="mortgagee" type="recordType"/>
+	<xs:element name="mortgages" type="mortgagesType"/>
+	<xs:element name="bank" type="recordType"/>
+      </xs:sequence>
+	<xs:attribite name="đocumenDate" type="xs:date"/>
+    </xs:complexType>
+  ...
+</xs:schema>

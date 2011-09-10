@@ -1,0 +1,14 @@
+D:\E-SPKT\OOPC#\day3\lab2Circle\lab2Circle\bin\Debug\lab2Circle.exe
+D:\E-SPKT\OOPC#\day3\lab2Circle\lab2Circle\bin\Debug\lab2Circle.pdb
+D:\E-SPKT\OOPC#\day3\lab2Circle\lab2Circle\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day3\lab2Circle\lab2Circle\obj\Debug\lab2Circle.Properties.Resources.resources
+D:\E-SPKT\OOPC#\day3\lab2Circle\lab2Circle\obj\Debug\lab2Circle.csproj.GenerateResource.Cache
+D:\E-SPKT\OOPC#\day3\lab2Circle\lab2Circle\obj\Debug\lab2Circle.exe
+D:\E-SPKT\OOPC#\day3\lab2Circle\lab2Circle\obj\Debug\lab2Circle.pdb
+D:\SPKT\OOPC#\day3\lab2Circle\lab2Circle\obj\Debug\lab2Circle.exe
+D:\SPKT\OOPC#\day3\lab2Circle\lab2Circle\obj\Debug\lab2Circle.pdb
+D:\SPKT\OOPC#\day3\lab2Circle\lab2Circle\bin\Debug\lab2Circle.exe
+D:\SPKT\OOPC#\day3\lab2Circle\lab2Circle\bin\Debug\lab2Circle.pdb
+D:\SPKT\OOPC#\day3\lab2Circle\lab2Circle\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day3\lab2Circle\lab2Circle\obj\Debug\lab2Circle.Properties.Resources.resources
+D:\SPKT\OOPC#\day3\lab2Circle\lab2Circle\obj\Debug\lab2Circle.csproj.GenerateResource.Cache

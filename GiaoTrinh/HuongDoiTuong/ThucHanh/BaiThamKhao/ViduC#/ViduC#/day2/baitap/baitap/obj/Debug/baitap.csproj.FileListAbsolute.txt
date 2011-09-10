@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day2\baitap\baitap\bin\Debug\baitap.exe
+D:\SPKT\OOPC#\day2\baitap\baitap\bin\Debug\baitap.pdb
+D:\SPKT\OOPC#\day2\baitap\baitap\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day2\baitap\baitap\obj\Debug\baitap.exe
+D:\SPKT\OOPC#\day2\baitap\baitap\obj\Debug\baitap.pdb

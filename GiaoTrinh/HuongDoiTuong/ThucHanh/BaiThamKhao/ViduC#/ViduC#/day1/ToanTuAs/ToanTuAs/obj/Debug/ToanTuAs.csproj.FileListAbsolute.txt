@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day1\ToanTuAs\ToanTuAs\obj\Debug\ToanTuAs.exe
+D:\SPKT\OOPC#\day1\ToanTuAs\ToanTuAs\obj\Debug\ToanTuAs.pdb
+D:\SPKT\OOPC#\day1\ToanTuAs\ToanTuAs\bin\Debug\ToanTuAs.exe
+D:\SPKT\OOPC#\day1\ToanTuAs\ToanTuAs\bin\Debug\ToanTuAs.pdb
+D:\SPKT\OOPC#\day1\ToanTuAs\ToanTuAs\obj\Debug\ResolveAssemblyReference.cache

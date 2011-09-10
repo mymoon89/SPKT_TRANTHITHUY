@@ -1,0 +1,7 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\mang\mang\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\mang\mang\bin\Debug\mang.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\mang\mang\bin\Debug\mang.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\mang\mang\obj\Debug\mang.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\mang\mang\obj\Debug\mang.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\mang\mang\obj\Debug\mang.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\mang\mang\obj\Debug\mang.pdb

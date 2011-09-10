@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2Circle", "lab2Circle\lab2Circle.csproj", "{C4FC60F6-A286-4618-AF4D-CA590C552F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPoint", "TestPoint\TestPoint.csproj", "{EF5B5441-FCB9-492A-ACB6-C203707CBA86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4FC60F6-A286-4618-AF4D-CA590C552F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FC60F6-A286-4618-AF4D-CA590C552F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FC60F6-A286-4618-AF4D-CA590C552F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FC60F6-A286-4618-AF4D-CA590C552F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5B5441-FCB9-492A-ACB6-C203707CBA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5B5441-FCB9-492A-ACB6-C203707CBA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5B5441-FCB9-492A-ACB6-C203707CBA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5B5441-FCB9-492A-ACB6-C203707CBA86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

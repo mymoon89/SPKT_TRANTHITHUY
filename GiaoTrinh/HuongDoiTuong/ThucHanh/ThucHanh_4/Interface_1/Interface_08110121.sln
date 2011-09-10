@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_08110121", "Interface_08110121.csproj", "{CDA61A10-9EEE-4EBA-9881-226FA89F5423}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface2_08110121", "..\Interface2_08110121\Interface2_08110121.csproj", "{9A906ECA-A1C5-4D69-96A8-8914B6CC60EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDA61A10-9EEE-4EBA-9881-226FA89F5423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA61A10-9EEE-4EBA-9881-226FA89F5423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA61A10-9EEE-4EBA-9881-226FA89F5423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA61A10-9EEE-4EBA-9881-226FA89F5423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A906ECA-A1C5-4D69-96A8-8914B6CC60EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A906ECA-A1C5-4D69-96A8-8914B6CC60EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A906ECA-A1C5-4D69-96A8-8914B6CC60EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A906ECA-A1C5-4D69-96A8-8914B6CC60EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

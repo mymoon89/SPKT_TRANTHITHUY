@@ -1,0 +1,5 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\Exercise_BAI5\Exercise_BAI5\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\Exercise_BAI5\Exercise_BAI5\bin\Debug\Exercise_BAI5.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\Exercise_BAI5\Exercise_BAI5\bin\Debug\Exercise_BAI5.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\Exercise_BAI5\Exercise_BAI5\obj\Debug\Exercise_BAI5.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\Exercise_BAI5\Exercise_BAI5\obj\Debug\Exercise_BAI5.pdb

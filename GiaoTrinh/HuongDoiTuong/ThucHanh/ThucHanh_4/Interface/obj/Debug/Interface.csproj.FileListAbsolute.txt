@@ -1,0 +1,5 @@
+C:\Documents and Settings\d304\Desktop\Interface\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\Interface\bin\Debug\Interface.exe
+C:\Documents and Settings\d304\Desktop\Interface\bin\Debug\Interface.pdb
+C:\Documents and Settings\d304\Desktop\Interface\obj\Debug\Interface.exe
+C:\Documents and Settings\d304\Desktop\Interface\obj\Debug\Interface.pdb

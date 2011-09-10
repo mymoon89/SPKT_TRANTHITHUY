@@ -1,0 +1,49 @@
+/* Kieu hoc sinh*/
+hocsinh
+{
+	display:block;
+/*Mau nen cua hocsinh la mau den*/
+	background-color:black;
+
+}
+
+ten
+{
+	color: white;
+	font-style: italic;
+	width: 40%;
+	/*background-color:green;*/
+}
+
+
+lop
+{
+	font-weight: bold;
+	font-size: 17;
+	color:blue;
+}
+ngaysinh
+{
+	color:Orange;
+	font-size:17;
+	font-family:alrial;
+	width:20%;
+}
+/* Kieu giao vien*/
+giaovien
+{
+	display:block;
+	background-color:lightgreen;
+}
+tengv
+{
+	color:brown;
+	font-style:bold;
+	width:40%;
+}
+bomon
+{
+	color:purple;
+	width:20%;
+}
+

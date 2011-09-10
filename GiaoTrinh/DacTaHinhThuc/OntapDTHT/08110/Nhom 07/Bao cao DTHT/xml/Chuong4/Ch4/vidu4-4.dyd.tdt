@@ -1,0 +1,14 @@
+<!DOCTYPE document [
+<!ELEMENT document (employee)*>
+<!ELEMENT employee (intern?, name, hiredate, projects)>
+<!ELEMENT name (lastname, firstname)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT hiredate (#PCDATA)>
+<!ELEMENT projects (project)*>
+<!ELEMENT project (product, id, price)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT intern EMPTY>
+]>

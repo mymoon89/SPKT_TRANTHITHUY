@@ -1,0 +1,10 @@
+D:\SPKT\OOPC#\ChapterString\StringTester\ReplaceRegex\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\ChapterString\StringTester\ReplaceRegex\bin\Debug\ReplaceRegex.exe
+D:\SPKT\OOPC#\ChapterString\StringTester\ReplaceRegex\bin\Debug\ReplaceRegex.pdb
+D:\SPKT\OOPC#\ChapterString\StringTester\ReplaceRegex\obj\Debug\ReplaceRegex.exe
+D:\SPKT\OOPC#\ChapterString\StringTester\ReplaceRegex\obj\Debug\ReplaceRegex.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\ReplaceRegex\bin\Debug\ReplaceRegex.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\ReplaceRegex\bin\Debug\ReplaceRegex.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\ReplaceRegex\obj\Debug\ResolveAssemblyReference.cache
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\ReplaceRegex\obj\Debug\ReplaceRegex.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\ReplaceRegex\obj\Debug\ReplaceRegex.pdb

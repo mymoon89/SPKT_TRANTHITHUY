@@ -1,0 +1,7 @@
+D:\E-SPKT\OOPC#\day6\lab5\lab53\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day6\lab5\lab53\bin\Debug\lab53.exe
+D:\E-SPKT\OOPC#\day6\lab5\lab53\bin\Debug\lab53.pdb
+D:\E-SPKT\OOPC#\day6\lab5\lab53\obj\Debug\lab53.exe
+D:\E-SPKT\OOPC#\day6\lab5\lab53\obj\Debug\lab53.pdb
+D:\SPKT\OOPC#\day6\lab5\lab53\obj\Debug\lab53.exe
+D:\SPKT\OOPC#\day6\lab5\lab53\obj\Debug\lab53.pdb

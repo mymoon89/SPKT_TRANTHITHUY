@@ -1,0 +1,32 @@
+﻿<HTML>
+    <HEAD>
+         <TITLE>
+             Retrieving data from an XML document
+         </TITLE>
+         <XML ID="firstXML" SRC="vidu1_1.xml">
+	    </XML>
+         <SCRIPT LANGUAGE="JavaScript">
+             function getData() {
+                  xmldoc= document.all("firstXML").XMLDocument;
+                  nodeNote = xmldoc.documentElement;
+                  nodeTo = nodeNote.firstChild;
+	  nodeFrom = nodeTo.nextSibling;
+                  outputMessage = "From: " +
+                       nodeFrom.firstChild.nodeValue;
+               message.innerHTML=outputMessage;
+             }
+</SCRIPT>
+    </HEAD>
+
+<BODY>
+        <CENTER>
+            <H1>
+             Trich Du Lieu Tu Tai Lieu XML
+            </H1>
+            <DIV ID="message"></DIV>
+            <P>
+            <INPUT TYPE="BUTTON" VALUE="Doc Du Lieu"
+                OnClick="getData()">
+        </CENTER>
+    </BODY>
+</HTML>

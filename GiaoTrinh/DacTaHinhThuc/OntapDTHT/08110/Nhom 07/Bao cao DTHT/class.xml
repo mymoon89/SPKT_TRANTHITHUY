@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="class.css"?>
+ 
+<truonghoc>
+	<hocsinh class="nam">
+		<ten >Nguyen Van A</ten>
+		<ngaysinh >21/3/1990</ngaysinh>
+		<lop>Lop 12B</lop>
+	</hocsinh>
+	<hocsinh class="nu">
+		<ten>Nguyen Thi P</ten>
+		<ngaysinh>8/12/1990</ngaysinh>
+		<lop>Lop 12C</lop>
+	</hocsinh>
+	<hocsinh class="namgv">
+		<ten  id="lt">Nguyen Van D</ten>
+		<ngaysinh>8/12/1990</ngaysinh>
+		<lop >Lop 12C</lop>
+	</hocsinh>
+	<hocsinh class="nam">
+		<ten>Nguyen Van E</ten>
+		<ngaysinh>8/12/1990</ngaysinh>
+		<lop>Lop 12C</lop>
+	</hocsinh>
+	<hocsinh class="nu">
+		<ten>Nguyen Thi B</ten>
+		<ngaysinh>8/12/1990</ngaysinh>
+		<lop>Lop 12C</lop>
+	</hocsinh>
+	<hocsinh class="nu">
+		<ten>Nguyen Thi L</ten>
+		<ngaysinh>8/12/1990</ngaysinh>
+		<lop>Lop 12C</lop>
+	</hocsinh>
+	<giaovien>
+		<tengv >Chu Van An</tengv>
+		<bomon>Mon Van</bomon>
+		<lop>Lop 12</lop>
+	</giaovien>
+	
+	<giaovien >
+		<tengv>Nguyen Thuong Vo</tengv>
+		<bomon>Mon Toan</bomon>
+		<lop>Lop 11</lop>
+	</giaovien>
+</truonghoc>

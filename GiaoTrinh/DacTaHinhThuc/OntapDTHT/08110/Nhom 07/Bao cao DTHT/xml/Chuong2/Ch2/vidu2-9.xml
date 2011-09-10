@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<OperatorList xmlns="http://tempuri.org/OperatorList.xsd">
+<![CDATA[
+<Operator OperatorID="x" UserName="y" Password="z"></Operator>
+]]>
+</OperatorList>

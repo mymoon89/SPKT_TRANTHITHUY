@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day2\PropertiesTest\PropertiesTest\obj\Debug\PropertiesTest.exe
+D:\SPKT\OOPC#\day2\PropertiesTest\PropertiesTest\obj\Debug\PropertiesTest.pdb
+D:\SPKT\OOPC#\day2\PropertiesTest\PropertiesTest\bin\Debug\PropertiesTest.exe
+D:\SPKT\OOPC#\day2\PropertiesTest\PropertiesTest\bin\Debug\PropertiesTest.pdb
+D:\SPKT\OOPC#\day2\PropertiesTest\PropertiesTest\obj\Debug\ResolveAssemblyReference.cache

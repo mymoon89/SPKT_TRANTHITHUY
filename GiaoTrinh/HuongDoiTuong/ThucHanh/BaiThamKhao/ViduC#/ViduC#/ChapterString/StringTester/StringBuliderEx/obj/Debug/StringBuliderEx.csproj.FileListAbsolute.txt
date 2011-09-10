@@ -1,0 +1,10 @@
+D:\SPKT\OOPC#\ChapterString\StringTester\StringBuliderEx\bin\Debug\StringBuliderEx.exe
+D:\SPKT\OOPC#\ChapterString\StringTester\StringBuliderEx\bin\Debug\StringBuliderEx.pdb
+D:\SPKT\OOPC#\ChapterString\StringTester\StringBuliderEx\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\ChapterString\StringTester\StringBuliderEx\obj\Debug\StringBuliderEx.exe
+D:\SPKT\OOPC#\ChapterString\StringTester\StringBuliderEx\obj\Debug\StringBuliderEx.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\StringBuliderEx\bin\Debug\StringBuliderEx.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\StringBuliderEx\bin\Debug\StringBuliderEx.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\StringBuliderEx\obj\Debug\ResolveAssemblyReference.cache
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\StringBuliderEx\obj\Debug\StringBuliderEx.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\StringBuliderEx\obj\Debug\StringBuliderEx.pdb

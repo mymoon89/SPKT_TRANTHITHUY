@@ -1,0 +1,14 @@
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Debug\Toanhoc.dll
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\ConsoleApplication1\bin\Debug\Toanhoc.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\ConsoleApplication1\bin\Debug\Toanhoc.dll
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\ConsoleApplication1\bin\Debug\Toanhoc.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache

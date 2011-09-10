@@ -1,0 +1,10 @@
+C:\Users\tan cuong\Desktop\LINQ\TestLinQ\TestLinQ1\bin\Debug\TestLinQ1.exe
+C:\Users\tan cuong\Desktop\LINQ\TestLinQ\TestLinQ1\bin\Debug\TestLinQ1.pdb
+C:\Users\tan cuong\Desktop\LINQ\TestLinQ\TestLinQ1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\tan cuong\Desktop\LINQ\TestLinQ\TestLinQ1\obj\Debug\TestLinQ1.exe
+C:\Users\tan cuong\Desktop\LINQ\TestLinQ\TestLinQ1\obj\Debug\TestLinQ1.pdb
+G:\bao cao\demo\TestLinQ\TestLinQ1\obj\Debug\TestLinQ1.exe
+G:\bao cao\demo\TestLinQ\TestLinQ1\obj\Debug\TestLinQ1.pdb
+G:\bao cao\demo\TestLinQ\TestLinQ1\bin\Debug\TestLinQ1.exe
+G:\bao cao\demo\TestLinQ\TestLinQ1\bin\Debug\TestLinQ1.pdb
+G:\bao cao\demo\TestLinQ\TestLinQ1\obj\Debug\ResolveAssemblyReference.cache

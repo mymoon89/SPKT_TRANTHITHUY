@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:element name="nguoi">
+	<xs:complexType >
+		<xs:sequence >
+			<xs:element name="employee" type="personinfo"/>	
+			<xs:element name="student" type="personinfo"/>
+			<xs:element name="member" type="personinfo"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+<xs:complexType name="personinfo">
+		  <xs:sequence>
+			<xs:element name="firstname" type="xs:string"/>
+			<xs:element name="lastname" type="xs:string"/>
+		  </xs:sequence>
+</xs:complexType>
+</xs:schema>

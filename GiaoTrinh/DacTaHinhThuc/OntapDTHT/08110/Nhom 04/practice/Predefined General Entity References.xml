@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE DOCUMENT [
+<!ENTITY ERH "Elliotte Rusty Harold">
+<!ENTITY lt "&#38;#60;">
+<!ENTITY gt "&#62;">
+<!ENTITY amp "&#38;#38;">
+<!ENTITY apos "&#39;">
+<!ENTITY quot "&#34;">
+]>
+<DOCUMENT>
+<TITLE>&ERH;</TITLE>
+<SIGNATURE>
+	&gt;
+</SIGNATURE>
+</DOCUMENT>

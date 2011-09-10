@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="white_Space">
+		<xs:complexType >
+			<xs:sequence >
+				<xs:element name="Not_remove">
+					<xs:simpleType >
+						<xs:restriction base="xs:string">
+							<xs:whiteSpace value="preserve"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Replace">
+					<xs:simpleType >
+						<xs:restriction base="xs:string">
+							<xs:whiteSpace value="replace"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="Remove_All">
+					<xs:simpleType >
+						<xs:restriction base="xs:string">
+							<xs:whiteSpace value="collapse"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

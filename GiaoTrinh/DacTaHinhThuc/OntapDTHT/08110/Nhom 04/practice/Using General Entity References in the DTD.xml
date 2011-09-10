@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE DOCUMENT [
+<!ENTITY ERH "Elliotte Rusty Harold">
+<!ENTITY SIGNATURE
+	"<COPYRIGHT>1999 &ERH;</COPYRIGHT>
+	<EMAIL>elharo@metalab.unc.edu</EMAIL>
+	<LAST_MODIFIED>March 10, 1999</LAST_MODIFIED>"
+>
+]>
+<DOCUMENT>
+<TITLE>&ERH;</TITLE>
+<SIGNATURE>
+	&SIGNATURE;
+</SIGNATURE>
+</DOCUMENT>

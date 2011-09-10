@@ -1,0 +1,8 @@
+D:\SPKT\OOPC#\day5\Employee.cs\ComplexNo\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day5\Employee.cs\ComplexNo\obj\Debug\ComplexNo.Form1.resources
+D:\SPKT\OOPC#\day5\Employee.cs\ComplexNo\obj\Debug\ComplexNo.Properties.Resources.resources
+D:\SPKT\OOPC#\day5\Employee.cs\ComplexNo\obj\Debug\ComplexNo.csproj.GenerateResource.Cache
+D:\SPKT\OOPC#\day5\Employee.cs\ComplexNo\bin\Debug\ComplexNo.exe
+D:\SPKT\OOPC#\day5\Employee.cs\ComplexNo\bin\Debug\ComplexNo.pdb
+D:\SPKT\OOPC#\day5\Employee.cs\ComplexNo\obj\Debug\ComplexNo.exe
+D:\SPKT\OOPC#\day5\Employee.cs\ComplexNo\obj\Debug\ComplexNo.pdb

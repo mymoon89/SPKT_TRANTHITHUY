@@ -1,0 +1,14 @@
+D:\E-SPKT\OOPC#\day3\lab1Point\lab1Point\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day3\lab1Point\lab1Point\obj\Debug\lab1Point.Properties.Resources.resources
+D:\E-SPKT\OOPC#\day3\lab1Point\lab1Point\obj\Debug\lab1Point.csproj.GenerateResource.Cache
+D:\E-SPKT\OOPC#\day3\lab1Point\lab1Point\bin\Debug\lab1Point.exe
+D:\E-SPKT\OOPC#\day3\lab1Point\lab1Point\bin\Debug\lab1Point.pdb
+D:\E-SPKT\OOPC#\day3\lab1Point\lab1Point\obj\Debug\lab1Point.exe
+D:\E-SPKT\OOPC#\day3\lab1Point\lab1Point\obj\Debug\lab1Point.pdb
+D:\SPKT\OOPC#\day3\lab1Point\lab1Point\obj\Debug\lab1Point.exe
+D:\SPKT\OOPC#\day3\lab1Point\lab1Point\obj\Debug\lab1Point.pdb
+D:\SPKT\OOPC#\day3\lab1Point\lab1Point\bin\Debug\lab1Point.exe
+D:\SPKT\OOPC#\day3\lab1Point\lab1Point\bin\Debug\lab1Point.pdb
+D:\SPKT\OOPC#\day3\lab1Point\lab1Point\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day3\lab1Point\lab1Point\obj\Debug\lab1Point.Properties.Resources.resources
+D:\SPKT\OOPC#\day3\lab1Point\lab1Point\obj\Debug\lab1Point.csproj.GenerateResource.Cache

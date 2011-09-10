@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapSo2", "BaiTapSo2\BaiTapSo2.csproj", "{3F5B9F48-1FA2-499B-84D8-4E0A7607622C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F5B9F48-1FA2-499B-84D8-4E0A7607622C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5B9F48-1FA2-499B-84D8-4E0A7607622C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5B9F48-1FA2-499B-84D8-4E0A7607622C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5B9F48-1FA2-499B-84D8-4E0A7607622C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

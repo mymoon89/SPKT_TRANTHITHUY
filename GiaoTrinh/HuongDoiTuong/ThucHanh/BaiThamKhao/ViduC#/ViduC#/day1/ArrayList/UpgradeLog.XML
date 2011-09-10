@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ArrayList">
+</Property><Property Name="Solution File" Value="E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\day1\ArrayList\ArrayList.sln">
+</Property><Property Name="User Options File" Value="E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\day1\ArrayList\ArrayList.suo">
+</Property><Property Name="Date" Value="Friday, December 17, 2010">
+</Property><Property Name="Time" Value="22:16 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ArrayList.sln" Description="File successfully backed up as E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\day1\ArrayList\Backup\ArrayList.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ArrayList.suo" Description="File successfully backed up as E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\day1\ArrayList\Backup\ArrayList.suo">
+</Event><Event ErrorLevel="0" Project="ArrayList" Source="ArrayList\ArrayList.csproj" Description="Project file successfully backed up as E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\day1\ArrayList\Backup\ArrayList\ArrayList.csproj">
+</Event><Event ErrorLevel="0" Project="ArrayList" Source="ArrayList\Program.cs" Description="File successfully backed up as E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\day1\ArrayList\Backup\ArrayList\Program.cs">
+</Event><Event ErrorLevel="0" Project="ArrayList" Source="ArrayList\Properties\AssemblyInfo.cs" Description="File successfully backed up as E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\day1\ArrayList\Backup\ArrayList\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ArrayList" Source="ArrayList\ArrayList.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="ArrayList" Source="ArrayList\ArrayList.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="ArrayList.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ArrayList.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ArrayList.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="ArrayList.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

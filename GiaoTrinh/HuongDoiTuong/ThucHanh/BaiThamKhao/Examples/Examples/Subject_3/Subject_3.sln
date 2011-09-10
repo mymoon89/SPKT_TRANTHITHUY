@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question_1_PhanSo", "Question_1_PhanSo\Question_1_PhanSo.csproj", "{9E87544D-7586-4062-BC5B-DF16D93A22E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question_2_Queue", "Question_2_Queue\Question_2_Queue.csproj", "{C00BC947-1A04-4869-A360-D2722F0B6017}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E87544D-7586-4062-BC5B-DF16D93A22E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E87544D-7586-4062-BC5B-DF16D93A22E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E87544D-7586-4062-BC5B-DF16D93A22E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E87544D-7586-4062-BC5B-DF16D93A22E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00BC947-1A04-4869-A360-D2722F0B6017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00BC947-1A04-4869-A360-D2722F0B6017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00BC947-1A04-4869-A360-D2722F0B6017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00BC947-1A04-4869-A360-D2722F0B6017}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

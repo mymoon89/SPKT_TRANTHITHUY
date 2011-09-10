@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="thuake_console">
+</Property><Property Name="Solution File" Value="D:\thuake_console\thuake_console.sln">
+</Property><Property Name="User Options File" Value="D:\thuake_console\thuake_console.suo">
+</Property><Property Name="Date" Value="Tuesday, January 01, 2002">
+</Property><Property Name="Time" Value="1:25 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="thuake_console.sln" Description="File successfully backed up as D:\thuake_console\Backup\thuake_console.sln">
+</Event><Event ErrorLevel="0" Project="" Source="thuake_console.suo" Description="File successfully backed up as D:\thuake_console\Backup\thuake_console.suo">
+</Event><Event ErrorLevel="0" Project="thuake_console" Source="thuake_console\thuake_console.csproj" Description="Project file successfully backed up as D:\thuake_console\Backup\thuake_console\thuake_console.csproj">
+</Event><Event ErrorLevel="0" Project="thuake_console" Source="thuake_console\HinhHoc.cs" Description="File successfully backed up as D:\thuake_console\Backup\thuake_console\HinhHoc.cs">
+</Event><Event ErrorLevel="0" Project="thuake_console" Source="thuake_console\Program.cs" Description="File successfully backed up as D:\thuake_console\Backup\thuake_console\Program.cs">
+</Event><Event ErrorLevel="0" Project="thuake_console" Source="thuake_console\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\thuake_console\Backup\thuake_console\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="thuake_console" Source="thuake_console\thuake_console.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="thuake_console" Source="thuake_console\thuake_console.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="form" Source="form\form.csproj" Description="Project file successfully backed up as D:\thuake_console\Backup\form\form.csproj">
+</Event><Event ErrorLevel="0" Project="form" Source="form\Form1.cs" Description="File successfully backed up as D:\thuake_console\Backup\form\Form1.cs">
+</Event><Event ErrorLevel="0" Project="form" Source="form\Form1.Designer.cs" Description="File successfully backed up as D:\thuake_console\Backup\form\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="form" Source="form\Program.cs" Description="File successfully backed up as D:\thuake_console\Backup\form\Program.cs">
+</Event><Event ErrorLevel="0" Project="form" Source="form\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\thuake_console\Backup\form\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="form" Source="form\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\thuake_console\Backup\form\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="form" Source="form\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\thuake_console\Backup\form\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="form" Source="form\Properties\Settings.settings" Description="File successfully backed up as D:\thuake_console\Backup\form\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="form" Source="form\Form1.resx" Description="File successfully backed up as D:\thuake_console\Backup\form\Form1.resx">
+</Event><Event ErrorLevel="0" Project="form" Source="form\Properties\Resources.resx" Description="File successfully backed up as D:\thuake_console\Backup\form\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="form" Source="form\form.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="form" Source="form\form.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="thuake_console.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="thuake_console.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="thuake_console" Source="thuake_console\thuake_console.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="form" Source="form\form.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

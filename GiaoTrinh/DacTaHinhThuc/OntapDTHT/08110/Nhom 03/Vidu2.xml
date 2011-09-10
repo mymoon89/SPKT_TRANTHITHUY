@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE SEASON [
+<!ELEMENT YEAR (#PCDATA)>
+<!ELEMENT SEASON ANY>
+<!ELEMENT DATE EMPTY>
+]>
+<SEASON>
+<YEAR>1998</YEAR>
+Major League Baseball
+</SEASON>

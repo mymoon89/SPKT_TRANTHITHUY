@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE person [
+<!ELEMENT person EMPTY>
+<!ATTLIST person gender (male | female) #REQUIRED >
+]>
+
+<person gender = "male"/>

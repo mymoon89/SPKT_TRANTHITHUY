@@ -1,0 +1,11 @@
+D:\E-SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\obj\Debug\ReWritePoint.Properties.Resources.resources
+D:\E-SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\obj\Debug\ReWritePoint.csproj.GenerateResource.Cache
+D:\E-SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\bin\Debug\ReWritePoint.exe
+D:\E-SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\bin\Debug\ReWritePoint.pdb
+D:\E-SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\obj\Debug\ReWritePoint.exe
+D:\E-SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\obj\Debug\ReWritePoint.pdb
+D:\SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\obj\Debug\ReWritePoint.exe
+D:\SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\obj\Debug\ReWritePoint.Properties.Resources.resources
+D:\SPKT\OOPC#\day4\ReWritePoint\ReWritePoint\obj\Debug\ReWritePoint.csproj.GenerateResource.Cache

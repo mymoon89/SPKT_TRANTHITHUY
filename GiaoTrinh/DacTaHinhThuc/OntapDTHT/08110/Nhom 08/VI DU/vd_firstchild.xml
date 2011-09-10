@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="vd_firstchild.css"?>
+<!DOCTYPE note [
+	<!ELEMENT note ANY>
+	<!ELEMENT to ANY>
+	<!ELEMENT from ANY>
+]>
+<note>
+	<to>Truong <from>dai hoc</from> su pham <from>ky thuat</from> tp HCM</to>
+	<to>Truong <from>dai hoc</from> su pham <from>ky thuat</from> tp HCM</to>
+</note>

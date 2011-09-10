@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day3\Day3-2010\Day3-2010\bin\Debug\Day3-2010.exe
+D:\SPKT\OOPC#\day3\Day3-2010\Day3-2010\bin\Debug\Day3-2010.pdb
+D:\SPKT\OOPC#\day3\Day3-2010\Day3-2010\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day3\Day3-2010\Day3-2010\obj\Debug\Day3-2010.exe
+D:\SPKT\OOPC#\day3\Day3-2010\Day3-2010\obj\Debug\Day3-2010.pdb

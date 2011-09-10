@@ -1,0 +1,15 @@
+D:\E-SPKT\OOPC#\day8\TryCatchFinally01\CustomException\bin\Debug\CustomException.exe
+D:\E-SPKT\OOPC#\day8\TryCatchFinally01\CustomException\bin\Debug\CustomException.pdb
+D:\E-SPKT\OOPC#\day8\TryCatchFinally01\CustomException\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day8\TryCatchFinally01\CustomException\obj\Debug\CustomException.exe
+D:\E-SPKT\OOPC#\day8\TryCatchFinally01\CustomException\obj\Debug\CustomException.pdb
+D:\SPKT\OOPC#\day8\TryCatchFinally01\CustomException\obj\Debug\CustomException.exe
+D:\SPKT\OOPC#\day8\TryCatchFinally01\CustomException\obj\Debug\CustomException.pdb
+D:\SPKT\OOPC#\day8\TryCatchFinally01\CustomException\bin\Debug\CustomException.exe
+D:\SPKT\OOPC#\day8\TryCatchFinally01\CustomException\bin\Debug\CustomException.pdb
+D:\SPKT\OOPC#\day8\TryCatchFinally01\CustomException\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter8Exception\day8\TryCatchFinally01\CustomException\obj\Debug\CustomException.exe
+D:\SPKT\OOPC#\Chapter8Exception\day8\TryCatchFinally01\CustomException\obj\Debug\CustomException.pdb
+D:\SPKT\OOPC#\Chapter8Exception\day8\TryCatchFinally01\CustomException\bin\Debug\CustomException.exe
+D:\SPKT\OOPC#\Chapter8Exception\day8\TryCatchFinally01\CustomException\bin\Debug\CustomException.pdb
+D:\SPKT\OOPC#\Chapter8Exception\day8\TryCatchFinally01\CustomException\obj\Debug\ResolveAssemblyReference.cache

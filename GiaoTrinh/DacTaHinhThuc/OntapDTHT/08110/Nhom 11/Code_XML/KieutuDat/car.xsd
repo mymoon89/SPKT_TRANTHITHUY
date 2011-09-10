@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="car">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="honda" type="typecar"/>
+				<xs:element name="BWM" type="typecar"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="typecar">
+		<xs:sequence>
+				<xs:element name="nameCar" type="xs:string"/>
+				<xs:element name="color" type="xs:string"/>
+				<xs:element name="Wheel" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

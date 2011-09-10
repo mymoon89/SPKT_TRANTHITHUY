@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Bridge.RealWorld.exe
+bin\Debug\DoFactory.GangOfFour.Bridge.RealWorld.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Bridge.RealWorld.exe
+obj\Debug\DoFactory.GangOfFour.Bridge.RealWorld.pdb

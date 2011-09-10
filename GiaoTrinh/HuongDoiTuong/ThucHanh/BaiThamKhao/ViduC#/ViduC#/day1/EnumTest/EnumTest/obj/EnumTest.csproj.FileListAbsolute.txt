@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day1\EnumTest\EnumTest\bin\Debug\EnumTest.exe
+D:\E-SPKT\OOPC#\day1\EnumTest\EnumTest\bin\Debug\EnumTest.pdb
+D:\E-SPKT\OOPC#\day1\EnumTest\EnumTest\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day1\EnumTest\EnumTest\obj\Debug\EnumTest.exe
+D:\E-SPKT\OOPC#\day1\EnumTest\EnumTest\obj\Debug\EnumTest.pdb

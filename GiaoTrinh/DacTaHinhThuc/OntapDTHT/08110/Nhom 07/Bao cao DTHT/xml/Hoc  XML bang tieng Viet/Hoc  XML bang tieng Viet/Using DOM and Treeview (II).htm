@@ -1,0 +1,257 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0049)http://www.vovisoft.com/XML/drhong/XMLTreeDOM.htm -->
+<HTML><HEAD><TITLE>Using DOM and Treeview (II)</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=vi>
+<META 
+content="Visual Basic, VB Programming in Vietnamese, &#13;&#10;Vovisoft, VB6, VB Tutorials, Learn Visual Basic, Internet, Unicode, &#13;&#10;Vietnamese VB tutorials, Database, Asp, Java, Javascript, VBscript, &#13;&#10;FrontPage 2000, XML, Ms Office 2000" 
+name=keywords>
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId><LINK 
+href="Using DOM and Treeview (II)_files/topbottom.css" type=text/css 
+rel=stylesheet></HEAD>
+<BODY leftMargin=0 topMargin=65 marginheight="0" marginwidth="0">
+<BLOCKQUOTE>
+  <BLOCKQUOTE><A href="http://www.vovisoft.com/"><IMG height=77 
+    alt="Logo of Vovisoft" 
+    src="Using DOM and Treeview (II)_files/vs-logo4_10.gif" width=102 border=0> 
+    </A></BLOCKQUOTE></BLOCKQUOTE>
+<CENTER>
+<H2><FONT face=Tahoma color=#800000>Dùng DOM để display XML thành nhiều tầng 
+trong TreeView</FONT></H2></CENTER>
+<BLOCKQUOTE>
+  <BLOCKQUOTE><FONT face=Tahoma><FONT color=green size=6>I</FONT> nternet 
+    Explorer 5.0 cho ta <B>Document Object Model (DOM)</B> ActiveX gọi là 
+    <B>MSXML.DLL</B> mà ta có thể dùng trong VB6. Ðầu tiên là <B>Microsoft XML, 
+    version 2.0</B>, tiếp theo đó là <B>Microsoft XML, v2.6</B> và mới nhất là 
+    <B>Microsoft XML, v3.0</B>. Cả ba DLL nầy đều có trong danh sách các 
+    References mà ta có thể include khi dùng IDE Menu command <B>Project | 
+    References</B>.<BR>Khi ta <B>Load</B> một XML file vào DOM, nó tự động 
+    <B>parse</B> XML data để build một Tree gồm nhiều nodes với thứ bậc cha, con 
+    bên trong. Dựa theo đó ta có thể display cái DOM Tree ấy trong một TreeView 
+    để có thể hình dung được cấu trúc của XML data.<BR><BR>Trong thí dụ dưới 
+    đây, ta Load một XML file tên <B>Library.xml</B> vào DOM. XML file nầy còn 
+    có một Schema file tên <B>LibrarySchema.xml</B>. Khi DOM load XML file, ta 
+    có thể dặn nó kiểm (validate) xem XML data có theo đúng tiêu chuẩn đòi hỏi 
+    trong Schema file.<BR>Content của <B>Library.xml</B> như sau, lưu ý hàng thứ 
+    7 nhắc đến <B>LibrarySchema.xml</B> mà DOM sẽ dùng để validate data trong 
+    XML file:<BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version="1.0"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;?</FONT><FONT color=magenta>xml:stylesheet</FONT><FONT color=green> type="text/xsl" href="Library.xsl"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=black>&lt;!-- Copyright 2000 Wattle Software http://XMLwriter.net/  --&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>library</FONT><FONT color=green> xmlns="x-schema:LibrarySchema.xml"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=black>&lt;!-- declare the Schema which defines this document  --&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>name</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Northmead Local Library</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>name</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>book</FONT><FONT color=green> hardback="yes" availableforloan="no"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>C++ Programming for Beginners</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>first-name</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Claude</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>first-name</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>last-name</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Schwartz</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>last-name</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>author</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>callno</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>005.133/C</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>callno</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>online_url</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>http://library/online_books/005133C.html</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>online_url</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>book</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>journal</FONT><FONT color=green> series="XML Users Journal"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>XML Users Journal August 1999</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>date</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1999-08-01</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>date</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>callno</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>005.133/C</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>callno</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>journal</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>video</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Titanic</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>director</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>name</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>James Cameron</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>name</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>director</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>callno</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>643.11/T</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>callno</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>video</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>book</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>The C Programming Language</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>first-name</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Brian</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>first-name</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>last-name</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Kernighan</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>last-name</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>author</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>first-name</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Dennis</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>first-name</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>last-name</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Ritchie</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>last-name</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>author</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>callno</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>005.133/C2</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>callno</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>online_url</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>http://library/online_books/005133C2.html</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>online_url</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>book</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>library</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE><BR>Content của 
+    <B>LibrarySchema.xml</B> như sau:<BR><BR>
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version="1.0"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>Schema</FONT><FONT color=green> xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=black>&lt;!-- Copyright 2000 Wattle Software http://XMLwriter.net/ This Schema is based on XML-Schema support found in Microsoft Internet Explorer 5.  --&gt;</FONT>
+   <FONT color=black>&lt;!-- first we need to declare all elements that will appear only as child elements  --&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="first-name" content="textOnly"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="last-name" content="textOnly"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="name" content="textOnly"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="price" content="textOnly" dt:type="fixed.14.4"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="title" content="textOnly" dt:type="string"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="artist" content="textOnly" dt:type="string"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="callno" content="textOnly" dt:type="string"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="date" content="textOnly" dt:type="date"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="online_url" content="textOnly" dt:type="string"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=black>&lt;!-- and all attributes too  --&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>AttributeType</FONT><FONT color=green> name="hardback" dt:type="string"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>AttributeType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>AttributeType</FONT><FONT color=green> name="availableforloan" dt:type="string"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>AttributeType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>AttributeType</FONT><FONT color=green> name="series" dt:type="string"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>AttributeType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=black>&lt;!-- Now we can define the more interesting elements (i.e. those that can have children )  --&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="author" content="eltOnly" order="one"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=black>&lt;!-- An author can contain EITHER: a name, or a sequence of first-name then last-name  --&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>group</FONT><FONT color=green> order="seq"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="name"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>group</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>group</FONT><FONT color=green> order="seq"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="first-name"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="last-name"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>group</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="director" content="eltOnly" order="one"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=black>&lt;!-- A director can contain EITHER: a name, or a sequence of first-name then last-name  --&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>group</FONT><FONT color=green> order="seq"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="name"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>group</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>group</FONT><FONT color=green> order="seq"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="first-name"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="last-name"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>group</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="video" content="eltOnly"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="title"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="director"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="callno"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="cd" content="eltOnly"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="title"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="artist"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="callno"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="journal" content="eltOnly"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=black>&lt;!-- declare series as an optional attribute of journal  --&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>attribute</FONT><FONT color=green> type="series" required="no"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>attribute</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="title"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="date"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="callno"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="book" content="eltOnly"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=black>&lt;!-- declare hardback as an optional attribute of journal with default value of "no"  --&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>attribute</FONT><FONT color=green> type="hardback" default="no"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>attribute</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>attribute</FONT><FONT color=green> type="availableforloan" default="yes"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>attribute</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="title"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=black>&lt;!-- allow for multiple authors with maxOccurs  --&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="author" maxOccurs="*"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="callno"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=black>&lt;!-- allow for ONE optional URL  --&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="online_url" minOccurs="0" maxOccurs="1"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>ElementType</FONT><FONT color=green> name="library" content="eltOnly"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=black>&lt;!-- the library name comes first  --&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="name"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=black>&lt;!-- followed by a collection of books, videos and cds  --&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>group</FONT><FONT color=green> order="many"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="book" maxOccurs="*"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="journal" maxOccurs="*"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="video" maxOccurs="*"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>element</FONT><FONT color=green> type="cd" maxOccurs="*"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>element</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>group</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>ElementType</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Schema</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE><BR>Việc đầu tiên khi 
+    chạy program là bạn click nút <B>Load XML and Display in TreeView</B>. Ðợi 
+    một chút xíu, Tree của XML sẽ hiện ra trong TreeView. <BR>Ðồng thời Content 
+    của XML file cũng được loaded vào ListBox <B>lstXMLSource</B> và bạn sẽ thấy 
+    nó nếu bạn click Tab <B>XML Source</B>. Dĩ nhiên bạn có thể display bất cứ 
+    một XML file nào nếu bạn để nó vào folder của program và enter Filename của 
+    nó vào TextBox <B>txtXMLFileName</B> trứớc khi click nút <B>Load XML and 
+    Display in TreeView</B>. <BR><BR>
+    <BLOCKQUOTE><IMG height=567 
+      src="Using DOM and Treeview (II)_files/Multilevel.gif" width=584 
+    border=0></BLOCKQUOTE><BR>Trong program nầy ta dùng Object 
+    <B>IXMLDOMNode</B>, thay vì Object <B>IXMLDOMElement</B> để lần lượt đi qua 
+    mọi nodes của XML DOM. Program gọi <B>Sub AddNode</B> để bỏ các Nodes vào 
+    TreeView. Ðặc biệt là AddNode gọi chính nó ở bên trong Sub AddNode. Kỹ thuật 
+    nầy gọi là <B>recursive</B>, mà ta thường lấy dùng trong những cấu trúc 
+    giống như nhánh cây, khi chính một <B>Con</B> lại có nhiều <B>Con</B> khác. 
+    Listing của Sub AddNode như sau:<BR><BR>
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=blue>Private</FONT> <FONT color=blue>Sub</FONT> AddNode(<FONT color=blue>ByRef</FONT> oElem <FONT color=blue>As</FONT> IXMLDOMNode, Optional <FONT color=blue>ByRef</FONT> oTreeNode <FONT color=blue>As</FONT> Node) 
+   <FONT color=green>' Add a Node to the TreeView</FONT>
+   <FONT color=blue>Dim</FONT> oNewNode <FONT color=blue>As</FONT> Node 
+   <FONT color=blue>Dim</FONT> oNodeList <FONT color=blue>As</FONT> IXMLDOMNodeList 
+   <FONT color=blue>Dim</FONT> i <FONT color=blue>As</FONT> <FONT color=blue>Long</FONT> 
+   <FONT color=green>' Create the new node</FONT>
+   <FONT color=blue>If</FONT> oTreeNode Is <FONT color=blue>Nothing</FONT> <FONT color=blue>Then</FONT> 
+      <FONT color=green>' Go through here when creating the top level nodes, i.e. childNodes of root node</FONT>
+      <FONT color=blue>Set</FONT> oNewNode = TreeView.Nodes.Add 
+   <FONT color=blue>Else</FONT> 
+      <FONT color=blue>Set</FONT> oNewNode = TreeView.Nodes.Add(oTreeNode, tvwChild) 
+   <FONT color=blue>End</FONT> <FONT color=blue>If</FONT> 
+   <FONT color=green>' Expand TreeView node</FONT>
+   oNewNode.Expanded = <FONT color=blue>True</FONT> 
+   <FONT color=green>' Prepare the Text for the TreeView Node</FONT>
+   <FONT color=blue>If</FONT> oElem.nodeType = NODE_ELEMENT <FONT color=blue>Then</FONT> 
+      <FONT color=green>' Element Node type. Use Node name and Attribute values</FONT>
+      oNewNode.Text = BuildNodeLabel(oElem) 
+   <FONT color=blue>ElseIf</FONT> (oElem.nodeType = NODE_TEXT) <FONT color=blue>Then</FONT> 
+      <FONT color=green>' Last Node in the branch. Use Text</FONT>
+      oNewNode.Text = oElem.Text 
+   <FONT color=blue>ElseIf</FONT> (oElem.nodeType = NODE_COMMENT) <FONT color=blue>Then</FONT> 
+      <FONT color=green>' Comment Node. Display the comment</FONT>
+      oNewNode.Text = "Comment:" &amp; oElem.Text 
+   <FONT color=blue>Else</FONT> 
+      <FONT color=green>' Display Nodename as default</FONT>
+      oNewNode.Text = oElem.nodeName 
+   <FONT color=blue>End</FONT> <FONT color=blue>If</FONT> 
+   <FONT color=green>' process the childNodes which form a NodeList</FONT>
+   <FONT color=blue>Set</FONT> oNodeList = oElem.childNodes 
+   <FONT color=green>' Iterate through each childNode</FONT>
+   <FONT color=blue>For</FONT> i = 0 <FONT color=blue>To</FONT> oNodeList.length - 1 
+      <FONT color=green>' Recursively call AddNode to add more nodes as children of oNewNode,</FONT>
+      <FONT color=green>' treating AddNode just like another Sub</FONT>
+      AddNode oNodeList.Item(i), oNewNode 
+   <FONT color=blue>Next</FONT> 
+<FONT color=blue>End</FONT> <FONT color=blue>Sub</FONT> 
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE><BR>Có ba loại Nodes ta 
+    xử lý ở đây: NODE_ELEMENT, NODE_TEXT và NODE_COMMENT. Element Node thì có 
+    Node , Attributes và Con. Text Node và Comment Node thì chỉ có 
+    text.<BR><BR>Bạn có thể <A 
+    href="http://www.vovisoft.com/XML/drhong/XMLTreeDOM.zip">download chương 
+    trình mẫu <B>XMLTreeDOM.zip</B></A> để chạy thử. <BR><BR>Ðể biết thêm các 
+    Properties và Methods của các Classes trong MSXML, từ trong VB6 IDE bạn 
+    press <B>F2</B> để display <B>Object Browser</B>. Khi Object Browser Dialog 
+    hiện ra, chọn <B>MSXML2</B> từ ComboBox phía trên đang display <B>&lt;All 
+    Libraries&gt;</B>, kế đó chọn một class, thí dụ như <B>IXMLDOMNode</B> từ 
+    ListBox bên trái, chi tiết của selected Class sẽ được displayed trong 
+    ListBox bên phải như trong hình dưới đây: <BR><BR>
+    <BLOCKQUOTE><IMG height=412 
+      src="Using DOM and Treeview (II)_files/DOMNode.gif" width=641 
+    border=0></BLOCKQUOTE><BR><BR></BLOCKQUOTE><A 
+  href="http://www.vovisoft.com/"><IMG height=40 
+  src="Using DOM and Treeview (II)_files/homejump.gif" width=40>&nbsp;&nbsp;<A 
+  href="http://www.vovisoft.com/xml">Kỹ thuật XML</A></BLOCKQUOTE>&nbsp; 
+<TABLE class=clsNavLinks id=tblFooterLinks cellSpacing=0 cellPadding=0 
+width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=clsRaised width=785 bgColor=#6699cc colSpan=5>
+      <P align=center><FONT face=Tahoma color=#ffffff size=1>Vovisoft © 2000. 
+      All rights reserved.</FONT></P></TD></TR>
+  <TR>
+    <TD width=256>
+      <P align=center><FONT face=Tahoma size=1>&nbsp;&nbsp; Last Updated: 10 
+      July 2001 </FONT></P></TD>
+    <TD width=181><FONT face=Tahoma size=1>&nbsp;</FONT></TD>
+    <TD width=258>
+      <P align=center><A href="mailto:dixon@vovisoft.com"><FONT face=Tahoma 
+      size=1>Webmaster</FONT></A></P></TD></TR></TBODY></TABLE></FONT></BODY></HTML>

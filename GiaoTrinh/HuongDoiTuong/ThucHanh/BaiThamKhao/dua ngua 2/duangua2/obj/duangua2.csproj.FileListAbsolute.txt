@@ -1,0 +1,16 @@
+D:\aptech\winforms\vd\duangua2\duangua2\obj\Debug\ResolveAssemblyReference.cache
+D:\aptech\winforms\vd\duangua2\duangua2\obj\Debug\duangua2.Form1.resources
+D:\aptech\winforms\vd\duangua2\duangua2\obj\Debug\duangua2.Properties.Resources.resources
+D:\aptech\winforms\vd\duangua2\duangua2\obj\Debug\duangua2.csproj.GenerateResource.Cache
+D:\aptech\winforms\vd\duangua2\duangua2\bin\Debug\duangua2.exe
+D:\aptech\winforms\vd\duangua2\duangua2\bin\Debug\duangua2.pdb
+D:\aptech\winforms\vd\duangua2\duangua2\obj\Debug\duangua2.exe
+D:\aptech\winforms\vd\duangua2\duangua2\obj\Debug\duangua2.pdb
+D:\DEVELOP\dua ngua 2\duangua2\obj\Debug\duangua2.exe
+D:\DEVELOP\dua ngua 2\duangua2\obj\Debug\duangua2.pdb
+D:\DEVELOP\dua ngua 2\duangua2\bin\Debug\duangua2.exe
+D:\DEVELOP\dua ngua 2\duangua2\bin\Debug\duangua2.pdb
+D:\DEVELOP\dua ngua 2\duangua2\obj\Debug\ResolveAssemblyReference.cache
+D:\DEVELOP\dua ngua 2\duangua2\obj\Debug\duangua2.Form1.resources
+D:\DEVELOP\dua ngua 2\duangua2\obj\Debug\duangua2.Properties.Resources.resources
+D:\DEVELOP\dua ngua 2\duangua2\obj\Debug\duangua2.csproj.GenerateResource.Cache

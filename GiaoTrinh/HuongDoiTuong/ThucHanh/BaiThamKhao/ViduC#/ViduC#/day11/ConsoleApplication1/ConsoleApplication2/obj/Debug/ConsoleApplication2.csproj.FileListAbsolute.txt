@@ -1,0 +1,10 @@
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication2\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication2\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

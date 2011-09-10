@@ -1,0 +1,17 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\mang\mang\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\mang\mang\bin\Debug\mang.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\mang\mang\bin\Debug\mang.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\mang\mang\obj\Debug\mang.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\mang\mang\obj\Debug\mang.pdb
+E:\LI DEN\hướng đối tượng\moi\08110123\mang\mang\obj\Debug\mang.exe
+E:\LI DEN\hướng đối tượng\moi\08110123\mang\mang\obj\Debug\mang.pdb
+E:\LI DEN\hướng đối tượng\moi\08110123\mang\mang\bin\Debug\mang.exe
+E:\LI DEN\hướng đối tượng\moi\08110123\mang\mang\bin\Debug\mang.pdb
+E:\LI DEN\hướng đối tượng\moi\08110123\mang\mang\obj\Debug\ResolveAssemblyReference.cache
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang\mang\mang\obj\Debug\mang.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang\mang\mang\obj\Debug\mang.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang\mang\mang\bin\Debug\mang.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang\mang\mang\bin\Debug\mang.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang\mang\mang\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang\mang\mang\obj\Debug\mang.exe
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\ThucHanh_Mang\mang\mang\obj\Debug\mang.pdb

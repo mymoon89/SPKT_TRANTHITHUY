@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day2\ConStrucTest\ConStrucTest\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day2\ConStrucTest\ConStrucTest\bin\Debug\ConStrucTest.exe
+D:\E-SPKT\OOPC#\day2\ConStrucTest\ConStrucTest\bin\Debug\ConStrucTest.pdb
+D:\E-SPKT\OOPC#\day2\ConStrucTest\ConStrucTest\obj\Debug\ConStrucTest.exe
+D:\E-SPKT\OOPC#\day2\ConStrucTest\ConStrucTest\obj\Debug\ConStrucTest.pdb

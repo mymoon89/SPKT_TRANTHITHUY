@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Mediator.RealWorld.exe
+bin\Debug\DoFactory.GangOfFour.Mediator.RealWorld.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Mediator.RealWorld.exe
+obj\Debug\DoFactory.GangOfFour.Mediator.RealWorld.pdb

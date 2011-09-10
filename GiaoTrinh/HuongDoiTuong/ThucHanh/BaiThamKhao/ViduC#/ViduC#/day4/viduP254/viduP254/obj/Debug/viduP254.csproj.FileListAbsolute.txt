@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day4\viduP254\viduP254\bin\Debug\viduP254.exe
+D:\SPKT\OOPC#\day4\viduP254\viduP254\bin\Debug\viduP254.pdb
+D:\SPKT\OOPC#\day4\viduP254\viduP254\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day4\viduP254\viduP254\obj\Debug\viduP254.exe
+D:\SPKT\OOPC#\day4\viduP254\viduP254\obj\Debug\viduP254.pdb

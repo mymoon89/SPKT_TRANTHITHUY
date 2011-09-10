@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="vd_firstletter.css"?>
+<!DOCTYPE note [
+	<!ELEMENT note ANY>
+	<!ELEMENT to ANY>
+]>
+<note>
+	<to>Danh la ban cung lop cua ban Long</to>
+</note>

@@ -1,0 +1,10 @@
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_6_JaggedArray\bin\Debug\BaiTap_6_JaggedArray.exe
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_6_JaggedArray\bin\Debug\BaiTap_6_JaggedArray.pdb
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_6_JaggedArray\obj\Debug\ResolveAssemblyReference.cache
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_6_JaggedArray\obj\Debug\BaiTap_6_JaggedArray.exe
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_6_JaggedArray\obj\Debug\BaiTap_6_JaggedArray.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_6_JaggedArray\obj\Debug\BaiTap_6_JaggedArray.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_6_JaggedArray\obj\Debug\BaiTap_6_JaggedArray.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_6_JaggedArray\bin\Debug\BaiTap_6_JaggedArray.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_6_JaggedArray\bin\Debug\BaiTap_6_JaggedArray.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_6_JaggedArray\obj\Debug\ResolveAssemblyReference.cache

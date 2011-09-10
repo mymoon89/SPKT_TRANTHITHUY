@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE department [
+<!ELEMENT department (employee*)> 
+<!ELEMENT employee (#PCDATA)> 
+<!ATTLIST employee empid ID #REQUIRED boss IDREF #IMPLIED>
+]>
+
+<department> 
+    <employee empid="e1013">Jack Russell</employee> 
+    <employee empid="e1014">Samuel Tessen</employee> 
+    <employee empid="e1015" boss="e1013">Terri White</employee> 
+    <employee empid="e1016" boss="e1014">Steve McAlister</employee> 
+</department>

@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="vd1.xsl"?>
+<!DOCTYPE DOCUMENT [
+	<!NOTATION GIF SYSTEM "image/gif">
+	<!ELEMENT DOCUMENT ANY>
+	<!ENTITY LOGO SYSTEM "index01.jpg" NDATA GIF>
+
+	<!ELEMENT IMAGE EMPTY>
+	<!ATTLIST IMAGE SOURCE ENTITY #REQUIRED >
+]>
+<DOCUMENT>
+	<IMAGE SOURCE = "LOGO"/>
+	
+</DOCUMENT>

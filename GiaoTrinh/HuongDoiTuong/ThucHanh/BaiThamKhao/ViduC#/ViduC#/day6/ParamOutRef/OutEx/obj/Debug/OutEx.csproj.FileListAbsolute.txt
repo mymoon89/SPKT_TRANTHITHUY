@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day6\ParamOutRef\OutEx\bin\Debug\OutEx.exe
+D:\E-SPKT\OOPC#\day6\ParamOutRef\OutEx\bin\Debug\OutEx.pdb
+D:\E-SPKT\OOPC#\day6\ParamOutRef\OutEx\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day6\ParamOutRef\OutEx\obj\Debug\OutEx.exe
+D:\E-SPKT\OOPC#\day6\ParamOutRef\OutEx\obj\Debug\OutEx.pdb

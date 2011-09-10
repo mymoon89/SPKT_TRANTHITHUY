@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day9\day9\EventHandling\bin\Debug\EventHandling.exe
+D:\E-SPKT\OOPC#\day9\day9\EventHandling\bin\Debug\EventHandling.pdb
+D:\E-SPKT\OOPC#\day9\day9\EventHandling\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day9\day9\EventHandling\obj\Debug\EventHandling.exe
+D:\E-SPKT\OOPC#\day9\day9\EventHandling\obj\Debug\EventHandling.pdb

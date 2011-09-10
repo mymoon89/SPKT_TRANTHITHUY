@@ -1,0 +1,10 @@
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\DelegateEvents\DelegateEvents\bin\Debug\DelegateEvents.exe
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\DelegateEvents\DelegateEvents\bin\Debug\DelegateEvents.pdb
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\DelegateEvents\DelegateEvents\obj\Debug\ResolveAssemblyReference.cache
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\DelegateEvents\DelegateEvents\obj\Debug\DelegateEvents.Form1.resources
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\DelegateEvents\DelegateEvents\obj\Debug\DelegateEvents.Properties.Resources.resources
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\DelegateEvents\DelegateEvents\obj\Debug\DelegateEvents.csproj.GenerateResource.Cache
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\DelegateEvents\DelegateEvents\obj\Debug\DelegateEvents.exe
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\DelegateEvents\DelegateEvents\obj\Debug\DelegateEvents.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\Delegate\DelegateEvents\DelegateEvents\obj\Debug\DelegateEvents.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\Delegate\DelegateEvents\DelegateEvents\obj\Debug\DelegateEvents.pdb

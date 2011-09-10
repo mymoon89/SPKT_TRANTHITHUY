@@ -1,0 +1,5 @@
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Bridge.RealWorld\bin\Debug\DoFactory.GangOfFour.Bridge.RealWorld.exe
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Bridge.RealWorld\bin\Debug\DoFactory.GangOfFour.Bridge.RealWorld.pdb
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Bridge.RealWorld\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Bridge.RealWorld\obj\Debug\DoFactory.GangOfFour.Bridge.RealWorld.exe
+E:\LI\HocTap\Nam3Ky2\ThietKePhanMemHuongDoiTuong\DoFactory.GangOfFour\DoFactory.GangOfFour.Bridge.RealWorld\obj\Debug\DoFactory.GangOfFour.Bridge.RealWorld.pdb

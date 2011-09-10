@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<xs:schema id="NewDataSet" targetNamespace="http://yourdomain.com.vn/vidu6-2.xsd" xmlns:mstns="http://yourdomain.com.vn/vidu6-2.xsd" 
+xmlns="http://yourdomain.com.vn/vidu6-2.xsd" 
+xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" 
+attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="document">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="comment" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+        <xs:element name="mortgagee" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+              <xs:element name="location" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+              <xs:element name="district" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+              <xs:element name="city" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+            </xs:sequence>
+            <xs:attribute name="phone" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="mortgages" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="mortgage" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="property" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+                    <xs:element name="date" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+                    <xs:element name="loanAmount" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+                    <xs:element name="term" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+                  </xs:sequence>
+                  <xs:attribute name="loanNumber" form="unqualified" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="bank" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" minOccurs="0" msdata:Ordinal="0" />
+              <xs:element name="location" type="xs:string" minOccurs="0" msdata:Ordinal="1" />
+              <xs:element name="district" type="xs:string" minOccurs="0" msdata:Ordinal="2" />
+              <xs:element name="city" type="xs:string" minOccurs="0" msdata:Ordinal="3" />
+            </xs:sequence>
+            <xs:attribute name="phone" form="unqualified" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="documentDate" form="unqualified" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="document" />
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

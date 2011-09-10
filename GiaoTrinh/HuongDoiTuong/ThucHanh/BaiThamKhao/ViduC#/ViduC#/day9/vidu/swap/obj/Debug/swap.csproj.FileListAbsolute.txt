@@ -1,0 +1,7 @@
+D:\E-SPKT\OOPC#\day9\vidu\swap\bin\Debug\swap.exe
+D:\E-SPKT\OOPC#\day9\vidu\swap\bin\Debug\swap.pdb
+D:\E-SPKT\OOPC#\day9\vidu\swap\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day9\vidu\swap\obj\Debug\swap.exe
+D:\E-SPKT\OOPC#\day9\vidu\swap\obj\Debug\swap.pdb
+D:\SPKT\OOPC#\day9\vidu\swap\obj\Debug\swap.exe
+D:\SPKT\OOPC#\day9\vidu\swap\obj\Debug\swap.pdb

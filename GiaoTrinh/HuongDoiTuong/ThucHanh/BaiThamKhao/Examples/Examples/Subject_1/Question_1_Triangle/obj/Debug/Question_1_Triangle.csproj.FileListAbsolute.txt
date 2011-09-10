@@ -1,0 +1,5 @@
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_1\Question_1_Triangle\bin\Debug\Question_1_Triangle.exe
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_1\Question_1_Triangle\bin\Debug\Question_1_Triangle.pdb
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_1\Question_1_Triangle\obj\Debug\ResolveAssemblyReference.cache
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_1\Question_1_Triangle\obj\Debug\Question_1_Triangle.exe
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_1\Question_1_Triangle\obj\Debug\Question_1_Triangle.pdb

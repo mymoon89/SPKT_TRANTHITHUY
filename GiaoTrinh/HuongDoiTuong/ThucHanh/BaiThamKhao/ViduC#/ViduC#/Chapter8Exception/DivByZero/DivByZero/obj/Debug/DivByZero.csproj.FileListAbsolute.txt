@@ -1,0 +1,8 @@
+D:\SPKT\OOPC#\Chapter8Exception\DivByZero\DivByZero\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter8Exception\DivByZero\DivByZero\obj\Debug\DivByZero.Form1.resources
+D:\SPKT\OOPC#\Chapter8Exception\DivByZero\DivByZero\obj\Debug\DivByZero.Properties.Resources.resources
+D:\SPKT\OOPC#\Chapter8Exception\DivByZero\DivByZero\obj\Debug\DivByZero.csproj.GenerateResource.Cache
+D:\SPKT\OOPC#\Chapter8Exception\DivByZero\DivByZero\bin\Debug\DivByZero.exe
+D:\SPKT\OOPC#\Chapter8Exception\DivByZero\DivByZero\bin\Debug\DivByZero.pdb
+D:\SPKT\OOPC#\Chapter8Exception\DivByZero\DivByZero\obj\Debug\DivByZero.exe
+D:\SPKT\OOPC#\Chapter8Exception\DivByZero\DivByZero\obj\Debug\DivByZero.pdb

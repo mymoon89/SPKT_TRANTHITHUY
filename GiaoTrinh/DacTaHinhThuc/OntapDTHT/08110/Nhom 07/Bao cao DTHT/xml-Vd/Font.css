@@ -1,0 +1,43 @@
+BODY
+{
+	display:block;
+}
+TITLE
+{
+	display:inline;
+	font-size:30px;
+	font-family:"Times New Roman",arial;
+	font-weight:bold;
+}
+TACGIA
+{
+	display:list-item;
+	list-style:circle;
+	font-size:20px;
+	font-family:Constantia,arial;
+	font-weight:bold;
+	font-style:italic;
+}
+NOIDUNG
+{
+	display:block;
+	font-size:1em;
+	font-family:"Times New Roman",Constantia,arial;
+	font-weight:normal;
+}
+TEN
+{
+	display:inline;
+	font-size:16px;
+	font-family:Constantia,arial;
+	font-style:italic;
+	font-variant:small-caps;
+}
+THO
+{
+	display:list-item;
+	list-style:none;
+	font-size:16;
+	font-family:"Times New Roman",Constantia,arial;
+	font-weight:normal;
+}

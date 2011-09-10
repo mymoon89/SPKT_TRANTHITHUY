@@ -1,0 +1,16 @@
+D:\E-SPKT\OOPC#\day5\TestForm\TestForm\bin\Debug\TestForm.exe
+D:\E-SPKT\OOPC#\day5\TestForm\TestForm\bin\Debug\TestForm.pdb
+D:\E-SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\TestForm.Properties.Resources.resources
+D:\E-SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\TestForm.csproj.GenerateResource.Cache
+D:\E-SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\TestForm.exe
+D:\E-SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\TestForm.pdb
+D:\E-SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\TestForm.ComplexTest.resources
+D:\SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\TestForm.exe
+D:\SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\TestForm.pdb
+D:\SPKT\OOPC#\day5\TestForm\TestForm\bin\Debug\TestForm.exe
+D:\SPKT\OOPC#\day5\TestForm\TestForm\bin\Debug\TestForm.pdb
+D:\SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\TestForm.ComplexTest.resources
+D:\SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\TestForm.Properties.Resources.resources
+D:\SPKT\OOPC#\day5\TestForm\TestForm\obj\Debug\TestForm.csproj.GenerateResource.Cache

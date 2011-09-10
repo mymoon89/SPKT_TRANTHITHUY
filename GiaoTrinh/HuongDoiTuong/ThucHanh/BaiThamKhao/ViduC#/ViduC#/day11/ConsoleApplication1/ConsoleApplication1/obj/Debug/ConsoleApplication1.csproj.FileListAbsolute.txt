@@ -1,0 +1,14 @@
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.Properties.Resources.resources
+D:\E-SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.GenerateResource.Cache
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.Properties.Resources.resources
+D:\SPKT\OOPC#\day11\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csproj.GenerateResource.Cache

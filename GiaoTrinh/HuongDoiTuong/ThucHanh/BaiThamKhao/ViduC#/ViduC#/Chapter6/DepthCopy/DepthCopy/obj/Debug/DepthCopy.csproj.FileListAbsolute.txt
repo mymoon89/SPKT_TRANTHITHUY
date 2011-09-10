@@ -1,0 +1,20 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\DepthCopy\DepthCopy\bin\Debug\DepthCopy.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\DepthCopy\DepthCopy\bin\Debug\DepthCopy.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\DepthCopy\DepthCopy\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\DepthCopy\DepthCopy\obj\Debug\DepthCopy.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\DepthCopy\DepthCopy\obj\Debug\DepthCopy.pdb
+D:\E-SPKT\OOPC#\SinhVien\DepthCopy\DepthCopy\obj\Debug\DepthCopy.exe
+D:\E-SPKT\OOPC#\SinhVien\DepthCopy\DepthCopy\obj\Debug\DepthCopy.pdb
+D:\E-SPKT\OOPC#\SinhVien\DepthCopy\DepthCopy\bin\Debug\DepthCopy.exe
+D:\E-SPKT\OOPC#\SinhVien\DepthCopy\DepthCopy\bin\Debug\DepthCopy.pdb
+D:\E-SPKT\OOPC#\SinhVien\DepthCopy\DepthCopy\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\SinhVien\DepthCopy\DepthCopy\obj\Debug\DepthCopy.exe
+D:\SPKT\OOPC#\SinhVien\DepthCopy\DepthCopy\obj\Debug\DepthCopy.pdb
+D:\SPKT\OOPC#\SinhVien\DepthCopy\DepthCopy\bin\Debug\DepthCopy.exe
+D:\SPKT\OOPC#\SinhVien\DepthCopy\DepthCopy\bin\Debug\DepthCopy.pdb
+D:\SPKT\OOPC#\SinhVien\DepthCopy\DepthCopy\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter6\DepthCopy\DepthCopy\obj\Debug\DepthCopy.exe
+D:\SPKT\OOPC#\Chapter6\DepthCopy\DepthCopy\obj\Debug\DepthCopy.pdb
+D:\SPKT\OOPC#\Chapter6\DepthCopy\DepthCopy\bin\Debug\DepthCopy.exe
+D:\SPKT\OOPC#\Chapter6\DepthCopy\DepthCopy\bin\Debug\DepthCopy.pdb
+D:\SPKT\OOPC#\Chapter6\DepthCopy\DepthCopy\obj\Debug\ResolveAssemblyReference.cache

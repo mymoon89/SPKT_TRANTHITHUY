@@ -1,0 +1,12 @@
+<SinhVien MSSV="07110144" GIOITINH="Nam">
+    <HoTen>
+        <Ho>Nguy?n H?u</Ho>
+        <Ten> Trung </Ten>
+    </HoTen>
+    <NgaySinh>
+        <Ngay>22 Feb 1989</Ngay>  
+    </NgaySinh>
+    <NgayBatDau>
+        <Ngay>9 Dec 2007</Ngay>  
+    </NgayBatDau>
+</SinhVien>

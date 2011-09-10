@@ -1,0 +1,6 @@
+BAI{display: block; font-size:30px; margin: 80px 40px 20px 30px; border-style:inset; border-color : blue; border-width : thin; padding: 50px; width:700px;height: auto}
+IMAGE { background: url(untitled.jpeg) ; width: 500px; height: 500px; float: left; } 
+DOAN{display: block; font-weight: bold; color: red; text-indent:30px;}
+TACGIA{display: inline; color:green;}
+KHUC{diplay: block;font-size:30px;color:black;text-indent:30px;}
+SUB{display:inline;color:yellow}

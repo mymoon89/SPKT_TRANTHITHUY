@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!ENTITY % record "(date, text)">
+<!ELEMENT document (employee)*>
+<!ELEMENT employee (name, hiredate, projects,
+supervisorComment*, customerComment*,
+employeeComment*)>
+<!ELEMENT name (lastname, firstname)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT hiredate (#PCDATA)>
+<!ELEMENT projects (project)*>
+<!ELEMENT supervisorComment %record;>
+<!ELEMENT customerComment %record;>
+<!ELEMENT employeeComment %record;>
+<!ELEMENT project (product, id, price)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+<!ATTLIST employee supervisor CDATA #IMPLIED>
+

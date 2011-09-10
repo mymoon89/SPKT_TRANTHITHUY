@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="XinChao">
+</Property><Property Name="Solution File" Value="D:\SPKT\OOPC#\day1\XinChao\XinChao.sln">
+</Property><Property Name="User Options File" Value="D:\SPKT\OOPC#\day1\XinChao\XinChao.suo">
+</Property><Property Name="Date" Value="09 Tháng Chín 2010">
+</Property><Property Name="Time" Value="21:07 CH">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="XinChao.sln" Description="File successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup\XinChao.sln">
+</Event><Event ErrorLevel="0" Project="" Source="XinChao.suo" Description="File successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup\XinChao.suo">
+</Event><Event ErrorLevel="0" Project="XinChao" Source="XinChao\XinChao.csproj" Description="Project file successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup\XinChao\XinChao.csproj">
+</Event><Event ErrorLevel="0" Project="XinChao" Source="XinChao\XinChao.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup\XinChao\XinChao.cs">
+</Event><Event ErrorLevel="0" Project="XinChao" Source="XinChao\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup\XinChao\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="XinChao" Source="XinChao\XinChao.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="XinChao" Source="XinChao\XinChao.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="XinChao.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="XinChao.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="XinChao" Source="XinChao\XinChao.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

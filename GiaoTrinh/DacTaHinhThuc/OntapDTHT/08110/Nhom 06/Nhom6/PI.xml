@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="PI.xslt" ?>
+<table>
+	<thead>
+		<row>
+			<?bordercolor #fhjald?>
+					
+			<entry>Column 1 heading
+			</entry>
+			<entry>Column 2 heading
+			</entry>
+			<entry>Column 3 heading
+			</entry>
+			<entry>Column 4 heading
+			</entry>
+		</row>
+	</thead>
+	<tbody>
+		<row>
+			
+			<?bordercolor #fhjald?>
+			<entry>Entry 1.1</entry>
+			<entry>Entry 2.1</entry>
+			<entry>Entry 3.1</entry>
+			<entry>Entry 4.1</entry>
+		</row>
+		<row>
+		<?bordercolor #fhjald?>
+		
+			<entry>Entry 1.2</entry>
+			<entry>Entry 2.2</entry>
+			<entry>Entry 3.2</entry>
+			<entry>Entry 4.2</entry>
+		</row>
+		<row>
+		<?bordercolor #fhjald?>
+		
+			<entry>Entry 1.3</entry>
+			<entry>Entry 2.3</entry>
+			<entry>Entry 3.3</entry>
+			<entry>Entry 4.3</entry>
+		</row>
+		<row>
+		<?bordercolor #fhjald?>
+		
+			<entry>Entry 1.4</entry>
+			<entry>Entry 2.4</entry>
+			<entry>Entry 3.4</entry>
+			<entry>Entry 4.4</entry>
+		</row>
+
+	</tbody>
+</table>

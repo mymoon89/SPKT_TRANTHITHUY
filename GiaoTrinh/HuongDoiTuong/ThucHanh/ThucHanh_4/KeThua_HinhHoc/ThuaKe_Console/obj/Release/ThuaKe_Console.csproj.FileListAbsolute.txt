@@ -1,0 +1,14 @@
+D:\121HinhHoc\ThuaKe_Console\obj\Release\ThuaKe_Console.exe
+D:\121HinhHoc\ThuaKe_Console\obj\Release\ThuaKe_Console.pdb
+D:\121HinhHoc\ThuaKe_Console\bin\Release\ThuaKe_Console.exe
+D:\121HinhHoc\ThuaKe_Console\bin\Release\ThuaKe_Console.pdb
+D:\121HinhHoc\ThuaKe_Console\bin\Release\HinhHoc.dll
+D:\121HinhHoc\ThuaKe_Console\bin\Release\HinhHoc.pdb
+D:\121HinhHoc\ThuaKe_Console\obj\Release\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\ThuaKe_Console\bin\Release\ThuaKe_Console.exe
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\ThuaKe_Console\bin\Release\ThuaKe_Console.pdb
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\ThuaKe_Console\bin\Release\HinhHoc.dll
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\ThuaKe_Console\bin\Release\HinhHoc.pdb
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\ThuaKe_Console\obj\Release\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\ThuaKe_Console\obj\Release\ThuaKe_Console.exe
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\KeThua_HinhHoc\ThuaKe_Console\obj\Release\ThuaKe_Console.pdb

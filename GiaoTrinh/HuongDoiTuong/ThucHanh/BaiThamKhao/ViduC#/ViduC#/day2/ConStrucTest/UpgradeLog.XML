@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ConStrucTest">
+</Property><Property Name="Solution File" Value="D:\SPKT\OOPC#\day2\ConStrucTest\ConStrucTest.sln">
+</Property><Property Name="User Options File" Value="D:\SPKT\OOPC#\day2\ConStrucTest\ConStrucTest.suo">
+</Property><Property Name="Date" Value="27 Tháng Mười Một 2010">
+</Property><Property Name="Time" Value="10:26 SA">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ConStrucTest.sln" Description="File successfully backed up as D:\SPKT\OOPC#\day2\ConStrucTest\Backup\ConStrucTest.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ConStrucTest.suo" Description="File successfully backed up as D:\SPKT\OOPC#\day2\ConStrucTest\Backup\ConStrucTest.suo">
+</Event><Event ErrorLevel="0" Project="ConStrucTest" Source="ConStrucTest\ConStrucTest.csproj" Description="Project file successfully backed up as D:\SPKT\OOPC#\day2\ConStrucTest\Backup\ConStrucTest\ConStrucTest.csproj">
+</Event><Event ErrorLevel="0" Project="ConStrucTest" Source="ConStrucTest\Time.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day2\ConStrucTest\Backup\ConStrucTest\Time.cs">
+</Event><Event ErrorLevel="0" Project="ConStrucTest" Source="ConStrucTest\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day2\ConStrucTest\Backup\ConStrucTest\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ConStrucTest" Source="ConStrucTest\ConStrucTest.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="ConStrucTest" Source="ConStrucTest\ConStrucTest.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="ConStrucTest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ConStrucTest.sln" Description="Converted">
+</Event></UpgradeLog>

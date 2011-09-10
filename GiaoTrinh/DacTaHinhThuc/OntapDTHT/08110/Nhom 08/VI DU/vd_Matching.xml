@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="vd_Matching.css"?>
+<!DOCTYPE note [
+	<!ELEMENT note ANY>
+	<!ELEMENT to ANY>
+	<!ELEMENT from ANY>
+]>
+<note>
+	<to>Day la tag to</to>
+	<from>Day la tag from</from>
+</note>

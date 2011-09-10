@@ -1,0 +1,7 @@
+D:\SPKT\OOPC#\day3\Day3-2010\Box\bin\Debug\Box.exe
+D:\SPKT\OOPC#\day3\Day3-2010\Box\bin\Debug\Box.pdb
+D:\SPKT\OOPC#\day3\Day3-2010\Box\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day3\Day3-2010\Box\obj\Debug\Box.Properties.Resources.resources
+D:\SPKT\OOPC#\day3\Day3-2010\Box\obj\Debug\Box.csproj.GenerateResource.Cache
+D:\SPKT\OOPC#\day3\Day3-2010\Box\obj\Debug\Box.exe
+D:\SPKT\OOPC#\day3\Day3-2010\Box\obj\Debug\Box.pdb

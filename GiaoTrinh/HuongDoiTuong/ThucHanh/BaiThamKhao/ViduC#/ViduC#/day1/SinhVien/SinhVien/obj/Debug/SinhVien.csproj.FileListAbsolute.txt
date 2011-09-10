@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day1\SinhVien\SinhVien\obj\Debug\SinhVien.exe
+D:\SPKT\OOPC#\day1\SinhVien\SinhVien\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day1\SinhVien\SinhVien\bin\Debug\SinhVien.exe
+D:\SPKT\OOPC#\day1\SinhVien\SinhVien\bin\Debug\SinhVien.pdb
+D:\SPKT\OOPC#\day1\SinhVien\SinhVien\obj\Debug\SinhVien.pdb

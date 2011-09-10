@@ -1,0 +1,26 @@
+BODY
+{
+	display:block;
+}
+TITLE
+{
+	display:inline;
+}
+TACGIA
+{
+	display:list-item;
+	list-style:circle;
+}
+NOIDUNG
+{
+	display:block;
+}
+TEN
+{
+	display:inline;
+}
+THO
+{
+	display:list-item;
+	list-style:none;
+}

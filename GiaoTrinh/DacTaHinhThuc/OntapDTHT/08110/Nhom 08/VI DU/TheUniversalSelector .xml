@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="TheUniversalSelector .css"?>
+<!DOCTYPE note [
+	<!ELEMENT note ANY>
+	<!ELEMENT to ANY>
+	<!ELEMENT too ANY>
+]>
+<note>
+	<to>Truong DH su pham ky thuat</to>
+</note>

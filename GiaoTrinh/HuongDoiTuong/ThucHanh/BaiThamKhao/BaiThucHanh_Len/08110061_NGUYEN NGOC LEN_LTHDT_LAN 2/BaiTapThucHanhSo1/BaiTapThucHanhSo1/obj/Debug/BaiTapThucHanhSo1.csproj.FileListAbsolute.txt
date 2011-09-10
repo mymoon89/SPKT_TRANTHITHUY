@@ -1,0 +1,10 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapThucHanhSo1\BaiTapThucHanhSo1\bin\Debug\BaiTapThucHanhSo1.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapThucHanhSo1\BaiTapThucHanhSo1\bin\Debug\BaiTapThucHanhSo1.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Debug\BaiTapThucHanhSo1.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Debug\BaiTapThucHanhSo1.pdb
+C:\Documents and Settings\NGOCLEN.SPKIT\Desktop\08110061_NGUYENNGOCLEN_LTHDT\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Debug\BaiTapThucHanhSo1.exe
+C:\Documents and Settings\NGOCLEN.SPKIT\Desktop\08110061_NGUYENNGOCLEN_LTHDT\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Debug\BaiTapThucHanhSo1.pdb
+C:\Documents and Settings\NGOCLEN.SPKIT\Desktop\08110061_NGUYENNGOCLEN_LTHDT\BaiTapThucHanhSo1\BaiTapThucHanhSo1\bin\Debug\BaiTapThucHanhSo1.exe
+C:\Documents and Settings\NGOCLEN.SPKIT\Desktop\08110061_NGUYENNGOCLEN_LTHDT\BaiTapThucHanhSo1\BaiTapThucHanhSo1\bin\Debug\BaiTapThucHanhSo1.pdb
+C:\Documents and Settings\NGOCLEN.SPKIT\Desktop\08110061_NGUYENNGOCLEN_LTHDT\BaiTapThucHanhSo1\BaiTapThucHanhSo1\obj\Debug\ResolveAssemblyReference.cache

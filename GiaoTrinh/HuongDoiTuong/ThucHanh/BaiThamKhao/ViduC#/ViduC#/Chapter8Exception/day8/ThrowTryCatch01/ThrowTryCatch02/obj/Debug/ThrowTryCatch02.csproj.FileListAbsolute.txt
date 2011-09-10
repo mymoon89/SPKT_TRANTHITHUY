@@ -1,0 +1,15 @@
+D:\E-SPKT\OOPC#\day8\ThrowTryCatch01\ThrowTryCatch02\bin\Debug\ThrowTryCatch02.exe
+D:\E-SPKT\OOPC#\day8\ThrowTryCatch01\ThrowTryCatch02\bin\Debug\ThrowTryCatch02.pdb
+D:\E-SPKT\OOPC#\day8\ThrowTryCatch01\ThrowTryCatch02\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day8\ThrowTryCatch01\ThrowTryCatch02\obj\Debug\ThrowTryCatch02.exe
+D:\E-SPKT\OOPC#\day8\ThrowTryCatch01\ThrowTryCatch02\obj\Debug\ThrowTryCatch02.pdb
+D:\SPKT\OOPC#\day8\ThrowTryCatch01\ThrowTryCatch02\obj\Debug\ThrowTryCatch02.exe
+D:\SPKT\OOPC#\day8\ThrowTryCatch01\ThrowTryCatch02\obj\Debug\ThrowTryCatch02.pdb
+D:\SPKT\OOPC#\day8\ThrowTryCatch01\ThrowTryCatch02\bin\Debug\ThrowTryCatch02.exe
+D:\SPKT\OOPC#\day8\ThrowTryCatch01\ThrowTryCatch02\bin\Debug\ThrowTryCatch02.pdb
+D:\SPKT\OOPC#\day8\ThrowTryCatch01\ThrowTryCatch02\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter8Exception\day8\ThrowTryCatch01\ThrowTryCatch02\obj\Debug\ThrowTryCatch02.exe
+D:\SPKT\OOPC#\Chapter8Exception\day8\ThrowTryCatch01\ThrowTryCatch02\obj\Debug\ThrowTryCatch02.pdb
+D:\SPKT\OOPC#\Chapter8Exception\day8\ThrowTryCatch01\ThrowTryCatch02\bin\Debug\ThrowTryCatch02.exe
+D:\SPKT\OOPC#\Chapter8Exception\day8\ThrowTryCatch01\ThrowTryCatch02\bin\Debug\ThrowTryCatch02.pdb
+D:\SPKT\OOPC#\Chapter8Exception\day8\ThrowTryCatch01\ThrowTryCatch02\obj\Debug\ResolveAssemblyReference.cache

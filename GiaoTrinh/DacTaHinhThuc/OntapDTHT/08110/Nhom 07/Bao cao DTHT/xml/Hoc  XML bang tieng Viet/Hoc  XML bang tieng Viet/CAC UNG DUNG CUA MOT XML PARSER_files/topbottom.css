@@ -1,0 +1,21 @@
+all.clsMenuItemNS {
+	FONT: bold x-small Tahoma; COLOR: white; TEXT-DECORATION: none
+}
+.clsMenuItemIE {
+	FONT: bold xx-small Tahoma; CURSOR: hand; COLOR: white; TEXT-DECORATION: none
+}
+TD.clsRaised {
+	BORDER-RIGHT: #003366 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #99ccff 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; BORDER-LEFT: #99ccff 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #003366 1px solid
+}
+TD.clsReserved {
+	BORDER-RIGHT: #ffff99 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ffff66 1px solid; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ffffcc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ffff00 1px solid
+}
+A:hover {
+	FONT-WEIGHT: bold; COLOR: #ff0033
+}
+TD {
+	FONT-SIZE: 80%
+}
+TH {
+	FONT-SIZE: 80%
+}

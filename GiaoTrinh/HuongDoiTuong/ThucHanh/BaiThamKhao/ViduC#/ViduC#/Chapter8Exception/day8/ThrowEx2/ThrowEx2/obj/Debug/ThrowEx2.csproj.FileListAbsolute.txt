@@ -1,0 +1,15 @@
+D:\E-SPKT\OOPC#\day8\ThrowEx2\ThrowEx2\bin\Debug\ThrowEx2.exe
+D:\E-SPKT\OOPC#\day8\ThrowEx2\ThrowEx2\bin\Debug\ThrowEx2.pdb
+D:\E-SPKT\OOPC#\day8\ThrowEx2\ThrowEx2\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day8\ThrowEx2\ThrowEx2\obj\Debug\ThrowEx2.exe
+D:\E-SPKT\OOPC#\day8\ThrowEx2\ThrowEx2\obj\Debug\ThrowEx2.pdb
+D:\SPKT\OOPC#\day8\ThrowEx2\ThrowEx2\obj\Debug\ThrowEx2.exe
+D:\SPKT\OOPC#\day8\ThrowEx2\ThrowEx2\obj\Debug\ThrowEx2.pdb
+D:\SPKT\OOPC#\day8\ThrowEx2\ThrowEx2\bin\Debug\ThrowEx2.exe
+D:\SPKT\OOPC#\day8\ThrowEx2\ThrowEx2\bin\Debug\ThrowEx2.pdb
+D:\SPKT\OOPC#\day8\ThrowEx2\ThrowEx2\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter8Exception\day8\ThrowEx2\ThrowEx2\obj\Debug\ThrowEx2.exe
+D:\SPKT\OOPC#\Chapter8Exception\day8\ThrowEx2\ThrowEx2\obj\Debug\ThrowEx2.pdb
+D:\SPKT\OOPC#\Chapter8Exception\day8\ThrowEx2\ThrowEx2\bin\Debug\ThrowEx2.exe
+D:\SPKT\OOPC#\Chapter8Exception\day8\ThrowEx2\ThrowEx2\bin\Debug\ThrowEx2.pdb
+D:\SPKT\OOPC#\Chapter8Exception\day8\ThrowEx2\ThrowEx2\obj\Debug\ResolveAssemblyReference.cache

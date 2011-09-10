@@ -1,0 +1,18 @@
+E:\Project VS 2010\TuDien1\TuDien1\bin\Debug\TuDien1.exe
+E:\Project VS 2010\TuDien1\TuDien1\bin\Debug\TuDien1.pdb
+E:\Project VS 2010\TuDien1\TuDien1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Project VS 2010\TuDien1\TuDien1\obj\x86\Debug\TuDien1.Form1.resources
+E:\Project VS 2010\TuDien1\TuDien1\obj\x86\Debug\TuDien1.Properties.Resources.resources
+E:\Project VS 2010\TuDien1\TuDien1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Project VS 2010\TuDien1\TuDien1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Project VS 2010\TuDien1\TuDien1\obj\x86\Debug\TuDien1.exe
+E:\Project VS 2010\TuDien1\TuDien1\obj\x86\Debug\TuDien1.pdb
+C:\Users\nghiaspkt\Desktop\DE TAI DAC TA HINH THUC_NHOM 1\02.DEMO\TuDien1\TuDien1\obj\x86\Debug\TuDien1.exe
+C:\Users\nghiaspkt\Desktop\DE TAI DAC TA HINH THUC_NHOM 1\02.DEMO\TuDien1\TuDien1\obj\x86\Debug\TuDien1.pdb
+C:\Users\nghiaspkt\Desktop\DE TAI DAC TA HINH THUC_NHOM 1\02.DEMO\TuDien1\TuDien1\bin\Debug\TuDien1.exe
+C:\Users\nghiaspkt\Desktop\DE TAI DAC TA HINH THUC_NHOM 1\02.DEMO\TuDien1\TuDien1\bin\Debug\TuDien1.pdb
+C:\Users\nghiaspkt\Desktop\DE TAI DAC TA HINH THUC_NHOM 1\02.DEMO\TuDien1\TuDien1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\nghiaspkt\Desktop\DE TAI DAC TA HINH THUC_NHOM 1\02.DEMO\TuDien1\TuDien1\obj\x86\Debug\TuDien1.Form1.resources
+C:\Users\nghiaspkt\Desktop\DE TAI DAC TA HINH THUC_NHOM 1\02.DEMO\TuDien1\TuDien1\obj\x86\Debug\TuDien1.Properties.Resources.resources
+C:\Users\nghiaspkt\Desktop\DE TAI DAC TA HINH THUC_NHOM 1\02.DEMO\TuDien1\TuDien1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\nghiaspkt\Desktop\DE TAI DAC TA HINH THUC_NHOM 1\02.DEMO\TuDien1\TuDien1\obj\x86\Debug\GenerateResource.write.1.tlog

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="XinChao">
+</Property><Property Name="Solution File" Value="D:\SPKT\OOPC#\day1\XinChao\XinChao.sln">
+</Property><Property Name="Date" Value="09 Tháng Chín 2010">
+</Property><Property Name="Time" Value="21:21:35 CH">
+</Property><Property Name="Log Number" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="HelloWorld" Source="..\HelloWorld\HelloWorld\HelloWorld.csproj" Description="Project file successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup2\HelloWorld.csproj">
+</Event><Event ErrorLevel="0" Project="HelloWorld" Source="..\HelloWorld\HelloWorld\HelloWorld.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup2\HelloWorld.cs">
+</Event><Event ErrorLevel="0" Project="HelloWorld" Source="..\HelloWorld\HelloWorld\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup2\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="HelloWorld" Source="..\HelloWorld\HelloWorld\HelloWorld.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="HelloWorld" Source="..\HelloWorld\HelloWorld\HelloWorld.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HelloWorld" Source="..\HelloWorld\HelloWorld\HelloWorld.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

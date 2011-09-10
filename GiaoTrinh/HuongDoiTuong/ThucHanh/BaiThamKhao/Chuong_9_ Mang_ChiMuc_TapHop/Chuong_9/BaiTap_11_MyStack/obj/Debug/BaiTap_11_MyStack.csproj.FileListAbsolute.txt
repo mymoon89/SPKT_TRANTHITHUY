@@ -1,0 +1,5 @@
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_11_MyStack\bin\Debug\BaiTap_11_MyStack.exe
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_11_MyStack\bin\Debug\BaiTap_11_MyStack.pdb
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_11_MyStack\obj\Debug\ResolveAssemblyReference.cache
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_11_MyStack\obj\Debug\BaiTap_11_MyStack.exe
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_11_MyStack\obj\Debug\BaiTap_11_MyStack.pdb

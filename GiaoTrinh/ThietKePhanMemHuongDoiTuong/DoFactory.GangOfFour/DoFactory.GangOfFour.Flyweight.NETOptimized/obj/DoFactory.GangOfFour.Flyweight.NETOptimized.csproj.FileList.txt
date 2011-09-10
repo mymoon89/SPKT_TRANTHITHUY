@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Flyweight.NETOptimized.exe
+bin\Debug\DoFactory.GangOfFour.Flyweight.NETOptimized.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Flyweight.NETOptimized.exe
+obj\Debug\DoFactory.GangOfFour.Flyweight.NETOptimized.pdb

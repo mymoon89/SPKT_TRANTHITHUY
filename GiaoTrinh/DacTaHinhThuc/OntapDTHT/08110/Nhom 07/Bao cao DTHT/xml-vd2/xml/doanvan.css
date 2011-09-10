@@ -1,0 +1,15 @@
+BAI{display: block; font-size:30px; 
+margin: 20px 10px 50px 100px; 
+border-style:inset; border-color : blue; border-width : thin /*medium thin thick*/ ;  /*border: thin  blue solid*/ 
+padding: 50px /*10px 70px 30px 0px */; 
+width:900px; height: auto;
+ /*background-color: blue;*/ }
+
+IMAGE { background: url(bg.gif) no-repeat center; 
+/*position:relative; top:50px; left:70px*/ position:relative; /*position:absolute; top:50px; left:70px*/
+width: 134px; height: 196px;
+float:left ; }
+
+DOAN{display: block; font-weight: bold; color: red; 
+ /*clear: left*/}
+TACGIA{display: block; color:green; }

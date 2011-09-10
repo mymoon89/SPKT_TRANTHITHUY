@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Shapes>
+  <Line>
+    <X1>0</X1>
+    <Y1>0</Y1>
+    <X2>0</X2>
+    <Y2>0</Y2>
+    <Color>White</Color>
+  </Line>
+  <Line>
+    <X1>269</X1>
+    <Y1>196</Y1>
+    <X2>256</X2>
+    <Y2>310</Y2>
+    <Color>ffff80ff</Color>
+  </Line>
+  <Line>
+    <X1>227</X1>
+    <Y1>220</Y1>
+    <X2>454</X2>
+    <Y2>250</Y2>
+    <Color>ffff80ff</Color>
+  </Line>
+  <Line>
+    <X1>209</X1>
+    <Y1>251</Y1>
+    <X2>290</X2>
+    <Y2>388</Y2>
+    <Color>ffff80ff</Color>
+  </Line>
+  <Line>
+    <X1>330</X1>
+    <Y1>299</Y1>
+    <X2>235</X2>
+    <Y2>371</Y2>
+    <Color>ffff80ff</Color>
+  </Line>
+  <Line>
+    <X1>412</X1>
+    <Y1>320</Y1>
+    <X2>401</X2>
+    <Y2>390</Y2>
+    <Color>ffff80ff</Color>
+  </Line>
+</Shapes>

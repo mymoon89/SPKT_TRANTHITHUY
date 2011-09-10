@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day11\ThreadEx\ThreadEx\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day11\ThreadEx\ThreadEx\bin\Debug\ThreadEx.exe
+D:\E-SPKT\OOPC#\day11\ThreadEx\ThreadEx\bin\Debug\ThreadEx.pdb
+D:\E-SPKT\OOPC#\day11\ThreadEx\ThreadEx\obj\Debug\ThreadEx.exe
+D:\E-SPKT\OOPC#\day11\ThreadEx\ThreadEx\obj\Debug\ThreadEx.pdb

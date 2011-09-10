@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\Chapter6\ArrayString\vidu91Page216\bin\Debug\vidu91Page216.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\vidu91Page216\bin\Debug\vidu91Page216.pdb
+D:\SPKT\OOPC#\Chapter6\ArrayString\vidu91Page216\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter6\ArrayString\vidu91Page216\obj\Debug\vidu91Page216.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\vidu91Page216\obj\Debug\vidu91Page216.pdb

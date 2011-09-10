@@ -1,0 +1,48 @@
+productions
+  PARSER	= SECTION*
+
+  SECTION	= userdefined_ productions_ PRODNAMES -> userprods_(PRODNAMES),
+		  userdefined_ domains_ PRODNAMES -> userdoms_(PRODNAMES),
+		  productions_ PRODUCTIONS	 -> productions_(PRODUCTIONS)
+
+  PRODUCTIONS	= PRODUCTION+
+
+  PRODUCTION	= upper(STRING):CURSOR equal PRODBODY	-> p(PRODNAME,CURSOR,PRODBODY)
+
+  PRODBODY	= upper(STRING):CURSOR STAR_PLUS SEPARATOR
+				-> list(PRODNAME,CURSOR,STAR_PLUS,SEPARATOR),
+		  PRODGROUPS			-> groups(PRODGROUPS)
+
+  STAR_PLUS	= star				-> star,
+		  plus				-> plus
+
+  SEPARATOR	= separator_ id(STRING)		-> sep(STRING),
+						-> none
+
+  PRODGROUPS	= PRIORGROUP+ separator priorsepp
+
+  PRIORGROUP	= SINGPROD+ separator comma
+
+  SINGPROD	= ASSOC GRAMTOKL arrow:CURSOR TERM -> prod(ASSOC,GRAMTOKL,CURSOR,TERM)
+
+  ASSOC		= rightassoc_:CURSOR		-> right(CURSOR),
+						-> left
+
+  GRAMTOKL	= GRAMTOK*
+
+  GRAMTOK	= upper(STRING):CURSOR		-> prodname(PRODNAME,CURSOR),
+		  TOKK CURSORDEMAND		-> tok(TOKK,CURSORDEMAND)
+
+  CURSORDEMAND	= colon PRODNAME		-> curdemand(PRODNAME),
+						-> none
+
+  TOKK		= id(STRING):CURSOR lpar PRODNAMES rpar -> cmp(STRING,CURSOR,PRODNAMES),
+		  id(STRING):CURSOR			-> name(STRING,CURSOR)
+
+  TERM		= upper(STRING):CURSOR			-> dom(PRODNAME,CURSOR),
+		  id(STRING):CURSOR lpar PRODNAMES rpar -> term(STRING,CURSOR,PRODNAMES),
+		  id(STRING):CURSOR			-> name(STRING,CURSOR)
+
+  PRODNAME	= upper(STRING)			-> PRODNAME
+
+  PRODNAMES	= PRODNAME+ separator comma

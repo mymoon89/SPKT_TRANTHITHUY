@@ -1,0 +1,90 @@
+/*********************************************************
+                
+                  Turbo Prolog Toolbox
+                  (C) 1987 Borland International.              
+**********************************************************/                  
+
+DOMAINS
+  TOK		  = userdefined_();
+		    productions_();
+		    domains_();
+		    equal();
+		    star();
+		    plus();
+		    separator_();
+		    id(STRING);
+		    arrow();
+		    lpar();
+		    rpar();
+		    upper(STRING);
+		    priorsepp();
+		    rightassoc_();
+		    comma();
+		    colon();
+		    nill
+
+  CURSORTOK = t(TOK,CURSOR)
+  TOKL = CURSORTOK*
+
+
+PREDICATES
+  tokl(CURSOR,STRING,TOKL)
+  maketok(CURSOR,STRING,TOK,STRING,STRING,CURSOR)
+  str_tok(STRING,TOK)
+  skipspaces(STRING,STRING,INTEGER)
+  isspace(CHAR)
+
+CLAUSES
+  tokl(POS,STR,[t(TOK,POS1)|TOKL]):-
+	skipspaces(STR,STR1,NOOFSP),
+	POS1=POS+NOOFSP,
+	fronttoken(STR1,STRTOK,STR2),!,
+	maketok(POS1,STRTOK,TOK,STR2,STR3,LEN1),
+	str_len(STRTOK,LEN),
+	POS2=POS1+LEN+LEN1,
+	tokl(POS2,STR3,TOKL).
+  tokl(_,_,[]).
+
+  skipspaces(STR,STR2,NOOFSP):-
+	frontchar(STR,CH,STR1),isspace(CH),!,
+	skipspaces(STR1,STR2,N1),
+	NOOFSP=N1+1.
+  skipspaces(STR,STR,0).
+
+  isspace(' ').
+  isspace('\t').
+  isspace('\n').
+
+  maketok(_,",",comma,S,S,0):-!.
+  maketok(_,":",colon,S,S,0):-!.
+  maketok(_,"(",lpar,S,S,0):-!.
+  maketok(_,")",rpar,S,S,0):-!.
+  maketok(_,"*",star,S,S,0):-!.
+  maketok(_,"+",plus,S,S,0):-!.
+  maketok(_,"=",equal,S,S,0):-!.
+  maketok(_,"-",arrow,S1,S2,1):-frontchar(S1,'>',S2),!.
+  maketok(_,"-",priorsepp,S1,S2,1):-frontchar(S1,'-',S2),!.
+  maketok(_,"separator",separator_,S,S,0):-!.
+  maketok(_,"productions",productions_,S,S,0):-!.
+  maketok(_,"domains",domains_,S,S,0):-!.
+  maketok(_,"rightassoc",rightassoc_,S,S,0):-!.
+  maketok(_,"userdefined",userdefined_,S,S,0):-!.
+  maketok(_,STR,upper(STR),S,S,0):-frontchar(STR,CH,_),CH>='A',CH<='Z',!.
+  maketok(_,STRING,id(STRING),S,S,0):-isname(STRING),!.
+  maketok(CURSOR,_,_,_,_,_):-scan_error("Ilegal token",CURSOR),fail.
+
+  str_tok(",",comma).
+  str_tok("(",lpar).
+  str_tok(")",rpar).
+  str_tok("*",star).
+  str_tok("+",plus).
+  str_tok("=",equal).
+  str_tok("->",arrow).
+  str_tok("--",priorsepp).
+  str_tok("separator",separator_).
+  str_tok("productions",productions_).
+  str_tok("rigthassoc",rightassoc_).
+  str_tok("userdefined",userdefined_).
+  str_tok(STR,upper("")):-free(STR),!,STR="production name".
+  str_tok(STR,id("")):-free(STR),!,STR="identifier".
+

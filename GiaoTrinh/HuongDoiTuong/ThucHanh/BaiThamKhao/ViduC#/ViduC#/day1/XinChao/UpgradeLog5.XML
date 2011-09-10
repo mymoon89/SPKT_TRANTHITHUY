@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="XinChao">
+</Property><Property Name="Solution File" Value="D:\SPKT\OOPC#\day1\XinChao\XinChao.sln">
+</Property><Property Name="Date" Value="09 Tháng Chín 2010">
+</Property><Property Name="Time" Value="21:45:14 CH">
+</Property><Property Name="Log Number" Value="5">
+</Property></Properties><Event ErrorLevel="0" Project="Exam" Source="..\Exam\Exam\Exam.csproj" Description="Project file successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup4\Exam.csproj">
+</Event><Event ErrorLevel="0" Project="Exam" Source="..\Exam\Exam\Program.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup4\Program.cs">
+</Event><Event ErrorLevel="0" Project="Exam" Source="..\Exam\Exam\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SPKT\OOPC#\day1\XinChao\Backup4\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Exam" Source="..\Exam\Exam\Exam.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Exam" Source="..\Exam\Exam\Exam.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Exam" Source="..\Exam\Exam\Exam.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

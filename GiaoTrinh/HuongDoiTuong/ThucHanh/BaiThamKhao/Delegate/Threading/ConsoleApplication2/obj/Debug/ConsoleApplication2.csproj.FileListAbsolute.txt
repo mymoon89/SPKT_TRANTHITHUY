@@ -1,0 +1,5 @@
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\ConsoleApplication2\ConsoleApplication2\obj\Debug\ResolveAssemblyReference.cache
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+E:\Archives\CNTT\2010-2011\HK1-2010\C#_OOP\Samples\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

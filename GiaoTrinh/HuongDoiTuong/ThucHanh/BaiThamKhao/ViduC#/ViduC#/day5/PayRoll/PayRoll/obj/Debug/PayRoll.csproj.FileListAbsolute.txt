@@ -1,0 +1,14 @@
+D:\E-SPKT\OOPC#\day5\PayRoll\PayRoll\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day5\PayRoll\PayRoll\obj\Debug\PayRoll.Properties.Resources.resources
+D:\E-SPKT\OOPC#\day5\PayRoll\PayRoll\obj\Debug\PayRoll.csproj.GenerateResource.Cache
+D:\E-SPKT\OOPC#\day5\PayRoll\PayRoll\bin\Debug\PayRoll.exe
+D:\E-SPKT\OOPC#\day5\PayRoll\PayRoll\bin\Debug\PayRoll.pdb
+D:\E-SPKT\OOPC#\day5\PayRoll\PayRoll\obj\Debug\PayRoll.exe
+D:\E-SPKT\OOPC#\day5\PayRoll\PayRoll\obj\Debug\PayRoll.pdb
+D:\SPKT\OOPC#\day5\PayRoll\PayRoll\obj\Debug\PayRoll.exe
+D:\SPKT\OOPC#\day5\PayRoll\PayRoll\obj\Debug\PayRoll.pdb
+D:\SPKT\OOPC#\day5\PayRoll\PayRoll\bin\Debug\PayRoll.exe
+D:\SPKT\OOPC#\day5\PayRoll\PayRoll\bin\Debug\PayRoll.pdb
+D:\SPKT\OOPC#\day5\PayRoll\PayRoll\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day5\PayRoll\PayRoll\obj\Debug\PayRoll.Properties.Resources.resources
+D:\SPKT\OOPC#\day5\PayRoll\PayRoll\obj\Debug\PayRoll.csproj.GenerateResource.Cache

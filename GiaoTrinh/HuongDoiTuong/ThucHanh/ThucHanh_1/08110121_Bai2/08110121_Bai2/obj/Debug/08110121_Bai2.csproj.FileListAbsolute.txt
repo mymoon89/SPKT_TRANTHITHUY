@@ -1,0 +1,16 @@
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\08110121_Bai2\bin\Debug\08110121_Bai2.exe
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\08110121_Bai2\bin\Debug\08110121_Bai2.pdb
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\08110121_Bai2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\08110121_Bai2\obj\Debug\08110121_Bai2.exe
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\08110121_Bai2\obj\Debug\08110121_Bai2.pdb
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\08110121_Bai2\bin\Debug\ToanHoc.dll
+C:\Documents and Settings\d304\Desktop\08110121_Bai2\08110121_Bai2\bin\Debug\ToanHoc.pdb
+D:\thuy\08110121_Bai2\08110121_Bai2\obj\Debug\08110121_Bai2.exe
+D:\thuy\08110121_Bai2\08110121_Bai2\obj\Debug\08110121_Bai2.pdb
+E:\LI DEN\hướng đối tượng\thuy\08110121_Bai2\08110121_Bai2\obj\Debug\08110121_Bai2.exe
+E:\LI DEN\hướng đối tượng\thuy\08110121_Bai2\08110121_Bai2\obj\Debug\08110121_Bai2.pdb
+E:\LI DEN\hướng đối tượng\thuy\08110121_Bai2\08110121_Bai2\bin\Debug\08110121_Bai2.exe
+E:\LI DEN\hướng đối tượng\thuy\08110121_Bai2\08110121_Bai2\bin\Debug\08110121_Bai2.pdb
+E:\LI DEN\hướng đối tượng\thuy\08110121_Bai2\08110121_Bai2\bin\Debug\ToanHoc.dll
+E:\LI DEN\hướng đối tượng\thuy\08110121_Bai2\08110121_Bai2\bin\Debug\ToanHoc.pdb
+E:\LI DEN\hướng đối tượng\thuy\08110121_Bai2\08110121_Bai2\obj\Debug\ResolveAssemblyReference.cache

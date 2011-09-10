@@ -1,0 +1,10 @@
+C:\Documents and Settings\d304\Desktop\Interface_08110121\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\Interface_08110121\bin\Debug\Interface_08110121.exe
+C:\Documents and Settings\d304\Desktop\Interface_08110121\bin\Debug\Interface_08110121.pdb
+C:\Documents and Settings\d304\Desktop\Interface_08110121\obj\Debug\Interface_08110121.exe
+C:\Documents and Settings\d304\Desktop\Interface_08110121\obj\Debug\Interface_08110121.pdb
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\Interface_1\obj\Debug\Interface_08110121.exe
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\Interface_1\obj\Debug\Interface_08110121.pdb
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\Interface_1\bin\Debug\Interface_08110121.exe
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\Interface_1\bin\Debug\Interface_08110121.pdb
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_4\Interface_1\obj\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,624 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.vovisoft.com/XML/XML05/XML05.htm -->
+<HTML><HEAD><TITLE>XML Lesson 5</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=vi>
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+<META 
+content="Visual Basic, VB Programming in Vietnamese, Vovisoft, VB6, VB Tutorials, Learn Visual Basic, Internet, Unicode, Vietnamese VB tutorials, Database, Asp, Java, Javascript, VBscript, FrontPage 2000, XML, XSL, XPath, Ms Office 2000" 
+name=keywords></HEAD>
+<BODY leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<CENTER><A href="http://www.vovisoft.com/"><IMG height=77 alt="Logo of Vovisoft" 
+src="BAI5 XSL STYLE SHEETS PHAN 2_files/vs-logo4_10.gif" width=102 border=0> 
+</A><FONT face=Tahoma>
+<H2><FONT face=Tahoma color=#800000>Bài 5</FONT></H2>
+<H2><FONT face=Tahoma color=#800000>XSL Style Sheets (phần 
+II)</FONT></H2></CENTER>
+<BLOCKQUOTE>
+  <BLOCKQUOTE>
+    <H3><FONT color=green>Các lệnh về điều kiện</FONT></H3>Giống như trong ngôn 
+    ngữ lập trình thông thường ta có các instructions về điều kiện như IF, 
+    SELECT CASE, ELSE .v.v.. để lựa chọn, trong XSL ta có các lệnh về điều kiện 
+    như <B><I>xsl:if</I>, <I>xsl:choose</I>, <I>xsl:when</I></B>, và 
+    <B><I>xsl:otherwise</I></B>. Khi expression của Element <I>xsl:if</I>, 
+    <I>xsl:when</I>, hay <I>xsl:otherwise</I> &nbsp;có trị số <B>true</B>, thì 
+    cái Template nằm bên trong nó sẽ được tạo ra (instantiated).<BR><BR>Thường 
+    thường, nếu công việc thử tính đơn giản ta dùng <I>xsl:if</I>. Nếu nó hơi 
+    rắc rối vì tùy theo trường hợp ta phải làm những công tác khác nhau thì ta 
+    dùng <I>choose/when/otherwise</I>.<BR><BR>Trị số của Attribute <B>test</B> 
+    của <I>xsl:if</I> và <I>xsl:when</I> là một expression để tính. Expression 
+    nầy có thể là một so sánh hay một expression loại <B>XPath</B>. Kết quả việc 
+    tính nầy sẽ là <B>true</B> nếu nó trả về một trong các trị số sau đây: 
+    <UL>
+      <LI>Một bộ node có ít nhất một node 
+      <LI>Một con số khác zero 
+      <LI>Một mảnh (fragment) Tree 
+      <LI>Một text string không phải là trống rỗng (non-empty) </LI></UL>Để minh 
+    họa cách dùng các lệnh XSL về điều kiện ta sẽ dùng hồ sơ nguồn tên 
+    <B>catalog.xml</B> sau đây: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version<FONT color=blue>=</FONT>"1.0"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>catalog</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>book</FONT><FONT color=green> id<FONT color=blue>=</FONT>"bk102"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Ralls, Kim</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>author</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Midnight Rain</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>genre</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Fantasy</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>genre</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>price</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>5.95</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>price</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>publish_date</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2000-12-16</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>publish_date</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>description</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>A former architect battles corporate zombies, an evil sorceress, and her own <BR>childhood to become queen of the world.</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>description</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>book</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>book</FONT><FONT color=green> id<FONT color=blue>=</FONT>"bk107"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Thurman, Paula</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>author</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Splish Splash</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>genre</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Romance</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>genre</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>price</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>4.95</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>price</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>publish_date</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2000-11-02</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>publish_date</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>description</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>A deep sea diver finds true love twenty thousand leagues beneath the sea.</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>description</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>book</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>book</FONT><FONT color=green> id<FONT color=blue>=</FONT>"bk108"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Knorr, Stefan</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>author</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Creepy Crawlies</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>genre</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Horror</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>genre</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>price</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>4.95</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>price</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>publish_date</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2000-12-06</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>publish_date</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>description</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>An anthology of horror stories about roaches, centipedes, scorpions and other <BR>insects.</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>description</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>book</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>book</FONT><FONT color=green> id<FONT color=blue>=</FONT>"bk109"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Kress, Peter</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>author</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Paradox Lost</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>genre</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Science Fiction</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>genre</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>price</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>6.95</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>price</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>publish_date</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2000-11-02</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>publish_date</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>description</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>After an inadvertant trip through a Heisenberg Uncertainty Device, James Salway <BR>discovers the problems of being quantum.</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>description</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>book</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>book</FONT><FONT color=green> id<FONT color=blue>=</FONT>"bk110"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>author</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>O'Brien, Tim</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>author</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>title</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Microsoft .NET: The Programming Bible</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>title</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>genre</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Computer</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>genre</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>price</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>36.95</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>price</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>publish_date</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2000-12-09</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>publish_date</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>description</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Microsoft's .NET initiative is explored in detail in this deep programmer's <BR>reference.</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>description</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>book</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>catalog</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Dưới đây là một thí dụ 
+    dùng <I>xsl:if</I>: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>xsl:for-each</FONT><FONT color=green> select<FONT color=blue>=</FONT>"//book"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>tr</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>td</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"title"</FONT><FONT color=red>/&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>td</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>td</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>xsl:if</FONT><FONT color=green> test<FONT color=blue>=</FONT>"price &gt; 6"</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=green> name<FONT color=blue>=</FONT>"bgcolor"</FONT><FONT color=red>&gt;</FONT><FONT color=black>cyan</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:if</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"price"</FONT><FONT color=red>/&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>td</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>tr</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>xsl:for-each</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Trong thí dụ trên, 
+    Attribute <B>bgcolor</B> chỉ được tạo ra với trị số <B>cyan</B> khi price 
+    của book lớn hơn 6. Mục đích của ta là dùng màu xanh da trời nhạt để làm nền 
+    cho sách nào có giá (<B>price</B>) cao hơn 6.<BR><BR>Dưới đây là một thí dụ 
+    dùng <I>xsl:choose</I>: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>xsl:for-each</FONT><FONT color=green> select<FONT color=blue>=</FONT>"//book"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>div</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>xsl:choose</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>xsl:when</FONT><FONT color=green> test<FONT color=blue>=</FONT>"self::*[genre <FONT color=blue>=</FONT> 'Romance']"</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=green> name<FONT color=blue>=</FONT>"style"</FONT><FONT color=red>&gt;</FONT><FONT color=black>background-color: pink</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:when</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>xsl:when</FONT><FONT color=green> test<FONT color=blue>=</FONT>"self::*[genre <FONT color=blue>=</FONT> 'Fantasy']"</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=green> name<FONT color=blue>=</FONT>"style"</FONT><FONT color=red>&gt;</FONT><FONT color=black>background-color: lightblue</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:when</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>xsl:otherwise</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=green> name<FONT color=blue>=</FONT>"style"</FONT><FONT color=red>&gt;</FONT><FONT color=black>background-color: lightgreen</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:otherwise</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:choose</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"title"</FONT><FONT color=red>/&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>div</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>xsl:for-each</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Trong thí dụ trên 
+    Attribute <B>style</B> của Cascading Style Sheet sẽ có những trị số cho 
+    background-color khác nhau tùy theo loại sách. Nếu là Romance thì pink, 
+    Fantasy thì lightblue, còn nếu không phải là Romance hay Fantasy (tức là 
+    <I>xsl:otherwise</I>) thì lightgreen. Màu nầy sẽ được dùng làm nền cho đề 
+    mục (<B>title</B>) của sách. Để ý là cặp Tags 
+    <B>&lt;xsl:choose&gt;,&lt;/xsl:choose&gt;</B> được dùng để gói các 
+    <I>xsl:when</I>, và <I>xsl:otherwise</I> &nbsp;bên trong.<BR><BR>Sau đây là 
+    listing của một <B>catalog.xsl</B> style sheet đầy đủ, trong đó có cả hai 
+    cách dùng <I>xsl:if</I> và <I>xsl:when</I> nói trên: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version<FONT color=blue>=</FONT>"1.0"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>xsl:stylesheet</FONT><FONT color=green> xmlns:xsl<FONT color=blue>=</FONT>"http://www.w3.org/1999/XSL/Transform" version<FONT color=blue>=</FONT>"1.0"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>xsl:template</FONT><FONT color=green> match<FONT color=blue>=</FONT>"/"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>HTML</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>HEAD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TITLE</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Book Lovers' Catalog</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TITLE</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>HEAD</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>BODY</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>Center</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>H1</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Book Lovers' Catalog</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>H1</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;/</FONT><FONT color=blue>Center</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TABLE</FONT><FONT color=green> Border<FONT color=blue>=</FONT>"1" Cellpadding<FONT color=blue>=</FONT>"5"</FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>TR</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green> align<FONT color=blue>=</FONT>"center" bgcolor<FONT color=blue>=</FONT>"silver"</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>b</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>ID</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>b</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green> align<FONT color=blue>=</FONT>"center" bgcolor<FONT color=blue>=</FONT>"silver"</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>b</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Author</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>b</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green> align<FONT color=blue>=</FONT>"center" bgcolor<FONT color=blue>=</FONT>"silver"</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>b</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Title</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>b</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green> align<FONT color=blue>=</FONT>"center" bgcolor<FONT color=blue>=</FONT>"silver"</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>b</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Genre</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>b</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green> align<FONT color=blue>=</FONT>"center" bgcolor<FONT color=blue>=</FONT>"silver"</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>b</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Price</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>b</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green> align<FONT color=blue>=</FONT>"center" bgcolor<FONT color=blue>=</FONT>"silver"</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>b</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Published Date</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>b</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green> align<FONT color=blue>=</FONT>"center" bgcolor<FONT color=blue>=</FONT>"silver"</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>b</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Description</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>b</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;/</FONT><FONT color=blue>TR</FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>xsl:for-each</FONT><FONT color=green> select<FONT color=blue>=</FONT>"//book"</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TR</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"@id"</FONT><FONT color=red>/&gt;</FONT>
+                     <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"author"</FONT><FONT color=red>/&gt;</FONT>
+                     <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;</FONT><FONT color=blue>xsl:choose</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                           <FONT color=red>&lt;</FONT><FONT color=blue>xsl:when</FONT><FONT color=green> test<FONT color=blue>=</FONT>"self::*[genre <FONT color=blue>=</FONT> 'Romance']"</FONT><FONT color=red>&gt;</FONT>
+                              <FONT color=red>&lt;</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=green> name<FONT color=blue>=</FONT>"style"</FONT><FONT color=red>&gt;</FONT><FONT color=black>background-color: pink</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=red>&gt;</FONT>
+                           <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:when</FONT><FONT color=red>&gt;</FONT>
+                           <FONT color=red>&lt;</FONT><FONT color=blue>xsl:when</FONT><FONT color=green> test<FONT color=blue>=</FONT>"self::*[genre <FONT color=blue>=</FONT> 'Fantasy']"</FONT><FONT color=red>&gt;</FONT>
+                              <FONT color=red>&lt;</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=green> name<FONT color=blue>=</FONT>"style"</FONT><FONT color=red>&gt;</FONT><FONT color=black>background-color: lightblue</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=red>&gt;</FONT>
+                           <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:when</FONT><FONT color=red>&gt;</FONT>
+                           <FONT color=red>&lt;</FONT><FONT color=blue>xsl:otherwise</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                              <FONT color=red>&lt;</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=green> name<FONT color=blue>=</FONT>"style"</FONT><FONT color=red>&gt;</FONT><FONT color=black>background-color: lightgreen</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=red>&gt;</FONT>
+                           <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:otherwise</FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:choose</FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"title"</FONT><FONT color=red>/&gt;</FONT>
+                     <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"genre"</FONT><FONT color=red>/&gt;</FONT>
+                     <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;</FONT><FONT color=blue>xsl:if</FONT><FONT color=green> test<FONT color=blue>=</FONT>"price &gt; 6"</FONT><FONT color=red>&gt;</FONT>
+                           <FONT color=red>&lt;</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=green> name<FONT color=blue>=</FONT>"bgcolor"</FONT><FONT color=red>&gt;</FONT><FONT color=black>cyan</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:if</FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"price"</FONT><FONT color=red>/&gt;</FONT>
+                     <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"publish_date"</FONT><FONT color=red>/&gt;</FONT>
+                     <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                        <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"description"</FONT><FONT color=red>/&gt;</FONT>
+                     <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;/</FONT><FONT color=blue>TR</FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:for-each</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;/</FONT><FONT color=blue>TABLE</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>BODY</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>HTML</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:template</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>xsl:stylesheet</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Sau khi thêm câu: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml-stylesheet</FONT><FONT color=green> type<FONT color=blue>=</FONT>"text/xsl" href<FONT color=blue>=</FONT>"catalog.xsl"</FONT><FONT color=red>?&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>vào đầu hồ sơ 
+    <B>catalog.xml</B>, double click lên tên file catalog.xml, Internet Explorer 
+    sẽ hiển thị kết quả sau: 
+    <CENTER>
+    <H1>Book Lovers' Catalog</H1></CENTER>
+    <TABLE cellPadding=5 border=1>
+      <TBODY>
+      <TR>
+        <TD align=middle bgColor=silver><B>ID</B></TD>
+        <TD align=middle bgColor=silver><B>Author</B></TD>
+        <TD align=middle bgColor=silver><B>Title</B></TD>
+        <TD align=middle bgColor=silver><B>Genre</B></TD>
+        <TD align=middle bgColor=silver><B>Price</B></TD>
+        <TD align=middle bgColor=silver><B>Published Date</B></TD>
+        <TD align=middle bgColor=silver><B>Description</B></TD></TR>
+      <TR>
+        <TD>bk102</TD>
+        <TD>Ralls, Kim</TD>
+        <TD style="BACKGROUND-COLOR: lightblue">Midnight Rain</TD>
+        <TD>Fantasy</TD>
+        <TD>5.95</TD>
+        <TD>2000-12-16</TD>
+        <TD>A former architect battles corporate zombies, an evil sorceress, 
+          and her own childhood to become queen of the world.</TD></TR>
+      <TR>
+        <TD>bk107</TD>
+        <TD>Thurman, Paula</TD>
+        <TD style="BACKGROUND-COLOR: pink">Splish Splash</TD>
+        <TD>Romance</TD>
+        <TD>4.95</TD>
+        <TD>2000-11-02</TD>
+        <TD>A deep sea diver finds true love twenty thousand leagues beneath 
+          the sea.</TD></TR>
+      <TR>
+        <TD>bk108</TD>
+        <TD>Knorr, Stefan</TD>
+        <TD style="BACKGROUND-COLOR: lightgreen">Creepy Crawlies</TD>
+        <TD>Horror</TD>
+        <TD>4.95</TD>
+        <TD>2000-12-06</TD>
+        <TD>An anthology of horror stories about roaches, centipedes, 
+          scorpions and other insects.</TD></TR>
+      <TR>
+        <TD>bk109</TD>
+        <TD>Kress, Peter</TD>
+        <TD style="BACKGROUND-COLOR: lightgreen">Paradox Lost</TD>
+        <TD>Science Fiction</TD>
+        <TD bgColor=cyan>6.95</TD>
+        <TD>2000-11-02</TD>
+        <TD>After an inadvertant trip through a Heisenberg Uncertainty Device, 
+          James Salway discovers the problems of being quantum.</TD></TR>
+      <TR>
+        <TD>bk110</TD>
+        <TD>O'Brien, Tim</TD>
+        <TD style="BACKGROUND-COLOR: lightgreen">Microsoft .NET: The 
+          Programming Bible</TD>
+        <TD>Computer</TD>
+        <TD bgColor=cyan>36.95</TD>
+        <TD>2000-12-09</TD>
+        <TD>Microsoft's .NET initiative is explored in detail in this deep 
+          programmer's reference.</TD></TR></TBODY></TABLE><BR><BR>Bạn có thể <A 
+    href="http://www.vovisoft.com/XML/XML05/catalog.zip">tải về catalog.xml và 
+    catalog.xsl</A> tại đây. <BR><BR>
+    <H3><FONT color=green>Dùng nhiều Templates trong một Style 
+    Sheet</B></I></FONT></H3>Trong bài trước, trong mỗi XSL Style Sheet ta thấy 
+    vỏn vẹn chỉ có một Template (bảng kẻm in), và nó được áp dụng vào Root 
+    Element của tài liệu XML.<BR><BR>Thật ra, XSL cũng cho phép ta dùng nhiều 
+    Templates trong một Style Sheet. Có thể bạn cần làm việc ấy vì hai lý do. 
+    Thứ nhất, bạn có thể phân chia cách trình bày ra từng phần của tài liệu XML, 
+    để dễ debug hay sửa đổi bộ phận nào của Style sheet. Thứ hai, bạn có thể 
+    dùng XPath expressions để áp dụng kiểu trình bày nào vào loại dữ liệu nào 
+    tùy theo trị số của nó. <BR><BR>Khi một Style Sheet chứa nhiều templates, 
+    bạn chỉ định việc áp dụng của chúng vào luận lý trình bày (presentation 
+    logic) bằng cách dùng lệnh <B>apply-templates</B>. Thông thường, bạn tạo một 
+    Template cho Root Element nói là để chế biến cả tài liệu và dùng lệnh 
+    <B>apply-templates</B> để chế biến những Element nằm bên trong cái top-level 
+    template ấy. Những Templates nầy có thể được gọi lúc nào cần, và cái 
+    top-level template sẽ xử lý mọi dữ liệu không có Template nào nhắc tới. Tức 
+    là nếu Element nào không có template để áp dụng cho nó thì ta dùng cái 
+    template tổng quát của Root Element.<BR><BR>Thí dụ như cái Style Sheet sau 
+    đây gồm có: một top-level template để áp dụng vào Document (Root) Element, 
+    một template cho những Element Product với Attribute UnitPrice có trị số lớn 
+    hơn 70, một template cho những Element Product khác, và một template cho 
+    những Element Quantity:<BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version<FONT color=blue>=</FONT>"1.0"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>xsl:stylesheet</FONT><FONT color=green> xmlns:xsl<FONT color=blue>=</FONT>"http://www.w3.org/1999/XSL/Transform" version<FONT color=blue>=</FONT>"1.0"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>xsl:template</FONT><FONT color=green> match<FONT color=blue>=</FONT>"/"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>HTML</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>HEAD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TITLE</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Northwind Home Page</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TITLE</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>HEAD</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>BODY</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>P</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Customer Order</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>P</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>P</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Order No: </FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"Order/@OrderNo"</FONT><FONT color=red>/&gt;</FONT>
+            <FONT color=red>&lt;/</FONT><FONT color=blue>P</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>P</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Date: </FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"Order/OrderDate"</FONT><FONT color=red>/&gt;</FONT>
+            <FONT color=red>&lt;/</FONT><FONT color=blue>P</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>P</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Customer: </FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"Order/Customer"</FONT><FONT color=red>/&gt;</FONT>
+            <FONT color=red>&lt;/</FONT><FONT color=blue>P</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TABLE</FONT><FONT color=green> Border<FONT color=blue>=</FONT>"0"</FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>TR</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>ProductID</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Product Name</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Price</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Quantity Ordered</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;/</FONT><FONT color=blue>TR</FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>xsl:for-each</FONT><FONT color=green> select<FONT color=blue>=</FONT>"Order/Item"</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;</FONT><FONT color=blue>TR</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+                     <FONT color=red>&lt;</FONT><FONT color=blue>xsl:apply-templates</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>xsl:apply-templates</FONT><FONT color=red>&gt;</FONT>
+                  <FONT color=red>&lt;/</FONT><FONT color=blue>TR</FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:for-each</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;/</FONT><FONT color=blue>TABLE</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>BODY</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>HTML</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:template</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>xsl:template</FONT><FONT color=green> match<FONT color=blue>=</FONT>"Product[@UnitPrice &gt; 70]"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"@ProductID"</FONT><FONT color=red>/&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>A</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=green> name<FONT color=blue>=</FONT>"HREF"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Products.asp?ProductID=</FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"@ProductID"</FONT><FONT color=red>/&gt;</FONT>
+            <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"."</FONT><FONT color=red>/&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>A</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>FONT</FONT><FONT color=green> color<FONT color=blue>=</FONT>"red"</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"@UnitPrice"</FONT><FONT color=red>/&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>FONT</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:template</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>xsl:template</FONT><FONT color=green> match<FONT color=blue>=</FONT>"Product"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"@ProductID"</FONT><FONT color=red>/&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>A</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=green> name<FONT color=blue>=</FONT>"HREF"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Products.asp?ProductID=</FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"@ProductID"</FONT><FONT color=red>/&gt;</FONT>
+            <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:attribute</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"."</FONT><FONT color=red>/&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>A</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"@UnitPrice"</FONT><FONT color=red>/&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:template</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>xsl:template</FONT><FONT color=green> match<FONT color=blue>=</FONT>"Quantity"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>xsl:value-of</FONT><FONT color=green> select<FONT color=blue>=</FONT>"."</FONT><FONT color=red>/&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>xsl:template</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>xsl:stylesheet</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE><BR><BR>Khi áp dụng Style Sheet nầy 
+    vào cái tài liệu đặt hàng XML, ta sẽ có hồ sơ HTML sau đây: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>HTML</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>HEAD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>TITLE</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Northwind Home Page</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TITLE</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>HEAD</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>BODY</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>P</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Customer Order</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>P</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>P</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Order No: 1047</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>P</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>P</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Date: 2002-03-26</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>P</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>P</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Customer: John Costello</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>P</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>TABLE</FONT><FONT color=green> Border<FONT color=blue>=</FONT>"0"</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>TR</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>ProductID</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Product Name</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Price</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>Quantity Ordered</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>TR</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>TR</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>A</FONT><FONT color=green> HREF<FONT color=blue>=</FONT>"Products.asp?ProductID<FONT color=blue>=</FONT>1"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Chair</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>A</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>70</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>6</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>TR</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;</FONT><FONT color=blue>TR</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+               <FONT color=red>&lt;</FONT><FONT color=blue>A</FONT><FONT color=green> HREF<FONT color=blue>=</FONT>"Products.asp?ProductID<FONT color=blue>=</FONT>2"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Desk</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>A</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;</FONT><FONT color=blue>FONT</FONT><FONT color=green> color<FONT color=blue>=</FONT>"red"</FONT><FONT color=red>&gt;</FONT><FONT color=black>250<FONT color=red>&lt;/</FONT><FONT color=blue>FONT</FONT><FONT color=red>&gt;</FONT></FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+            <FONT color=red>&lt;</FONT><FONT color=blue>TD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TD</FONT><FONT color=red>&gt;</FONT>
+         <FONT color=red>&lt;/</FONT><FONT color=blue>TR</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;/</FONT><FONT color=blue>TABLE</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>BODY</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>HTML</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE><BR><BR>Phần <B>BODY</B> của HTML 
+    trên hiển thị như sau:<BR><BR>
+    <P>Customer Order</P>
+    <P>Order No: 1047</P>
+    <P>Date: 2002-03-26</P>
+    <P>Customer: John Costello</P>
+    <TABLE border=0>
+      <TBODY>
+      <TR>
+        <TD>ProductID</TD>
+        <TD>Product Name</TD>
+        <TD>Price</TD>
+        <TD>Quantity Ordered</TD></TR>
+      <TR>
+        <TD>1</TD>
+        <TD><A 
+          href="http://www.vovisoft.com/XML/XML05/Products.asp?ProductID=1">Chair</A> 
+        </TD>
+        <TD>70</TD>
+        <TD>6</TD></TR>
+      <TR>
+        <TD>2</TD>
+        <TD><A 
+          href="http://www.vovisoft.com/XML/XML05/Products.asp?ProductID=2">Desk</A> 
+        </TD>
+        <TD><FONT color=red>250 </FONT></TD>
+        <TD>1</TD></TR></TBODY></TABLE><BR><BR>
+    <H3><FONT color=green>Cách áp dụng Style Sheet vào tài liệu 
+    XML</B></I></FONT></H3>Trước khi tiếp tục học thêm các lệnh khác của XSL 
+    Style Sheet, ta cần hiểu và biết cách áp dụng một Style Sheet vào một tài 
+    liệu XML. <BR><BR>Áp dụng một Style Sheet là một chức năng của một XML 
+    parser như MSXML của Internet Explorer. Bạn có thể bảo một XML parser áp 
+    dụng một Style Sheet vào một XML bằng cách hoặc là chỉ cần nhét một 
+    <B>processing instruction</B> vào đầu hồ sơ XML, hoặc là viết một vài dòng 
+    code. <BR>
+    <H3><FONT color=blue>Dùng XML parser để hiển thị</B></I></FONT></H3>Nếu ta 
+    lưu trữ XSL Style Sheet của hồ sơ đặt hàng trong một file tên 
+    <B>Order.xsl</B> thì ta có thể thêm một hàng <B>processing instruction 
+    <I>xml-stylesheet</I></B> vào đầu hồ sơ đặt hàng XML như sau:
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version<FONT color=blue>=</FONT>"1.0"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;?</FONT><FONT color=magenta>xml-stylesheet</FONT><FONT color=green> type<FONT color=blue>=</FONT>"text/xsl" href<FONT color=blue>=</FONT>"Order.xsl"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>Order</FONT><FONT color=green> OrderNo<FONT color=blue>=</FONT>"1047"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2002-03-26</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>John Costello</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>"1" UnitPrice<FONT color=blue>=</FONT>"70"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Chair</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>6</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>"2" UnitPrice<FONT color=blue>=</FONT>"250"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Desk</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Order</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Khi một XML parser đọc 
+    hồ sơ XML nầy, cái processing instruction <I>xml-stylesheet</I> &nbsp;bảo 
+    parser áp dụng hồ sơ style sheet <B>Order.xsl</B> để transform 
+    XML.<BR><BR>Attribute <B>type</B> cho biết loại style sheet được áp dụng, 
+    hoặc là <B>XSL style sheet</B> hoặc là <B>cascading style sheet (CSS)</B>, 
+    một loại style sheet dùng để chỉ định màu và kiểu chữ. Ở đây nó là XSL style 
+    sheet trong dạng text.<BR><BR>Attribute <B>href</B> cho biết tên của file 
+    dùng làm Style Sheet, path của tên file ấy có thể là tương đối hay tuyệt 
+    đối. Ở đây filename của style sheet là <B>Order.xsl</B>, không có path, nên 
+    có nghĩa là nó nằm trong cùng một folder với <B>Order.xml</B>.<BR><BR>Nếu ta 
+    dùng một chương trình trình duyệt như Internet Explorer 5.5 hay 6.0 nó sẽ tự 
+    động load Style Sheet để thêm dáng điệu cho tài liệu XML.<BR><BR>Trong lúc 
+    Internet Explorer hiển thị kết quả, nếu bạn dùng Menu Command <B>View | 
+    Source</B> của browser, bạn sẽ chỉ thấy code của XML, chớ không thấy code 
+    HTML như bạn đoán. Muốn xem được code HTML, là kết quả của việc transform 
+    XML bằng cách áp dụng XSL bạn cần tải về chương trình công cụ gọi là 
+    <B>Internet Explorer XML/XSL Viewer Tools</B> từ <A 
+    href="http://msdn.microsoft.com/downloads/default.asp?url=/downloads/topic.asp?url=/msdn-files/028/000/072/topic.xml">Microsoft 
+    Downloads</A>.<BR><BR>Sau khi Unzip file vừa tải về, bạn right click tên của 
+    hai files <B>msxmlval.inf</B> và <B>msxmlvw.inf</B> rồi chọn <B>install</B> 
+    để cài chúng làm Add-ins (những thành phần thêm chức năng vào một chương 
+    trình có sẵn) vào chương trình Internet Explorer như trong hình dưới đây. 
+    <BLOCKQUOTE><IMG height=252 
+      src="BAI5 XSL STYLE SHEETS PHAN 2_files/InstallTool.gif" 
+    width=789></BLOCKQUOTE>Bây giờ muốn xem code HTML, bạn right click lên trang 
+    Web trong IE rồi chọn command <B>View XSLOutput</B> từ PopUpMenu như trong 
+    hình dưới đây: 
+    <BLOCKQUOTE><IMG height=514 
+      src="BAI5 XSL STYLE SHEETS PHAN 2_files/ViewXSL.gif" width=824></BLOCKQUOTE>
+    <H3><FONT color=blue>Dùng code để transform với XSL</B></I></FONT></H3>Cách 
+    dùng một ngôn ngữ lập trình để bảo một XML parser chế biến một tài liệu XML 
+    sẽ tùy thuộc vào hoàn cảnh. Nếu bạn dùng Microsoft XML parser, một component 
+    tên MSXML, trong lập trình thì tài liệu XML sẽ được loaded vào trong một 
+    <B>Document Object Model (XMLDom) object</B>. Kế đó bạn có thể gọi method 
+    <B>transformNode</B> để áp dụng một XSL style sheet đã được loaded trước đó 
+    vào một XMLDom object khác để chế biến XML. <BR><BR>Như trong thí dụ dưới 
+    đây, ta dúng hai DOM, một cái để load file <B>Order.xml</B>, một cái khác để 
+    load <B>Order.xsl</B> trong VBScript chạy trên <B>Active Server Pages 
+    (ASP)</B>: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=blue>Dim</FONT> objXML  <FONT color=green>' DOM for XML</FONT>
+<FONT color=blue>Dim</FONT> objXSL  <FONT color=green>' DOM for XSL</FONT>
+<FONT color=blue>Dim</FONT> strResult  <FONT color=green>' Resultant document</FONT>
+<FONT color=green>'Load the XML document.</FONT>
+<FONT color=blue>Set</FONT> objXML = CreateObject("Microsoft.XMLDom") 
+objXML.Async = <FONT color=blue>False</FONT> 
+objXML.Load "c:\Order.xml" 
+<FONT color=green>'Load the XSL style sheet.</FONT>
+<FONT color=blue>Set</FONT> objXSL = CreateObject("Microsoft.XMLDom") 
+objXSL.Async = <FONT color=blue>False</FONT> 
+objXSL.Load "c:\Order.xsl" 
+<FONT color=green>'Apply the style sheet to XML</FONT>
+strResult = objXML.transformNode(objXSL) 
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Sau khi chạy đoạn code 
+    trên, <B>strResult</B> sẽ chứa hồ sơ kết quả.<BR><BR>Hình dưới đây minh họa 
+    vai trò của <B>XSLT processor</B> trong công tác transform một hồ sơ XML dựa 
+    vào một XSLT (từ giờ trở đi ta có thể dùng từ <B>XSLT</B> thế cho <B>XSL</B> 
+    cũng được) file: 
+    <BLOCKQUOTE><IMG height=453 
+      src="BAI5 XSL STYLE SHEETS PHAN 2_files/XSLProcessor.gif" 
+    width=708></BLOCKQUOTE>Ta cũng có thể code bằng JavaScript để chạy trong 
+    Browser, thay vì trong WebServer, như cho thấy trong trang Web dưới đây. Nó 
+    cũng cho ra cùng một kết quả như khi dùng IE để hiển thị XML trực tiếp. 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;</FONT><FONT color=blue>HTML</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>HEAD</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>TITLE</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>sample</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>TITLE</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>SCRIPT</FONT><FONT color=green> language<FONT color=blue>=</FONT>"javascript"</FONT><FONT color=red>&gt;</FONT>
+         function init()
+           {
+             var srcDOM = new ActiveXObject("Msxml2.DOMDocument.4.0");
+             srcDOM.async=false;
+             srcDOM.load("order.xml");
+
+             var xsltDOM= new ActiveXObject("Msxml2.DOMDOCUMENT.4.0");
+             xsltDOM.async = false;
+             xsltDOM.load("order.xsl");
+
+             resDOM.innerHTML = srcDOM.transformNode(xsltDOM);
+           }
+      <FONT color=red>&lt;/</FONT><FONT color=blue>SCRIPT</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>HEAD</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>BODY</FONT><FONT color=green> onload<FONT color=blue>=</FONT>"init()"</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>div</FONT><FONT color=green> id<FONT color=blue>=</FONT>"resDOM"</FONT><FONT color=red>&gt;</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>div</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>BODY</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>HTML</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE>Có lẽ bạn hỏi tại sao ta 
+    không dùng thẳng XML như phía trên để hiển thị trang Web. Lưu ý là ta có thể 
+    dùng kỹ thuật nầy để Transform một XML với XSL rồi hiển thị nó bên trong một 
+    <B>DIV</B>, tức là một vùng giới hạn bên trong trang Web, chớ không chiếm cả 
+    trang Web. Tại đây khi trang Web bắt đầu load (<B>onload</B> event), IE gọi 
+    <B>function init()</B> để transform XML rồi assign kết quả vào <B>property 
+    innerHTML</B> của <B>DIV resDOM</B>.<BR><BR>Có một method khác ta cũng có 
+    thể dùng thay cho <B>transformNode</B> là <B>transformNodeToObject</B>. Sự 
+    khác biệt chính giữa hai methods nầy là: 
+    <UL>
+      <LI><B>transformNode:</B> Kết quả của method nầy là một tree dưới dạng 
+      text string, điển hình là một hồ sơ HTML. Ta có thể cho nó hiển thị trong 
+      một browser hay lưu trữ vào một file. 
+      <LI><B>transformNodeToObject:</B> Kết quả của method nầy được để vào trong 
+      một object khác, rồi chính object ấy có thể sẽ được chế biến thêm. 
+    </LI></UL>Khi ta dùng một trong hai method nói trên, thật ra object nguồn 
+    (source object) không cần phải là một hồ sơ đầy đủ. Nó có thể chỉ là một 
+    Node của hồ sơ XML. Nếu nó chỉ là một Node thì cái <B>XSLT processor</B> xem 
+    tập hợp Node ấy, và các Nodes con cháu của nó như một hồ sơ đầy đủ. Tương tự 
+    như vậy, một object XSL có thể là một file XSL đầy đủ, hay chỉ là một Node 
+    bên trong một file XSL. <BR><BR>Bạn có thể <A 
+    href="http://www.vovisoft.com/XML/XML05/order.zip">tải về order.xml, 
+    order.xsl và trang Web có JavaScript</A> tại đây. <BR><BR><I>(còn tiếp)</I> 
+    <BR><BR><A href="http://www.vovisoft.com/"><IMG height=40 
+    src="BAI5 XSL STYLE SHEETS PHAN 2_files/homejump.gif" 
+    width=40><A>&nbsp;&nbsp;<A 
+    href="http://www.vovisoft.com/XML/default.htm">Học 
+  XML</A><BR><BR></BLOCKQUOTE></FONT><!-- Start of bottom bar for copyright notice etc -->
+  <TABLE class=clsNavLinks id=tblFooterLinks cellSpacing=0 cellPadding=0 
+  width="100%" border=0>
+    <TBODY>
+    <TR>
+      <TD class=clsRaised width=785 bgColor=#6699cc colSpan=5>
+        <P align=center><FONT face=Tahoma color=#ffffff size=1>Vovisoft © 2000. 
+        All rights reserved.</FONT></P></TD></TR>
+    <TR>
+      <TD width=256>
+        <P align=center><FONT face=Tahoma size=1>&nbsp;&nbsp; Last Updated: <!--webbot 
+      bot="Timestamp" S-Type="REGENERATED" S-Format="%d %b %Y" startspan -->23 
+        Dec 2003<!--webbot 
+      bot="Timestamp" endspan i-checksum="14404" --> </FONT></P></TD>
+      <TD width=181><FONT face=Tahoma size=1>&nbsp;</FONT></TD>
+      <TD width=258>
+        <P align=center><FONT face=Tahoma size=1><A 
+        href="mailto:dixon@vovisoft.com">Webmaster</A></FONT></P></TD></TR></TBODY></TABLE><BR></BLOCKQUOTE></BODY></HTML>

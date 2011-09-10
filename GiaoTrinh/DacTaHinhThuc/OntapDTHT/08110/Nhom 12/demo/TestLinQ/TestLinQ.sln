@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLinQ", "TestLinQ\TestLinQ.csproj", "{E852A7A6-BBB6-4008-92DF-A8ED7C8CC8EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLinQ1", "TestLinQ1\TestLinQ1.csproj", "{A6CEABD5-D0EF-43C2-9A2C-73820F84D063}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E852A7A6-BBB6-4008-92DF-A8ED7C8CC8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E852A7A6-BBB6-4008-92DF-A8ED7C8CC8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E852A7A6-BBB6-4008-92DF-A8ED7C8CC8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E852A7A6-BBB6-4008-92DF-A8ED7C8CC8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CEABD5-D0EF-43C2-9A2C-73820F84D063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CEABD5-D0EF-43C2-9A2C-73820F84D063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CEABD5-D0EF-43C2-9A2C-73820F84D063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CEABD5-D0EF-43C2-9A2C-73820F84D063}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

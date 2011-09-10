@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="vidu7-7.css"?>
+<document>
+  <headers>
+    <header>First Name</header>
+    <header>Last Name</header>
+    <header>Salary</header>
+  </headers>
+  <staffs>
+    <staff>
+      <firstName>Nguyen</firstName>
+      <lastName>Van An</lastName>
+      <amount>$100</amount>
+    </staff>
+    <staff>
+      <firstName>Pham</firstName>
+      <lastName>Thi G</lastName>
+      <amount>$120</amount>
+    </staff>
+    <staff>
+      <firstName>Le</firstName>
+      <lastName>Van X</lastName>
+      <amount>$130</amount>
+    </staff>
+    <staff>
+      <firstName>Tran</firstName>
+      <lastName>Van K</lastName>
+      <amount>$140,000</amount>
+    </staff>
+    <staff>
+      <firstName>Vo</firstName>
+      <lastName>Viet Nam</lastName>
+      <amount>$150</amount>
+    </staff>
+  </staffs>
+</document>
+

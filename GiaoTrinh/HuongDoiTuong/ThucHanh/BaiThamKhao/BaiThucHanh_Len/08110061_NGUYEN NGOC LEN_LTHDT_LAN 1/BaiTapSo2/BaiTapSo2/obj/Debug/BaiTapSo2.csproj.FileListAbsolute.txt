@@ -1,0 +1,10 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo2\BaiTapSo2\bin\Debug\BaiTapSo2.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo2\BaiTapSo2\bin\Debug\BaiTapSo2.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo2\BaiTapSo2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo2\BaiTapSo2\obj\Debug\BaiTapSo2.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo2\BaiTapSo2\obj\Debug\BaiTapSo2.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapSo2\BaiTapSo2\obj\Debug\BaiTapSo2.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapSo2\BaiTapSo2\obj\Debug\BaiTapSo2.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapSo2\BaiTapSo2\bin\Debug\BaiTapSo2.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapSo2\BaiTapSo2\bin\Debug\BaiTapSo2.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiThucHanh_Len\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapSo2\BaiTapSo2\obj\Debug\ResolveAssemblyReference.cache

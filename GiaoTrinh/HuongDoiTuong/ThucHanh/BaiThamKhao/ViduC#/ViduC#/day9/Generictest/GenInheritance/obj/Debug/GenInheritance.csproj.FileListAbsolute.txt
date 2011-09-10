@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day9\Generictest\GenInheritance\bin\Debug\GenInheritance.exe
+D:\SPKT\OOPC#\day9\Generictest\GenInheritance\bin\Debug\GenInheritance.pdb
+D:\SPKT\OOPC#\day9\Generictest\GenInheritance\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day9\Generictest\GenInheritance\obj\Debug\GenInheritance.exe
+D:\SPKT\OOPC#\day9\Generictest\GenInheritance\obj\Debug\GenInheritance.pdb

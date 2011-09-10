@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day6\ParamOutRef\RefExam\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day6\ParamOutRef\RefExam\bin\Debug\RefExam.exe
+D:\E-SPKT\OOPC#\day6\ParamOutRef\RefExam\bin\Debug\RefExam.pdb
+D:\E-SPKT\OOPC#\day6\ParamOutRef\RefExam\obj\Debug\RefExam.exe
+D:\E-SPKT\OOPC#\day6\ParamOutRef\RefExam\obj\Debug\RefExam.pdb

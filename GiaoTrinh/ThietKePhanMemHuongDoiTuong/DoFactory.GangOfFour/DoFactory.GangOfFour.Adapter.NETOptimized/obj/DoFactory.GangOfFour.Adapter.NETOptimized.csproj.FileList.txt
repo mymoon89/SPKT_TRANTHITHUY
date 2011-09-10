@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Adapter.NETOptimized.exe
+bin\Debug\DoFactory.GangOfFour.Adapter.NETOptimized.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Adapter.NETOptimized.exe
+obj\Debug\DoFactory.GangOfFour.Adapter.NETOptimized.pdb

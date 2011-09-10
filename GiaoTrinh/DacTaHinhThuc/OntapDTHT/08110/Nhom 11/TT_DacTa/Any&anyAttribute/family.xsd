@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  attributeFormDefault="unqualified"
+targetNamespace="http://www.w3schools.com" xmlns="http://www.w3schools.com">
+
+
+	<xs:element name="personinfo">
+		<xs:complexType>
+		<xs:sequence>
+				<xs:element name="person">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="firstname" type="xs:string"/>
+							<xs:element name="lastname" type="xs:string"/>
+							<xs:any minOccurs="1"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

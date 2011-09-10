@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE data [
+<!ELEMENT data (#PCDATA)>
+]>
+<data>
+    Welcome to Minh Khai &apos;s Pocket Book Library
+    New books : "XML in Basic"  &amp; "SQL Reporting Service"
+</data>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test11234", "test11234\test11234.csproj", "{4FDC361C-9A13-4F81-887F-490AB650BC1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confuse", "..\..\day5\Confuse\Confuse\Confuse.csproj", "{04339429-7A4E-4823-9170-A63790B19D17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FDC361C-9A13-4F81-887F-490AB650BC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDC361C-9A13-4F81-887F-490AB650BC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDC361C-9A13-4F81-887F-490AB650BC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDC361C-9A13-4F81-887F-490AB650BC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04339429-7A4E-4823-9170-A63790B19D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04339429-7A4E-4823-9170-A63790B19D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04339429-7A4E-4823-9170-A63790B19D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04339429-7A4E-4823-9170-A63790B19D17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

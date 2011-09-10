@@ -1,0 +1,302 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0049)http://www.vovisoft.com/XML/drhong/SXMLParser.htm -->
+<HTML><HEAD><TITLE>Simple XML Parser</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=vi>
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+<META 
+content="Visual Basic, VB Programming in Vietnamese, Vovisoft, VB6, VB Tutorials, Learn Visual Basic, Internet, Unicode, Vietnamese VB tutorials, Database, Asp, Java, Javascript, VBscript, FrontPage 2000, XML, Ms Office 2000" 
+name=keywords>
+<STYLE>.H1 {
+	FILTER: Shadow(color='steelblue', Direction='45'); FONT: bold 14pt Verdana; WIDTH: 100%; COLOR: #9999ff
+}
+</STYLE>
+<LINK href="CAC UNG DUNG CUA MOT XML PARSER_files/topbottom.css" type=text/css 
+rel=stylesheet>
+<SCRIPT language=JavaScript src=""></SCRIPT>
+</HEAD>
+<BODY leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<SCRIPT language=JavaScript 
+src="CAC UNG DUNG CUA MOT XML PARSER_files/menu.js"></SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="CAC UNG DUNG CUA MOT XML PARSER_files/context.js"></SCRIPT>
+
+<P align=center><A href="http://www.vovisoft.com/"><IMG height=77 
+alt="Logo of Vovisoft" 
+src="CAC UNG DUNG CUA MOT XML PARSER_files/vs-logo4_10.gif" width=102 border=0> 
+</A></P><!-- End of Top Menu -->
+<CENTER>
+<H2><FONT face=Tahoma color=#800000>Các ứng dụng của một XML 
+Parser</FONT></H2></CENTER>
+<BLOCKQUOTE>
+  <BLOCKQUOTE><FONT face=Tahoma><FONT color=green size=6>X</FONT>ML càng lúc 
+    càng trở nên thịnh hành. Dầu muốn hay không, nếu là software engineer, trước 
+    sau gì bạn cũng phải lập trình với XML. Nếu lập trình bằng VB6 bạn có thể 
+    dùng <B>Document Object Model (DOM)</B> hay <B>Simple API for XML (SAX)</B> 
+    của Microsoft để giúp đở bạn trong công tác parsing (phân tích, sắp đặt) các 
+    XML files.<BR><BR>DOM đọc nguyên một XML file rồi parse nó thành một Tree có 
+    đẳng cấp trong bộ nhớ, tức là một node cha của Document có những nodes con 
+    đại diện cho comments, tags, directives và text (gọi là <B>XML 
+    entities</B>).<BR><BR>Trong khi đó SAX đọc một XML file và trong khi parse 
+    sẽ generate những Events cho hay khi nào nó gặp phải những XML entities. SAX 
+    không tạo ra một Tree nào cả, nên các ứng dụng tùy thuộc vào cách ta handle 
+    các Events từ SAX. Dĩ nhiên là SAX nhỏ và đơn giản hơn DOM nhiều.<BR><BR>Ðể 
+    không phải tùy thuộc hoàn toàn vào XML parser của người khác và để giúp bạn 
+    có ý niệm thực tế về cách làm việc của một XML Parser, trong bài nầy ta sẽ 
+    triển khai một XML Parser đơn giản (Simple XML Parser - SXMLParser) hoàn 
+    toàn bằng VB6 và áp dụng nó một cách thực tiển để làm mẫu. SXMLParser tuy 
+    nhỏ nhưng có những đặc tính tương tợ như SAX và dĩ nhiên bạn có thể tha hồ 
+    sửa đổi, thêm những features tùy ý.<BR><BR>Các áp dụng trước mắt là làm đẹp 
+    (Pretty) XML code, thêm màu cho XML content khi hiển thị trong một 
+    WebBrowser như trong hình dưới đây:<BR>
+    <BLOCKQUOTE><IMG height=618 
+      src="CAC UNG DUNG CUA MOT XML PARSER_files/XMLBrowser.gif" width=656 
+      border=0></BLOCKQUOTE><BR>và tạo một Treeview tượng trưng cho DOM: 
+    <BLOCKQUOTE><IMG height=618 
+      src="CAC UNG DUNG CUA MOT XML PARSER_files/SXMLTree.gif" width=656 
+      border=0></BLOCKQUOTE><BR>Có được source code của XML parser của mình bạn sẽ 
+    chiếm ưu thế so với người khác khi thiết kế hay deploy program trên 
+    mạng.<BR>Trước khi bàn về program nầy ta hãy ôn lại các qui luật căn bản về 
+    một Well-Formed XML. <FONT color=green>
+    <H3>Well-Formed XML</H3></FONT>Mặc dù bạn có thể đặt ra bao nhiêu Tag cũng 
+    được, nhưng mỗi trang XML cần phải theo một số qui luật để được xem là 
+    Well-Formed (có đầu, có đuôi).<BR>Nếu một trang XML không Well-Formed thì 
+    coi như xài không đuợc, không có chương trình xử lý nào sẽ chịu làm việc với 
+    dữ liệu bên trong của nó. Do đó một trang XML cần phải theo đúng các qui 
+    luật sau đây: 
+    <OL>
+      <LI>Trang XML phải bắt đầu bằng câu tuyên bố XML (XML declaration). Ðiểm 
+      nầy ta có thể bỏ qua đuợc. 
+      <LI>Mỗi bộ phận, gọi là "<B>element</B>" phải nằm giữa một <B>Tag 
+      Pair</B>. 
+      <LI>Nếu Tag nào không chứa gì ở giữa thì phải chấm dứt bằng "/&gt;", thí 
+      dụ như &lt;BR/&gt; hay &lt;HR/&gt;. 
+      <LI>Một trang XML phải có một element độc nhất chứa tất cả các elements 
+      khác. Đó là root của tree biểu diễn trang XML. 
+      <LI>Các Tag Pair không được xen kẻ nhau (thí dụ như &lt;name&gt;John 
+      Stanmore&lt;address&gt;25 King Street&lt;/name&gt;&lt;/address&gt; là bất 
+      hợp lệ vì &lt;address&gt; nằm trong Tag Pair name). </LI></OL>và thêm một 
+    vài qui luật về cách dùng các mẫu tự đặc biệt. Ngoài ra các Tag Pair phải 
+    đánh vần đúng y như nhau kể cả chữ hoa, chữ thường, (thí dụ: &lt;STUDENT&gt; 
+    và &lt;/Student&gt; là bất hợp lệ) và tất cả giá trị các <B>Attributes</B> 
+    đều phải nằm giữa hai ngoặc kép (thí dụ: standalone=yes là bất hợp lệ, phải 
+    dùng standalone="yes" mới được.)<BR><FONT color=green>
+    <H3>Thiết kế SXMLParser</H3></FONT>Có một VB6 class chính để lo hầu như hoàn 
+    toàn việc parsing một XML file. Sau khi instantiated một Object thuộc 
+    <B>Class clsXMLParser</B>, ta chỉ cần cho nó tên của XML file là nó bắt đầu 
+    công tác parsing ngay.<BR><BR>Như trong hình màu của XML phía trên ta thấy 
+    phần chính của XML là từ hàng thứ tư trở đi khi bắt đầu với Open Tag 
+    <B>&lt;library&gt;</B>. Tương ứng với mỗi Open Tag là có một Close Tag, thí 
+    dụ như <B>&lt;/library&gt;</B>. Bên trong mỗi cặp Tags có thể có những cặp 
+    Tags (con) khác.<BR><BR>Một Open Tag có thể chứa nhiều cặp Attributes dưới 
+    dạng <B>Name="Value"</B>. Lưu ý là Value phải nằm giữa hai dấu 
+    ngoặc.<BR><BR>SXMLParser sẽ đi qua từng character một của XML file. Khi đọc 
+    xong một Open Tag, thí dụ như:<BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>   <FONT color=red>&lt;</FONT><FONT color=blue>book</FONT><FONT color=green> hardback<FONT color=blue>=</FONT>"yes" series<FONT color=blue>=</FONT>"Professional C++"</FONT><FONT color=red>&gt;</FONT>
+</PRE></FONT></TD></TR></TBODY></TABLE>SXMLParser sẽ Raise một 
+    <B>StartElement Event</B> để được handled trong Form chánh bởi <B>Sub 
+    XMLParser_StartElement</B>. Event nầy cho Form chánh tên của Tag và một 
+    collection của các cặp Name="Value" Attributes, thí dụ như Tag <B>book</B> 
+    đầu tiên chứa <B>hardback="yes" series="Professional C++"</B>, chẳng 
+    hạn.<BR><BR>Trong Sub XMLParser_StartElement ta làm cùng một lúc ba chuyện: 
+    <OL>
+      <LI>Làm đẹp XML code, tức là các hàng thụt ra, thục vào tùy theo thứ bậc 
+      cho dễ đọc. 
+      <LI>Thêm màu cho HTML file để hiển thị XML code trong WebBrowser 
+      <LI>Tạo các Nodes trong TreeView </LI></OL>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=blue>Private</FONT> <FONT color=blue>Sub</FONT> XMLParser_StartElement(<FONT color=blue>ByVal</FONT> Name <FONT color=blue>As</FONT> String, <FONT color=blue>ByVal</FONT> tagAttributes <FONT color=blue>As</FONT> clsAttributes) 
+   <FONT color=green>' A complete Start Element has been processed</FONT>
+   <FONT color=blue>Dim</FONT> TStr 
+   <FONT color=green>' Build a string of Atributes' Name="Value" pairs</FONT>
+   TStr = BuildAttributeString(tagAttributes) 
+   <FONT color=green>' Display Name Tag in Pretty XML Listbox</FONT>
+   lstXML.AddItem Space(XMLParser.NestedLevel * TabWidth) &amp; "&lt;" &amp; Name &amp; TStr &amp; "&gt;" 
+   <FONT color=green>' Add blue color to the equal sign</FONT>
+   TStr = Replace(TStr, "=", "<FONT color=blue>=</FONT>") 
+   <FONT color=green>' prepare colour HTML Name tag</FONT>
+   lstHTML.AddItem Space(XMLParser.NestedLevel * TabWidth) &amp; "&lt;Font color=red&gt;&lt;&lt;/Font&gt;" _ <BR>&amp; "&lt;Font color=blue&gt;" &amp; Name &amp; "</FONT>" &amp; "&lt;Font color=green&gt;" &amp; TStr &amp; "&lt;/Font&gt;" &amp; "&lt;Font color=red&gt;&gt;&lt;/Font&gt;" 
+   <FONT color=green>' add a node to the Treeview and save its index in the stack of nested nodes</FONT>
+   <FONT color=blue>If</FONT> XMLParser.NestedLevel = 0 <FONT color=blue>Then</FONT> 
+      <FONT color=green>' create the root node</FONT>
+      <FONT color=blue>With</FONT> XMLTree.Nodes.Add(, , , Name) 
+         nodeStack(0) = .Index  <FONT color=green>' save the node index in stack</FONT>
+         .Expanded = <FONT color=blue>True</FONT>  <FONT color=green>' Expand node</FONT>
+      <FONT color=blue>End</FONT> <FONT color=blue>With</FONT> 
+   <FONT color=blue>Else</FONT> 
+      <FONT color=green>' create a child node of the higher nested level mode</FONT>
+      <FONT color=blue>With</FONT> XMLTree.Nodes.Add(nodeStack(XMLParser.NestedLevel - 1), tvwChild, , Name) 
+         nodeStack(XMLParser.NestedLevel) = .Index  <FONT color=green>' save the node index in stack</FONT>
+         .Expanded = <FONT color=blue>True</FONT>  <FONT color=green>' Expand node</FONT>
+      <FONT color=blue>End</FONT> <FONT color=blue>With</FONT> 
+   <FONT color=blue>End</FONT> <FONT color=blue>If</FONT> 
+<FONT color=blue>End</FONT> <FONT color=blue>Sub</FONT> 
+</PRE></FONT></TD></TR></TBODY></TABLE>Ðể tái tạo hàng Name="Value" cho 
+    collection của các Attributes của một Tag ta dùng <B>Function 
+    BuildAttributeString</B> như sau:<BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=blue>Function</FONT> BuildAttributeString(<FONT color=blue>ByVal</FONT> tagAttributes <FONT color=blue>As</FONT> clsAttributes) <FONT color=blue>As</FONT> <FONT color=blue>String</FONT> 
+   <FONT color=green>' Build a string of Atributes' Name="Value" pairs for Element or Instruction</FONT>
+   <FONT color=blue>Dim</FONT> i, TStr 
+   <FONT color=blue>Dim</FONT> attr <FONT color=blue>As</FONT> clsAttributeItem 
+   <FONT color=green>' Iterate through each Attribute in the collection</FONT>
+   <FONT color=blue>For</FONT> i = 1 <FONT color=blue>To</FONT> tagAttributes.Count 
+      <FONT color=green>' refer to i-th attribute</FONT>
+      <FONT color=blue>Set</FONT> attr = tagAttributes.Item(i) 
+      <FONT color=green>' Start with a space, create string Name="Value"</FONT>
+      TStr = TStr &amp; " " &amp; attr.Name &amp; "=""" &amp; attr.Value &amp; """" 
+   <FONT color=blue>Next</FONT> 
+   BuildAttributeString = TStr  <FONT color=green>' Return the resultant string</FONT>
+<FONT color=blue>End</FONT> <FONT color=blue>Function</FONT> 
+</PRE></FONT></TD></TR></TBODY></TABLE>Dưới đây là danh sách các Events 
+    raised bởi SXMLParser để Form chánh xử lý:<BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=green>' Start of parsing</FONT>
+Event StartDocument() 
+<FONT color=green>' End of parsing</FONT>
+Event EndDocument() 
+<FONT color=green>' An XML Instruction has been parsed</FONT>
+Event ProcessingInstruction(<FONT color=blue>ByVal</FONT> Name <FONT color=blue>As</FONT> String, <FONT color=blue>ByVal</FONT> tagAttributes <FONT color=blue>As</FONT> clsAttributes) 
+<FONT color=green>' An XML comment has been parsed</FONT>
+Event Comment(<FONT color=blue>ByVal</FONT> <FONT color=blue>Text</FONT> <FONT color=blue>As</FONT> String) 
+<FONT color=green>' An open tag as been parsed</FONT>
+Event StartElement(<FONT color=blue>ByVal</FONT> Name <FONT color=blue>As</FONT> String, <FONT color=blue>ByVal</FONT> tagAttributes <FONT color=blue>As</FONT> clsAttributes) 
+<FONT color=green>' A close tag as been parsed</FONT>
+Event EndElement(<FONT color=blue>ByVal</FONT> Name <FONT color=blue>As</FONT> String) 
+<FONT color=green>' A block of text has been parsed</FONT>
+Event Characters(<FONT color=blue>ByVal</FONT> <FONT color=blue>Text</FONT> <FONT color=blue>As</FONT> String) 
+<FONT color=green>' Error encountered while parsing</FONT>
+Event ParseError(<FONT color=blue>ByVal</FONT> ErrorNo <FONT color=blue>As</FONT> Integer, <FONT color=blue>ByVal</FONT> Description <FONT color=blue>As</FONT> String) 
+</PRE></FONT></TD></TR></TBODY></TABLE>Trong khi parsing SXMLParser thay đổi 
+    State hay Mode tùy theo trạng thái nó đang tìm kiếm thứ gì, chẳng hạn như 
+    character &lt;, &gt;, Attribute Name, Attribute Value, Close Tag .v.v.. Nếu 
+    nó khám phá là XML không Well-Formed thì nó sẽ Raise một <B>ParseError 
+    Event</B> với lý do và chi tiết liên hệ về Error ấy để hiển thị trong Form 
+    chánh, giúp User biết cần sửa đổi ở đâu trong XML file.<BR><BR>Danh sách các 
+    loại Error mà SXMLParser support đuợc liệt kê dưới đây. Xin lưu ý là có khi 
+    Error Message không rõ ràng như ta tưởng tượng vì parser không thông minh 
+    như chúng ta.<BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=blue>Const</FONT> cParseEmptyXML = 1 
+<FONT color=blue>Const</FONT> cParseNoCommentCloseTag = 2 
+<FONT color=blue>Const</FONT> cParseNoValueCloseQuote = 3 
+<FONT color=blue>Const</FONT> cParseNoAttributeName = 4 
+<FONT color=blue>Const</FONT> cParseNoEqualSign = 5 
+<FONT color=blue>Const</FONT> cParseNoAttributeValue = 6 
+<FONT color=blue>Const</FONT> cParseNoCDataCloseTag = 7 
+<FONT color=blue>Const</FONT> cParseUnknownSymbols = 8 
+<FONT color=blue>Const</FONT> cParseNoOpenQuote = 9 
+<FONT color=blue>Const</FONT> cParseBadOpenTag = 10 
+<FONT color=blue>Const</FONT> cParseBadCloseTag = 11 
+<FONT color=blue>Const</FONT> cParseMismatchTagName = 12 
+<FONT color=blue>Const</FONT> cParseNoInstructionCloseTag = 13 
+</PRE></FONT></TD></TR></TBODY></TABLE>Vì các Tag Pairs cần phải có Tag 
+    Names giống nhau hoàn toàn (chữ hoa, chữ thường) và không xen kẻ nhau đuợc, 
+    nên ta cần có một Stack để chứa các Tag Names theo đúng đẳng cấp trên dưới. 
+    Một Stack là một danh sách theo thứ tự Last-In, First-Out, tức là cái gì mới 
+    vào nhất sẽ ra đầu tiên.<BR><BR>Ta thực hiện Stack nầy bằng <B>Class 
+    clsStack</B>. clsStack chứa các Items thành một String, mà các Items đuợc 
+    ngăn cách nhau bởi một vbNullChar (character có ASC value bằng 0). Item mới 
+    nhất (Last-In) nằm đầu bên trái của String.<BR><BR>Có ba Functions chánh của 
+    Class clsStack là <B>Push</B> (để nhét một TagName vào), <B>Pop</B> (để lấy 
+    TagName mới nhất ra) và <B>LastIn</B> (để chỉ xem TagName mới nhất, chớ 
+    không lấy ra).<BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=blue>Public</FONT> <FONT color=blue>Sub</FONT> Push(InItem <FONT color=blue>As</FONT> String) 
+   <FONT color=green>' Push a Item up the Stack.</FONT>
+   <FONT color=green>' Remove any vbNullChars in the Item</FONT>
+   <FONT color=green>' Use vbNullChar as the Delimiter</FONT>
+   <FONT color=green>'</FONT>
+   <FONT color=green>' Prefix the Item to the Stack string</FONT>
+   mStacks = Replace(InItem, vbNullChar, "") &amp; vbNullChar &amp; mStacks 
+   mCount = mCount + 1  <FONT color=green>' Increment the Item count</FONT>
+<FONT color=blue>End</FONT> <FONT color=blue>Sub</FONT><BR> 
+<FONT color=blue>Public</FONT> <FONT color=blue>Function</FONT> Pop() <FONT color=blue>As</FONT> <FONT color=blue>String</FONT> 
+   <FONT color=green>' Remove and return the LastIn Item in the Stack.</FONT>
+   <FONT color=blue>Dim</FONT> Pos 
+   <FONT color=blue>If</FONT> mCount &gt; 0 <FONT color=blue>Then</FONT> 
+      Pos = InStr(mStacks, vbNullChar)  <FONT color=green>' Locate vbNullChar</FONT>
+      <FONT color=blue>If</FONT> Pos &gt; 0 <FONT color=blue>Then</FONT> 
+         Pop = Left(mStacks, Pos - 1)  <FONT color=green>' Extract the LastIn Item</FONT>
+         mStacks = Mid(mStacks, Pos + 1)  <FONT color=green>' Keep the remain of the Stack string</FONT>
+         mCount = mCount - 1  <FONT color=green>' decrement the Item Count</FONT>
+      <FONT color=blue>End</FONT> <FONT color=blue>If</FONT> 
+   <FONT color=blue>End</FONT> <FONT color=blue>If</FONT> 
+<FONT color=blue>End</FONT> <FONT color=blue>Function</FONT><BR> 
+<FONT color=blue>Public</FONT> <FONT color=blue>Function</FONT> LastIn() <FONT color=blue>As</FONT> <FONT color=blue>String</FONT> 
+   <FONT color=green>' View the LastIn Item in the Stack. Leave Stack unchanged</FONT>
+   <FONT color=blue>Dim</FONT> Pos 
+   <FONT color=blue>If</FONT> mCount &gt; 0 <FONT color=blue>Then</FONT> 
+      Pos = InStr(mStacks, vbNullChar)  <FONT color=green>' Locate vbNullChar</FONT>
+      <FONT color=blue>If</FONT> Pos &gt; 0 <FONT color=blue>Then</FONT> 
+         LastIn = Left(mStacks, Pos - 1)  <FONT color=green>' Extract the LastIn Item</FONT>
+      <FONT color=blue>End</FONT> <FONT color=blue>If</FONT> 
+   <FONT color=blue>End</FONT> <FONT color=blue>If</FONT> 
+<FONT color=blue>End</FONT> <FONT color=blue>Function</FONT> 
+</PRE></FONT></TD></TR></TBODY></TABLE><BR>Bạn có thể <A 
+    href="http://www.vovisoft.com/XML/drhong/SXMLParser.zip">download chương 
+    trình mẫu <B>SXMLParser.zip</B></A><BR><BR>Ðặc biệt trong program nầy, chỉ 
+    cần một click duy nhất lên nút Paste, XML text trong Clipboard sẽ được biến 
+    thành HTML code để làm đẹp và hiển thị XML code với màu trong WebBrowser. 
+    Ngay sau đó bạn có thể Paste content của Clipboard vào một trang 
+    Web.<BR>Dưới đây là listing của <B>Sub CmdPaste_Click</B> <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE><FONT color=blue>Private</FONT> <FONT color=blue>Sub</FONT> CmdPaste_Click() 
+   <FONT color=green>' Parse the Clipboard content and copy the resultant colour HTML back to clipboard</FONT>
+   <FONT color=blue>Dim</FONT> i, TStr 
+   <FONT color=green>' Fetch content of clipboard</FONT>
+   TStr = Clipboard.GetText(vbCFText) 
+   <FONT color=green>' Write it temporarily to "Temp.XML" file in the same folder where this program resides</FONT>
+   WriteTextFile GetLocalDirectory &amp; "Temp.XML", TStr 
+   <FONT color=green>' Place the XML filename into TextBox txtFilename</FONT>
+   txtFilename.Text = GetLocalDirectory &amp; "Temp.XML" 
+   <FONT color=green>' Emulating User's action of clicking the commandbutton Parse</FONT>
+   cmdParse_Click 
+   <FONT color=green>' If there're something as a result, copy everything from the Listbox lstHTML</FONT>
+   <FONT color=green>' except for the first and last line, which contain HTML header/footer.</FONT>
+   <FONT color=green>' Select the required lines from the Textbox</FONT>
+   <FONT color=blue>If</FONT> lstHTML.ListCount &gt; 2 <FONT color=blue>Then</FONT> 
+      <FONT color=blue>For</FONT> i = 1 <FONT color=blue>To</FONT> lstHTML.ListCount - 2 
+         lstHTML.Selected(i) = <FONT color=blue>True</FONT> 
+      <FONT color=blue>Next</FONT> 
+      <FONT color=green>' Emulating User's action of clicking the commandbutton Copy</FONT>
+      CmdCopy_Click 
+   <FONT color=blue>End</FONT> <FONT color=blue>If</FONT> 
+<FONT color=blue>End</FONT> <FONT color=blue>Sub</FONT> 
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE><BR><A 
+  href="http://www.vovisoft.com/"><IMG height=40 
+  src="CAC UNG DUNG CUA MOT XML PARSER_files/homejump.gif" 
+  width=40>&nbsp;&nbsp;<A href="http://www.vovisoft.com/xml">Kỹ thuật XML</A> 
+</BLOCKQUOTE>&nbsp; 
+<TABLE class=clsNavLinks id=tblFooterLinks cellSpacing=0 cellPadding=0 
+width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=clsRaised width=785 bgColor=#6699cc colSpan=5>
+      <P align=center><FONT face=Tahoma color=#ffffff size=1>Vovisoft © 2000. 
+      All rights reserved.</FONT></P></TD></TR>
+  <TR>
+    <TD width=256>
+      <P align=center><FONT face=Tahoma size=1>&nbsp;&nbsp; Last Updated: 25 
+      July 2001 </FONT></P></TD>
+    <TD width=181><FONT face=Tahoma size=1>&nbsp;</FONT></TD>
+    <TD width=258>
+      <P align=center><A href="mailto:dixon@vovisoft.com"><FONT face=Tahoma 
+      size=1>Webmaster</FONT></A></P></TD></TR></TBODY></TABLE></FONT></BODY></HTML>

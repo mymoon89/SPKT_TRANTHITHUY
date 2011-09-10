@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day6\ParamOutRef\IEnumerator\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day6\ParamOutRef\IEnumerator\bin\Debug\IEnumerator.exe
+D:\E-SPKT\OOPC#\day6\ParamOutRef\IEnumerator\bin\Debug\IEnumerator.pdb
+D:\E-SPKT\OOPC#\day6\ParamOutRef\IEnumerator\obj\Debug\IEnumerator.exe
+D:\E-SPKT\OOPC#\day6\ParamOutRef\IEnumerator\obj\Debug\IEnumerator.pdb

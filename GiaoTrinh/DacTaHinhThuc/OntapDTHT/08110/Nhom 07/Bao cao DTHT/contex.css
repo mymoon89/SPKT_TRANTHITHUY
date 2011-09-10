@@ -1,0 +1,23 @@
+body
+ { 
+	display:block;
+	font-family: Times, serif; 
+	font-size: 20pt 
+}
+code
+{ 
+	display:block;
+	font-family: Courier, monospaced;
+	font-size: 40pt
+ }
+pre 
+{ 
+	display:block;
+	font-family: Times, serif; 
+	font-size: 30pt
+}
+pre code
+{ 
+	font-family: Times, serif; 
+	font-size:60pt
+}

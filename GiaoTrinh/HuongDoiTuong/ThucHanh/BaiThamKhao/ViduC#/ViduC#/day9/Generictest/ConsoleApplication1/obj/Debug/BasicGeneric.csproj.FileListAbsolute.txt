@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day9\Generictest\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day9\Generictest\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\SPKT\OOPC#\day9\Generictest\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\SPKT\OOPC#\day9\Generictest\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\SPKT\OOPC#\day9\Generictest\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

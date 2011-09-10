@@ -1,0 +1,10 @@
+D:\BaiTapLTHDT\SoSanhSinhVien\bin\Debug\SoSanhSinhVien.exe
+D:\BaiTapLTHDT\SoSanhSinhVien\bin\Debug\SoSanhSinhVien.pdb
+D:\BaiTapLTHDT\SoSanhSinhVien\obj\Debug\ResolveAssemblyReference.cache
+D:\BaiTapLTHDT\SoSanhSinhVien\obj\Debug\SoSanhSinhVien.exe
+D:\BaiTapLTHDT\SoSanhSinhVien\obj\Debug\SoSanhSinhVien.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\SoSanhSinhVien\obj\Debug\SoSanhSinhVien.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\SoSanhSinhVien\obj\Debug\SoSanhSinhVien.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\SoSanhSinhVien\bin\Debug\SoSanhSinhVien.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\SoSanhSinhVien\bin\Debug\SoSanhSinhVien.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\SoSanhSinhVien\obj\Debug\ResolveAssemblyReference.cache

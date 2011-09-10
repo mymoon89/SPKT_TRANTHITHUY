@@ -1,0 +1,416 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.vovisoft.com/XML/XML03/XML03.htm -->
+<HTML><HEAD><TITLE>XML Lesson 3</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=vi>
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+<META 
+content="Visual Basic, VB Programming in Vietnamese, Vovisoft, VB6, VB Tutorials, Learn Visual Basic, Internet, Unicode, Vietnamese VB tutorials, Database, Asp, Java, Javascript, VBscript, FrontPage 2000, XML, XSL, XPath, Ms Office 2000" 
+name=keywords></HEAD>
+<BODY leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<CENTER><A href="http://www.vovisoft.com/"><IMG height=77 alt="Logo of Vovisoft" 
+src="BAI 3 DI LAI TRONG XML BANG XPATH P2_files/vs-logo4_10.gif" width=102 
+border=0> </A><FONT face=Tahoma>
+<H2><FONT face=Tahoma color=#800000>Bài 3</FONT></H2>
+<H2><FONT face=Tahoma color=#800000>Đi lại trong XML bằng XPATH (phần 
+II)</FONT></H2></CENTER>
+<BLOCKQUOTE>
+  <BLOCKQUOTE>
+    <H3><FONT color=green>Collections</FONT></H3>Cái bộ (Set of) Nodes do XPath 
+    trả về được gọi là <B>Collection</B>. Thông thường trong lập trình, từ 
+    "Collection" được dùng để nói đến một tập hợp các objects đồng loại. Ta có 
+    thể lần lượt đi qua (iterate through) các objects trong một Collection nhưng 
+    không được bảo đảm thứ tự của chúng, tức là gặp object nào trước hay object 
+    nào sau.<BR><BR>Trái lại, trong chuẩn XPath, khi một Collection được trả về 
+    bởi một XPath Query (hỏi), nó giữ nguyên thứ tự các Nodes và cấp bậc của 
+    chúng trong tài liệu XML. Tức là nếu XPath trả về một cành các nodes thì trừ 
+    những nodes không thỏa điều kiện, các node còn lại vẫn giữ đúng vị trí trên 
+    cành.<BR><BR>Vì các Attributes của một Element không có thứ tự, nên chúng có 
+    thể nằm lộn xộn trong một Collection. 
+    <H3><FONT color=blue>Indexing trong một Collection</FONT></H3>Một Collection 
+    của Nodes được xem như một Array. Muốn nói trực tiếp đến một Node trong 
+    Collection ta có thể dùng một index trong cặp ngoặc vuông. Node thứ nhất có 
+    Index là 1.<BR><BR>Cặp ngoặc vuông (<B>[]</B>) có precedence cao hơn (được 
+    tính trước) dấu slash(<B>/</B>) hay hai dấu slash (<B>//</B>). Dưới đây là 
+    hai thí dụ:<BR><BR>
+    <TABLE class=dtTABLE cellSpacing=0 cellPadding=5 width=815 border=1>
+      <TBODY>
+      <TR vAlign=top>
+        <TH width=369 bgColor=#c0c0c0>Expression</TH>
+        <TH width=442 bgColor=#c0c0c0>Ý nghĩa</TH></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>author[1]</B> </TD>
+        <TD width=442 bgColor=#fefad8>Element <B>author</B> đầu tiên.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>author[firstname][3]</B> </TD>
+        <TD width=442 bgColor=#fefad8>Element <B>author</B> thứ ba có một 
+          Element <B>firstname</B> con.</TD></TR></TBODY></TABLE>
+    <H3><FONT color=green>Mối liên hệ (Axes)</FONT></H3>Một location path dùng 
+    một <B>Axis</B> để chỉ định mối liên hệ giữa các Nodes được chọn đối với 
+    context node. Sau đây là bảng liệt kê đầy đủ các axes:<BR><BR>
+    <TABLE class=dtTABLE cellSpacing=0 cellPadding=5 width=882 border=1>
+      <TBODY>
+      <TR vAlign=top>
+        <TH width=369 bgColor=#c0c0c0>Axes</TH>
+        <TH width=509 bgColor=#c0c0c0>Ý nghĩa</TH></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE class=ce>ancestor::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Tổ tiên của context node. 
+          <P>Những tổ tiên của context node gồm có cha, ông nội, ông cố .v.v., 
+          do đó <CODE class=ce>ancestor::</CODE> axis luôn luôn kể cả root node 
+          trừ khi chính context node là root node.</P></TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE class=ce>ancestor-or-self::</CODE> 
+        </TD>
+        <TD width=509 bgColor=#fefad8>Chính context node và tổ tiên của nó. 
+          <P>Cái <CODE class=ce>ancestor-or-self::</CODE> axis luôn luôn kể cả 
+          root node.</P></TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE class=ce>attribute::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Các Attributes của context node. 
+          <P>Nếu context node không phải là một Element thì chắc chắn axis sẽ 
+          trống rỗng.</P></TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE class=ce>child::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Con cái của context node. 
+          <P>Một con là bất cứ node nào nằm ngay dưới context node trong tree. 
+          Tuy nhiên, Attribute hay Namespace nodes không được xem là con cái của 
+          context node.</P></TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE class=ce>descendant::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Con cháu của context node. 
+          <P>Con cháu là con, cháu, chít, .v.v., do đó <CODE 
+          class=ce>descendant::</CODE> axis không bao giờ chứa Attribute hay 
+          Namespace nodes.</P></TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE class=ce>following::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Mọi nodes hiện ra sau context node trên 
+          tree, không kể con cháu, Attribute nodes, hay Namespace nodes.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE 
+          class=ce>following-sibling::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Mọi nodes em (nằm sau) context node. 
+          <P><CODE class=ce>following-sibling::</CODE> axis nói đến chỉ những 
+          Nodes con, của cùng một Node cha, nằm trên tree sau context node. Axis 
+          không kể các Nodes anh nằm trước context node.</P>
+          <P>Nếu context node là Attribute hay Namespace thì <CODE 
+          class=ce>following-sibling::</CODE> axis sẽ trống rỗng.</P></TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE class=ce>namespace::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Những Namespace nodes của context node. 
+          <P>Mỗi namespace có một namespace node trong scope (phạm vi hoạt động) 
+          của context node.</P>
+          <P>Nếu context node không phải là một Element thì Axis sẽ trống 
+          rỗng.</P></TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE class=ce>parent::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Node cha của context node, nếu nó có 
+          cha. 
+          <P>Node cha là node nằm ngay phía trên context node trên 
+      tree.</P></TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE class=ce>preceding::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Mọi nodes hiện ra trước context node 
+          trên tree, không kể các nodes tổ tiên, Attribute nodes, hay Namespace 
+          nodes. 
+          <P>Một cách để nhận diện <CODE class=ce>preceding::</CODE> axis là mọi 
+          nodes đã kết thúc hoàn toàn trước khi context node bắt đầu.</P></TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE 
+          class=ce>preceding-sibling::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Mọi nodes anh (nằm trước) context node. 
+          <P><CODE class=ce>preceding-sibling::</CODE> axis nói đến chỉ những 
+          Nodes con, của cùng một Node cha, nằm trên tree trước context node. 
+          </P>
+          <P>Nếu context node là Attribute hay Namespace thì <CODE 
+          class=ce>preceding-sibling::</CODE> axis sẽ trống rỗng.</P></TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><CODE class=ce>self::</CODE> </TD>
+        <TD width=509 bgColor=#fefad8>Là chính context 
+    node.</TD></TR></TBODY></TABLE>
+    <H3><FONT color=green>Sàng lọc (Filters)</FONT></H3>Như ta đã thấy ở trên, 
+    để giới hạn chỉ lấy ra những Nodes thỏa đáng một điều kiện, ta gắn một 
+    <B>Filter</B> (sàng lọc) vào Collection. Filter ấy là một Clause giống giống 
+    <B>Clause WHERE</B> trong ngôn ngữ SQL của cơ sở dữ liệu. <BR><BR>Nếu một 
+    Collection nằm giữa một filter, nó sẽ cho kết quả TRUE nếu Collection trả về 
+    ít nhất một Node và FALSE nếu Collection trống rỗng (empty). Thí dụ 
+    expression <B>author/degree</B> có nghĩa rằng hàm <I><B>biến đổi Collection 
+    ra trị số Boolean</B></I> sẽ có giá trị TRUE nếu hiện hữa một Element 
+    <B>author</B> có Element con tên <B>degree</B>.<BR><BR>Filters luôn luôn 
+    được tính theo context của nó. Nói một cách khác, cái expression 
+    <B>book[author]</B> có nghĩa là cho mỗi Element <B>book</B> tìm thấy, nó sẽ 
+    được thử xem có chứa một Element con tên <B>author</B> không. Tương tự như 
+    vậy, <B>book[author = 'Brown']</B> có nghĩa rằng cho mỗi Element <B>book</B> 
+    tìm thấy, nó sẽ được thử xem có chứa một Element con tên <B>author</B> với 
+    trị số bằng <B>Brown</B> không.<BR><BR>Ta có thể dùng dấu chấm (<B>.</B>) để 
+    khám current context node. Thí dụ như, <B>book[. = 'Dreams']</B> có nghĩa 
+    rằng cho mỗi Element book tìm thấy trong current context, nó sẽ được thử xem 
+    có trị số bằng <B>Dreams</B> không. Dưới đây là một ít thí dụ:<BR><BR>
+    <TABLE class=dtTABLE cellSpacing=0 cellPadding=5 width=815 border=1>
+      <TBODY>
+      <TR vAlign=top>
+        <TH width=369 bgColor=#c0c0c0>Expression</TH>
+        <TH width=442 bgColor=#c0c0c0>Ý nghĩa</TH></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>book[excerpt]</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>book</B> có chứa ít nhất 
+          một Element <B>excerpt</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>book[excerpt]/title</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>title</B> nằm trong những 
+          Element <B>book</B> có chứa ít nhất một Element <B>excerpt</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>book[excerpt]/author[degree]</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>author</B> có chứa ít 
+          nhất một Element <B>degree</B> và nằm trong những Elements <B>book</B> 
+          có chứa ít nhất một Element <B>excerpt</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>book[author/degree]</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>book</B> có chứa ít nhất 
+          một Element <B>author</B> với ít nhất một Element <B>degree</B> 
+      con.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>book[excerpt][title]</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>book</B> có chứa ít nhất 
+          một Element <B>excerpt</B> và ít nhất một Element 
+      <B>title</B>.</TD></TR></TBODY></TABLE>
+    <H3><FONT color=green>So sánh</FONT></H3>Để so sánh hai objects trong XPath 
+    ta dùng dấu (<B>=</B>) cho <B>bằng nhau</B> và (<B>!= </B>) cho <B>không 
+    bằng nhau</B>. Mọi Element và Attributes là <B>string</B>, nhưng được 
+    Typecast (xem như ) những con số khi đem ra so sánh.<BR><BR>
+    <TABLE class=dtTABLE cellSpacing=0 cellPadding=5 width=815 border=1>
+      <TBODY>
+      <TR vAlign=top>
+        <TH width=369 bgColor=#c0c0c0>Expression</TH>
+        <TH width=442 bgColor=#c0c0c0>Ý nghĩa</TH></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>author[lastname = "Smith"]</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>author</B> có chứa ít 
+          nhất một Element <B>lastname</B> với trị số bằng <B>Smith</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>author[lastname[1] = "Smith"]</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>author</B> có Element 
+          <B>lastname</B> con đầu tiên với trị số bằng <B>Smith</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>author/degree[@from != "Harvard"]</B> 
+        </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>degree</B>, là con một 
+          Element <B>author</B>, và có một Attribute <B>from</B> với trị số 
+          không phải là <B>"Harvard"</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>author[lastname = 
+          /editor/lastname]</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>author</B> có chứa một 
+          Element <B>lastname</B> bằng với Element <B>lastname</B> là con của 
+          root Element <B>editor</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>author[. = "John Hamilton"]</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>author</B> có trị số 
+          string là <B>John Hamilton</B>.</TD></TR></TBODY></TABLE>
+    <H3><FONT color=green>Operator Union <B>|</B> (họp lại)</FONT></H3>Ngôn ngữ 
+    Xpath hỗ trợ Operator Union, giống như Logical <B>OR (hoặc là)</B>. Dưới đây 
+    là vài thí dụ:<BR><BR>
+    <TABLE class=dtTABLE cellSpacing=0 cellPadding=5 width=815 border=1>
+      <TBODY>
+      <TR vAlign=top>
+        <TH width=369 bgColor=#c0c0c0>Expression</TH>
+        <TH width=442 bgColor=#c0c0c0>Ý nghĩa</TH></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>firstname | lastname</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>firstname</B> và 
+          <B>lastname</B> trong current context.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>(bookstore/book | 
+          bookstore/magazine)</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>book</B> hay 
+          <B>magazine</B> là con một Element <B>bookstore</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>book | book/author</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>book</B> hay Element 
+          <B>author</B> là con những Elements <B>book</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>(book | magazine)/price</B> </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>price</B> là con của 
+          Element <B>book</B> hay Element <B>magazine</B>.</TD></TR></TBODY></TABLE>
+    <H3><FONT color=green>Thử loại Node (Node Type Tests)</FONT></H3>Để chọn 
+    những loại Node khác hơn là Element node, ta dùng <B>Node-Type Test</B>. Mục 
+    đích của việc dùng Node-Type test là để chỉ định sự lựa chọn khác thường. 
+    Thí dụ như, <B>descendant::text()</B> cho ta mọi text nodes là con cháu của 
+    context node, dù rằng loại node chính của con cháu context node là Element. 
+    Có 4 loại Node-Type tests như liệt kê dưới đây.<BR><BR>
+    <TABLE class=dtTABLE cellSpacing=0 cellPadding=5 width=815 border=1>
+      <TBODY>
+      <TR vAlign=top>
+        <TH width=369 bgColor=#c0c0c0>Node type</TH>
+        <TH width=369 bgColor=#c0c0c0>Trả về</TH>
+        <TH width=442 bgColor=#c0c0c0>Thí dụ</TH></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>comment()</B> </TD>
+        <TD width=369 bgColor=#fefad8>mọi comment node.</TD>
+        <TD width=442 bgColor=#fefad8><B>following::comment()</B> chọn mọi 
+          comment nodes hiện ra sau context node.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>node()</B> </TD>
+        <TD width=369 bgColor=#fefad8>mọi node.</TD>
+        <TD width=442 bgColor=#fefad8><B>preceding::node()</B> chọn mọi nodes 
+          hiện ra trước context node.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>processing-instruction()</B> </TD>
+        <TD width=369 bgColor=#fefad8>mọi processing instruction node.</TD>
+        <TD width=442 bgColor=#fefad8><B>self::processing instruction()</B> 
+          chọn mọi processing instruction nodes trong context node.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8><B>text()</B> </TD>
+        <TD width=369 bgColor=#fefad8>mọi text node.</TD>
+        <TD width=442 bgColor=#fefad8><B>child::text()</B> chọn mọi text nodes 
+          là con của&nbsp; the context node.</TD></TR></TBODY></TABLE>
+    <H3><FONT color=blue>Thử Node nhắm vào loại Processing 
+    Instruction</FONT></H3>Một node test có thể chọn processing instruction 
+    thuộc loại nào, tức là chọn <B>mục tiêu (target)</B>. Cú pháp của một loại 
+    test như thế là:
+    <P></P>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;processing-instruction("<I>target</I>")
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Thí dụ node test sau đây trả về 
+    mọi processing instruction nodes có nhắc đến một XSL stylesheet trong tài 
+    liệu:
+    <P></P>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/child::processing-instruction("xml-stylesheet")
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>
+    <H3><FONT color=green>Thêm một số thí dụ Location Path</FONT></H3>
+    <TABLE class=dtTABLE cellSpacing=0 cellPadding=5 width=815 border=1>
+      <TBODY>
+      <TR vAlign=top>
+        <TH width=369 bgColor=#c0c0c0>Expression</TH>
+        <TH width=442 bgColor=#c0c0c0>Ý nghĩa</TH></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>./author </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>author</B> trong current 
+          context. <BR>Expresion nầy tương đương với expression trong hàng 
+      kế.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>author </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>author</B> trong current 
+          context.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>/bookstore </TD>
+        <TD width=442 bgColor=#fefad8>Document (Root) Element tên 
+          <B>bookstore</B> của tài liệu nầy.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>//author </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>author</B> trong tài 
+        liệu.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>book[/bookstore/@specialty = @style] </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>book</B> có Attribute 
+          <B>style</B> với value bằng value của Attribute <B>specialty</B> của 
+          Document Element <B>bookstore</B> của tài liệu.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>author/firstname </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>firstname</B> con của các 
+          Elements <B>author</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>bookstore//title </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>title</B> một hay nhiều 
+          bậc thấp hơn, tức là con cháu của, Element <B>bookstore</B>. Lưu ý là 
+          expression nầy khác với expression trong hàng kế.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>bookstore/*/title </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>title</B> cháu của các 
+          <B>bookstore</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>bookstore//book/excerpt//emph </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>emph</B> bất cứ nơi nào 
+          dưới <B>excerpt</B> là con của những elements <B>book</B> , bất cứ nơi 
+          nào dưới element <B>bookstore</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>.//title </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>title</B> một hay nhiều 
+          bậc thấp hơn current context node. </TD>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>author/* </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element là con của các elements con 
+          <B>author</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>book/*/lastname </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>lastname</B> là cháu của 
+          các elements con <B>book</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>*/* </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element cháu của current context 
+          node.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>*[@specialty] </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element con có Attribute 
+          <B>specialty</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>@style </TD>
+        <TD width=442 bgColor=#fefad8>Attribute <B>style</B> của current 
+          context node.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>price/@exchange </TD>
+        <TD width=442 bgColor=#fefad8>Attribute <B>exchange</B> của những 
+          Elements <B>price</B> trong current context, tức là những Elements 
+          <B>price</B> của current context node.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>price/@exchange/total </TD>
+        <TD width=442 bgColor=#fefad8>Trả về một node set trống rỗng, vì 
+          Attributes không có Element con. Expression nầy được chấp nhận trong 
+          văn phạm của XML Path Language, nhưng không thật sự hợp lệ.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>book[@style] </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element <B>book</B> có Attribute 
+          <B>style</B> trong current context node.<BR>Lưu ý phần nằm trong ngoặc 
+          vuông là điều kiện của Element book</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>book/@style </TD>
+        <TD width=442 bgColor=#fefad8>Attribute <B>style</B> của mọi Element 
+          <B>book</B>trong current context node.<BR>Ở đây không có điều kiện như 
+          hàng trên. Ta nói đến Attribute hay Element nằm bên phải nhất. </TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>@* </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Attributes của current context 
+        node.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>author[1] </TD>
+        <TD width=442 bgColor=#fefad8>Element <B>author</B> thứ nhất trong 
+          current context node.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>author[firstname][3] </TD>
+        <TD width=442 bgColor=#fefad8>Element <B>author</B> thứ ba có một 
+          Element con <B>firstname</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>my:book </TD>
+        <TD width=442 bgColor=#fefad8>Element <B>book</B> từ namespace 
+          <B>my</B>.</TD></TR>
+      <TR vAlign=top>
+        <TD width=369 bgColor=#fefad8>my:* </TD>
+        <TD width=442 bgColor=#fefad8>Mọi Element trong namespace 
+      <B>my</B>.</TD></TR></TBODY></TABLE></BLOCKQUOTE><BR><A 
+  href="http://www.vovisoft.com/"><IMG height=40 
+  src="BAI 3 DI LAI TRONG XML BANG XPATH P2_files/homejump.gif" 
+  width=40><A>&nbsp;&nbsp;<A href="http://www.vovisoft.com/XML/default.htm">Học 
+  XML</A><BR><BR></BLOCKQUOTE></FONT><!-- Start of bottom bar for copyright notice etc -->
+<TABLE class=clsNavLinks id=tblFooterLinks cellSpacing=0 cellPadding=0 
+width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=clsRaised width=785 bgColor=#6699cc colSpan=5>
+      <P align=center><FONT face=Tahoma color=#ffffff size=1>Vovisoft © 2000. 
+      All rights reserved.</FONT></P></TD></TR>
+  <TR>
+    <TD width=256>
+      <P align=center><FONT face=Tahoma size=1>&nbsp;&nbsp; Last Updated: <!--webbot 
+      bot="Timestamp" S-Type="REGENERATED" S-Format="%d %b %Y" startspan -->23 
+      Dec 2003<!--webbot 
+      bot="Timestamp" endspan i-checksum="14404" --> </FONT></P></TD>
+    <TD width=181><FONT face=Tahoma size=1>&nbsp;</FONT></TD>
+    <TD width=258>
+      <P align=center><FONT face=Tahoma size=1><A 
+      href="mailto:dixon@vovisoft.com">Webmaster</A></FONT></P></TD></TR></TBODY></TABLE><BR></BODY></HTML>

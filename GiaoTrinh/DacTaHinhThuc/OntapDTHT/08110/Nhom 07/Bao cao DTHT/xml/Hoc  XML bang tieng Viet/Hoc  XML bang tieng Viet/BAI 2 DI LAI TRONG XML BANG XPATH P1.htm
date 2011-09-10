@@ -1,0 +1,271 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.vovisoft.com/XML/XML02/XML02.htm -->
+<HTML><HEAD><TITLE>XML Lesson 2</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=vi>
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId>
+<META 
+content="Visual Basic, VB Programming in Vietnamese, Vovisoft, VB6, VB Tutorials, Learn Visual Basic, Internet, Unicode, Vietnamese VB tutorials, Database, Asp, Java, Javascript, VBscript, FrontPage 2000, XML, XSL, XPath, Ms Office 2000" 
+name=keywords></HEAD>
+<BODY leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<CENTER><A href="http://www.vovisoft.com/"><IMG height=77 alt="Logo of Vovisoft" 
+src="BAI 2 DI LAI TRONG XML BANG XPATH P1_files/vs-logo4_10.gif" width=102 
+border=0> </A><FONT face=Tahoma>
+<H2><FONT face=Tahoma color=#800000>Bài 2</FONT></H2>
+<H2><FONT face=Tahoma color=#800000>Đi lại trong XML bằng XPATH (phần 
+I)</FONT></H2></CENTER>
+<BLOCKQUOTE>
+  <BLOCKQUOTE><FONT color=green size=6>C</FONT>húng ta đã thấy cấu trúc và cú 
+    pháp của XML tương đối đơn giãn. XML cho ta một cách chuẩn để trao đổi tin 
+    tức giữa các computers. Bước tiếp theo là tìm hiểu cách nào một chương trình 
+    chế biến (process) một tài liệu XML<BR><BR>Dĩ nhiên để chế biến một XML 
+    chương trình ứng dụng phải có cách đi lại bên trong tài liệu để lấy ra 
+    values của các Elements hay Attributes. Do đó người ta thiết kế ra ngôn ngữ 
+    <B>XML Path language</B>, mà ta gọi tắt là <B>XPath</B>. XPath đóng một vai 
+    trò quan trọng trong công tác trao đổi dữ liệu giữa các computers hay giữa 
+    các chương trình ứng dụng vì nó cho phép ta lựa chọn hay sàng lọc ra những 
+    tin tức nào mình muốn để trao đổi hay hiển thị.<BR><BR>Nếu khi làm việc với 
+    cơ sở dữ liệu ta dùng SQL statement <B>Select .. from TableXYZ &nbsp;WHERE 
+    ...</B> để trích ra một số records từ một table, thì khi làm việc với XML, 
+    một table dữ liệu nho nhỏ, XPath cho ta những expressions về criteria (điều 
+    kiện) giống giống như clause <B>WHERE</B> trong SQL. <BR><BR>XPath là một 
+    chuẩn để process XML, cũng giống như SQL là một chuẩn để làm việc với cơ sở 
+    dữ liệu. Tiên phuông trong việc triển khai các chương trình áp dụng XPath là 
+    công tác của các công ty phần mềm lớn như Microsoft, Oracle, Sun, IBM, v.v. 
+    Sở dĩ ta cần có một chuẩn XPath là vì nó được áp dụng trong nhiều hoàn cảnh, 
+    nên cần phải có một lý thuyết rõ ràng, chính xác.<BR><BR>Lý thuyết về XPath 
+    hơi khô khan nhưng nó được áp dụng trong mọi kỹ thuật của gia đình XML. Cho 
+    nên bạn hãy kiên nhẫn nắm vững những điều căn bản về nó để khi nào gặp chỗ 
+    người ta dùng XPath thì mình nhận diện và hiểu được. So với võ thuật, thì 
+    XPath trong XML giống như Tấn pháp và cách thở. Tập luyện Tấn pháp thì mõi 
+    chân, tập thở thì nhàm chán, nhưng không có hai thứ đó thì ra chiêu không có 
+    công lực, chưa đánh đã thua rồi.<BR><BR>Ta sẽ chỉ học những thứ thường dùng 
+    trong XPath thôi, nếu bạn muốn có đầy đủ chi tiết về XPath thì có thể tham 
+    khão Specification của nó ở <A 
+    href="http://www.w3c.org/TR/xpath">http://www.w3c.org/TR/xpath</A>.<BR>
+    <H3><FONT color=green>XML như một cây đối với XPath</FONT></H3>XPath cho ta 
+    cú pháp để diễn tả cách đi lại trong XML. Ta coi một tài liệu XML như được 
+    đại diện bằng một tree (cây) có nhiều nodes. Mỗi Element hay Attribute là 
+    một node. Để minh họa ý niệm nầy, bạn hãy quan sát tài liệu đặt hàng (order) 
+    XML sau: 
+    <BLOCKQUOTE>
+      <TABLE bgColor=#f6f6f6>
+        <TBODY>
+        <TR>
+          <TD><FONT size=3><PRE><FONT color=red>&lt;?</FONT><FONT color=magenta>xml</FONT><FONT color=green> version<FONT color=blue>=</FONT>"1.0"</FONT><FONT color=red>?&gt;</FONT>
+<FONT color=red>&lt;</FONT><FONT color=blue>Order</FONT><FONT color=green> OrderNo<FONT color=blue>=</FONT>"1047"</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>OrderDate</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>2002-03-26</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>OrderDate</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Customer</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>John Costello</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Customer</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>"1" UnitPrice<FONT color=blue>=</FONT>"70"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Chair</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>6</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;</FONT><FONT color=blue>Item</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Product</FONT><FONT color=green> ProductID<FONT color=blue>=</FONT>"2" UnitPrice<FONT color=blue>=</FONT>"250"</FONT><FONT color=red>&gt;</FONT><FONT color=black>Desk</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Product</FONT><FONT color=red>&gt;</FONT>
+      <FONT color=red>&lt;</FONT><FONT color=blue>Quantity</FONT><FONT color=green></FONT><FONT color=red>&gt;</FONT><FONT color=black>1</FONT><FONT color=red>&lt;/</FONT><FONT color=blue>Quantity</FONT><FONT color=red>&gt;</FONT>
+   <FONT color=red>&lt;/</FONT><FONT color=blue>Item</FONT><FONT color=red>&gt;</FONT>
+<FONT color=red>&lt;/</FONT><FONT color=blue>Order</FONT><FONT color=red>&gt;</FONT>
+</FONT></PRE></TD></TR></TBODY></TABLE><BR></BLOCKQUOTE><BR>Ta có thể biểu 
+    diễn XML trên bằng một Tree như dưới đây, trong đó node Element màu nâu, 
+    node Attribute màu xanh: 
+    <BLOCKQUOTE><IMG height=518 
+      src="BAI 2 DI LAI TRONG XML BANG XPATH P1_files/XPathTree.gif" 
+    width=534></BLOCKQUOTE>
+    <H3><FONT color=green>Chỉ định Location Path</FONT></H3>Bạn có thể dùng 
+    XPath expression để chỉ định <B>Location Path</B> (lối đi đến vị trí) đến 
+    node nào hay trích ra (trả về) một hay nhiều nodes thỏa đúng điều kiện yêu 
+    cầu. XPath expression có thể là <B>tuyệt đối</B>, tức là lấy node gốc làm 
+    chuẩn hay <B>tương đối</B>, tức là khởi đầu từ node vừa mới được chọn. Node 
+    ấy được gọi là <B>context node</B> (node vai chính trong tình 
+    huống).<BR><BR>Có hai cách viết để diễn tả XPath Location, viết nguyên và 
+    viết tắt. Trong cả hai cách ta đều dùng dấu slash (<B>/</B>) để nói đến 
+    <B>Document Element</B>, tức là node gốc. Ta có thể đi lại trong các node 
+    của Tree giống giống như các node của Windows System Directory mà ta thấy 
+    trong Panel bên trái của Window Explorer. Ta cũng sẽ dùng những ký hiệu như 
+    slash <B>/</B>, một chấm <B>.</B> và hai chấm <B>..</B> của Windows System 
+    File Folder cho cách viết tắt trong XPath Location để đi xuống các nodes 
+    con, cháu, chỉ định context node, hay đi ngược lên các nodes tổ 
+tiên.<BR><BR>
+    <H3><FONT color=green>Location Path tuyệt đối</FONT></H3>Chúng ta hãy tìm 
+    vài location paths trong cái Tree của tài liệu XML về đặt hàng nói trên. 
+    Muốn chọn cái node của Element <I>Order</I> (nó cũng là Root Element) bằng 
+    cú pháp nguyên, ta sẽ dùng XPath expression sau đây: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/child::Order
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Dịch ra cú pháp tắt, expression 
+    nầy trở nên: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/Order
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Đi ra nhánh của Tree, ta sẽ tìm 
+    được node <I>Customer</I> bằng cách dùng XPath expression sau: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/child::Order/child::Customer
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Sau đây là XPath expression viết 
+    tắt tương đương: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/Order/Customer
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Nếu bạn muốn lấy ra một node 
+    Attribute, bạn phải nói rõ điều nầy bằng cách dùng từ chìa khóa (keyword) 
+    <B>attribute</B> trong cách viết nguyên hay dùng character <B>@</B> trong cú 
+    pháp tắt. Do đó để lấy Attribute <I>OrderNo</I> của Element <I>Order</I>, ta 
+    sẽ dùng XPath expression sau: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/child::Order/attribute::OrderNo
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Cú pháp tắt cho Attribute 
+    <I>OrderNo</I> là: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/Order/@OrderNo
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Để trích ra các nodes con cháu, 
+    tức là các nodes nhánh xa hơn, ta dùng keyword <B>descendant</B> trong cú 
+    pháp nguyên hay một double slash (//) trong cú pháp tắt. Thí dụ, để lấy ra 
+    các nodes Product trong tài liệu, bạn có thể dùng expression location path 
+    sau: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/child::Order/descendant::Product
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Cú pháp tắt tương đương là: 
+    <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/Order//Product
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Bạn cũng có thể dùng wildcards 
+    (lá bài Joker) để nói đến những nodes mà tên của chúng không thành vấn đề. 
+    Thí dụ, dấu asterisk (*) wildcard chỉ định bất cứ node tên nào. Location 
+    path sau đây chọn tất cả các nodes con của Element <I>Order</I>: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/child::Order/child::*
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Cú pháp tắt tương đương là: 
+    <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/Order/*
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>
+    <H3><FONT color=green>Location Path tương đối</FONT></H3>Nhiều khi XPath 
+    location paths là tương đối với context node, trong trường hợp ấy location 
+    path diễn tả cách lấy ra một node hay một số (set of) nodes tương đối với 
+    context node. Thí dụ như, nếu Element <I>Item</I> thứ nhất trong 
+    <I>order</I> là context node, thì location path tương đối để trích ra 
+    Element con <I>Quantity</I> là: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;child::Quantity
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Trong cú pháp tắt, location path 
+    tương đối là: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;Quantity
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Tương tự như vậy, để lấy ra 
+    Attribute <I>ProductID</I> của Element con <I>Product</I>, cái location path 
+    tương đối là: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;child::Product/attribute::ProductID
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Expression ấy dịch ra cú pháp tắt 
+    là: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;Product/@ProductID
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Để đi ngược lên phía trên của 
+    Tree, ta dùng keyword <B>parent</B> (cha). Dạng tắt tương đương của keyword 
+    nầy là hai dấu chấm (<B>..</B>). Thí dụ nếu context node là Element 
+    <I>OrderDate</I>, thì Attribute <I>OrderNo</I> có thể được lấy ra từ Element 
+    <I>Order</I> bằng cách dùng location path tương đối sau: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;parent::Order/attribute::OrderNo
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Để ý là cú pháp nầy chỉ trả về 
+    một trị số khi node cha tên <I>Order</I>. Nếu muốn lấy ra Attribute 
+    <I>OrderNo</I> từ node cha không cần biết nó tên gì bạn phải dùng expression 
+    sau: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;parent::*/attribute::OrderNo
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Viết theo kiểu tắt đơn giản hơn 
+    vì bạn không cần phải cung cấp tên của node cha. Bạn có thể nói đến node cha 
+    bằng cách dùng hai dấu chấm (<B>..</B>) như sau: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;../@OrderNo
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Ngoài ra, bạn có thể nói đến 
+    chính context node bằng cách dùng hoặc keyword <B>self</B> hoặc một dấu chấm 
+    (<B>.</B>). Điều nầy rất tiện trong vài trường hợp, nhất là khi bạn muốn 
+    biết current context node là node nào. 
+    <H3><FONT color=green>Dùng điều kiện trong Location Path</FONT></H3>Bạn có 
+    thể giới hạn số nodes lấy về bằng cách gắn thêm điều kiện sàng lọc vào 
+    location path. Cái điều kiện giới hạn một hay nhiều nodes được tháp vào 
+    expression bên trong một cặp ngoặc vuông (<B>[]</B>). Thí dụ, để lấy ra mọi 
+    Element <I>Product</I> có Attribute <I>UnitPrice</I> lớn hơn 70, bạn có thể 
+    dùng XPath expression sau đây: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/child::Order/child::Item/child::Product[attribute::UnitPrice&gt;70]
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Trong cú pháp tắt, nó là: 
+<BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/Order/Item/Product[@UnitPrice&gt;70]
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Trong expression của điều kiện 
+    bạn cũng có thể dùng Xpath tương đối , do đó trong expression điều kiện bạn 
+    có thể dùng bất cứ node nào trong thứ bậc. Thí dụ sau đây lấy về những nodes 
+    <I>Item</I> có Element con <I>Product</I> với Attibute <I>ProductID</I> trị 
+    số bằng 1: <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/child::Order/child::Item[child::Product/attribute::ProductID=1]
+</FONT></PRE></TD></TR></TBODY></TABLE><BR>Dịch ra cú pháp tắt, ta có: 
+    <BR><BR>
+    <TABLE bgColor=#f6f6f6>
+      <TBODY>
+      <TR>
+        <TD><FONT size=3><PRE>&nbsp;&nbsp;/Order/Item[Product/@ProductID=1]
+</FONT></PRE></TD></TR></TBODY></TABLE><BR><BR><I><B>(còn tiếp)</B></I> 
+    <BR><BR><BR><A href="http://www.vovisoft.com/"><IMG height=40 
+    src="BAI 2 DI LAI TRONG XML BANG XPATH P1_files/homejump.gif" 
+    width=40><A>&nbsp;&nbsp;<A 
+    href="http://www.vovisoft.com/XML/default.htm">Học 
+  XML</A><BR><BR></BLOCKQUOTE></FONT><!-- Start of bottom bar for copyright notice etc -->
+  <TABLE class=clsNavLinks id=tblFooterLinks cellSpacing=0 cellPadding=0 
+  width="100%" border=0>
+    <TBODY>
+    <TR>
+      <TD class=clsRaised width=785 bgColor=#6699cc colSpan=5>
+        <P align=center><FONT face=Tahoma color=#ffffff size=1>Vovisoft © 2000. 
+        All rights reserved.</FONT></P></TD></TR>
+    <TR>
+      <TD width=256>
+        <P align=center><FONT face=Tahoma size=1>&nbsp;&nbsp; Last Updated: <!--webbot 
+      bot="Timestamp" S-Type="REGENERATED" S-Format="%d %b %Y" startspan -->23 
+        Dec 2003<!--webbot 
+      bot="Timestamp" endspan i-checksum="14404" --> </FONT></P></TD>
+      <TD width=181><FONT face=Tahoma size=1>&nbsp;</FONT></TD>
+      <TD width=258>
+        <P align=center><FONT face=Tahoma size=1><A 
+        href="mailto:dixon@vovisoft.com">Webmaster</A></FONT></P></TD></TR></TBODY></TABLE><BR><BR></BLOCKQUOTE></BODY></HTML>

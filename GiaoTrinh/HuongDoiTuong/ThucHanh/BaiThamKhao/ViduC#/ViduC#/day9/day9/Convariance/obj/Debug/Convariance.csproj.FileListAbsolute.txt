@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day9\day9\Convariance\bin\Debug\Convariance.exe
+D:\E-SPKT\OOPC#\day9\day9\Convariance\bin\Debug\Convariance.pdb
+D:\E-SPKT\OOPC#\day9\day9\Convariance\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day9\day9\Convariance\obj\Debug\Convariance.exe
+D:\E-SPKT\OOPC#\day9\day9\Convariance\obj\Debug\Convariance.pdb

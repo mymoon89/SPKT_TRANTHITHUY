@@ -1,0 +1,7 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo6\BaiTapSo6\bin\Debug\BaiTapSo6.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo6\BaiTapSo6\bin\Debug\BaiTapSo6.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo6\BaiTapSo6\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo6\BaiTapSo6\obj\Debug\BaiTapSo6.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapSo6\BaiTapSo6\obj\Debug\BaiTapSo6.pdb
+H:\PHIM\USB 6\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapSo6\BaiTapSo6\obj\Debug\BaiTapSo6.exe
+H:\PHIM\USB 6\08110061_NGUYEN NGOC LEN_LTHDT_LAN 1\BaiTapSo6\BaiTapSo6\obj\Debug\BaiTapSo6.pdb

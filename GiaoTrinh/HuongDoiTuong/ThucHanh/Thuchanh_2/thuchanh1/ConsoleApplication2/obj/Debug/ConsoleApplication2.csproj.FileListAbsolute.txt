@@ -1,0 +1,12 @@
+C:\Documents and Settings\d304\Desktop\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Documents and Settings\d304\Desktop\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Documents and Settings\d304\Desktop\ConsoleApplication2\ConsoleApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Documents and Settings\d304\Desktop\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+E:\LI DEN\hướng đối tượng\tranthithuy 08110123\thuchanh1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+E:\LI DEN\hướng đối tượng\tranthithuy 08110123\thuchanh1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+E:\LI DEN\hướng đối tượng\tranthithuy 08110123\thuchanh1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+E:\LI DEN\hướng đối tượng\tranthithuy 08110123\thuchanh1\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+E:\LI DEN\hướng đối tượng\tranthithuy 08110123\thuchanh1\ConsoleApplication2\obj\Debug\ResolveAssemblyReference.cache
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

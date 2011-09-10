@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayJig\bin\Debug\ArrayJig.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayJig\bin\Debug\ArrayJig.pdb
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayJig\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayJig\obj\Debug\ArrayJig.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayJig\obj\Debug\ArrayJig.pdb

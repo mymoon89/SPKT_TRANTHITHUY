@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Flyweight.Structural.exe
+bin\Debug\DoFactory.GangOfFour.Flyweight.Structural.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Flyweight.Structural.exe
+obj\Debug\DoFactory.GangOfFour.Flyweight.Structural.pdb

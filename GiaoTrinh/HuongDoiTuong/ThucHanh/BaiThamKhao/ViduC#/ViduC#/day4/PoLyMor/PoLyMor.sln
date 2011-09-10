@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoLyMor", "PoLyMor\PoLyMor.csproj", "{27EC1923-8777-48F3-85DE-EB4D80579F8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27EC1923-8777-48F3-85DE-EB4D80579F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EC1923-8777-48F3-85DE-EB4D80579F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EC1923-8777-48F3-85DE-EB4D80579F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EC1923-8777-48F3-85DE-EB4D80579F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

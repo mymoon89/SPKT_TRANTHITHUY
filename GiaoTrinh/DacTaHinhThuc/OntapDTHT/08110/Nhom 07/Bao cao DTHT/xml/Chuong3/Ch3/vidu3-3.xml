@@ -1,0 +1,19 @@
+<hr:employee   xmlns:hr="http://www.hr.com/human_resources">
+    <hr:name>
+        <hr:firstname>Nguyen</hr:firstname>
+	<hr:lastname>Son Nam</hr:lastname>
+     </hr:name>
+    <hr:hiredate>July 15, 2005</hr:hiredate>
+    <hr:projects>
+        <hr:project>
+            <hr:product>Printer</hr:product>
+            <hr:id>111</hr:id>
+            <hr:price>$111.00</hr:price>
+        </hr:project>
+        <hr:project>
+            <hr:product>Laptop</hr:product>
+            <hr:id>222</hr:id>
+            <hr:price>$989.00</hr:price>
+        </hr:project>
+    </hr:projects>
+</hr:employee>

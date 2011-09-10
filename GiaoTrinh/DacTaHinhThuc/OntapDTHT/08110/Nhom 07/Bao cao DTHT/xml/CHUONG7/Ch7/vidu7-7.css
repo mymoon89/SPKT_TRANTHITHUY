@@ -1,0 +1,9 @@
+document{display:table; border-style:solid}
+headers{display:table-header-group;}
+header{display:table-cell; padding:6px;background-color:lightblue; font-weight:bold;border-style:solid}
+staffs{display:table-row-group}
+staff{display:table-row}
+firstName{display:table-cell; padding:6px; border-bottom:solid 1px}
+lastName{display:table-cell; padding:6px; border-bottom:solid 1px}
+amount{display:table-cell; border-bottom:solid 1px}
+

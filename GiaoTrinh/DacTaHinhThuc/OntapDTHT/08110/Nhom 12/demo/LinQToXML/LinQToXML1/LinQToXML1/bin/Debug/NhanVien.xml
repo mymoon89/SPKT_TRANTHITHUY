@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NhanVienS>
+  <NhanVien MaNhanVien="NV001">
+    <HoTen>Ngoc Trinh</HoTen>
+    <NgaySinh>18/3/1990</NgaySinh>
+    <GioiTinh>Nữ</GioiTinh>
+    <DiaChi>TP HCM</DiaChi>
+    <SoDT>0978888777</SoDT>
+  </NhanVien>
+  <NhanVien MaNhanVien="NV002">
+    <HoTen>Le Quang Thai</HoTen>
+    <NgaySinh>25/4/2011</NgaySinh>
+    <GioiTinh>Nam</GioiTinh>
+    <DiaChi>Quảng Ngãi</DiaChi>
+    <SoDT>0912345678</SoDT>
+  </NhanVien>
+  <NhanVien MaNhanVien="NV003">
+    <HoTen>Trương Ngọc Ánh</HoTen>
+    <NgaySinh>25/4/2011</NgaySinh>
+    <GioiTinh>Nữ</GioiTinh>
+    <DiaChi>Ly MC</DiaChi>
+    <SoDT>0988745456</SoDT>
+  </NhanVien>
+  <NhanVien MaNhanVien="NV004">
+    <HoTen>Phạm Quỳnh Anh</HoTen>
+    <NgaySinh>12/5/1999</NgaySinh>
+    <GioiTinh>Nam</GioiTinh>
+    <DiaChi>Đà Nẵng</DiaChi>
+    <SoDT>I don't know!</SoDT>
+  </NhanVien>
+  <NhanVien MaNhanVien="NV005">
+    <HoTen>huynh cong ly</HoTen>
+    <NgaySinh>24/5/2011</NgaySinh>
+    <GioiTinh>Nam</GioiTinh>
+    <DiaChi>tp</DiaChi>
+    <SoDT>90809</SoDT>
+  </NhanVien>
+</NhanVienS>

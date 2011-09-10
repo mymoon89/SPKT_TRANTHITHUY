@@ -1,0 +1,7 @@
+D:\E-SPKT\OOPC#\day9\vidu\vidu\bin\Debug\vidu.exe
+D:\E-SPKT\OOPC#\day9\vidu\vidu\bin\Debug\vidu.pdb
+D:\E-SPKT\OOPC#\day9\vidu\vidu\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day9\vidu\vidu\obj\Debug\vidu.exe
+D:\E-SPKT\OOPC#\day9\vidu\vidu\obj\Debug\vidu.pdb
+D:\SPKT\OOPC#\day9\vidu\vidu\obj\Debug\vidu.exe
+D:\SPKT\OOPC#\day9\vidu\vidu\obj\Debug\vidu.pdb

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE para [
+<!ELEMENT para (#PCDATA | link | emphasis)*>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT emphasis (#PCDATA)>
+]>
+<para>
+This is a 
+<emphasis>paragraph</emphasis> 
+element.It contains this 
+<link >ref="http://www.w3.org"</link> 
+to the W3C. Their website is 
+<emphasis>very</emphasis> 
+helpful.
+</para>

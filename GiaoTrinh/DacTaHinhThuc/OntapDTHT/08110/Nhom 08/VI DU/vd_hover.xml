@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="vd_hover.css"?>
+<!DOCTYPE note [
+	<!ELEMENT note ANY>
+	<!ELEMENT to ANY>
+	<!ELEMENT from ANY>
+]>
+<note>
+	<to>Day la tag to co gan thuoc tinh hover</to>
+	<from>Day la tag from khong gan thuoc tinh hover</from>
+</note>

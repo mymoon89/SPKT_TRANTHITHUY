@@ -1,0 +1,7 @@
+D:\SPKT\OOPC#\day5\Employee.cs\Employee.cs\bin\Debug\Employee.cs.exe
+D:\SPKT\OOPC#\day5\Employee.cs\Employee.cs\bin\Debug\Employee.cs.pdb
+D:\SPKT\OOPC#\day5\Employee.cs\Employee.cs\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day5\Employee.cs\Employee.cs\obj\Debug\Employee.cs.Properties.Resources.resources
+D:\SPKT\OOPC#\day5\Employee.cs\Employee.cs\obj\Debug\Day5.csproj.GenerateResource.Cache
+D:\SPKT\OOPC#\day5\Employee.cs\Employee.cs\obj\Debug\Employee.cs.exe
+D:\SPKT\OOPC#\day5\Employee.cs\Employee.cs\obj\Debug\Employee.cs.pdb

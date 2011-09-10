@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE emp:document [
+<!ELEMENT emp:document (emp:employee)*>
+<!ATTLIST emp:document
+    xmlns:emp CDATA #FIXED "http://www.viduxml.com/dtds/">
+<!ELEMENT emp:employee (emp:name, emp:hiredate, emp:projects)>
+<!ELEMENT emp:name (emp:lastname, emp:firstname)>
+<!ELEMENT emp:lastname (#PCDATA)>
+<!ELEMENT emp:firstname (#PCDATA)>
+<!ELEMENT emp:hiredate (#PCDATA)>
+<!ELEMENT emp:projects (emp:project)*>
+<!ELEMENT emp:project (emp:product, emp:id, emp:price)>
+<!ELEMENT emp:product (#PCDATA)>
+<!ELEMENT emp:id (#PCDATA)>
+<!ELEMENT emp:price (#PCDATA)>
+]>
+<emp:document xmlns:emp="http://www.viduxml.com/dtds/">
+    <emp:employee>
+        <emp:name>
+<emp:firstname>Nguyen</emp:firstname>
+            <emp:lastname>Son Nam</emp:lastname>
+            
+        </emp:name>
+        <emp:hiredate>July 15, 2005</emp:hiredate>
+        <emp:projects>
+            <emp:project>
+                <emp:product>Printer</emp:product>
+                <emp:id>HP2300</emp:id>
+                <emp:price>$111.00</emp:price>
+            </emp:project>
+            <emp:project>
+                <emp:product>Laptop</emp:product>
+                <emp:id>DELL1100</emp:id>
+                <emp:price>$989.00</emp:price>
+            </emp:project>
+        </emp:projects>
+    </emp:employee>
+        .
+        .
+        .
+    <emp:employee>
+        <emp:name>
+            <emp:lastname>Kieu Oanh</emp:lastname>
+            <emp:firstname>Le Thi</emp:firstname>
+        </emp:name>
+        <emp:hiredate>October 25, 2005</emp:hiredate>
+        <emp:projects>
+            <emp:project>
+                <emp:product>Keyboard</emp:product>
+                <emp:id>KB555</emp:id>
+                <emp:price>$129.00</emp:price>
+            </emp:project>
+            <emp:project>
+                <emp:product>Mouse</emp:product>
+                <emp:id>MSU11</emp:id>
+                <emp:price>$7.00</emp:price>
+            </emp:project>
+        </emp:projects>
+    </emp:employee>
+</emp:document>
+

@@ -1,0 +1,5 @@
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_7_Mark\bin\Debug\BaiTap_7_Mark.exe
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_7_Mark\bin\Debug\BaiTap_7_Mark.pdb
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_7_Mark\obj\Debug\ResolveAssemblyReference.cache
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_7_Mark\obj\Debug\BaiTap_7_Mark.exe
+D:\University\Semester5\C#\Lap\BaiTapGiaoTrinh\Chuong_9_ Mang_ChiMuc_TapHop\Chuong_9\BaiTap_7_Mark\obj\Debug\BaiTap_7_Mark.pdb

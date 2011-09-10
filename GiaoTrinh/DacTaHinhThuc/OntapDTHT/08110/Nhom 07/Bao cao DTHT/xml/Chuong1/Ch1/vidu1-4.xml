@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note [
+    <!ELEMENT note (to,from,heading,body)>
+    <!ELEMENT to (#PCDATA)>
+    <!ELEMENT from (#PCDATA)>
+    <!ELEMENT heading (#PCDATA)>
+    <!ELEMENT body (#PCDATA)>
+]>
+<note>
+<to>Doc gia</to>
+<from>Nha Sach Minh Khai</from>
+<heading>Tu Sach De Hoc</heading>
+<body>XML - Ngon ngu danh dau mo rong</body>
+</note>

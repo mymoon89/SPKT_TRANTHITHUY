@@ -1,0 +1,10 @@
+D:\E-SPKT\OOPC#\day4\PoLyMor\PoLyMor\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day4\PoLyMor\PoLyMor\bin\Debug\PoLyMor.exe
+D:\E-SPKT\OOPC#\day4\PoLyMor\PoLyMor\bin\Debug\PoLyMor.pdb
+D:\E-SPKT\OOPC#\day4\PoLyMor\PoLyMor\obj\Debug\PoLyMor.exe
+D:\E-SPKT\OOPC#\day4\PoLyMor\PoLyMor\obj\Debug\PoLyMor.pdb
+D:\SPKT\OOPC#\day4\PoLyMor\PoLyMor\obj\Debug\PoLyMor.exe
+D:\SPKT\OOPC#\day4\PoLyMor\PoLyMor\obj\Debug\PoLyMor.pdb
+D:\SPKT\OOPC#\day4\PoLyMor\PoLyMor\bin\Debug\PoLyMor.exe
+D:\SPKT\OOPC#\day4\PoLyMor\PoLyMor\bin\Debug\PoLyMor.pdb
+D:\SPKT\OOPC#\day4\PoLyMor\PoLyMor\obj\Debug\ResolveAssemblyReference.cache

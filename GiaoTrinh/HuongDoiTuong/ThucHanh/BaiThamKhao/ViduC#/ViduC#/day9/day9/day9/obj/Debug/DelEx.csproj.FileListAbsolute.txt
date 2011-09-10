@@ -1,0 +1,7 @@
+D:\E-SPKT\OOPC#\day9\day9\day9\bin\Debug\day9.exe
+D:\E-SPKT\OOPC#\day9\day9\day9\bin\Debug\day9.pdb
+D:\E-SPKT\OOPC#\day9\day9\day9\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day9\day9\day9\obj\Debug\day9.exe
+D:\E-SPKT\OOPC#\day9\day9\day9\obj\Debug\day9.pdb
+D:\SPKT\OOPC#\day9\day9\day9\obj\Debug\day9.exe
+D:\SPKT\OOPC#\day9\day9\day9\obj\Debug\day9.pdb

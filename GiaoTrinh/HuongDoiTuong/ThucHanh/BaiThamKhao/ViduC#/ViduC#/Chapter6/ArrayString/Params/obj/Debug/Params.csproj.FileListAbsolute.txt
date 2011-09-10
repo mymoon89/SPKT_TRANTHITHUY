@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\Chapter6\ArrayString\Params\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter6\ArrayString\Params\bin\Debug\Params.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\Params\bin\Debug\Params.pdb
+D:\SPKT\OOPC#\Chapter6\ArrayString\Params\obj\Debug\Params.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\Params\obj\Debug\Params.pdb

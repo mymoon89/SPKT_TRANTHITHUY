@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayListsEx\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayListsEx\bin\Debug\ArrayListsEx.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayListsEx\bin\Debug\ArrayListsEx.pdb
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayListsEx\obj\Debug\ArrayListsEx.exe
+D:\SPKT\OOPC#\Chapter6\ArrayString\ArrayListsEx\obj\Debug\ArrayListsEx.pdb

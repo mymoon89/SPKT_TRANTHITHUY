@@ -1,0 +1,99 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0051)http://www.vovisoft.com/XML/drhong/TransformXML.htm -->
+<HTML><HEAD><TITLE>Transform XML</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=vi>
+<META 
+content="Visual Basic, VB Programming in Vietnamese, &#13;&#10;Vovisoft, VB6, VB Tutorials, Learn Visual Basic, Internet, Unicode, &#13;&#10;Vietnamese VB tutorials, Database, Asp, Java, Javascript, VBscript, &#13;&#10;FrontPage 2000, XML, Ms Office 2000" 
+name=keywords>
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId><LINK 
+href="TAO HTML TU XML VA XSL_files/topbottom.css" type=text/css 
+rel=stylesheet></HEAD>
+<BODY leftMargin=0 topMargin=65 marginheight="0" marginwidth="0">
+<BLOCKQUOTE>
+  <BLOCKQUOTE><A href="http://www.vovisoft.com/"><IMG height=77 
+    alt="Logo of Vovisoft" src="TAO HTML TU XML VA XSL_files/vs-logo4_10.gif" 
+    width=102 border=0> </A></BLOCKQUOTE></BLOCKQUOTE>
+<CENTER>
+<H2><FONT face=Tahoma color=#800000>Tạo HTML từ XML và XSL</FONT></H2></CENTER>
+<BLOCKQUOTE>
+  <BLOCKQUOTE><FONT face=Tahoma><FONT color=green size=6>T</FONT>hông thường, 
+    nếu bạn định nghĩa bên trong một XML file rằng nó cần một XSL để display thì 
+    Internet Exporer 5.5 sẽ tự transform XML dựa theo XSL và display kết quả 
+    trong browser cho bạn. Trong trường hợp ấy nếu bạn View Source của Webpage 
+    bạn chỉ đọc đuợc XML source mà thôi. Có thể bạn sẽ thắc mắc sao không thấy 
+    cái HTML source là kết quả của quá trình <B>Tranform</B> XML.<BR>Trong 
+    chương trình VB6 trình bày tại đây bạn sẽ thấy cách dùng <B>DOM (Document 
+    Object Model) </B>của MSXML để thực hiện công việc tương đương với IE 5.5 và 
+    save kết quả HTML thành một Webpage . Webpage nầy có thể được display, độc 
+    lập với XML, bằng bất cứ WebBrowser nào.Thật ra, ActiveX MSXML mà ta dùng 
+    cho VB6 là của IE 5.5 khi ta Project | Reference <B>"Microsoft XML, 
+    v3.0"</B>. 
+    <H3><FONT face=Tahoma color=green>Chương trình mẫu </FONT></H3><FONT 
+    face=Tahoma>Bạn có thể <A 
+    href="http://www.vovisoft.com/XML/drhong/TransformXML.zip">download chương 
+    trình mẫu <B>TransformXML.zip</B></A> để xem cách thảo chương rất đơn giản. 
+    <BR>
+    <BLOCKQUOTE><IMG height=536 
+      src="TAO HTML TU XML VA XSL_files/TransformXML.jpg" width=750 
+    border=0></BLOCKQUOTE><BR>Phần chính của chương trình nằm trong Sub 
+    Form_Load như liệt ra dưới đây. Bạn có thể xem listing và giải thích về cách 
+    transform <B>Library.xml</B> dựa trên <B>Library.xsl</B> trong bài <A 
+    href="http://www.vovisoft.com/XML/drhong/xmltechnology.htm#TransformXML">XML, 
+    Kỹ thuật tin học nòng cốt trong tương lai.</A><BR>
+    <BLOCKQUOTE>
+      <BLOCKQUOTE>
+        <TABLE bgColor=#f6f6f6>
+          <TBODY>
+          <TR>
+            <TD><FONT size=3><PRE><FONT color=blue>Private</FONT> <FONT color=blue>Sub</FONT> Form_Load() 
+   <FONT color=blue>Dim</FONT> HTMLCode <FONT color=blue>As</FONT> <FONT color=blue>String</FONT> 
+   <FONT color=green>' Need to Project | References "Microsoft XML, v3.0" to use DOM</FONT>
+   <FONT color=blue>Dim</FONT> myXMLDoc <FONT color=blue>As</FONT> <FONT color=blue>New</FONT> MSXML2.DOMDocument30 
+   <FONT color=blue>Dim</FONT> myXSLDoc <FONT color=blue>As</FONT> <FONT color=blue>New</FONT> MSXML2.DOMDocument30 
+   <FONT color=green>' Need to Project | References "Microsoft Script Runtime" to use</FONT>
+   <FONT color=green>'   FileSystemObject and TextStream</FONT>
+   <FONT color=blue>Dim</FONT> Fs <FONT color=blue>As</FONT> FileSystemObject 
+   <FONT color=blue>Dim</FONT> TS <FONT color=blue>As</FONT> TextStream 
+   <FONT color=green>' Display the XML file in a listbox</FONT>
+   PopulateListBoxFromFile LstXML, "Library.xml", <FONT color=blue>False</FONT> 
+   <FONT color=green>' Display the XSL file in a listbox</FONT>
+   PopulateListBoxFromFile lstXSL, "Library.xsl", <FONT color=blue>False</FONT> 
+   <FONT color=green>' Load the XML file</FONT>
+   myXMLDoc.Load App.Path &amp; "\Library.xml" 
+   <FONT color=green>' Load the XSL file</FONT>
+   myXSLDoc.Load App.Path &amp; "\Library.xsl" 
+   <FONT color=green>' Transform XML by XSL to give HTML</FONT>
+   HTMLCode = myXMLDoc.transformNode(myXSLDoc) 
+   <FONT color=green>' Now Write the resultant HTML to file</FONT>
+   <FONT color=green>' Create a FileSystem Object</FONT>
+   <FONT color=blue>Set</FONT> Fs = CreateObject("Scripting.FileSystemObject") 
+   <FONT color=green>' Open TextStream for Output</FONT>
+   <FONT color=blue>Set</FONT> TS = Fs.OpenTextFile(App.Path &amp; "\Library.htm", ForWriting, False, TristateUseDefault) 
+   TS.Write HTMLCode  <FONT color=green>' Write the whole HTML string in one stroke</FONT>
+   TS.Close  <FONT color=green>' Close the Text Stream</FONT>
+   <FONT color=blue>Set</FONT> Fs = <FONT color=blue>Nothing</FONT>  <FONT color=green>' Dispose FileSystem Object</FONT>
+   <FONT color=green>' Display the HTML file in a listbox</FONT>
+   PopulateListBoxFromFile lstHTML, "Library.htm", <FONT color=blue>False</FONT> 
+<FONT color=blue>End</FONT> <FONT color=blue>Sub</FONT> 
+</PRE></FONT></TD></TR></TBODY></TABLE></BLOCKQUOTE></BLOCKQUOTE><BR><BR><A 
+    href="http://www.vovisoft.com/"><IMG height=40 
+    src="TAO HTML TU XML VA XSL_files/homejump.gif" width=40>&nbsp;&nbsp;<A 
+    href="http://www.vovisoft.com/xml">Kỹ thuật XML</A> 
+</BLOCKQUOTE></BLOCKQUOTE>&nbsp; 
+<TABLE class=clsNavLinks id=tblFooterLinks cellSpacing=0 cellPadding=0 
+width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD class=clsRaised width=785 bgColor=#6699cc colSpan=5>
+      <P align=center><FONT face=Tahoma color=#ffffff size=1>Vovisoft © 2000. 
+      All rights reserved.</FONT></P></TD></TR>
+  <TR>
+    <TD width=256>
+      <P align=center><FONT face=Tahoma size=1>&nbsp;&nbsp; Last Updated: 20 
+      June 2001 </FONT></P></TD>
+    <TD width=181><FONT face=Tahoma size=1>&nbsp;</FONT></TD>
+    <TD width=258>
+      <P align=center><A href="mailto:dixon@vovisoft.com"><FONT face=Tahoma 
+      size=1>Webmaster</FONT></A></P></TD></TR></TBODY></TABLE></FONT></FONT></BODY></HTML>

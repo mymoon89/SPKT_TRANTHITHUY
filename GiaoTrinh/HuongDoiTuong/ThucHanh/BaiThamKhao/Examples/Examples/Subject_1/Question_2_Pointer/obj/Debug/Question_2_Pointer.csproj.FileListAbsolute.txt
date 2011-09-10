@@ -1,0 +1,5 @@
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_1\Question_2_Pointer\obj\Debug\ResolveAssemblyReference.cache
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_1\Question_2_Pointer\bin\Debug\Question_2_Pointer.exe
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_1\Question_2_Pointer\bin\Debug\Question_2_Pointer.pdb
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_1\Question_2_Pointer\obj\Debug\Question_2_Pointer.exe
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_1\Question_2_Pointer\obj\Debug\Question_2_Pointer.pdb

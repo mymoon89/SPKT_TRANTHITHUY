@@ -1,0 +1,9 @@
+D:\E-SPKT\OOPC#\day3\Test1\Test1\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day3\Test1\Test1\obj\Debug\Test1.Properties.Resources.resources
+D:\E-SPKT\OOPC#\day3\Test1\Test1\obj\Debug\Test1.csproj.GenerateResource.Cache
+D:\E-SPKT\OOPC#\day3\Test1\Test1\bin\Debug\Test1.exe
+D:\E-SPKT\OOPC#\day3\Test1\Test1\bin\Debug\Test1.pdb
+D:\E-SPKT\OOPC#\day3\Test1\Test1\obj\Debug\Test1.exe
+D:\E-SPKT\OOPC#\day3\Test1\Test1\obj\Debug\Test1.pdb
+D:\SPKT\OOPC#\day3\Test1\Test1\obj\Debug\Test1.exe
+D:\SPKT\OOPC#\day3\Test1\Test1\obj\Debug\Test1.pdb

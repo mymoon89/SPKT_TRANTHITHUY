@@ -1,0 +1,10 @@
+D:\SPKT\OOPC#\ChapterString\StringTester\RegexIMatch\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\ChapterString\StringTester\RegexIMatch\bin\Debug\RegexIMatch.exe
+D:\SPKT\OOPC#\ChapterString\StringTester\RegexIMatch\bin\Debug\RegexIMatch.pdb
+D:\SPKT\OOPC#\ChapterString\StringTester\RegexIMatch\obj\Debug\RegexIMatch.exe
+D:\SPKT\OOPC#\ChapterString\StringTester\RegexIMatch\obj\Debug\RegexIMatch.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\RegexIMatch\bin\Debug\RegexIMatch.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\RegexIMatch\bin\Debug\RegexIMatch.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\RegexIMatch\obj\Debug\ResolveAssemblyReference.cache
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\RegexIMatch\obj\Debug\RegexIMatch.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\ViduC#\ViduC#\ChapterString\StringTester\RegexIMatch\obj\Debug\RegexIMatch.pdb

@@ -1,0 +1,12 @@
+C:\Documents and Settings\NGOCLEN.SPKIT\Local Settings\Application Data\Temporary Projects\BaiTapThucHanhSo02\bin\Release\BaiTapThucHanhSo02.exe
+C:\Documents and Settings\NGOCLEN.SPKIT\Local Settings\Application Data\Temporary Projects\BaiTapThucHanhSo02\bin\Release\BaiTapThucHanhSo02.pdb
+C:\Documents and Settings\NGOCLEN.SPKIT\Local Settings\Application Data\Temporary Projects\BaiTapThucHanhSo02\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\NGOCLEN.SPKIT\Local Settings\Application Data\Temporary Projects\BaiTapThucHanhSo02\obj\Release\BaiTapThucHanhSo02.exe
+C:\Documents and Settings\NGOCLEN.SPKIT\Local Settings\Application Data\Temporary Projects\BaiTapThucHanhSo02\obj\Release\BaiTapThucHanhSo02.pdb
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo02\BaiTapThucHanhSo02\obj\Release\BaiTapThucHanhSo02.exe
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo02\BaiTapThucHanhSo02\obj\Release\BaiTapThucHanhSo02.pdb
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo02\BaiTapThucHanhSo02\bin\Release\BaiTapThucHanhSo02.exe
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo02\BaiTapThucHanhSo02\bin\Release\BaiTapThucHanhSo02.pdb
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo02\BaiTapThucHanhSo02\bin\Release\ToanHoc.dll
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo02\BaiTapThucHanhSo02\bin\Release\ToanHoc.pdb
+D:\NGUYEN NGOC LEN SPKIT 2\+MON LAP TRINH HUONG DOI TUONG\08110061_NGUYEN NGOC LEN_LTHDT_LAN 2\BaiTapThucHanhSo02\BaiTapThucHanhSo02\obj\Release\ResolveAssemblyReference.cache

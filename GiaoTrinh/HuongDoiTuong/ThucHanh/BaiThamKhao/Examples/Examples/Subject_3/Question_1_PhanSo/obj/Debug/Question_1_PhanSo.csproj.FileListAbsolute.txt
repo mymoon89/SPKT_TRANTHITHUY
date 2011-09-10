@@ -1,0 +1,5 @@
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_3\Question_1_PhanSo\bin\Debug\Question_1_PhanSo.exe
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_3\Question_1_PhanSo\bin\Debug\Question_1_PhanSo.pdb
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_3\Question_1_PhanSo\obj\Debug\ResolveAssemblyReference.cache
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_3\Question_1_PhanSo\obj\Debug\Question_1_PhanSo.exe
+D:\University\Semester5\C#\Lap\Examples\Examples\Subject_3\Question_1_PhanSo\obj\Debug\Question_1_PhanSo.pdb

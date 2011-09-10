@@ -1,0 +1,6 @@
+D:\E-SPKT\OOPC#\day9\ConsoleApplication1\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day9\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\E-SPKT\OOPC#\day9\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\E-SPKT\OOPC#\day9\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\E-SPKT\OOPC#\day9\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\SPKT\OOPC#\day9\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe

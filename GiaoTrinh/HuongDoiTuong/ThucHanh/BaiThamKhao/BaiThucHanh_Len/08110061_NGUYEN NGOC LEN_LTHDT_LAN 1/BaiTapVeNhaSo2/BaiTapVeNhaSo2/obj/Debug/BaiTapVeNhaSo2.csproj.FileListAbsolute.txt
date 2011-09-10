@@ -1,0 +1,5 @@
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapVeNhaSo2\BaiTapVeNhaSo2\bin\Debug\BaiTapVeNhaSo2.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapVeNhaSo2\BaiTapVeNhaSo2\bin\Debug\BaiTapVeNhaSo2.pdb
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapVeNhaSo2\BaiTapVeNhaSo2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapVeNhaSo2\BaiTapVeNhaSo2\obj\Debug\BaiTapVeNhaSo2.exe
+C:\Documents and Settings\d304\My Documents\Visual Studio 2008\Projects\BaiTapVeNhaSo2\BaiTapVeNhaSo2\obj\Debug\BaiTapVeNhaSo2.pdb

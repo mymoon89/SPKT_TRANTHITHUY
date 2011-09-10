@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day1\ViDuTrongTaiLieu\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day1\ViDuTrongTaiLieu\bin\Debug\ViDuTrongTaiLieu.exe
+D:\SPKT\OOPC#\day1\ViDuTrongTaiLieu\bin\Debug\ViDuTrongTaiLieu.pdb
+D:\SPKT\OOPC#\day1\ViDuTrongTaiLieu\obj\Debug\ViDuTrongTaiLieu.exe
+D:\SPKT\OOPC#\day1\ViDuTrongTaiLieu\obj\Debug\ViDuTrongTaiLieu.pdb

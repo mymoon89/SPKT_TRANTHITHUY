@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE SEASON SYSTEM "Baseball_Statistics.dtd">
+<SEASON YEAR="1998">
+	<LEAGUE NAME="National League">
+		<DIVISION NAME="East">
+			<TEAM CITY="Atlanta" NAME="Braves">
+				<PLAYER GIVEN_NAME="Marty" SURNAME="Malloy" POSITION="”Second Base" GAMES="11" GAMES_STARTED="8" AT_BATS="28" RUNS="3" HITS="5" DOUBLES="1" TRIPLES="0" HOME_RUNS="1" RBI="1" STEALS="0" CAUGHT_STEALING="0" SACRIFICE_HITS="0" SACRIFICE_FLIES="0" ERRORS="0" WALKS="2" STRUCK_OUT="2" HIT_BY_PITCH="0"/>
+				<PLAYER GIVEN_NAME="Tom" SURNAME="Glavine" POSITION="”Starting Pitcher" GAMES="33" GAMES_STARTED="33" WINS="20" LOSSES="6" SAVES="0" COMPLETE_GAMES="4" SHUTOUTS="3" ERA="2.47" INNINGS="229.1" HOME_RUNS_AGAINST="13" RUNS_AGAINST="67" EARNED_RUNS="63" HIT_BATTER="2" WILD_PITCHES="3" BALK="0" WALKED_BATTER="74" STRUCK_OUT_BATTER="157"/>
+			</TEAM>
+		</DIVISION>
+		<DIVISION NAME="Central">
+			<TEAM CITY="Chicago" NAME="Cubs">
+			</TEAM>
+		</DIVISION>
+		<DIVISION NAME="West">
+			<TEAM CITY="San Francisco" NAME="Giants">
+			</TEAM>
+		</DIVISION>
+	</LEAGUE>
+	<LEAGUE NAME="American League">
+		<DIVISION NAME="East">
+			<TEAM CITY="New York" NAME="Yankees">
+			</TEAM>
+		</DIVISION>
+		<DIVISION NAME="Central">
+			<TEAM CITY="Minnesota" NAME="Twins">
+			</TEAM>
+		</DIVISION>
+		<DIVISION NAME="West">
+			<TEAM CITY="Oakland" NAME="Athletics">
+			</TEAM>
+		</DIVISION>
+	</LEAGUE>
+</SEASON>

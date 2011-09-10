@@ -1,0 +1,13 @@
+Mon Oct 11 1999
+
+ERRATA to Script Junkie column in Web Techniques
+
+Since this article was written, the XSLT specification at
+http://www.w3.org/TR/xslt has changed.  This archive contains modified versions
+of hello.xsl and world.xml, examples used in the article, which reflect the
+updated specification.
+
+For full details, see
+http://www.w3.org/TR/xslt#section-Changes-from-Last-Call-Working-Draft
+
+Edd Dumbill, edd@usefulinc.com

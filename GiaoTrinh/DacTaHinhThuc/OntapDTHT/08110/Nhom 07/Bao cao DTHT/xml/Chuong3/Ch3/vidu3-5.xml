@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<hr:employee   xmlns:hr="http://www.hr.com/human_resources">
+    <hr:name>
+			<hr:firstname>Nguyen</hr:firstname>
+        <hr:lastname>Vuong</hr:lastname>
+        </hr:name>
+    <hr:hiredate>October 15, 2005</hr:hiredate>
+    <boss:comment
+ xmlns:boss="http://www.duperbigco.com/big_boss"
+        boss:date="10/15/2006">
+        Needs much supervision.
+    </boss:comment>
+    <hr:projects>
+        <hr:project>
+            <hr:product>Printer</hr:product>
+            <hr:id>111</hr:id>
+            <hr:price>$111.00</hr:price>
+        </hr:project>
+        <hr:project>
+            <hr:product>Laptop</hr:product>
+            <hr:id>222</hr:id>
+            <hr:price>$989.00</hr:price>
+        </hr:project>
+    </hr:projects>
+</hr:employee>

@@ -1,0 +1,10 @@
+C:\Documents and Settings\d304\Desktop\08110121_Bai1\08110121_Bai1\bin\Debug\08110121_Bai1.exe
+C:\Documents and Settings\d304\Desktop\08110121_Bai1\08110121_Bai1\bin\Debug\08110121_Bai1.pdb
+C:\Documents and Settings\d304\Desktop\08110121_Bai1\08110121_Bai1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\08110121_Bai1\08110121_Bai1\obj\Debug\08110121_Bai1.exe
+C:\Documents and Settings\d304\Desktop\08110121_Bai1\08110121_Bai1\obj\Debug\08110121_Bai1.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_1\thuy\08110121_Bai1\08110121_Bai1\obj\Debug\08110121_Bai1.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_1\thuy\08110121_Bai1\08110121_Bai1\obj\Debug\08110121_Bai1.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_1\thuy\08110121_Bai1\08110121_Bai1\bin\Debug\08110121_Bai1.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_1\thuy\08110121_Bai1\08110121_Bai1\bin\Debug\08110121_Bai1.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\ThucHanh_1\thuy\08110121_Bai1\08110121_Bai1\obj\Debug\ResolveAssemblyReference.cache

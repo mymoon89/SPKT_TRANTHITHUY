@@ -1,0 +1,5 @@
+D:\SPKT\OOPC#\day1\ViduValue\ViduValue\bin\Debug\ViduValue.exe
+D:\SPKT\OOPC#\day1\ViduValue\ViduValue\bin\Debug\ViduValue.pdb
+D:\SPKT\OOPC#\day1\ViduValue\ViduValue\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day1\ViduValue\ViduValue\obj\Debug\ViduValue.exe
+D:\SPKT\OOPC#\day1\ViduValue\ViduValue\obj\Debug\ViduValue.pdb

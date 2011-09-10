@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viduP254", "viduP254\viduP254.csproj", "{232B375B-A3DA-42FC-868F-660788D50378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab1Point", "..\..\day3\lab1Point\lab1Point\lab1Point.csproj", "{4EAA1ED3-5C5E-4547-AAFA-8BFFD3729F6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2Circle", "..\..\day3\lab2Circle\lab2Circle\lab2Circle.csproj", "{C4FC60F6-A286-4618-AF4D-CA590C552F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommissionEmployee", "..\CommissionEmployee\CommissionEmployee\CommissionEmployee.csproj", "{FE2C9120-C0B5-489F-B7A5-1C86E02B5EC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasePlusComEm", "..\CommissionEmployee\BasePlusComEm\BasePlusComEm.csproj", "{4D184E47-AB5A-42F0-AA74-836AF0A715B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoLyMor", "..\PoLyMor\PoLyMor\PoLyMor.csproj", "{27EC1923-8777-48F3-85DE-EB4D80579F8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{232B375B-A3DA-42FC-868F-660788D50378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232B375B-A3DA-42FC-868F-660788D50378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232B375B-A3DA-42FC-868F-660788D50378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232B375B-A3DA-42FC-868F-660788D50378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EAA1ED3-5C5E-4547-AAFA-8BFFD3729F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAA1ED3-5C5E-4547-AAFA-8BFFD3729F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAA1ED3-5C5E-4547-AAFA-8BFFD3729F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAA1ED3-5C5E-4547-AAFA-8BFFD3729F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FC60F6-A286-4618-AF4D-CA590C552F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FC60F6-A286-4618-AF4D-CA590C552F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FC60F6-A286-4618-AF4D-CA590C552F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FC60F6-A286-4618-AF4D-CA590C552F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2C9120-C0B5-489F-B7A5-1C86E02B5EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2C9120-C0B5-489F-B7A5-1C86E02B5EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2C9120-C0B5-489F-B7A5-1C86E02B5EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2C9120-C0B5-489F-B7A5-1C86E02B5EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D184E47-AB5A-42F0-AA74-836AF0A715B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D184E47-AB5A-42F0-AA74-836AF0A715B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D184E47-AB5A-42F0-AA74-836AF0A715B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D184E47-AB5A-42F0-AA74-836AF0A715B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EC1923-8777-48F3-85DE-EB4D80579F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EC1923-8777-48F3-85DE-EB4D80579F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EC1923-8777-48F3-85DE-EB4D80579F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EC1923-8777-48F3-85DE-EB4D80579F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

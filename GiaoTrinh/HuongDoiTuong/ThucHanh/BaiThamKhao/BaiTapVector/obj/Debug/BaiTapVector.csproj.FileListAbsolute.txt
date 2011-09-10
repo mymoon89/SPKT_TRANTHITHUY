@@ -1,0 +1,10 @@
+D:\BaiTapLTHDT\BaiTapVector\obj\Debug\ResolveAssemblyReference.cache
+D:\BaiTapLTHDT\BaiTapVector\bin\Debug\BaiTapVector.exe
+D:\BaiTapLTHDT\BaiTapVector\bin\Debug\BaiTapVector.pdb
+D:\BaiTapLTHDT\BaiTapVector\obj\Debug\BaiTapVector.exe
+D:\BaiTapLTHDT\BaiTapVector\obj\Debug\BaiTapVector.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiTapVector\obj\Debug\BaiTapVector.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiTapVector\obj\Debug\BaiTapVector.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiTapVector\bin\Debug\BaiTapVector.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiTapVector\bin\Debug\BaiTapVector.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\BaiTapVector\obj\Debug\ResolveAssemblyReference.cache

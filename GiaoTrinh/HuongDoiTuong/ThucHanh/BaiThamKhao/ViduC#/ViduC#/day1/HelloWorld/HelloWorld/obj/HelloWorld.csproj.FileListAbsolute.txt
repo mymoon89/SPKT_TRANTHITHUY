@@ -1,0 +1,5 @@
+D:\E-SPKT\OOPC#\day1\HelloWorld\HelloWorld\obj\Debug\ResolveAssemblyReference.cache
+D:\E-SPKT\OOPC#\day1\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+D:\E-SPKT\OOPC#\day1\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\E-SPKT\OOPC#\day1\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+D:\E-SPKT\OOPC#\day1\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb

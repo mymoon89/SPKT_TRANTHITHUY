@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE document [
+<!ELEMENT document (employee)*>
+<!ELEMENT employee (name, hiredate, projects)>
+<!ELEMENT name (lastname, firstname)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT hiredate (#PCDATA)>
+<!ELEMENT projects (project)*>
+<!ELEMENT project (product, id, price)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST employee
+    supervisor CDATA "no"
+    division CDATA "humanresource"
+    fullTime CDATA "yes"
+>
+<document>
+. . .
+</document>

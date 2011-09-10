@@ -1,0 +1,55 @@
+BODY
+{
+	display:block;
+	margin-left:20%;
+	margin-right:10%;
+}
+TITLE
+{
+	display:block;
+	font-size:30px;
+	font-family:"Times New Roman",arial;
+	font-weight:bold;
+	color: RED;
+	background-color:BLACK;
+}
+TACGIA
+{
+	display:list-item;
+	list-style:diamond;
+	font-size:20px;
+	font-family:Constantia,arial;
+	font-weight:bold;
+	font-style:italic;
+	color:0000FF;
+	
+}
+NOIDUNG
+{
+	display:block;
+	font-size:1em;
+	font-family:"Times New Roman",Constantia,arial;
+	font-weight:normal;
+	background-image:url(11.png);
+}
+TEN
+{
+	display:inline;
+	font-size:20px;
+	font-family:Constantia,arial;
+	font-style:italic;
+	color:rgb(0%,100%,0%);
+	text-align:center;
+}
+THO
+{
+	display:list-item;
+	list-style:none;
+	font-size:18;
+	font-family:"Times New Roman",Constantia,arial;
+	font-weight:normal;
+	color:rgb(118,0,118);
+	
+	background-image:url(9.bmp);
+	background-repeat:no-repeat;
+}

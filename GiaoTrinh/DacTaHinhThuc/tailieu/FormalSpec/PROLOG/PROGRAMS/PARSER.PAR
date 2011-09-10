@@ -1,0 +1,150 @@
+/***********************************************************
+
+     Turbo Prolog Toolbox
+     (C) Copyright 1987 Borland International.
+
+		PARSING PREDICATES
+***********************************************************/
+
+PREDICATES
+  s_parser(TOKL,TOKL,PARSER)
+  s_productions(TOKL,TOKL,PRODUCTIONS)
+  s_productions1(TOKL,TOKL,PRODUCTIONS)
+  s_prodgroups(TOKL,TOKL,PRODGROUPS)
+  s_prodgroups1(TOKL,TOKL,PRODGROUPS)
+  s_priorgroup(TOKL,TOKL,PRIORGROUP)
+  s_priorgroup1(TOKL,TOKL,PRIORGROUP)
+  s_gramtokl(TOKL,TOKL,GRAMTOKL)
+  s_prodnames(TOKL,TOKL,PRODNAMES)
+  s_prodnames1(TOKL,TOKL,PRODNAMES)
+  s_section(TOKL,TOKL,SECTION)
+  s_production(TOKL,TOKL,PRODUCTION)
+  s_prodbody(TOKL,TOKL,PRODBODY)
+  s_star_plus(TOKL,TOKL,STAR_PLUS)
+  s_separator(TOKL,TOKL,SEPARATOR)
+  s_singprod(TOKL,TOKL,SINGPROD)
+  s_assoc(TOKL,TOKL,ASSOC)
+  s_gramtok(TOKL,TOKL,GRAMTOK)
+  s_cursordemand(TOKL,TOKL,CURSORDEMAND)
+  s_tokk(TOKL,TOKL,TOKK)
+  s_tokk1(TOKL,TOKL,STRING,CURSOR,TOKK)
+  s_term(TOKL,TOKL,TERM)
+  s_term1(TOKL,TOKL,STRING,CURSOR,TERM)
+  s_prodname(TOKL,TOKL,PRODNAME)
+
+CLAUSES
+  s_section([t(userdefined_,_)|LL1],LL0,userprods_(PRODNAMES)):-
+	expect(t(productions_,_),LL1,LL2),
+	s_prodnames(LL2,LL0,PRODNAMES),!.
+  s_section([t(userdefined_,_)|LL1],LL0,userdoms_(PRODNAMES)):-!,
+	expect(t(domains_,_),LL1,LL2),
+	s_prodnames(LL2,LL0,PRODNAMES).
+  s_section([t(productions_,_)|LL1],LL0,productions_(PRODUCTIONS)):-!,
+	s_productions(LL1,LL0,PRODUCTIONS).
+  s_section(LL,_,_):-syntax_error(section,LL),fail.
+
+  s_production([t(upper(STRING),CURSOR)|LL1],LL0,p(PRODNAME,CURSOR,PRODBODY)):-!,
+	expect(t(equal,_),LL1,LL2),
+	s_prodbody(LL2,LL0,PRODBODY),STRING=PRODNAME.
+  s_production(LL,_,_):-syntax_error(production,LL),fail.
+
+  s_prodbody([t(upper(STRING),CURSOR)|LL1],LL0,list(PRODNAME,CURSOR,STAR_PLUS,SEPARATOR)):-
+	s_star_plus(LL1,LL2,STAR_PLUS),
+	s_separator(LL2,LL0,SEPARATOR),!,STRING=PRODNAME.
+  s_prodbody(LL1,LL0,groups(PRODGROUPS)):-
+	s_prodgroups(LL1,LL0,PRODGROUPS),!.
+  s_prodbody(LL,_,_):-syntax_error(prodbody,LL),fail.
+
+  s_star_plus([t(star,_)|LL],LL,star):-!.
+  s_star_plus([t(plus,_)|LL],LL,plus):-!.
+  s_star_plus(LL,_,_):-syntax_error(star_plus,LL),fail.
+
+  s_separator([t(separator_,_)|LL1],LL0,sep(STRING)):-
+	expect(t(id(STRING),_),LL1,LL0),!.
+  s_separator(LL,LL,none):-!.
+
+  s_singprod(LL1,LL0,prod(ASSOC,GRAMTOKL,CURSOR,TERM)):-
+	s_assoc(LL1,LL2,ASSOC),
+	s_gramtokl(LL2,LL3,GRAMTOKL),
+	expect(t(arrow,CURSOR),LL3,LL4),
+	s_term(LL4,LL0,TERM),!.
+
+  s_assoc([t(rightassoc_,CURSOR)|LL],LL,right(CURSOR)):-!.
+  s_assoc(LL,LL,left):-!.
+
+  s_gramtok([t(upper(STRING),CURSOR)|LL],LL,prodname(PRODNAME,CURSOR)):-!,STRING=PRODNAME.
+  s_gramtok(LL1,LL0,tok(TOKK,CURSORDEMAND)):-
+	s_tokk(LL1,LL2,TOKK),
+	s_cursordemand(LL2,LL0,CURSORDEMAND),!.
+  s_gramtok(LL,_,_):-syntax_error(gramtok,LL),fail.
+
+  s_cursordemand([t(colon,_)|LL1],LL0,curdemand(PRODNAME)):-
+	s_prodname(LL1,LL0,PRODNAME),!.
+  s_cursordemand(LL,LL,none):-!.
+
+  s_tokk([t(id(STRING),CURSOR)|LL1],LL0,TOKK_):-!,
+	s_tokk1(LL1,LL0,STRING,CURSOR,TOKK_).
+  s_tokk(LL,_,_):-syntax_error(tokk,LL),fail.
+
+  s_term([t(upper(STRING),CURSOR)|LL],LL,dom(PRODNAME,CURSOR)):-!,STRING=PRODNAME.
+  s_term([t(id(STRING),CURSOR)|LL1],LL0,TERM_):-!,
+	s_term1(LL1,LL0,STRING,CURSOR,TERM_).
+  s_term(LL,_,_):-syntax_error(term,LL),fail.
+
+  s_prodname([t(upper(STRING),_)|LL],LL,PRODNAME):-!,STRING=PRODNAME.
+  s_prodname(LL,_,_):-syntax_error(prodname,LL),fail.
+
+  s_tokk1([t(lpar,_)|LL1],LL0,STRING,CURSOR,cmp(STRING,CURSOR,PRODNAMES)):-!,
+	s_prodnames(LL1,LL2,PRODNAMES),
+	expect(t(rpar,_),LL2,LL0).
+  s_tokk1(LL,LL,STRING,CURSOR,name(STRING,CURSOR)):-!.
+
+  s_term1([t(lpar,_)|LL1],LL0,STRING,CURSOR,term(STRING,CURSOR,PRODNAMES)):-!,
+	s_prodnames(LL1,LL2,PRODNAMES),
+	expect(t(rpar,_),LL2,LL0).
+  s_term1(LL,LL,STRING,CURSOR,name(STRING,CURSOR)):-!.
+
+  s_parser(LL1,LL0,[SECTION|PARSER]):-
+	s_section(LL1,LL2,SECTION),!,
+	s_parser(LL2,LL0,PARSER).
+  s_parser(LL,LL,[]).
+
+  s_productions(LL1,LL0,[PRODUCTION|PRODUCTIONS]):-
+	s_production(LL1,LL2,PRODUCTION),
+	s_productions1(LL2,LL0,PRODUCTIONS).
+
+  s_productions1(LL1,LL0,[PRODUCTION|PRODUCTIONS]):-
+	s_production(LL1,LL2,PRODUCTION),!,
+	s_productions1(LL2,LL0,PRODUCTIONS).
+  s_productions1(LL,LL,[]).
+
+  s_prodgroups(LL1,LL0,[PRIORGROUP|PRODGROUPS]):-
+	s_priorgroup(LL1,LL2,PRIORGROUP),
+	s_prodgroups1(LL2,LL0,PRODGROUPS).
+
+  s_prodgroups1([t(priorsepp,_)|LL1],LL2,PRODGROUPS):-!,
+	s_prodgroups(LL1,LL2,PRODGROUPS).
+  s_prodgroups1(LL,LL,[]).
+
+  s_priorgroup(LL1,LL0,[SINGPROD|PRIORGROUP]):-
+	s_singprod(LL1,LL2,SINGPROD),
+	s_priorgroup1(LL2,LL0,PRIORGROUP).
+
+  s_priorgroup1([t(comma,_)|LL1],LL2,PRIORGROUP):-!,
+	s_priorgroup(LL1,LL2,PRIORGROUP).
+  s_priorgroup1(LL,LL,[]).
+
+  s_gramtokl(LL1,LL0,[GRAMTOK|GRAMTOKL]):-
+	s_gramtok(LL1,LL2,GRAMTOK),!,
+	s_gramtokl(LL2,LL0,GRAMTOKL).
+  s_gramtokl(LL,LL,[]).
+
+  s_prodnames(LL1,LL0,[PRODNAME|PRODNAMES]):-
+	s_prodname(LL1,LL2,PRODNAME),
+	s_prodnames1(LL2,LL0,PRODNAMES).
+
+  s_prodnames1([t(comma,_)|LL1],LL2,PRODNAMES):-!,
+	s_prodnames(LL1,LL2,PRODNAMES).
+  s_prodnames1(LL,LL,[]).
+
+

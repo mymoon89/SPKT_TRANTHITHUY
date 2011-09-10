@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="1.comment.xsl"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="2.processing.xsl"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="3.text.xsl"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="4.or.xsl"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="5.ngoacvuong.xsl"?> -->
+<!--<?xml-stylesheet type="text/xsl" href="6.Attributes.xsl"?>-->
+<PLANETS>
+	<PLANET ID="12">
+		<NAME>Mercury</NAME>
+		<NAME>Mar</NAME>
+		<MASS ID="mass" UNITS="(Earth = 1)">.0553</MASS>
+		<DAY UNITS="days">100</DAY>
+		<RADIUS UNITS="miles">1516</RADIUS>
+		<DENSITY UNITS="(Earth = 1)">.983</DENSITY>
+		<DISTANCE UNITS="million miles">43.4</DISTANCE>
+		<AB UNITS="a">5</AB>
+	</PLANET>
+	
+	<PLANET ID="15">
+		<NAME>Venus</NAME>
+		<MASS UNITS="(Earth = 1)">.0815</MASS>
+		<DAY UNITS="days">116.75</DAY>
+		<RADIUS UNITS="miles">3716</RADIUS>
+		<DENSITY UNITS="(Earth = 1)">.943</DENSITY>
+		<DISTANCE UNITS="million miles">66.8</DISTANCE>
+	</PLANET>
+	<!-- Day la sao ve nu -->
+	
+	<PLANET ID="16">
+		<NAME>Earth</NAME>
+		<MASS UNITS="(Earth = 1)">1</MASS>
+		<DAY UNITS="days">1</DAY>
+		<RADIUS UNITS="miles">2107</RADIUS>
+		<DENSITY UNITS="(Earth = 1)">1</DENSITY>
+		<DISTANCE UNITS="million miles">128.4</DISTANCE>
+	</PLANET>
+</PLANETS>

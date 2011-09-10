@@ -1,0 +1,5 @@
+bin\Debug\DoFactory.GangOfFour.Bridge.Structural.exe
+bin\Debug\DoFactory.GangOfFour.Bridge.Structural.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DoFactory.GangOfFour.Bridge.Structural.exe
+obj\Debug\DoFactory.GangOfFour.Bridge.Structural.pdb

@@ -1,0 +1,28 @@
+D:\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\ResolveAssemblyReference.cache
+D:\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.ShutdownPC.resources
+D:\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.Properties.Resources.resources
+D:\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.csproj.GenerateResource.Cache
+D:\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\bin\Debug\AutoShutdownPC.exe
+D:\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\bin\Debug\AutoShutdownPC.pdb
+D:\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.exe
+D:\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.pdb
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.exe
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.pdb
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\bin\Debug\AutoShutdownPC.exe
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\bin\Debug\AutoShutdownPC.pdb
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\ResolveAssemblyReference.cache
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.ShutdownPC.resources
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.Properties.Resources.resources
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.csproj.GenerateResource.Cache
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC\AutoShutdownPC\obj\Debug\AutoShutdownPC.Introduction.resources
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC - new\AutoShutdownPC\obj\Debug\AutoShutdownPC.exe
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC - new\AutoShutdownPC\obj\Debug\AutoShutdownPC.pdb
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC - new\AutoShutdownPC\bin\Debug\AutoShutdownPC.exe
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC - new\AutoShutdownPC\bin\Debug\AutoShutdownPC.pdb
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC - new\AutoShutdownPC\obj\Debug\ResolveAssemblyReference.cache
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC - new\AutoShutdownPC\obj\Debug\AutoShutdownPC.ShutdownPC.resources
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC - new\AutoShutdownPC\obj\Debug\AutoShutdownPC.Introduction.resources
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC - new\AutoShutdownPC\obj\Debug\AutoShutdownPC.Properties.Resources.resources
+D:\Data Study\IT\Exercise\BT LTHDT\AutoShutdownPC - new\AutoShutdownPC\obj\Debug\AutoShutdownPC.csproj.GenerateResource.Cache
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\AutoShutdownPC - new\AutoShutdownPC\obj\Debug\AutoShutdownPC.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\AutoShutdownPC - new\AutoShutdownPC\obj\Debug\AutoShutdownPC.pdb

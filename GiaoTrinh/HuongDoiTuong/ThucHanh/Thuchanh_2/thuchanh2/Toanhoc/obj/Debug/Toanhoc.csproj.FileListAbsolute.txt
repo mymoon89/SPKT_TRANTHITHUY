@@ -1,0 +1,10 @@
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\Toanhoc\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\Toanhoc\bin\Debug\Toanhoc.dll
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\Toanhoc\bin\Debug\Toanhoc.pdb
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\Toanhoc\obj\Debug\Toanhoc.dll
+C:\Documents and Settings\d304\Desktop\ConsoleApplication1\Toanhoc\obj\Debug\Toanhoc.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\Toanhoc\bin\Debug\Toanhoc.dll
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\Toanhoc\bin\Debug\Toanhoc.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\Toanhoc\obj\Debug\ResolveAssemblyReference.cache
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\Toanhoc\obj\Debug\Toanhoc.dll
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\tranthithuy 08110123\thuchanh2\Toanhoc\obj\Debug\Toanhoc.pdb

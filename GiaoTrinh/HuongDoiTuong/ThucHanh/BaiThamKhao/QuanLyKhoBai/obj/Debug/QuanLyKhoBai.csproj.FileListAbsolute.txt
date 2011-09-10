@@ -1,0 +1,12 @@
+D:\BaiTapLTHDT\QuanLyKhoBai\bin\Debug\QuanLyKhoBai.exe
+D:\BaiTapLTHDT\QuanLyKhoBai\bin\Debug\QuanLyKhoBai.pdb
+D:\BaiTapLTHDT\QuanLyKhoBai\obj\Debug\ResolveAssemblyReference.cache
+D:\BaiTapLTHDT\QuanLyKhoBai\obj\Debug\QuanLyKhoBai.exe
+D:\BaiTapLTHDT\QuanLyKhoBai\obj\Debug\QuanLyKhoBai.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\QuanLyKhoBai\obj\Debug\QuanLyKhoBai.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\QuanLyKhoBai\obj\Debug\QuanLyKhoBai.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\QuanLyKhoBai\bin\Debug\QuanLyKhoBai.exe
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\QuanLyKhoBai\bin\Debug\QuanLyKhoBai.pdb
+E:\LI DEN\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\QuanLyKhoBai\obj\Debug\ResolveAssemblyReference.cache
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\QuanLyKhoBai\obj\Debug\QuanLyKhoBai.exe
+E:\LI\HocTap\Nam3Ky1\HuongDoiTuong\ThucHanh\BaiThamKhao\QuanLyKhoBai\obj\Debug\QuanLyKhoBai.pdb

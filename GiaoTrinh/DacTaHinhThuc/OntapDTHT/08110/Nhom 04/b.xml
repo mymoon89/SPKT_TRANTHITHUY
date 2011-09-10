@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE PLAYER SYSTEM "team.dtd">
+<PLAYER>
+<GIVEN_NAME>Chris</GIVEN_NAME>
+<SURNAME>Hoiles</SURNAME>
+<P>Catcher</P>
+<G>97</G>
+<GS>81</GS>
+<AB>267</AB>
+<R>36</R>
+<H>70</H>
+<D>12</D>
+<T>0</T>
+<HR>15</HR>
+<RBI>56</RBI>
+<SB>0</SB>
+<CS>1</CS>
+<SH>5</SH>
+<SF>4</SF>
+<E>3</E>
+<BB>38</BB>
+<S>50</S>
+<HBP>4</HBP>
+</PLAYER>

@@ -1,0 +1,4 @@
+D:\SPKT\OOPC#\day3\Day3-2010\thu7Indexer\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day3\Day3-2010\thu7Indexer\obj\Debug\thu7Indexer.Properties.Resources.resources
+D:\SPKT\OOPC#\day3\Day3-2010\thu7Indexer\obj\Debug\thu7Indexer.csproj.GenerateResource.Cache
+D:\SPKT\OOPC#\day3\Day3-2010\thu7Indexer\obj\Debug\thu7Indexer.Form1.resources

@@ -1,0 +1,16 @@
+C:\Documents and Settings\d304\Desktop\kethua\kethua\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\d304\Desktop\kethua\kethua\obj\Debug\kethua.Form1.resources
+C:\Documents and Settings\d304\Desktop\kethua\kethua\obj\Debug\kethua.Properties.Resources.resources
+C:\Documents and Settings\d304\Desktop\kethua\kethua\obj\Debug\kethua.csproj.GenerateResource.Cache
+C:\Documents and Settings\d304\Desktop\kethua\kethua\bin\Debug\kethua.exe
+C:\Documents and Settings\d304\Desktop\kethua\kethua\bin\Debug\kethua.pdb
+C:\Documents and Settings\d304\Desktop\kethua\kethua\obj\Debug\kethua.exe
+C:\Documents and Settings\d304\Desktop\kethua\kethua\obj\Debug\kethua.pdb
+E:\LI DEN\hướng đối tượng\thuy\kethua\kethua\obj\Debug\kethua.exe
+E:\LI DEN\hướng đối tượng\thuy\kethua\kethua\obj\Debug\kethua.pdb
+E:\LI DEN\hướng đối tượng\thuy\kethua\kethua\bin\Debug\kethua.exe
+E:\LI DEN\hướng đối tượng\thuy\kethua\kethua\bin\Debug\kethua.pdb
+E:\LI DEN\hướng đối tượng\thuy\kethua\kethua\obj\Debug\ResolveAssemblyReference.cache
+E:\LI DEN\hướng đối tượng\thuy\kethua\kethua\obj\Debug\kethua.Form1.resources
+E:\LI DEN\hướng đối tượng\thuy\kethua\kethua\obj\Debug\kethua.Properties.Resources.resources
+E:\LI DEN\hướng đối tượng\thuy\kethua\kethua\obj\Debug\kethua.csproj.GenerateResource.Cache

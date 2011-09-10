@@ -1,0 +1,10 @@
+F:\3-4\CD Do an tot nghiep\Cờ cá ngựa\CoCaNgua\obj\Debug\CoCaNgua.exe
+F:\3-4\CD Do an tot nghiep\Cờ cá ngựa\CoCaNgua\obj\Debug\CoCaNgua.pdb
+F:\3-4\CD Do an tot nghiep\Cờ cá ngựa\CoCaNgua\bin\Debug\CoCaNgua.exe
+F:\3-4\CD Do an tot nghiep\Cờ cá ngựa\CoCaNgua\bin\Debug\CoCaNgua.pdb
+F:\3-4\CD Do an tot nghiep\Cờ cá ngựa\CoCaNgua\obj\Debug\ResolveAssemblyReference.cache
+F:\3-4\CD Do an tot nghiep\Cờ cá ngựa\CoCaNgua\obj\Debug\CoCaNgua.TheHien.TheHienQuanCo.resources
+F:\3-4\CD Do an tot nghiep\Cờ cá ngựa\CoCaNgua\obj\Debug\CoCaNgua.TheHien.TheHienXiNgau.resources
+F:\3-4\CD Do an tot nghiep\Cờ cá ngựa\CoCaNgua\obj\Debug\CoCaNgua.TheHien.TuyChon.resources
+F:\3-4\CD Do an tot nghiep\Cờ cá ngựa\CoCaNgua\obj\Debug\CoCaNgua.TheHien.FormXuLyChinh.resources
+F:\3-4\CD Do an tot nghiep\Cờ cá ngựa\CoCaNgua\obj\Debug\CoCaNgua.csproj.GenerateResource.Cache

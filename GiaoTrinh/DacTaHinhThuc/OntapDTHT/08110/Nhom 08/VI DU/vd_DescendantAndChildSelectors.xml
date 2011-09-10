@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="vd_DescendantAndChildSelectors.css"?>
+<!DOCTYPE body [
+	<!ELEMENT body ANY>
+	<!ELEMENT content1 ANY>
+	<!ELEMENT content2 ANY>
+	<!ELEMENT content3 ANY>
+	<!ELEMENT detail ANY>
+]>
+<body>
+	<content1>noi dung tron content1</content1>
+	<content2>
+		<detail>detail trong content2</detail>
+		<detail>detail trong content2</detail>
+	</content2>
+	<content3>noi dung tron content3</content3>
+	<content3>
+		<detail>detail trong content1</detail>
+	</content3>
+</body>

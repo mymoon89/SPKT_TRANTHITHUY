@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"?>
+<BANTIN>
+	  <tieude style="color:white;font-size:30;background-color:rgb(100,100,50);">
+			Tuyen sinh dai hoc.
+	  </tieude>
+	  <noidung style="display:block;font-size:15;color:brown;">
+			Thong tin tuyen sinh tu cac truong da co.
+	  </noidung>
+</BANTIN>

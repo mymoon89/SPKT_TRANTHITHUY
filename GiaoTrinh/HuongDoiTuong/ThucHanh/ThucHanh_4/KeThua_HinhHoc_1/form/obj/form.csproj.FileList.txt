@@ -1,0 +1,4 @@
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\form.Form1.resources
+obj\Release\form.Properties.Resources.resources
+obj\Release\form.csproj.GenerateResource.Cache

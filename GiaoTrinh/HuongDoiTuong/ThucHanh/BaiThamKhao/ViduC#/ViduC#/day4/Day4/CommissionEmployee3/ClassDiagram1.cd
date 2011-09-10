@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CommissionEmployee3.BasePlusCommissionEmployee4" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <Members>
+      <Property Name="get" Hidden="true" />
+      <Property Name="set" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BasePlusCommissionEmployee4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommissionEmployee3.CommissionEmployee3" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>CommissionEmployee3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommissionEmployee3.CommissionEmployee3Test" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommissionEmployee3Test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

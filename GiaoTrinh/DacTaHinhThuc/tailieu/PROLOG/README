@@ -1,0 +1,376 @@
+                  WELCOME TO TURBO PROLOG TOOLBOX
+                  -------------------------------
+
+  This file contains information not found in the Owner's Handbook,
+  including how to get technical help, and a complete list of files on
+  the distribution disk.  Since this file contains information
+  important to you, please read it in its entirety; hopefully it will
+  answer any questions you may have.
+
+
+
+TABLE OF CONTENTS
+-----------------
+  1. Help
+  2. Additional Information
+  3. Corrections to the Manual
+  4. File List
+
+
+
+1. HELP
+-------
+  If you need help with the Turbo Prolog Toolbox, please read this help
+  file and the Owner's Handbook thoroughly.  The sample programs
+  included on this diskette are also a good source of information about
+  how to use the TOOLBOX.
+
+  If you still have a question and need technical assistance, help is
+  available from the following sources:
+
+  1. Type GO BORPRO on the CompuServe bulletin board system.
+
+     Borland technical support representatives can be reached on the
+     Borland Programming Languages Forum on CompuServe.  For modem
+     users, it's a convenient, powerful alternative to telephones or
+     the mail.  Download information-packed files from the Data
+     Libraries - RIGHT NOW - or post a message to "Sysop" and get a
+     reply from a Borland technical support representative.
+
+     If you're not a CompuServe user yet and want to know more, call or
+     write:
+
+        CompuServe
+        Consumer Information Service
+        5000 Arlington Centre Boulevard
+        Columbus, OH 43220
+        (800) 848-8199;  In Ohio, call (614) 457-0802
+
+  2. Check with your local software dealer or user group.
+
+  3. Write to: Borland International
+               Turbo Prolog Toolbox Technical Support
+               4585 Scotts Valley Drive
+               Scotts Valley, CA 95066
+     Note: Please include your serial number (located on the
+           distribution disk), otherwise we will be unable to process
+           your letter.
+
+  4. If you have an urgent problem that cannot wait and you have sent
+     in the license agreement from the front of your manual, you may
+     call the Borland Technical Support Department.
+
+  Please have the following information ready before calling:
+
+  1. Your serial number (located on the front of your distribution
+     disk) must be available; otherwise we will be unable to process
+     your call.
+
+  2. Product name and version number (The version number of this
+     Toolbox is 1.0. The version number of TURBO PROLOG appears
+     on the summary screen when the program is first loaded.)
+
+  3. Computer name, model and the names and model numbers of any
+     additional hardware.
+
+  4. Operating system and version number (the version number can be
+     determined by typing VER at any DOS prompt).
+
+  5. Contents of your AUTOEXEC.BAT file.
+
+  6. Contents of your CONFIG.SYS file.
+
+
+
+2. ADDITIONAL INFORMATION
+-------------------------
+
+   OBJECT FILES FOR GRAPHICS PROJECTS
+
+   The files GRAPHICS.OBJ and EGAGRAPH.OBJ are both included in
+   graphics projects.  Since these files work as a unit, it is
+   necessary to include EGAGRAPH.OBJ in your projects even if you
+   do not have an EGA card.
+
+
+   A GENERAL NOTE ON PROJECT FILES
+
+   When Turbo Prolog compiles project (.PRJ) files, it takes the
+   listed files, and will compile them from source code (.PRO)
+   files into object (.OBJ) files.  In some cases the source code
+   file has already been compiled to an object file, and
+   therefore the .PRO file is not present.  In these instances,
+   you will get a message during compilation that it is
+   impossible to open this .PRO file.  This will not affect the
+   successful compilation of the project file since Turbo Prolog
+   will find the object file.
+
+   Since Turbo Prolog overwrites the existing object file when
+   compiling a source code file of the same name, it is a good
+   idea to never create a Turbo Prolog source code file with the
+   same name as any of the object tool files (SERIAL.OBJ,
+   GRAPHICS.OBJ, PICTOOLS.OBJ, TICKS.OBJ, and EGAGRAPH.OBJ).  For
+   example, if you created a file called GRAPHICS.PRO, you would
+   receive an error when compiling a graphics project.
+
+
+   SCREEN HANDLING PROGRAMS ON EGA MONOCHROME
+
+   If you are running an EGA card with a monochrome monitor, some of
+   the screen handling programs may not show up on your screen.  If you
+   have this configuration, simply change the color parameters in the
+   makewindow predicates to 7.
+
+
+   LARGE PROGRAMS
+
+   SCRDEF.PRO is large--it requires 512K to run.
+
+   XCOMMU.PRJ and PARSER.PRJ may be too large to run within the Turbo Prolog
+   environment. Compile the project to an .EXE file, quit Turbo Prolog and
+   run the .EXE file from DOS.
+
+
+
+4. CORRECTIONS TO THE MANUAL
+----------------------------
+
+Page 7:
+
+Set up the following directories:
+
+   PRO directory:    \B
+   OBJ directory:    \B
+   EXE directory:    \B
+   TURBO directory:  \A
+
+should be
+
+   PRO directory:    B:\
+   OBJ directory:    B:\
+   EXE directory:    B:\
+   TURBO directory:  A:\
+
+
+Page 17:
+
+   Last paragraph should read: "... choice parameter is an integerlist
+   rather than an integer and InitItem is an integerlist rather than an
+   integer...".
+
+Page 23:
+
+boxmenu example
+
+      boxmenu(5,5,7,40..., CHOICE)
+
+should be
+
+      boxmenu(5,5,40,7..., Choice)
+
+
+Page 24:
+
+   3rd paragraph - ... list of INTEGERs(add '" and the starting items
+   are highlighted according to the integerlist StListChoice'.")
+
+Page 32:
+
+   Change the database declaration
+               treewindow(ROW,COL,ROW,COL,ROW,COL)
+
+   to
+               treewindow(ROW,COL)
+
+   To use the treewindow tool, you must include the database
+   declarations
+
+           database
+               treewindow(ROW,COL)
+               treechoice(SELECTOR)
+
+Page 97:
+
+   The call to the predicate plot should not contain any flow pattern
+   or language declaration.
+
+Page 100:
+
+   XGEOMTR.PRO should be XGEOMETR.PRO
+
+
+Page 126:
+
+   In defining a call to loadpic, Filename should be FileName.
+
+
+4. FILE LIST
+------------
+
+   FILES ON DISK #1
+   ----------------
+
+   README   COM   --  Program to read this README!
+   TDOMS    PRO   --  General domains for the Toolbox
+   TPREDS   PRO   --  General predicates for the Toolbox
+   BIOS     PRO   --  DOS BIOS calls
+
+   BOXMENU  PRO   --  Tool to draw a box menu--runs with XBOXMENU.PRO
+   FILENAME PRO   --  Tool to read file names--runs with XFILENAM.PRO
+   LINEINP  PRO   --  Line input driver
+   LINEMENU PRO   --  Tool to produce a line menu--runs with
+                      XLINEMNU.PRO
+   LONGMENU PRO   --  Tool to produce long pop-up menus--runs with
+                      XLONGMNU.PRO
+   MENU     PRO   --  Tool to implement short pop-up menus--runs with
+                      XMENU.PRO
+   PULLDOWN PRO   --  Tool to implement pulldown menus--runs with
+                      XPULLDW.PRO
+   REPORT   PRO   --  Tool to produce reports--runs with XREPORT.PRO
+   STATUS   PRO   --  Tool to make status lines--runs with XSTATUS.PRO
+   TREE     PRO   --  Tool to produce tree menus--runs with XTREE.PRO
+
+   HNDBASIS PRO   --  Screen handling utility
+   RESIZE   PRO   --  Tool for window resizing--runs with XRESIZE.PRO
+   SCRDEF   HLP   --  Screen layout definition help file
+   SCRDEF   PRO   --  Screen layout definition file
+   SCRHND   PRO   --  Implements a screen handler
+   VSCRHND  PRO   --  Implements a virtual screen handler
+   HELPDEF  PRO   --  Defines help texts which can be used by XHELP.PRO
+   HELP     PRO   --  Tool to implement context-sensitive help
+                      facility--runs with XHELP.PRO
+   HELP     SCR   --  Screen definition used by XHELP.PRO
+
+   GDOMS    PRO   --  General domains for graphics routines
+   GPREDS   PRO   --  General predicates for graphics routines
+   GGLOBS   PRO   --  Global graphics predicates
+   GBAR     PRO   --  Tool to draw bar graphs--runs as a project with
+                      XBAR.PRO
+   GGRAPH   PRO   --  Graphics tools for graphs
+   GPIE     PRO   --  Tool to draw pie charts--runs as a project with
+                      XPIE.PRO
+   GEGA     PRO   --  Graphics tools for the EGA
+   GRAPHICS OBJ   --  Object file needed by graphics programs
+   EGAGRAPH OBJ   --  Object file needed by graphics programs
+   PICTOOLS OBJ   --  Object file needed by PIC utilities
+   PICTOOLS C     --  PIC file utility implemented in C
+
+   COMGLOBS PRO   --  Global communications predicates
+   MODEM    OBJ   --  Object file needed by communications programs
+   SERIAL   OBJ   --  Object file needed by communications programs
+   TICKS    OBJ   --  Object file needed by communications programs
+   TICKFILE PRO   --  Turbo Prolog source for TICKS.OBJ
+
+   PARSER   DEF   --  Parser generator
+   PARSER   GRM   --  Parser grammar
+   PARSER   PAR   --  Parsing predicates
+   PARSER   SCA   --  Parser scanner
+   PARSER   PRJ   --  Project file for PARSER.PRO
+   PARSGEN  PRO   --  Parser generator
+   PARSMAIN PRO   --  Parser generator
+
+   DBASE3   PRO   --  Tool to read dBASE III(TM) file formats--
+                      runs as a project with XDBASE3.PRO
+   LOTUS    PRO   --  Tool to read Lotus 1-2-3(TM) file formats
+                      runs as a project with XLOTUS.PRO
+   REFLEX   PRO   --  Tool to read Reflex(R) file formats--runs as a
+                      project with XREFLEX.PRO
+   READEXT  PRO   --  Used by file reading projects
+   REALINTS C     --  Source for REALINTS.OBJ, implemented in C
+   REALINTS OBJ   --  Used by file reading projects
+   README         --  This file!
+
+
+   FILES ON DISK #2
+   ----------------
+
+   XBAR     PRJ   --  Project file for XBAR.PRO
+   XBAR     PRO   --  Demonstrates bar graphs
+   XBOXMENU PRO   --  Demonstrates box menus
+   XCAREER  PRO   --  Uses career choices to demonstrate pop-up menus
+   XCLUB    DBA   --  Database for XCLUB.PRO
+   XCLUB    PRO   --  Uses common interest group to demonstrate
+                      database handling
+   XCLUB    SCR   --  Screen definition file for XCLUB.PRO
+   XCOMMU   PRJ   --  Project file for XCOMMU.PRO
+   XCOMMU   PRO   --  Sample serial communications package--runs as
+                      a project
+   XDBASE3  DBF   --  Sample dBASE III(TM) file
+   XDBASE3  DBT   --  Sample dBASE III(TM) memo file
+   XDBASE3  PRJ   --  Project file for XDBASE.PRO
+   XDBASE3  PRO   --  Sample dBASE III(TM) file reading utility--runs
+                      as a project
+   XEGA     PRO   --  Implements EGA graphics functions
+   XFILENAM PRO   --  Sample utility to read file names
+   XGEOMETR PRJ   --  Project file for XGEOMETR.PRO
+   XGEOMETR PRO   --  Draws geometric shapes--runs as a project
+   XGRAPH   PRO   --  Demonstrates graphics within windows
+   XHELP    DEF   --  Demonstrates context sensitive help facility
+   XHELP    HLP   --  Texts for help demo
+   XHELP    PRO   --  Runs help demonstration
+   XIQ      PRO   --  Demonstrates menu_mult
+   XLABEL   DBA   --  Sets up printer defaults for XLABEL.PRO
+   XLABEL   PRO   --  Prints mailing labels
+   XLCAREER PRO   --  Demonstrates menu_leave
+   XLINEINP PRO   --  Demonstrates lineinput utility
+   XLINEMNU PRO   --  Demonstrates line menus
+   XLONGMNU PRO   --  Demonstrates long pop-up menus
+   XLOTUS   PRJ   --  Project file for XLOTUS.PRO
+   XLOTUS   PRO   --  Reads Lotus 1-2-3(TM) file formats
+   XLOTUS   WRK   --  Sample database for XLOTUS.PRO
+   XMADDER  PRO   --  Adding machine demo of screen handler
+   XMADDER  SCR   --  Screen definition file for XMADDER.PRO
+   XMAIL    PRO   --  Mailing list demo of screen handler
+   XMAIL    SCR   --  Screen definition file for XMAIL.PRO
+   XMENU    PRO   --  Demonstrates menu
+   XMINIGOL DOM   --  Domain declarations for XMINIGOL parser
+   XMINIGOL GRM   --  Grammar for XMINIGOL parser
+   XMINIGOL PAR   --  Parsing predicates for XMINIGOL
+   XMINIGOL PRO   --  Parser generator for XMINIGOL
+   XMINIGOL SCA   --  Scanner for XMINIGOL
+   XMINIGOL TXT   --  Text file used by XMINIGOL.PRO
+   XPARS    DOM   --  Domain declarations for XPARS.PRO
+   XPARS    GRM   --  Grammar for XPARS.PRO
+   XPARS    PAR   --  A simple parser generator
+   XPARS    PRO   --  A simple parser generator
+   XPARS    SCA   --  Scanner for XPARS.PRO
+   XPICDEMO PRJ   --  Project file for XPICDEMO.PRO
+   XPICDEMO PRO   --  Demonstrates reading PIC files--runs as a
+                      project
+   XPIE     PRJ   --  Project file for XPIE.PRO
+   XPIE     PRO   --  Demonstrates pie charts--runs as a project
+   XPOLLING PRJ   --  Project file for XPOLLING.PRO
+   XPOLLING PRO   --  Demonstrates polled transmission with "time out"
+   XPRINTER PRJ   --  Project file for XPRINTER.PRO
+   XPRINTER PRO   --  Sends to LaserJet-compatible printer
+   XPULLDW  PRO   --  Demonstrates pull-down menus
+   XREFLEX  PRJ   --  Project file for XREFLEX.PRO
+   XREFLEX  PRO   --  Reads Reflex(R) file formats
+   XREFLEX  RXD   --  Database used by XREFLEX.PRO
+   XREPORT  PRO   --  Sample report-creating utility
+   XREPORT  SCR   --  Screen definition file used by XREPORT.PRO
+   XRESIZE  PRO   --  Demonstrates window resizing
+   XSHOP    PRO   --  Invoice utility to demonstrate screen handling
+   XSHOP    SCR   --  Screen definition file used by XSHOP.PRO
+   XSLIDES  PRJ   --  Project file for XSLIDES.PRO
+   XSLIDES  PRO   --  Graphics program to demonstrate slide making--
+                      runs as a project
+   XSTATUS  PRO   --  Demonstration of status line
+   XTERM    PRJ   --  Project file for XTERM.PRO
+   XTERM    PRO   --  Sample terminal emulation program--runs as a
+                      project
+   XTRAVEL  PRO   --  Travel program to demonstrate screen handling
+   XTRAVEL  SCR   --  Screen definition file used by XTRAVEL.PRO
+   XTREE    PRO   --  Demonstrates tree menus
+   XVIRTUAL PRO   --  Virtual screen handling utility
+   XVIRTUAL SCR   --  Screen definition file for XVIRTUAL.PRO
+   XXMODEM  PRJ   --  Project file for XMODEM.PRO
+   XXMODEM  PRO   --  Subset of XMODEM communications protocol
+   DATA     TRS   --  Data transmission file for XPRINTER.PRO
+   TEST     LBL   --  Sample label for XLABEL.PRO
+   TEST     PIC   --  Sample PIC file for XPICDEMO.PRO
+   WELCOME  PIC   --  Sample PIC file for XPICDEMO.PRO
+
+END
+---
+

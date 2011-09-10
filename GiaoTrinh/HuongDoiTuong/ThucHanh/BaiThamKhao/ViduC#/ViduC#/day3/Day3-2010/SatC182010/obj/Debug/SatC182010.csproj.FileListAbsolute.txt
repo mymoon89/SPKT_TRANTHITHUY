@@ -1,0 +1,7 @@
+D:\SPKT\OOPC#\day3\Day3-2010\SatC182010\bin\Debug\SatC182010.exe
+D:\SPKT\OOPC#\day3\Day3-2010\SatC182010\bin\Debug\SatC182010.pdb
+D:\SPKT\OOPC#\day3\Day3-2010\SatC182010\obj\Debug\ResolveAssemblyReference.cache
+D:\SPKT\OOPC#\day3\Day3-2010\SatC182010\obj\Debug\SatC182010.Properties.Resources.resources
+D:\SPKT\OOPC#\day3\Day3-2010\SatC182010\obj\Debug\SatC182010.csproj.GenerateResource.Cache
+D:\SPKT\OOPC#\day3\Day3-2010\SatC182010\obj\Debug\SatC182010.exe
+D:\SPKT\OOPC#\day3\Day3-2010\SatC182010\obj\Debug\SatC182010.pdb

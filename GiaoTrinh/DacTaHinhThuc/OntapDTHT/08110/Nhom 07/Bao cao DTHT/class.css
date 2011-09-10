@@ -1,0 +1,72 @@
+/* ---------------------------------------element hoc sinh-----------------------------------------*/
+hocsinh
+{
+	display:block;
+	background-color:black;
+
+}
+ten
+{
+	color: white;
+	font-style: italic;
+	width: 40%;
+}
+ten#lt
+{
+	color: red;
+}
+lop
+{
+	font-weight: bold;
+	font-size: 17;
+	color:blue;
+}
+ngaysinh
+{
+	color:Orange;
+	font-size:17;
+	font-family:alrial;
+	width:20%;
+}
+/* lop danh cho element hocsinh */
+hocsinh.nam
+{
+	display:block;
+	background-color:gray;
+
+}
+hocsinh.nu
+{
+	display:block;
+	background-color:cyan;
+
+}
+
+/* ------------------------------element giao vien-------------------------------------------*/
+giaovien
+{
+	display:block;
+	background-color:lightgreen;
+}
+tengv
+{
+	color:brown;
+	font-style:bold;
+	width:40%;
+}
+bomon
+{
+	color:purple;
+	width:20%;
+}
+/* Cac class va id */
+.namgv
+{
+	background-color:gray;
+}
+/*
+#lt
+{
+	color:red;
+}
+*/

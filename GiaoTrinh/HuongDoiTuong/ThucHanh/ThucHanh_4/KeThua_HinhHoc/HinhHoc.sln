@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HinhHoc", "HinhHoc\HinhHoc.csproj", "{0ADB537B-26CA-4D10-B725-5B01B35ACBD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThuaKe_Console", "ThuaKe_Console\ThuaKe_Console.csproj", "{C13827A9-6C33-4A53-954B-343F81FA2D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThuaKe_Form", "ThuaKe_Form\ThuaKe_Form.csproj", "{C6C9316C-4337-48BB-98D9-F002BE9167FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ADB537B-26CA-4D10-B725-5B01B35ACBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADB537B-26CA-4D10-B725-5B01B35ACBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADB537B-26CA-4D10-B725-5B01B35ACBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADB537B-26CA-4D10-B725-5B01B35ACBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13827A9-6C33-4A53-954B-343F81FA2D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13827A9-6C33-4A53-954B-343F81FA2D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13827A9-6C33-4A53-954B-343F81FA2D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13827A9-6C33-4A53-954B-343F81FA2D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C9316C-4337-48BB-98D9-F002BE9167FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C9316C-4337-48BB-98D9-F002BE9167FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C9316C-4337-48BB-98D9-F002BE9167FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C9316C-4337-48BB-98D9-F002BE9167FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
