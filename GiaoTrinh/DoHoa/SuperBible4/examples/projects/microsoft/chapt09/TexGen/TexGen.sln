@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TexGen", "TexGen.vcproj", "{D1D54A6B-A52F-4833-8352-399C1D5B701F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D1D54A6B-A52F-4833-8352-399C1D5B701F}.Debug.ActiveCfg = Debug|Win32
+		{D1D54A6B-A52F-4833-8352-399C1D5B701F}.Debug.Build.0 = Debug|Win32
+		{D1D54A6B-A52F-4833-8352-399C1D5B701F}.Release.ActiveCfg = Release|Win32
+		{D1D54A6B-A52F-4833-8352-399C1D5B701F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

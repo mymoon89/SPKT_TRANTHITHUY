@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tunnel", "tunnel.vcproj", "{D909217A-0693-4A35-B95F-F64FAF8D2D95}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D909217A-0693-4A35-B95F-F64FAF8D2D95}.Debug.ActiveCfg = Debug|Win32
+		{D909217A-0693-4A35-B95F-F64FAF8D2D95}.Debug.Build.0 = Debug|Win32
+		{D909217A-0693-4A35-B95F-F64FAF8D2D95}.Release.ActiveCfg = Release|Win32
+		{D909217A-0693-4A35-B95F-F64FAF8D2D95}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

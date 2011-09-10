@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atom2", "atom2.vcproj", "{E356E866-C763-4F34-A058-0BEC3A3D42FB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E356E866-C763-4F34-A058-0BEC3A3D42FB}.Debug.ActiveCfg = Debug|Win32
+		{E356E866-C763-4F34-A058-0BEC3A3D42FB}.Debug.Build.0 = Debug|Win32
+		{E356E866-C763-4F34-A058-0BEC3A3D42FB}.Release.ActiveCfg = Release|Win32
+		{E356E866-C763-4F34-A058-0BEC3A3D42FB}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

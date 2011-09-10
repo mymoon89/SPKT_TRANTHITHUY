@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shinyjet", "shinyjet.vcproj", "{85711F46-DB9E-4BDB-88CA-4A4E2A82FA94}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{85711F46-DB9E-4BDB-88CA-4A4E2A82FA94}.Debug.ActiveCfg = Debug|Win32
+		{85711F46-DB9E-4BDB-88CA-4A4E2A82FA94}.Debug.Build.0 = Debug|Win32
+		{85711F46-DB9E-4BDB-88CA-4A4E2A82FA94}.Release.ActiveCfg = Release|Win32
+		{85711F46-DB9E-4BDB-88CA-4A4E2A82FA94}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

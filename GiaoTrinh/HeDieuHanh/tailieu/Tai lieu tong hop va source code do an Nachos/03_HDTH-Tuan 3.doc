@@ -1,0 +1,134 @@
+{\rtf1\ansi\ansicpg1252\uc1\deff0\stshfdbch0\stshfloch0\stshfhich0\stshfbi0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman{\*\falt Times New Roman};}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}{\f35\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}{\f36\froman\fcharset238\fprq2 Times New Roman CE{\*\falt Times New Roman};}
+{\f37\froman\fcharset204\fprq2 Times New Roman Cyr{\*\falt Times New Roman};}{\f39\froman\fcharset161\fprq2 Times New Roman Greek{\*\falt Times New Roman};}{\f40\froman\fcharset162\fprq2 Times New Roman Tur{\*\falt Times New Roman};}
+{\f41\froman\fcharset177\fprq2 Times New Roman (Hebrew){\*\falt Times New Roman};}{\f42\froman\fcharset178\fprq2 Times New Roman (Arabic){\*\falt Times New Roman};}{\f43\froman\fcharset186\fprq2 Times New Roman Baltic{\*\falt Times New Roman};}
+{\f44\froman\fcharset163\fprq2 Times New Roman (Vietnamese){\*\falt Times New Roman};}{\f46\fswiss\fcharset238\fprq2 Arial CE;}{\f47\fswiss\fcharset204\fprq2 Arial Cyr;}{\f49\fswiss\fcharset161\fprq2 Arial Greek;}{\f50\fswiss\fcharset162\fprq2 Arial Tur;}
+{\f51\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f52\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f53\fswiss\fcharset186\fprq2 Arial Baltic;}{\f54\fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f386\fswiss\fcharset238\fprq2 Tahoma CE;}
+{\f387\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f389\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f390\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f391\fswiss\fcharset177\fprq2 Tahoma (Hebrew);}{\f392\fswiss\fcharset178\fprq2 Tahoma (Arabic);}
+{\f393\fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f394\fswiss\fcharset163\fprq2 Tahoma (Vietnamese);}{\f395\fswiss\fcharset222\fprq2 Tahoma (Thai);}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;
+\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;
+\red192\green192\blue192;}{\stylesheet{\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext0 Normal;}{\*\cs10 \additive \ssemihidden Default Paragraph Font;}{\*
+\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1024\langfe1024\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0 
+\fs24\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \snext15 Default;}{\s16\ql \li0\ri0\sa275\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon15 \snext15 CM4;}{\s17\ql \li0\ri0\sl276\slmult0
+\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon15 \snext15 CM1;}{\s18\ql \li0\ri0\sl276\slmult0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 
+\sbasedon15 \snext15 CM2;}{\s19\ql \li0\ri0\sl276\slmult0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon15 \snext15 CM3;}{\s20\ql \li0\ri0\widctlpar
+\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext20 \styrsid794221 header;}{\s21\ql \li0\ri0\widctlpar
+\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext21 \styrsid794221 footer;}}{\*\latentstyles\lsdstimax156\lsdlockeddef0}{\*\rsidtbl \rsid746544\rsid749903
+\rsid794221\rsid937007\rsid1130616\rsid1530066\rsid2636582\rsid2846412\rsid3019366\rsid3503093\rsid5509177\rsid9904551\rsid10499218\rsid10623514\rsid10884846\rsid12548149\rsid14117927\rsid14301224\rsid14502203\rsid14700700\rsid15104687\rsid15600727
+\rsid15951831\rsid16059162\rsid16142536\rsid16193934\rsid16273930}{\*\generator Microsoft Word 11.0.5604;}{\info{\title Microsoft Word - nachos ng\'e0y 3.doc}{\author ttdung}{\operator Le Ngoc Son}{\creatim\yr2007\mo3\dy23\hr14\min28}
+{\revtim\yr2007\mo3\dy26\hr1\min16}{\version25}{\edmins166}{\nofpages3}{\nofwords462}{\nofchars2637}{\*\company Happy Family}{\nofcharsws3093}{\vern24689}}
+\widowctrl\ftnbj\aenddoc\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\nolnhtadjtbl\rsidroot794221 \fet0{\*\ftnsep 
+\pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid794221 \chftnsep 
+\par }}{\*\ftnsepc \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid794221 \chftnsepc 
+\par }}{\*\aftnsep \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid794221 \chftnsep 
+\par }}{\*\aftnsepc \pard\plain \ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid794221 \chftnsepc 
+\par }}\sectd \linex0\sectdefaultcl\sftnbj {\header \pard\plain \s20\ql \li0\ri0\widctlpar\tqc\tx4320\tqr\tx8640\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f44\insrsid794221 H\'fd}{
+\insrsid794221 \uc1\u7899\'3fng d\u7851\'3fn th\u7921\'3fc h\'e0nh m\'f4n H\u7879\'3f}{\f36\insrsid794221  \'d0i}{\insrsid794221 \uc1\u7873\'3fu H\'e0nh \endash  Tu\u7847\'3fn 3
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \s16\ql \li0\ri0\sa275\nowidctlpar\faauto\rin0\lin0\itap0 
+\fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\cf1\insrsid14700700\charrsid794221 Ph\u7847\'3fn 1. }{\b\cf1\insrsid14700700 
+\par }\pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid746544 \fs24\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\insrsid746544\charrsid746544 C\'e1ch th\'eam m\u7897\'3ft l\u7899\'3fp v\'e0o Nachos}{\insrsid746544 :
+\par 
+\par V\'e0o FTP c\u7911\'3fa m\'f4n h\u7885\'3fc download th\'eam 2 t\u7853\'3fp tin: synchcons.h v\'e0 synchcons.cc ho\u7863\'3fc download \u7903\'3f file SynchconsClass.rar }{\insrsid15951831 tr\'ean Moodle.}{\f44\insrsid746544  V\'e0 sau \'f0\'f3 v\'e0o ch
+\'e9p 2 files n\'e0y v\'e0o th\'fd m}{\insrsid746544 \u7909\'3fc }{\b\insrsid746544\charrsid937007 /code/threads}{\insrsid746544 .\line K\u7871\'3f ti\u7871\'3fp c\'e1c b\u7841\'3fn m\u7903\'3f file: Makefile.common (trong nachos-3.4/code). V\'e0 cu\u7889
+\'3f}{\f36\insrsid746544 i \'f0o}{\insrsid746544 \u7841\'3fn b\u7855\'3f}{\f36\insrsid746544 t \'f0}{\insrsid746544 \u7847\'3fu d\'f2ng USERPROG_H = th\'eam v\'e0o ../threads/synchcons.h. V\'ed d\u7909\'3f}{\f44\insrsid746544  nh\'fd b\'ean d\'fd}{
+\insrsid746544 \u7899\'3fi:\line \line USERPROG_H = ../userprog/addrspace.h\\\line ../userprog/bitmap.h\\\line ../filesys/filesys.h\\\line ../filesys/openfile.h\\\line ../machine/console.h\\\line ../machine/machine.h\\\line ../machine/mipssim.h\\\line 
+../machine/translate.h\\\line ../threads/synchcons.h\line \line V\'e0 cu\u7889\'3f}{\f36\insrsid746544 i \'f0o}{\insrsid746544 \u7841\'3fn b\u7855\'3f}{\f36\insrsid746544 t \'f0}{\insrsid746544 \u7847\'3fu b\u7857\'3fng USERPROG_C = .. th\'eam v\'e0
+o ../threads/synchcons.cc\line \line V\'e0 cu\u7889\'3f}{\f36\insrsid746544 i \'f0o}{\insrsid746544 \u7841\'3fn b\u7855\'3f}{\f36\insrsid746544 t \'f0}{\insrsid746544 \u7847\'3fu b\u7857\'3fng USERPROG_O = .. th\'eam v\'e0o synchcons.o\line \line Bi\'ea
+n d\u7883\'3fch l\u7841\'3fi Nachos.
+\par 
+\par 
+\par }{\b\insrsid746544\charrsid746544 Ph\u7847\'3fn 2:
+\par }{\insrsid746544\charrsid746544 
+\par }\pard\plain \s16\ql \li0\ri183\sa275\sl276\slmult0\nowidctlpar\faauto\rin183\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid14700700 V\'e0o file machine/machine.h t\'ecm danh s\'e1ch c\'e1c exception v\'e0 vi\u7871\'3ft l
+\u7841\'3f}{\f44\cf1\insrsid14700700 i ch\'fd\'f5ng tr}{\cf1\insrsid14700700 \'ecnh b\u7855\'3ft t\u7845\'3ft c\u7843\'3f c\'e1c exception b\u7857\'3fng c\'e1ch sau}{\cf1\insrsid2846412  : M}{\cf1\insrsid14700700 \u7895\'3fi exception ch\u7881\'3f vi
+\u7879\'3fc hi\u7879\'3fn ra th\'f4ng b\'e1o lo\u7841\'3fi exception v\'e0 g\u7885\'3fi h\'e0m Halt().  
+\par }\pard \s16\ql \li0\ri0\sa275\sl276\slmult0\nowidctlpar\faauto\rin0\lin0\itap0 {\cf1\insrsid14700700 S\u7917\'3fa file }{\b\insrsid14700700\charrsid14700700 userprog/exception.cc }{\cf1\insrsid14700700 
+\par }\pard \s16\ql \li240\ri0\sa275\sl276\slmult0\nowidctlpar\faauto\rin0\lin240\itap0 {\cf1\insrsid14700700 switch (which)}{\cf1\insrsid3503093 
+\par }{\cf1\insrsid14700700 \{ 
+\par }\pard \s16\ql \li720\ri0\sa275\sl276\slmult0\nowidctlpar\faauto\rin0\lin720\itap0\pararsid16193934 {\cf1\insrsid14700700 case NoException:\line  }{\cf1\insrsid16193934 \tab }{\cf1\insrsid14700700 return; }{\cf1\insrsid3503093 
+\par }{\cf1\insrsid14700700 \line case PageFaultException: \'85 \line }{\cf1\insrsid3503093            break; 
+\par }\pard \s16\ql \li720\ri0\sa275\sl276\slmult0\nowidctlpar\faauto\rin0\lin720\itap0\pararsid3503093 {\insrsid14700700 case SyscallException:\line  switch (type)}{\insrsid3503093 
+\par }\pard \s16\ql \li1440\ri0\sa275\sl276\slmult0\nowidctlpar\faauto\rin0\lin1440\itap0\pararsid3503093 {\insrsid14700700 \{ \line }{\insrsid3503093              }{\insrsid14700700 case SC_Halt: \'85 \line }{\insrsid3503093              }{\insrsid14700700 
+case SC_Open:.. \line }{\insrsid3503093 \} 
+\par }\pard \s16\ql \li0\ri0\sa275\sl276\slmult0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid3503093 {\cf1\insrsid3503093      }{\cf1\insrsid14700700 \} 
+\par }\pard \s16\ql \li0\ri183\sa275\sl276\slmult0\nowidctlpar\faauto\rin183\lin0\itap0 {\cf1\insrsid14700700 V\u7899\'3fi lo\u7841\'3fi exception l\'e0 SyscallException th\'ec ch\'fang ta v\'e0o file }{\b\cf1\insrsid14700700\charrsid794221 userprog/syscall.h}
+{\cf1\insrsid14700700  t\'ecm t\u7845\'3ft c\u7843\'3f c\'e1c lo\u7841\'3f}{\f36\cf1\insrsid14700700 i syscall \'f0}{\cf1\insrsid14700700 \u7875\'3f vi\u7871\'3ft h\'e0m x\u7917\'3f ly cho t\u7845\'3ft c\u7843\'3f c\'e1c syscall n\'e0y. 
+\par }\pard \s16\ql \li0\ri0\sa275\sl276\slmult0\nowidctlpar\faauto\rin0\lin0\itap0 {\cf1\insrsid14700700 N\u7871\'3fu ph\u7843\'3fi vi\u7871\'3ft 1 syscall m\u7899\'3fi t\u7915\'3f}{\f36\cf1\insrsid14700700  \'f0}{\cf1\insrsid14700700 \u7847\'3fu. Ch\'fa
+ng ta s\u7869\'3f ph\u7843\'3fi v\'e0o file }{\b\cf1\insrsid14700700\charrsid794221 userprog/syscall.h}{\cf1\insrsid14700700  define 1 syscall m\u7899\'3fi (vd #define SC_New.. 13). R\u7891\'3f}{\f36\cf1\insrsid14700700 i \'f0}{\cf1\insrsid14700700 \u7883
+\'3fnh ngh\u297\'69a m\u7897\'3ft prototyp}{\f36\cf1\insrsid14700700 e \'f0}{\cf1\insrsid14700700 \u7875\'3f x\u7917\'3f ly cho syscall n\'e0y (v\'ed d\u7909\'3f: int New(int, \'85);). K\u7871\'3f ti\u7871\'3fp v\'e0o t\u7853\'3fp tin test/start.s vi
+\u7871\'3f}{\f36\cf1\insrsid14700700 t 1 \'f0o}{\cf1\insrsid14700700 \u7841\'3f}{\f36\cf1\insrsid14700700 n assembly \'f0}{\cf1\insrsid14700700 \u7875\'3f khai b\'e1o \'e1nh x\u7841\'3f gi\u7919\'3f}{\f36\cf1\insrsid14700700 a system call \'f0}{
+\cf1\insrsid14700700 \'e3 }{\f36\cf1\insrsid14700700 \'f0}{\cf1\insrsid14700700 \u7883\'3fnh ngh\u297\'69}{\f44\cf1\insrsid14700700 a v\'e0 ph\'fd\'f5ng th}{\cf1\insrsid14700700 \u7913\'3fc x\u7917\'3f}{\f44\cf1\insrsid14700700  ly n\'f3. Sau \'f0\'f3 v
+\'e0o t}{\cf1\insrsid14700700 \u7853\'3fp tin exception.cc vi\u7871\'3ft h\'e0m x\u7917\'3f l y cho prototype int New(int, \'85) m\'e0 m\'ecnh }{\f36\cf1\insrsid14700700 \'f0}{\cf1\insrsid14700700 \'e3 }{\f36\cf1\insrsid14700700 \'f0}{
+\cf1\insrsid14700700 \u7883\'3fnh ngh\u297\'69a \u7903\'3f tr\'ean. 
+\par }\pard\plain \s18\ql \li0\ri0\sa553\sl276\slmult0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\cf1\insrsid14700700 Ch\'fa y: n\u7871\'3fu ch\'fang ta vi\u7871\'3ft h\'e0m x\u7917\'3f ly }{
+\b\cf1\insrsid14700700 int New(int, \'85)}{\cf1\insrsid14700700  trong m\u7897\'3ft file l\'e0 }{\b\cf1\insrsid14700700 new.cc}{\cf1\insrsid14700700  th\'ec l}{\f44\cf1\insrsid14700700 \'fdu file }{\b\cf1\insrsid14700700 new.cc}{\f44\cf1\insrsid14700700 
+ trong th\'fd m}{\cf1\insrsid14700700 \u7909\'3fc /userprog/. R\u7891\'3fi ph\u7843\'3fi v\'e0o file nachos-3.4/code/Makefile.common th\'eam 1 d\'f2ng khai b\'e1o file }{\b\cf1\insrsid14700700 new.cc}{\cf1\insrsid14700700  gi\u7889\'3f}{
+\f44\cf1\insrsid14700700 ng nh\'fd trong}{\cf1\insrsid14700700  v\'ed d\u7909\'3f th\'eam 1 class m\u7899\'3fi v\'e0o Nachos (l\'fac ch\'fang ta th\'eam class synchcons.*) 
+\par }\pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid794221 \fs24\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\ul\insrsid1530066\charrsid14502203 V\'ed d\u7909\'3f:}{\ul\insrsid794221\charrsid14502203 
+\par }{\fs28\insrsid1530066\charrsid14502203 Vi\u7871\'3ft th\'eam m\u7897\'3f}{\f36\fs28\insrsid1530066\charrsid14502203 t syscall Sub \'f0}{\fs28\insrsid1530066\charrsid14502203 \u7875\'3f tr\u7915\'3f 2 s\u7889\'3f:}{\fs28\insrsid1530066 
+\par }{\fs28\insrsid749903\charrsid14502203 
+\par }{\f44\ul\insrsid14502203\charrsid14502203 B\'fd}{\ul\insrsid14502203\charrsid14502203 \u7899\'3fc 1: 
+\par }{\insrsid1530066 Trong file }{\b\insrsid1530066\charrsid14301224 /code/userprog/syscall.h}{\insrsid1530066  th\'eam d\'f2ng}{\insrsid14301224  khai b\'e1o syscall m\u7899\'3fi}{\insrsid1530066 :
+\par }\pard\plain \ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid16142536 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f35\fs28\cf6\insrsid16142536\charrsid14301224 #define  SC_Sub   43}{\f35\fs28\cf6\insrsid16142536 
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid14502203 {\f35\fs28\cf6\insrsid1530066\charrsid14301224 int }{\f35\fs28\cf6\insrsid14301224\charrsid14301224   }{\f35\fs28\cf6\insrsid1530066\charrsid14301224 Sub (int a, int b);
+\par }\pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid14502203 \fs24\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f44\ul\insrsid14502203\charrsid14502203 B\'fd}{\ul\insrsid14502203\charrsid14502203 \u7899\'3fc 2:
+\par }\pard \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid14301224 {\insrsid1530066\charrsid14301224 Trong file /code/test/starts.h th\'eam d\'f2ng}{\insrsid12548149\charrsid14301224 :}{\insrsid1530066\charrsid14301224 
+\par }\pard\plain \ql \li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid1530066 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f1\fs20\insrsid1530066 
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid14502203 {\f35\fs28\cf6\insrsid1530066\charrsid14301224 #include syscall.h
+\par .globl Sub
+\par .ent Sub
+\par Sub:
+\par addiu $2,$0,SC_Sub
+\par syscall
+\par j $31
+\par .end Sub
+\par }\pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid14301224 \fs24\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f44\ul\insrsid14502203\charrsid14502203 B\'fd}{\ul\insrsid14502203\charrsid14502203 \u7899\'3fc 3:
+\par }{\insrsid14502203 
+\par }{\insrsid12548149 Th\'eam d\'f2ng n\'e0y}{\insrsid10884846  trong file }{\b\insrsid10884846\charrsid14301224 code/userprog/exception.cc}{\insrsid10884846\charrsid14301224 
+\par }\pard\plain \ql \fi720\li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid16059162 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f35\fs28\cf6\insrsid12548149\charrsid14301224 case SC_Sub:
+\par }\pard \ql \fi720\li1440\ri0\widctlpar\faauto\rin0\lin1440\itap0\pararsid14502203 {\f35\fs28\cf6\insrsid12548149\charrsid14301224 op1 = ReadRegister (4);
+\par op2 = ReadRegister (5);
+\par result = op1 - op2;
+\par WriteRegister (2, result);
+\par }\pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid749903 \fs24\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f44\ul\insrsid749903\charrsid749903 B\'fd}{\ul\insrsid749903\charrsid749903 \u7899\'3fc }{\ul\insrsid2636582 4}{
+\ul\insrsid749903\charrsid749903 : 
+\par }\pard \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid794221 {\insrsid10884846 Vi\u7871\'3f}{\f44\insrsid10884846 t ch\'fd\'f5ng tr}{\insrsid10884846 \'ecnh \u7903\'3f m\u7913\'3f}{\f44\insrsid10884846 c ng\'fd}{\insrsid10884846 \u7901\'3fi }
+{\f44\insrsid14502203 d\'f9ng \'f0}{\insrsid14502203 \u7875\'3f ki\u7875\'3f}{\insrsid10623514 m tra \endash sub.c}{\insrsid10884846 
+\par 
+\par }\pard\plain \ql \li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid14502203 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f35\fs28\cf6\insrsid10884846\charrsid14301224 #include syscall.h
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid14502203 {\f35\fs28\cf6\insrsid10884846\charrsid14301224 int main()
+\par \{
+\par }\pard \ql \fi720\li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid14502203 {\f35\fs28\cf6\insrsid10884846\charrsid14301224 int result;
+\par result = Sub(43, 23);
+\par Halt();
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid14502203 {\f35\fs28\cf6\insrsid10884846\charrsid14301224 \}}{\f35\fs28\cf6\insrsid10884846 
+\par }{\f35\fs28\cf6\insrsid14502203\charrsid14301224 
+\par }\pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid794221 \fs24\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\ul\insrsid10623514\charrsid10623514 B}{\f44\ul\insrsid10623514\charrsid10623514 \'fd\u7899\'3fc }{
+\ul\insrsid2636582 5}{\ul\insrsid10623514\charrsid10623514 :}{\ul\insrsid10623514 
+\par }{\ul\insrsid10623514\charrsid10623514  
+\par }{\f44\insrsid10623514 Th\'eam \'f0o\u7841\'3fn v\'e0o Makefile trong /code/test/}{\insrsid10499218 
+\par }{\insrsid15104687 Th\'eam sub v\'e0o d\'f2ng all:
+\par }{\insrsid14117927 
+\par }\pard\plain \ql \fi720\li720\ri0\widctlpar\faauto\rin0\lin720\itap0\pararsid14117927 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f35\fs28\cf6\insrsid15104687\charrsid14117927 all: halt shell matmult sort sub
+\par }\pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid794221 \fs24\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\insrsid15104687 
+\par }{\f44\insrsid15104687 Th\'eam \'f0o\u7841\'3fn sau ph\'eda sau matmult:
+\par }{\insrsid15104687 
+\par }\pard\plain \ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid10623514 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f35\fs28\cf6\insrsid10623514\charrsid14117927 sub.o: sub.c
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid14117927 {\f35\fs28\cf6\insrsid10623514\charrsid14117927 \tab }{\f35\fs28\cf6\insrsid10623514\charrsid14117927 \tab }{\f35\fs28\cf6\insrsid10623514\charrsid14117927 
+$(CC) $(CFLAGS) -c sub.c
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid10623514 {\f35\fs28\cf6\insrsid10623514\charrsid14117927 sub: sub.o start.o
+\par }\pard \ql \fi720\li0\ri0\widctlpar\faauto\rin0\lin0\itap0\pararsid14117927 {\f35\fs28\cf6\insrsid10623514\charrsid14117927 \tab }{\f35\fs28\cf6\insrsid10623514\charrsid14117927 \tab }{\f35\fs28\cf6\insrsid10623514\charrsid14117927 
+$(LD) $(LDFLAGS) start.o sub.o -o sub.coff
+\par }{\f35\fs28\cf6\insrsid10623514\charrsid14117927 \tab }{\f35\fs28\cf6\insrsid10623514\charrsid14117927 \tab ../bin/coff2noff sub.coff sub
+\par }{\f35\fs28\cf6\insrsid2636582\charrsid14117927 
+\par }\pard\plain \s15\ql \li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2636582 \fs24\cf1\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\f44\ul\insrsid2636582\charrsid14502203 B\'fd}{\ul\insrsid2636582\charrsid14502203 \u7899\'3fc }{
+\ul\insrsid2636582 6}{\ul\insrsid2636582\charrsid14502203 :
+\par }\pard \s15\ql \fi720\li0\ri0\nowidctlpar\faauto\rin0\lin0\itap0\pararsid2636582 {\insrsid2636582 Bi\'ean d\u7883\'3fch l\u7841\'3fi Nachos
+\par }\pard\plain \s16\ql \li0\ri0\sa275\sl276\slmult0\nowidctlpar\faauto\rin0\lin0\itap0 \fs24\lang1033\langfe1033\cgrid\langnp1033\langfenp1033 {\b\cf1\insrsid2636582 
+\par }{\b\cf1\insrsid14700700\charrsid16193934 Ph\u7847\'3fn }{\b\cf1\insrsid746544 3}{\b\cf1\insrsid14700700\charrsid16193934  
+\par }\pard \s16\ql \li0\ri183\sa275\sl276\slmult0\nowidctlpar\faauto\rin183\lin0\itap0 {\cf1\insrsid14700700 Vi\u7871\'3ft 2 th\u7911\'3f t\u7909\'3fc User2System v\'e0 System2User.}{\cf1\insrsid2846412  }{\cf1\insrsid9904551 Gi\u7843\'3fi th\'edch ?}{
+\cf1\insrsid794221 
+\par }}

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SphereWorld32", "SphereWorld32.vcproj", "{E40896BB-E47B-4BBF-9CA9-9457695D09FB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E40896BB-E47B-4BBF-9CA9-9457695D09FB}.Debug.ActiveCfg = Debug|Win32
+		{E40896BB-E47B-4BBF-9CA9-9457695D09FB}.Debug.Build.0 = Debug|Win32
+		{E40896BB-E47B-4BBF-9CA9-9457695D09FB}.Release.ActiveCfg = Release|Win32
+		{E40896BB-E47B-4BBF-9CA9-9457695D09FB}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

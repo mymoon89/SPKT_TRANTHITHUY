@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointSprites", "PointSprites.vcproj", "{E4118191-874F-4AAE-A0CC-A4DF2D5B5535}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E4118191-874F-4AAE-A0CC-A4DF2D5B5535}.Debug.ActiveCfg = Debug|Win32
+		{E4118191-874F-4AAE-A0CC-A4DF2D5B5535}.Debug.Build.0 = Debug|Win32
+		{E4118191-874F-4AAE-A0CC-A4DF2D5B5535}.Release.ActiveCfg = Release|Win32
+		{E4118191-874F-4AAE-A0CC-A4DF2D5B5535}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

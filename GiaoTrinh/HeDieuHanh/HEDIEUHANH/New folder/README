@@ -1,0 +1,9 @@
+This patch includes a new version of TLINK ( version 522b ) which
+increases the capacity of the linker. Use this version of TLINK if
+experiencing TABLE LIMIT EXCEEDED. Also, this TLINK will produce a
+properly sorted MAP file to be used by TMAPSYM to avoid the error:
+"Symbol addresses are in non-ascending order". To apply this patch,
+save the current file, borlandc\bin\tlink.exe, for backup, and replace
+with TLINK.EXE from this patch. This version of TLINK may be of
+benefit to any previous versions experiencing Table Limit Exceeded.
+

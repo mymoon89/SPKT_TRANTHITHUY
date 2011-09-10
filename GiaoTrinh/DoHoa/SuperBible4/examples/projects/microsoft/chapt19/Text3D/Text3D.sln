@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Text3D", "Text3D.vcproj", "{B84B6DB3-F109-49D9-B848-0E90E695DEEE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B84B6DB3-F109-49D9-B848-0E90E695DEEE}.Debug.ActiveCfg = Debug|Win32
+		{B84B6DB3-F109-49D9-B848-0E90E695DEEE}.Debug.Build.0 = Debug|Win32
+		{B84B6DB3-F109-49D9-B848-0E90E695DEEE}.Release.ActiveCfg = Release|Win32
+		{B84B6DB3-F109-49D9-B848-0E90E695DEEE}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

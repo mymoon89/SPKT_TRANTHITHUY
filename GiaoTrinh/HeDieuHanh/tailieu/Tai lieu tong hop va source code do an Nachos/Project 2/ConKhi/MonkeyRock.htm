@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0055)http://www.avocado.ethz.ch/activecsharp/MonkeyRock.html -->
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff><FONT face="Times New Roman"><FONT 
+face="Courier New"><FONT size=2><FONT color=#000000><FONT 
+face="Courier New"><FONT size=2><B><FONT 
+color=#0000ff>using</FONT></B></FONT></FONT><FONT 
+color=#000000>&nbsp;System;</FONT><BR><FONT face="Courier New"><FONT 
+size=2><B><FONT color=#0000ff>using</FONT></B></FONT></FONT><FONT 
+color=#000000>&nbsp;System.Dialog;<BR></FONT><BR><FONT face="Courier New"><FONT 
+size=2><B><FONT color=#0000ff>namespace</FONT></B></FONT></FONT><FONT 
+color=#000000>&nbsp;Monkeys</FONT><BR><FONT face="Courier New"><FONT 
+size=2><FONT color=#000000>{</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;</FONT></FONT></FONT><I><FONT 
+color=#808080>//&nbsp;dialog&nbsp;declarations</FONT></I><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>dialog</FONT></B><FONT 
+color=#000000>&nbsp;CoordMonkeyDialog&nbsp;{&nbsp;claim,&nbsp;release&nbsp;}<BR></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>class</FONT></B><FONT 
+color=#000000>&nbsp;Monkey&nbsp;{</FONT><BR><FONT face="Courier New"><FONT 
+size=2><FONT color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>static</FONT></B><FONT 
+color=#000000>&nbsp;Random&nbsp;rnd&nbsp;=&nbsp;</FONT><B><FONT 
+color=#0000ff>new</FONT></B><FONT color=#000000>&nbsp;Random();</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><I><FONT 
+color=#808080>//&nbsp;starts&nbsp;when&nbsp;object&nbsp;is&nbsp;instantiated</FONT></I><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>activity</FONT></B><FONT color=#000000>&nbsp;{</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><I><FONT 
+color=#808080>//&nbsp;create&nbsp;a&nbsp;new&nbsp;dialog&nbsp;instance</FONT></I><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>dialog</FONT></B><FONT 
+color=#000000>&nbsp;CoordMonkeyDialog&nbsp;d&nbsp;=&nbsp;</FONT><B><FONT 
+color=#0000ff>new</FONT></B><FONT 
+color=#000000>&nbsp;Coordinator.CoordMonkey;</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>object</FONT></B><FONT color=#000000>&nbsp;msg;</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>while</FONT></B><FONT color=#000000>&nbsp;(</FONT><B><FONT 
+color=#0000ff>true</FONT></B><FONT color=#000000>)&nbsp;{</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>passivate</FONT></B><FONT color=#000000>(rnd.Next(</FONT><FONT 
+color=#008000>1000</FONT><FONT color=#000000>));&nbsp;</FONT><I><FONT 
+color=#808080>//&nbsp;eat/drink&nbsp;for&nbsp;a&nbsp;random&nbsp;time</FONT></I><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d!CoordMonkeyDialog.claim;&nbsp;</FONT></FONT></FONT><I><FONT 
+color=#808080>//&nbsp;send&nbsp;keyword&nbsp;claim</FONT></I><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d?msg;&nbsp;</FONT></FONT></FONT><I><FONT 
+color=#808080>//&nbsp;receive&nbsp;whatever&nbsp;is&nbsp;sent</FONT></I><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;}</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;}<BR></FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>class</FONT></B><FONT 
+color=#000000>&nbsp;Coordinator&nbsp;{</FONT><BR><FONT face="Courier New"><FONT 
+size=2><FONT color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>const</FONT></B><FONT color=#000000>&nbsp;</FONT><B><FONT 
+color=#0000ff>int</FONT></B><FONT 
+color=#000000>&nbsp;NofMonkeys&nbsp;=&nbsp;</FONT><FONT 
+color=#008000>25</FONT><FONT 
+color=#000000>,&nbsp;MaxOnRope&nbsp;=&nbsp;</FONT><FONT 
+color=#008000>4</FONT><FONT 
+color=#000000>,&nbsp;CrossingTime&nbsp;=&nbsp;</FONT><FONT 
+color=#008000>100</FONT><FONT color=#000000>;</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>static</FONT></B><FONT color=#000000>&nbsp;</FONT><B><FONT 
+color=#0000ff>int</FONT></B><FONT 
+color=#000000>&nbsp;curOnRope&nbsp;=&nbsp;</FONT><FONT 
+color=#008000>0</FONT><FONT color=#000000>;</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><I><FONT 
+color=#808080>//&nbsp;&gt;&nbsp;0,&nbsp;&lt;&nbsp;0&nbsp;South-North,&nbsp;North-South&nbsp;traversal<BR></FONT></I><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>static</FONT></B><FONT color=#000000>&nbsp;</FONT><B><FONT 
+color=#0000ff>activity</FONT></B><FONT 
+color=#000000>&nbsp;CoordMonkey:&nbsp;CoordMonkeyDialog&nbsp;{</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>object</FONT></B><FONT color=#000000>&nbsp;msg;</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>while</FONT></B><FONT color=#000000>&nbsp;(</FONT><B><FONT 
+color=#0000ff>true</FONT></B><FONT color=#000000>)&nbsp;{</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?msg;&nbsp;</FONT></FONT></FONT><I><FONT 
+color=#808080>//&nbsp;wants&nbsp;South-North&nbsp;traversal</FONT></I><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>lock</FONT></B><FONT color=#000000>&nbsp;{</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>await</FONT></B><FONT color=#000000>(</FONT><FONT 
+color=#008000>0</FONT><FONT 
+color=#000000>&nbsp;&lt;=&nbsp;curOnRope&nbsp;&amp;&amp;&nbsp;curOnRope&nbsp;&lt;&nbsp;MaxOnRope);</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;curOnRope++;</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>passivate</FONT></B><FONT 
+color=#000000>(CrossingTime);</FONT><BR><FONT face="Courier New"><FONT 
+size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>lock</FONT></B><FONT 
+color=#000000>&nbsp;{&nbsp;curOnRope--;&nbsp;}</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!CoordMonkeyDialog.release;</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?msg;&nbsp;</FONT></FONT></FONT><I><FONT 
+color=#808080>//&nbsp;wants&nbsp;North-South&nbsp;traversal</FONT></I><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>lock</FONT></B><FONT color=#000000>&nbsp;{</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>await</FONT></B><FONT color=#000000>&nbsp;(</FONT><FONT 
+color=#008000>0</FONT><FONT 
+color=#000000>&nbsp;&gt;=&nbsp;curOnRope&nbsp;&amp;&amp;&nbsp;curOnRope&nbsp;&gt;&nbsp;-MaxOnRope);</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;curOnRope--;</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>passivate</FONT></B><FONT 
+color=#000000>(CrossingTime);</FONT><BR><FONT face="Courier New"><FONT 
+size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>lock</FONT></B><FONT 
+color=#000000>&nbsp;{&nbsp;curOnRope++;&nbsp;&nbsp;}</FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;!CoordMonkeyDialog.release;</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;}</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>static</FONT></B><FONT color=#000000>&nbsp;</FONT><B><FONT 
+color=#0000ff>void</FONT></B><FONT 
+color=#000000>&nbsp;Main()&nbsp;{</FONT><BR><FONT face="Courier New"><FONT 
+size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><B><FONT 
+color=#0000ff>for</FONT></B><FONT color=#000000>&nbsp;(</FONT><B><FONT 
+color=#0000ff>int</FONT></B><FONT color=#000000>&nbsp;i&nbsp;=&nbsp;</FONT><FONT 
+color=#008000>0</FONT><FONT 
+color=#000000>;&nbsp;i&nbsp;&lt;&nbsp;NofMonkeys;&nbsp;i++)&nbsp;</FONT><B><FONT 
+color=#0000ff>new</FONT></B><FONT 
+color=#000000>&nbsp;Monkey&nbsp;();</FONT><BR><FONT face="Courier New"><FONT 
+size=2><FONT 
+color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;}</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>&nbsp;&nbsp;}</FONT></FONT></FONT><BR><FONT 
+face="Courier New"><FONT size=2><FONT 
+color=#000000>}</FONT></FONT></FONT></FONT></FONT></FONT></FONT></BODY></HTML>
